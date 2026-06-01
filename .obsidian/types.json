@@ -1,0 +1,25 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Category": "text",
+    "Monthly Income": "multitext",
+    "Monthly Expenses": "multitext",
+    "Month Number": "number",
+    "Amount": "number",
+    "Date": "date",
+    "Month": "multitext",
+    "Description": "text",
+    "Status": "text",
+    "Link": "text",
+    "Categoria": "text",
+    "Capitulo/Pagina": "multitext",
+    "temas": "multitext",
+    "Cuatri": "text",
+    "Created": "datetime",
+    "AÑO-CUATRI": "multitext",
+    "categories": "multitext",
+    "Links": "multitext"
+  }
+}

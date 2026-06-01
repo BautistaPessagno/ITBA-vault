@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.hasLink("arqui.base")
+views:
+  - type: table
+    name: Table

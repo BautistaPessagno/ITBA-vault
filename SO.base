@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.hasLink("SO.base")
+views:
+  - type: table
+    name: Table

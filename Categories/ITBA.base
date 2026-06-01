@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.hasLink("ITBA.base")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Materia
+      - Created
+    sort:
+      - property: Materia
+        direction: ASC

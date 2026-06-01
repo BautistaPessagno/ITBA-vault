@@ -1,0 +1,49 @@
+filters:
+  and:
+    - file.hasLink("protos.base")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - temas
+      - Created
+    sort:
+      - property: file.name
+        direction: DESC
+    columnSize:
+      note.temas: 878
+  - type: table
+    name: Practicas
+    filters:
+      and:
+        - file.name.contains("Practica")
+    order:
+      - file.name
+      - Created
+      - temas
+    sort:
+      - property: Created
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 285
+  - type: table
+    name: Claude
+    filters:
+      and:
+        - file.name.contains("claude")
+    order:
+      - file.name
+      - tags
+    sort:
+      - property: file.name
+        direction: DESC
+  - type: table
+    name: Resumen
+    filters:
+      or:
+        - file.name == "Resumen Protos"
+        - file.name == "Ejercicios de las guías claves para el parcial"
+        - file.name == "Link Notion"

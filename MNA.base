@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.hasLink("MNA.base")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - temas
+      - Created
+    sort:
+      - property: Created
+        direction: DESC
+  - type: table
+    name: Resumen
+    filters:
+      and:
+        - file.name == "Resumen MNA"

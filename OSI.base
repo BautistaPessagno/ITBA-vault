@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.hasLink("OSI.base")
+views:
+  - type: table
+    name: Table

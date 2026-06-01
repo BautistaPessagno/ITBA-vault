@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.hasLink("BD.base")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - tags
+      - temas
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: tags
+        direction: ASC

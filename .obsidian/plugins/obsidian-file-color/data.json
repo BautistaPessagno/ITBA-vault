@@ -1,0 +1,22 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "ZQM52xLyuHu7OyldQu6Aj",
+      "name": "ITBA",
+      "value": "#185eb9"
+    },
+    {
+      "id": "HSwqVyj4TxTyWHx9Lz52M",
+      "name": "idea",
+      "value": "#faf200"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Categories/ITBA.base",
+      "color": "ZQM52xLyuHu7OyldQu6Aj"
+    }
+  ]
+}

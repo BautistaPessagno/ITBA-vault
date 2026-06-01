@@ -1,0 +1,1 @@
+El DNS (_Domain Name System_ o Sistema de Nombres de Dominio) es un **sistema jerárquico y distribuido** diseñado para la **resolución de nombres**. Su función principal es traducir nombres de dominio que son fáciles de recordar para las personas (como `www.ejemplo.com`) en las direcciones IP numéricas (como `192.0.2.1`) que las computadoras utilizan para comunicarse, y viceversa
