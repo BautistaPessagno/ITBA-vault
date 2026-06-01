@@ -12,7 +12,7 @@ temas:
 
 Las sales puede actuar como ácidos o bases
 ![[Pasted image 20260501111339.png]]
-las sales etsan formadas por un ion positivo que es el acido conjugado de una base y por el negativo que es la base conjugada
+las sales estan formadas por un ion positivo que es el acido conjugado de una base y por el negativo que es la base conjugada
 la reaccion se llama **HIDROLISIS**
 
 ## Sales que no hidrolizan
