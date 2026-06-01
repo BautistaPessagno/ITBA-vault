@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.hasLink("Discrete Math.base")
+views:
+  - type: table
+    name: Table

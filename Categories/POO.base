@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.hasLink("POO.base")
+views:
+  - type: table
+    name: Table

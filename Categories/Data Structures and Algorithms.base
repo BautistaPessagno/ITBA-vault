@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.hasLink("Data Structures and Algorithms.base")
+views:
+  - type: table
+    name: Table

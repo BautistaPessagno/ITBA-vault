@@ -1,7 +1,18 @@
 filters:
   and:
     - file.hasLink("ITBA.base")
+formulas:
+  Untitled: ""
 views:
+  - type: table
+    name: Materias
+    groupBy:
+      property: Materia
+      direction: ASC
+    order:
+      - file.name
+      - Materia
+    sort: []
   - type: table
     name: Table
     order:

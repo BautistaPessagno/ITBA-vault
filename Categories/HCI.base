@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.hasLink("HCI.base")
+views:
+  - type: table
+    name: Table

@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.hasLink("PI.base")
+views:
+  - type: table
+    name: Table

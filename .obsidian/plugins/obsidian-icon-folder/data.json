@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🧑‍🔬",
       "LiUniversity",
       "🍲",
       "🤔",
-      "LiGoal",
-      "LiBook"
+      "LiGoal"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,5 +39,6 @@
   "Categories/Metas.base": "LiGoal",
   "Categories/Pensamientos.base": "🤔",
   "Categories/Recetas.base": "🍲",
-  "Categories/ITBA.base": "LiUniversity"
+  "Categories/ITBA.base": "LiUniversity",
+  "Categories/Quimica.base": "🧑‍🔬"
 }
