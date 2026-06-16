@@ -6,7 +6,9 @@ views:
     name: Table
     order:
       - file.name
-      - file.ctime
+      - Created
     sort:
-      - property: file.ctime
+      - property: Created
         direction: DESC
+      - property: file.ctime
+        direction: ASC

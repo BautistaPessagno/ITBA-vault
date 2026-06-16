@@ -2,7 +2,7 @@
 categories:
   - "[[ITBA.base|ITBA]]"
 Tags: []
-Created: "2026-05-06"
+Created: 2026-05-06
 Materia: "[[TLA.base|TLA]]"
 temas:
   - Análisis Sintáctico

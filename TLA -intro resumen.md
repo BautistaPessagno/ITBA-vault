@@ -11,7 +11,7 @@ temas:
   - Gramáticas
   - Jerarquía de Chomsky
 ---
-# TLA - Introducción (Resumen)
+x# TLA - Introducción (Resumen)
 
 Resumen de la clase 1 — *Autómatas, Teoría de Lenguajes y Compiladores* (Lic. Ana María Arias Roig).
 
