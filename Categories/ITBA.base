@@ -12,7 +12,9 @@ views:
     order:
       - file.name
       - Materia
-    sort: []
+    sort:
+      - property: file.ctime
+        direction: DESC
   - type: table
     name: Table
     order:

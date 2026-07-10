@@ -19,7 +19,7 @@ temas:
   - LR Canónico y LALR
   - Generador Yacc
 ---
-# TLA - Análisis Sintáctico (Resumen)
+ # TLA - Análisis Sintáctico (Resumen)
 
 Resumen de la clase 8 — *Autómatas, Teoría de Lenguajes y Compiladores* (Lic. Ana María Arias Roig).
 
