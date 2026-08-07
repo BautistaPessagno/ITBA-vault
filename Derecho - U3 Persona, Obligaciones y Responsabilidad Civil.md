@@ -104,6 +104,7 @@ su objeto y los fines de su creación"*.
 - **Comienza con la concepción** (art. 19 CCyCN).
 - Los derechos y obligaciones del concebido quedan **irrevocablemente adquiridos si nace
   con vida**; **si nace sin vida, se considera que la persona nunca existió** (art. 21).
+  El **nacimiento con vida se presume**.
 
 ### 1.6 Capacidad
 
@@ -435,6 +436,14 @@ Extraído del compilado de segundos parcialitos viejos. Las respuestas son las d
 | Incapacidad absoluta de ejercicio | **Las personas jurídicas** *(respuesta del compilado)* |
 | NO es incapaz absoluto de ejercicio | Los mayores de 65 años |
 | NO es representante necesario de un incapaz | El **apoderado** |
+
+> [!warning] Discrepancia
+> La respuesta *"las personas jurídicas tienen incapacidad absoluta de ejercicio"* es la que
+> figura en el compilado, pero **no coincide con el art. 24 CCyCN**, que enumera como
+> incapaces de ejercicio a la **persona por nacer**, a quien **no tiene edad y madurez
+> suficiente** y a la **declarada incapaz por sentencia**. La persona jurídica actúa siempre
+> por medio de sus órganos/representantes, y de ahí sale la respuesta de la cátedra. En el
+> multiple choice, marcá lo del compilado; si es a desarrollar, citá el art. 24.
 
 ### Persona jurídica
 

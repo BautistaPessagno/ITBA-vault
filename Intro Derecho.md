@@ -2,8 +2,8 @@
 categories:
   - "[[ITBA.base|ITBA]]"
 Tags: []
-Created: "2026-08-0513:10"
-Materia:
+Created: 2026-08-0513:10
+Materia: "[[Derecho.base|Derecho]]"
 temas:
 ---
 # Intro Derecho
