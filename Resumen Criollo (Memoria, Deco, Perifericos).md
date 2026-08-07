@@ -87,3 +87,17 @@ Además del Bus de Direcciones y el Bus de Datos, hay un tercer Bus, llamado Bus
 - IO/MEM: Existe el mapa de memoria, que es al que accede el procesador cada vez que ejecuta una instrucción de acceso a memoria con la instrucción **mov**. Pero también está el mapa de E/S. A este mapa se accede con las instrucciones IN/OUT. Esta línea está en 0 si se quiere acceder al mapa de memoria y 1 si se accede al mapa de entrada y salida.
 
 Ver Ejemplos en la Guia 5
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Clase 4 Intro transmisión Digital]] — memoria y periféricos
+- [[Integrados Compuertas y decodificadores]] — decodificadores
+- [[Resumen Arqui]] — resumen general de la materia
+
+<!-- notas-relacionadas:fin -->

@@ -112,3 +112,16 @@ constante de inestabilidad
 ## Complejos y precipitados
 ![[Pasted image 20260508160351.png]]
 
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Equilibrio Quimico]] — constante de equilibrio
+- [[Curva de Titulacion]] — titulación por precipitación
+- [[Resumen Segundo Parcial Química]] — resumen del segundo parcial
+
+<!-- notas-relacionadas:fin -->

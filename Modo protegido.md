@@ -94,3 +94,22 @@ pasandole el número de la interrupción y el puntero a la rutina de atención
 de interrupción
 3. Si la interrupción es de hardware, dicha rutina debe enviar el EOI y deben
 habilitar el IRQ con la máscara correspondiente
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Assembler de Intel]] — registros y segmentación
+- [[Intro Sistemas Operativos(Paginación)]] — paginación y protección de memoria
+- [[Interrupciones]] — cambio de nivel de privilegio
+
+**Otras materias**
+
+- **SO**  [[Estructura de un Sistema Operativo]] — modo usuario vs modo kernel
+- **SO**  [[SysCall]] — cómo se cruza de usuario a kernel
+
+<!-- notas-relacionadas:fin -->

@@ -249,3 +249,17 @@ El **chase** es la aplicacion iterativa de las reglas de transformacion hasta ll
 - El chase algorithm puede tener complejidad exponencial en el peor caso. En la practica, cuantas iteraciones suelen necesitarse?
 - Si la descomposicion en BCNF pierde una DF, se puede detectar automaticamente con el test de preservacion antes de comprometerse con la descomposicion?
 - Para 4NF, como se descubren las MVDs en un esquema real? Provienen del DER o hay que inferirlas del dominio?
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 11 normalizacion parte 1]] — parte 1
+- [[BD clase 13 SQL PSM]] — clase siguiente
+- [[BD clase 4 mapeo EER a relacional]] — el esquema que se normaliza
+
+<!-- notas-relacionadas:fin -->

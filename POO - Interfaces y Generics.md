@@ -107,3 +107,22 @@ Function<Double, Double> cuadrado = new Function<Double, Double>() {
 - ¿Qué es la técnica de Erasure y qué limitación impone con arrays?
 
 [[POO.base|POO]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (POO)**
+
+- [[POO - Introducción a POO]] — polimorfismo
+- [[POO - Colecciones Java]] — genéricos en el JCF
+- [[POO - Clases Anidadas e Iterable]] — Iterable como interfaz
+
+**Otras materias**
+
+- **EDA**  [[EDA - Estructuras Lineales y Ordenación]] — Comparator para ordenar
+- **PI**  [[PI - TAD en C]] — separar interfaz de implementación
+
+<!-- notas-relacionadas:fin -->

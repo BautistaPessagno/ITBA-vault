@@ -354,3 +354,17 @@ $$\pi_{c_1.\text{nombreCli},\; c_2.\text{nombreCli}}(\text{auxi})$$
 - ¿Cómo afecta la presencia de NULLs a la conmutatividad de la junta natural?
 - ¿Por qué el álgebra relacional no incluye funciones de agregación? ¿Qué extensión se propone para soportarlas?
 - En la fórmula del cociente, ¿qué pasa si $s$ es vacía?
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 4 mapeo EER a relacional]] — clase anterior
+- [[BD clase 6 calculo relacional]] — clase siguiente: equivalencia
+- [[BD clase 8 SQL consultas]] — cómo se escribe en SQL
+
+<!-- notas-relacionadas:fin -->

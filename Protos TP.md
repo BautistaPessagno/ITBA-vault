@@ -67,3 +67,25 @@ data -> aca podemos guardar el estado del socket (autenticado, desconocido, etc)
 
 se puede implementar socks sin implementacion y despues si
 resolucion de DNS bloqueante y despues bloqueante
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[Diseño de protocolos]] — requisitos de diseño del TP
+- [[spec]] — especificación del protocolo
+- [[10. Protos - Sockets]] — implementación con sockets
+- [[Protos TP - Preguntas de defensa]] — preguntas de la defensa
+- [[Protos TP - Defensa de commits]] — recorrido por los commits
+
+**Otras materias**
+
+- **PI**  [[PI - Punteros en C]] — manejo de buffers en C
+- **SO**  [[SysCall]] — select/poll y llamadas al sistema del servidor
+- **SO**  [[Threads]] — modelo de concurrencia del servidor
+
+<!-- notas-relacionadas:fin -->

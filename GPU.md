@@ -13,8 +13,6 @@ para poder aplicar threads lo que se hace es aplicar computacion pararelala para
 
 ## Que es un hilo/thread?
 
-[[NOTION_PAGE:263f5e1c-86fe-801f-9509-f74d6e2bbee2]] 
-
 ![[image 302.png]]
 
 ![[image 303.png]]
@@ -99,3 +97,15 @@ con el gpu se puede agilizar tareas que en el CPU se realizarán de manera secue
 ![[image 328.png]]
 
 ![[image 329.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[ARM y GPU]] — ARM y GPU
+
+<!-- notas-relacionadas:fin -->

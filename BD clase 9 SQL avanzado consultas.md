@@ -239,3 +239,22 @@ Esto marca un limite claro: el punto fijo expande significativamente el poder ex
 3. En el ejemplo de vuelos, como cambiaria el resultado si se eliminara la condicion temporal `vuelo.arribo < combinacion.salida`?
 4. Como se demostraria formalmente que el algoritmo iterativo siempre termina para relaciones finitas?
 5. Se podria usar WITH RECURSIVE para detectar ciclos en un grafo? Que precauciones habria que tomar para evitar recursion infinita?
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 8 SQL consultas]] — clase anterior
+- [[BD clase 11 normalizacion parte 1]] — clase siguiente
+
+**Otras materias**
+
+- **Discrete Math**  [[Discrete Math - Caminos y Conexidad]] — clausura transitiva = alcanzabilidad en un grafo
+- **EDA**  [[EDA - Grafos]] — recorrer un grafo con WITH RECURSIVE
+- **PI**  [[PI - Recursividad en C]] — recursión y caso base
+
+<!-- notas-relacionadas:fin -->

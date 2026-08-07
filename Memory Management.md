@@ -65,3 +65,21 @@ Memory Allocators
 ![[Captura_de_pantalla_2025-09-30_a_la(s)_11.08.39.png]]
 
 ![[image 83.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[Memoria]] — tema principal
+- [[Procesos]] — memoria por proceso
+
+**Otras materias**
+
+- **Arqui**  [[Intro Sistemas Operativos(Paginación)]] — paginación
+- **PI**  [[PI - Punteros en C]] — malloc/free desde el lado del programa
+
+<!-- notas-relacionadas:fin -->

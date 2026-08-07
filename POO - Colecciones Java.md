@@ -89,3 +89,23 @@ En POO/aprendizaje se extiende la clase concreta cuando la composición repetir�
 - ¿Por qué `Map` no extiende `Iterable`?
 
 [[POO.base|POO]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (POO)**
+
+- [[POO - Interfaces y Generics]] — genéricos
+- [[POO - Clases Anidadas e Iterable]] — recorrer colecciones
+- [[POO - Colecciones Ruby]] — el equivalente en Ruby
+
+**Otras materias**
+
+- **EDA**  [[EDA - Hashing]] — HashMap y HashSet
+- **EDA**  [[EDA - Listas Lineales]] — List
+- **EDA**  [[EDA - Árboles]] — TreeMap y TreeSet
+
+<!-- notas-relacionadas:fin -->

@@ -71,3 +71,22 @@ Sea u y v dos vértices no adyacentes en un grafo conexo G. El máximo número d
 - ¿Qué significa 2-conexo intuitivamente?
 
 [[Discrete Math.base|Discrete Math]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Discrete Math)**
+
+- [[Discrete Math - Grafos Fundamentos]] — tema anterior
+- [[Discrete Math - Árboles y Recorridos]] — recorridos eulerianos
+
+**Otras materias**
+
+- **BD**  [[BD clase 9 SQL avanzado consultas]] — clausura transitiva con WITH RECURSIVE
+- **EDA**  [[EDA - Grafos]] — Dijkstra y camino mínimo
+- **Protos**  [[7. Protos - Routing]] — ruteo como problema de camino mínimo
+
+<!-- notas-relacionadas:fin -->

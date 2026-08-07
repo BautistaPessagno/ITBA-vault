@@ -204,3 +204,16 @@ se puede ver la fora de recta que tiene
 ![[Pasted image 20260515224149.png]]
 ![[Pasted image 20260515224126.png]]
 
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Equilibrio Quimico]] — espontaneidad y equilibrio
+- [[Resumen Segundo Parcial Química]] — resumen del segundo parcial
+- [[Resumen Final Química]] — resumen integrador
+
+<!-- notas-relacionadas:fin -->

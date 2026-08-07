@@ -122,3 +122,17 @@ idem al E42 pero tengo que correr ```
 dig <domain> mx
 ```
 y con eso consigo el dominio
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[3. Protos - DNS]] — teoría de esta práctica
+- [[BIND - Configuracion de Zonas DNS]] — configuración del servidor
+- [[DNS]] — definición corta
+
+<!-- notas-relacionadas:fin -->

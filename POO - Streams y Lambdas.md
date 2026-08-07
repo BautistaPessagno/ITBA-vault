@@ -91,3 +91,21 @@ lista.stream()
 - ¿Qué significa que una variable sea "effectively final"?
 
 [[POO.base|POO]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (POO)**
+
+- [[POO - Colecciones Java]] — streams sobre colecciones
+- [[POO - Clases Anidadas e Iterable]] — iteración externa vs interna
+- [[POO - Interfaces y Generics]] — interfaces funcionales
+
+**Otras materias**
+
+- **BD**  [[BD clase 8 SQL consultas]] — estilo declarativo: filter/map vs WHERE/SELECT
+
+<!-- notas-relacionadas:fin -->

@@ -407,3 +407,22 @@ El autómata de $R_1$ sirve directamente, ya que $L((R_1)) = L(R_1)$.
 ---
 
 ## Preguntas
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -Lenguajes Regulares]] — tema anterior
+- [[TLA -Autómatas Finitos Determinísticos]] — equivalencia ER-AF
+- [[TLA -Autómatas Finitos No Determinísticos]] — construcción de Thompson
+- [[frontend]] — las ER del scanner en Flex
+
+**Otras materias**
+
+- **BD**  [[BD clase 8 SQL consultas]] — LIKE y patrones en SQL
+
+<!-- notas-relacionadas:fin -->

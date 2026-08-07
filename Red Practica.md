@@ -226,3 +226,19 @@ H ──(default via 192.168.101.1)──► R ──(MASQUERADE en enp0s8)─�
 - [ ] MASQUERADE sobre interfaz correcta (la de internet): `iptables -t nat -A POSTROUTING -o enp0s8 -j MASQUERADE`
 - [ ] `option routers` en `dhcpd.conf` → H recibe default gateway
 - [ ] `option domain-name-servers` en `dhcpd.conf` → H recibe DNS
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[6. Protos - Red]] — teoría de esta práctica
+- [[IP practica]] — direccionamiento IP
+- [[DHCP Practica]] — DHCP
+- [[Routing Practica]] — tablas de ruteo
+- [[Analisis Wireshark]] — capturas de ARP e ICMP
+
+<!-- notas-relacionadas:fin -->

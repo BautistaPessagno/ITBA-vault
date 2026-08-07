@@ -9,6 +9,8 @@ views:
       - temas
       - Created
     sort:
+      - property: Created
+        direction: DESC
       - property: file.name
         direction: DESC
     columnSize:

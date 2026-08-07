@@ -30,3 +30,16 @@ sudo apt install isc-dhcp-server
 
 ```
 
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[6. Protos - Red]] — teoría de DHCP
+- [[Analisis Wireshark]] — captura de un intercambio DHCP
+- [[Red Practica]] — práctica de red
+
+<!-- notas-relacionadas:fin -->

@@ -137,3 +137,21 @@ convierte el siguiente evento a correr en una loteria
 ## Fair-Share Scheduling
 
 ![[image 74.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[Procesos]] — qué se planifica
+- [[Threads]] — planificación de hilos
+
+**Otras materias**
+
+- **Arqui**  [[Interrupciones]] — el timer que dispara la replanificación
+- **EDA**  [[EDA - Queue (Cola)]] — las colas de listos son FIFO/prioridad
+
+<!-- notas-relacionadas:fin -->

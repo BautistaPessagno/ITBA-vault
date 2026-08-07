@@ -52,3 +52,23 @@ Implementar la interfaz `Iterator` permite también el método `remove()`.
 - ¿Cuándo conviene una lista ordenada sobre un arreglo ordenado?
 
 [[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (EDA)**
+
+- [[EDA - Estructuras Lineales y Ordenación]] — arreglos vs listas
+- [[EDA - Stack]] — se implementa sobre listas
+- [[EDA - Queue (Cola)]] — se implementa sobre listas
+
+**Otras materias**
+
+- **PI**  [[PI - Listas en C]] — la misma estructura en C con punteros
+- **PI**  [[PI - Punteros en C]] — encadenamiento con punteros
+- **POO**  [[POO - Colecciones Java]] — List en el JCF
+
+<!-- notas-relacionadas:fin -->

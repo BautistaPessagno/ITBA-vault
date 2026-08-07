@@ -44,3 +44,20 @@ ahora en nuevos procesadores como ARM ya no es necesario ya que esta todo mapead
 ## Sistema de entrada y salida
 
 ![[image 336.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Clase 4 Intro transmisión Digital]] — lógica digital y señales
+- [[Resumen Criollo (Memoria, Deco, Perifericos)]] — decodificación de direcciones
+
+**Otras materias**
+
+- **TLA**  [[TLA -Autómatas Finitos Determinísticos]] — circuito secuencial = máquina de estados finita
+
+<!-- notas-relacionadas:fin -->

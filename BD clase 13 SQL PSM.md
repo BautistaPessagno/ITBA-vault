@@ -489,3 +489,21 @@ $$ LANGUAGE plpgsql;
 - Si se declara un parámetro INOUT en PostgreSQL pero el pasaje es por valor, el parámetro actual del invocador nunca se modifica. Entonces, cual es la diferencia práctica entre OUT e INOUT en PostgreSQL?
 - Cuando se usa `RETURNS NULL ON NULL INPUT` y la función tiene múltiples parámetros, basta con que **uno** sea NULL para que devuelva NULL?
 - Los bloques anónimos (`DO $$...$$`) pueden hacer rollback parcial con bloques anidados de la misma forma que las funciones?
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 12 normalizacion parte 2]] — clase anterior
+- [[BD clase 14 triggers]] — clase siguiente: los triggers llaman funciones
+- [[TODO]] — el TP usa PSM
+
+**Otras materias**
+
+- **PI**  [[PI - Funciones en C]] — funciones, parámetros y control de flujo
+
+<!-- notas-relacionadas:fin -->

@@ -339,3 +339,17 @@ Se transforma $D$ en un AFND-$\lambda$ añadiendo:
 - $\forall q \in Q_D,\ \forall a \in \Sigma: \delta_D(q, a) = p \Rightarrow \delta_E(\{q\}, a) = \{p\}$
 
 Como las transiciones no cambian, toda palabra aceptada en el AFD es aceptada en el AFND-$\lambda$.
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -Autómatas Finitos Determinísticos]] — construcción de subconjuntos
+- [[TLA -Expresiones Regulares]] — de ER a AFND-λ
+- [[TLA -Autómatas de Pila]] — tema siguiente: agregar una pila
+
+<!-- notas-relacionadas:fin -->

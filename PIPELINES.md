@@ -1,5 +1,4 @@
 ---
-SO: "[[Clases.base]]"
 Created: 2026-05-1419:53
 Tags:
   - Practica
@@ -35,3 +34,18 @@ mecanismo de comunicacion unidireccional. el mas simple
 ![[image 168.png]]
 
 ![[Captura_de_pantalla_2025-08-12_a_la(s)_14.19.28.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[SysCall]] — read, write, close
+- [[IPC]] — pipes como mecanismo de comunicación
+- [[File System]] — todo es un archivo
+- [[Entorno de desarrollo]] — encadenar comandos en bash
+
+<!-- notas-relacionadas:fin -->

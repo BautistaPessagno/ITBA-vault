@@ -145,3 +145,16 @@ una etapa tiene que cumplir la ley de velocidades
 ![[Pasted image 20260410184729.png]]
 
 ![[Pasted image 20260410184820.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Equilibrio Quimico]] — de la velocidad al equilibrio
+- [[Resumen Final Química]] — resumen integrador
+
+<!-- notas-relacionadas:fin -->

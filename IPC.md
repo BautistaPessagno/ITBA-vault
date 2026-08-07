@@ -121,3 +121,21 @@ foo se esta esperando asi mismo
 ![[image 121.png]]
 
 en este caso siguiendo el orden, se hace un wait en men, luego se hace el wait en women. luego ambos codigos van a entrar al iff y se van a quedar eternamente en el if
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[Threads]] — sincronización entre hilos
+- [[PIPELINES]] — pipes como IPC
+- [[Procesos]] — comunicación entre procesos
+
+**Otras materias**
+
+- **Protos**  [[10. Protos - Sockets]] — sockets como IPC en red
+
+<!-- notas-relacionadas:fin -->

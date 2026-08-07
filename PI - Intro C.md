@@ -96,3 +96,21 @@ Comentarios deben describir **qué** hace el código, no **cómo**.
 - ¿Por qué el flag `-c` es útil para diagnosticar errores?
 
 [[PI.base|PI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (PI)**
+
+- [[PI - Funciones en C]] — tema siguiente
+- [[PI - Arreglos en C]] — tipos y arreglos
+
+**Otras materias**
+
+- **Arqui**  [[Clase 3 ASM y C]] — a qué compila el C
+- **TLA**  [[frontend]] — un proyecto real en C
+
+<!-- notas-relacionadas:fin -->

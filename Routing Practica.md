@@ -145,3 +145,19 @@ en arping puedo mentir con estos comandos permitiendo sobreescribir
 >[!important]
 >IPV6 no necesita arp porque incluye el MAC address
 
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[7. Protos - Routing]] — teoría de esta práctica
+- [[Red Practica]] — tablas de ruteo
+
+**Otras materias**
+
+- **EDA**  [[EDA - Grafos]] — los algoritmos de camino mínimo que implementa el ruteo
+
+<!-- notas-relacionadas:fin -->

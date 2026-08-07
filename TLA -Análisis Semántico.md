@@ -317,3 +317,22 @@ Hay tres métodos principales:
 ## Preguntas
 
 -
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -Análisis Ascendente]] — tema anterior
+- [[TLA -Máquina de Turing]] — tema siguiente
+- [[frontend]] — la fase que sigue al parser
+
+**Otras materias**
+
+- **EDA**  [[EDA - Grafos]] — grafo de dependencias y orden topológico
+- **EDA**  [[EDA - Árboles]] — árbol decorado
+
+<!-- notas-relacionadas:fin -->

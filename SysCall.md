@@ -53,3 +53,23 @@ esto es una shell muy simplificada
 ![[image 165.png]]
 
 si quiero que el comando para cambiar el directorio del proceso del. padre se cambie desde el chill, lo que deberia hacer es pasarle el PID del padre al chdir
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[Estructura de un Sistema Operativo]] — la frontera usuario/kernel
+- [[PIPELINES]] — read, write, close y pipe
+
+**Otras materias**
+
+- **Arqui**  [[Interrupciones]] — la interrupción de software que entra al kernel
+- **Arqui**  [[Modo protegido]] — cambio de nivel de privilegio
+- **Protos**  [[10. Protos - Sockets]] — la API de sockets son syscalls
+- **Protos**  [[sendfile()]] — ejemplo concreto de syscall
+
+<!-- notas-relacionadas:fin -->

@@ -256,3 +256,19 @@ curl -x socks5h://localhost:8080 ifconfig.me
 >*   socks://: Tu máquina local resuelve la IP de ifconfig.me y luego le envía al proxy la instrucción de conectarse a esa IP.
 >*   socks5h://: El cliente le envía el nombre ifconfig.me al proxy, y es el servidor proxy quien se encarga de resolver el DNS.
 >La versión con h es más privada (tu ISP no ve las consultas DNS) y te permite acceder a dominios que solo son visibles desde la red del proxy.
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[9. Protos - SSH]] — teoría de esta práctica
+
+**Otras materias**
+
+- **SO**  [[Entorno de desarrollo]] — trabajo en consola remota
+
+<!-- notas-relacionadas:fin -->

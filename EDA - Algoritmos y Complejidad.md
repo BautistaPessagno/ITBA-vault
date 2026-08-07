@@ -99,3 +99,20 @@ Assertions.assertThrows(RuntimeException.class, () -> ...);
 - ¿Cuál es la diferencia entre `@BeforeAll` y `@BeforeEach`?
 
 [[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (EDA)**
+
+- [[EDA - Estructuras Lineales y Ordenación]] — análisis de algoritmos de ordenación
+- [[EDA - Tipos de Algoritmos y Heurísticas]] — estrategias de diseño
+
+**Otras materias**
+
+- **TLA**  [[TLA -Máquina de Turing (Parte 2)]] — problemas tratables, intratables e indecidibles
+
+<!-- notas-relacionadas:fin -->

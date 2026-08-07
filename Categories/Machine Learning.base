@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.hasLink("OSI.base")
+    - file.hasLink("Categories/Machine Learning.base")
 views:
   - type: table
     name: Table

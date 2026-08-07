@@ -119,3 +119,23 @@ public int hashCode() {
 - ¿Cuál es la diferencia entre una Checked y una Unchecked exception?
 
 [[POO.base|POO]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (POO)**
+
+- [[POO - Introducción a POO]] — tema anterior
+- [[POO - Interfaces y Generics]] — tema siguiente
+- [[POO - Colecciones Java]] — tipos y colecciones
+
+**Otras materias**
+
+- **BD**  [[BD clase 16 programacion embebida]] — JDBC
+- **PI**  [[PI - Arreglos en C]] — arrays: C vs Java
+- **SO**  [[Test Unitario-GitHub Workflow]] — JUnit
+
+<!-- notas-relacionadas:fin -->

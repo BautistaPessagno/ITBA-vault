@@ -39,3 +39,16 @@ key dirs
 ## Preguntas
 
 -
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[2. Protos - HTTP]] — teoría de esta práctica
+- [[Direccionamiento y HTTP - Practica]] — práctica extendida de HTTP
+
+<!-- notas-relacionadas:fin -->

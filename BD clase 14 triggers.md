@@ -384,3 +384,18 @@ EXECUTE PROCEDURE fn_borrar_caros();
 3. Si hay multiples triggers BEFORE sobre la misma tabla y evento, en que orden se ejecutan? El resultado de uno alimenta al siguiente?
 4. En un escenario de INSTEAD OF sobre una vista con JOIN de 3 tablas, como se diseña el trigger para mantener consistencia si el INSERT en la vista debe afectar a las 3 tablas subyacentes?
 5. Por que PostgreSQL exige AFTER (no BEFORE) cuando el trigger modifica la misma tabla del evento? Que inconsistencia especifica se evita?
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 13 SQL PSM]] — clase anterior
+- [[BD clase 16 programacion embebida]] — clase siguiente
+- [[BD clase 7 SQL DDL y DML]] — restricciones declarativas vs activas
+- [[TODO]] — el TP usa triggers
+
+<!-- notas-relacionadas:fin -->

@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.hasLink("Categories/Economia.base")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.ctime
+    sort:
+      - property: file.ctime
+        direction: DESC

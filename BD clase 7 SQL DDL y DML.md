@@ -466,3 +466,18 @@ CREATE DOMAIN colorTipo   CHAR(4)   DEFAULT 'rojo'
 - Cual es el comportamiento exacto de `SET DEFAULT` en ON DELETE si la columna no tiene DEFAULT definido?
 - Las restricciones CHECK a nivel de tabla pueden referenciar otras tablas o solo la tabla propia? (Diferencia con ASSERTION en SQL-3)
 - En que casos concretos conviene usar `RESTRICT` vs. `NO ACTION` en FK? Son exactamente equivalentes?
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 6 calculo relacional]] — clase anterior
+- [[BD clase 8 SQL consultas]] — clase siguiente
+- [[BD clase 3 modelo relacional]] — restricciones y claves
+- [[BD clase 14 triggers]] — restricciones activas
+
+<!-- notas-relacionadas:fin -->

@@ -21,3 +21,24 @@ denomina CANARY
 modificado
 - Si lo fue termina la ejecución
 ![[Captura_de_pantalla_2025-04-01_a_la(s)_12.31.59.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Assembler de Intel]] — push/pop y registros EBP/ESP
+- [[Clase 3 ASM y C]] — clase de ASM y C
+
+**Otras materias**
+
+- **EDA**  [[EDA - Stack]] — la pila como estructura de datos
+- **PI**  [[PI - Funciones en C]] — convención de llamada
+- **PI**  [[PI - Punteros en C]] — punteros a variables locales
+- **PI**  [[PI - Recursividad en C]] — cada llamada recursiva es un stack frame
+- **SO**  [[Procesos]] — el stack dentro del espacio de direcciones del proceso
+
+<!-- notas-relacionadas:fin -->

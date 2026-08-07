@@ -53,3 +53,22 @@ Algoritmo para encontrar el camino de menor peso desde un vértice origen a todo
 - ¿Cuál es la limitación principal de Dijkstra?
 
 [[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (EDA)**
+
+- [[EDA - Árboles]] — árboles como caso particular
+
+**Otras materias**
+
+- **Discrete Math**  [[Discrete Math - Caminos y Conexidad]] — teoría de caminos
+- **Discrete Math**  [[Discrete Math - Grafos Fundamentos]] — definiciones formales
+- **Protos**  [[7. Protos - Routing]] — Dijkstra en el ruteo real
+- **TLA**  [[TLA -Análisis Semántico]] — grafo de dependencias y orden topológico
+
+<!-- notas-relacionadas:fin -->

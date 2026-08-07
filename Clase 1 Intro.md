@@ -122,3 +122,17 @@ cuando estas haciendo muchas cosas en realidad en un instante de tiempo solo est
 ## Registros
 
 ![[image 245.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Introducción 1]] — introducción a la materia
+- [[Clase 2 ASM intel]] — clase siguiente
+- [[Resumen Arqui]] — resumen integrador
+
+<!-- notas-relacionadas:fin -->

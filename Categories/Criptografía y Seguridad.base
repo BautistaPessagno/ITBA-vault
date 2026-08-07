@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.hasLink("Categories/Criptografía y Seguridad.base")
+views:
+  - type: table
+    name: Table

@@ -160,3 +160,21 @@ Aumenta el throughput; puede haber *hazards* (de datos, de control).
 - La unidad de segmentación no se puede deshabilitar en x86 protegido.
 
 [[arqui.base|Arquitectura]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Clase 1 Intro]] — introducción
+- [[Assembler de Intel]] — assembler
+- [[Interrupciones]] — interrupciones
+- [[Memoria Cache]] — caché
+- [[Modo protegido]] — modo protegido
+- [[Intro Sistemas Operativos(Paginación)]] — MMU y paginación
+- [[Resumen Criollo (Memoria, Deco, Perifericos)]] — repaso de memoria y periféricos
+
+<!-- notas-relacionadas:fin -->

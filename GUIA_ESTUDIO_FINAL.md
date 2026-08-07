@@ -78,3 +78,15 @@ A·u^{n+1} = b   con A tridiagonal: diag (1+2r), fuera de diag (-r)
 | `HEAT.py` | matriz del esquema implícito del calor + un paso | **`def u0(x)`** (condición inicial) |
 
 **Tip de examen:** `FOURIER.py` responde directo *"¿a qué converge en x?"* mediante `(f(x⁻)+f(x⁺))/2`. `FT.py` te da `X(w)` numérico para **chequear** la cuenta simbólica hecha a mano.
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (MNA)**
+
+- [[Resumen MNA]] — teoría completa de la materia
+
+<!-- notas-relacionadas:fin -->

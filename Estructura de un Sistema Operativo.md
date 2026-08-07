@@ -55,3 +55,21 @@ el 1 es mas eficiente porque se salta una capa
 # Practica
 
 ![[image 159.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[Introducción]] — clase anterior
+- [[SysCall]] — la interfaz del kernel
+- [[Procesos]] — tema siguiente
+
+**Otras materias**
+
+- **Arqui**  [[Modo protegido]] — modo usuario vs kernel en el hardware
+
+<!-- notas-relacionadas:fin -->

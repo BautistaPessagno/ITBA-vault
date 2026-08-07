@@ -220,3 +220,16 @@ $$\{ \text{DatoA} \mid (\exists\, \text{DatoB})(r(\text{DatoA}, \text{DatoB}) \l
 - ¿Puede una formula con $\lnot$ ser segura sin tener un binding explicito en otra relacion?
 - En el ejemplo de la division, ¿que ocurre si $s$ es vacia? ¿El resultado de $r \div s$ deberia ser todo $\pi_{\text{datoA}}(r)$?
 - ¿Como se traduciria al calculo relacional una consulta con "al menos dos" en lugar de "todos"?
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 5 algebra relacional]] — equivalencia con el álgebra
+- [[BD clase 7 SQL DDL y DML]] — clase siguiente
+
+<!-- notas-relacionadas:fin -->

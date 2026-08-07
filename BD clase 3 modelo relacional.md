@@ -167,3 +167,21 @@ Acciones ante violación: rechazar la inserción o informar error e intentar rep
 
 # Guia
 [[Mapeo del diagrama MER al modelo relacional]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 2 modelo entidad relacion]] — clase anterior
+- [[BD clase 4 mapeo EER a relacional]] — clase siguiente
+- [[BD clase 5 algebra relacional]] — operaciones sobre el modelo
+
+**Otras materias**
+
+- **PI**  [[PI - TAD en C]] — esquema como tipo abstracto de datos
+
+<!-- notas-relacionadas:fin -->

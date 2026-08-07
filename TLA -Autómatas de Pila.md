@@ -351,3 +351,22 @@ La versión izquierda marca **precedencia** (`*` sobre `+`) pero no resuelve la 
 ## Preguntas
 
 -
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -Autómatas Finitos No Determinísticos]] — tema anterior
+- [[TLA -Formas Normales y Lema de Bombeo CFL]] — tema siguiente
+- [[TLA -Análisis Sintáctico]] — el parser como autómata de pila
+
+**Otras materias**
+
+- **EDA**  [[EDA - Stack]] — la pila como estructura de datos
+- **PI**  [[PI - Recursividad en C]] — recursión y pila de llamadas
+
+<!-- notas-relacionadas:fin -->

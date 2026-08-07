@@ -66,3 +66,18 @@ que no cambia la respuesta entre la primera y la n vez
 - PUT
 - DELETE
 
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[1. Protos - introducción]] — teoría de esta práctica
+
+**Otras materias**
+
+- **SO**  [[Entorno de desarrollo]] — setup de entorno y trucos de bash
+
+<!-- notas-relacionadas:fin -->

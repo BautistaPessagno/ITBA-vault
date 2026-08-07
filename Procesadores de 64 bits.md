@@ -24,3 +24,17 @@ La **arquitectura** es la compatibilidad de un set de instrucciones, es decir, q
 La **microarquitectura** es la implementación de hardware de la arquitectura con la que trabajamos. Define dónde va a terminar nuestro procesador, por ejemplo un celular, una computadora o un servidor. Se tiene en cuenta el tamaño que puede tener el procesador, qué temperatura puede levantar, consumo de energía, caché, etc.
 
 Los **procesadores** son la implementación comercial de la microarquitectura.
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[64bits y ARM]] — arquitecturas de 64 bits
+- [[Assembler de Intel]] — registros de 64 bits
+- [[Modo protegido]] — modos del procesador
+
+<!-- notas-relacionadas:fin -->

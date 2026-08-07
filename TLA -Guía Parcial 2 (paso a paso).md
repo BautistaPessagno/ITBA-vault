@@ -406,3 +406,18 @@ Apoyo teórico: [[TLA -Análisis Ascendente]] y [[TLA -Análisis Sintáctico]].
 - [[TLA -Lenguajes Regulares]] · [[TLA -Expresiones Regulares]] — base de la jerarquía
 
 Vista del curso: [[TLA.base]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -Formas Normales y Lema de Bombeo CFL]] — FNG y lema de bombeo
+- [[TLA -Autómatas de Pila]] — autómatas de pila
+- [[TLA -Análisis Sintáctico]] — LL(1)
+- [[ejercicios-parcial-ii]] — checklist de ejercicios
+
+<!-- notas-relacionadas:fin -->

@@ -175,3 +175,22 @@ tiene que haber un puntero por cada espacio de memoria
 los descriptores describen cada cacho de memoria que asignaste
 
 esta tabla es importante ya que antes de hacer un acceso a me memoria se fija en la tabla si hay un espacio correspondiente para el proceso
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Interrupciones 1]] — continuación del tema
+- [[Clase 4 Intro transmisión Digital]] — E/S por interrupciones vs polling
+- [[Modo protegido]] — cambio de contexto y privilegio
+
+**Otras materias**
+
+- **SO**  [[Scheduling]] — el timer que dispara el cambio de proceso
+- **SO**  [[SysCall]] — la interrupción de software que entra al kernel
+
+<!-- notas-relacionadas:fin -->

@@ -23,3 +23,16 @@ la doble union es un pi y un sigma
 
 ## Enlace Triple
 ![[Pasted image 20260313085843.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Uniones Químicas]] — tema principal
+- [[Resumen Final Química]] — resumen integrador
+
+<!-- notas-relacionadas:fin -->

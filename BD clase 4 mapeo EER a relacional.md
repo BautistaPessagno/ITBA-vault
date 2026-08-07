@@ -185,3 +185,18 @@ flowchart BT
 - ¿Cómo se implementaría con triggers la participación total del lado 1 en una relación 1:N?
 - En relaciones ternarias 1:1:N, ¿por qué la FK del lado N debe estar en ambas claves candidatas?
 - ¿Se pierde información al mapear una generalización si las subclases no son completas (no cubren toda la superclase)?
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 3 modelo relacional]] — clase anterior
+- [[BD clase 5 algebra relacional]] — clase siguiente
+- [[Mapeo del diagrama MER al modelo relacional]] — práctica de este tema
+- [[BD clase 2 modelo entidad relacion]] — el MER de origen
+
+<!-- notas-relacionadas:fin -->

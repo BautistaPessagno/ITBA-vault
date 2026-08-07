@@ -435,3 +435,20 @@ Electrólisis de NiSO₄ para depositar 10 g de Ni con $i=5$ A.
 > [[Electroquímica]], [[Buffer]]), teóricas de *Soluciones reguladoras* y *Electrólisis*, compilación
 > de segundos parciales resueltos (1C2023, 2C2022, Recu2C2022, 1C2018) y guía de *Problemas
 > adicionales* (ej. 11–42 + parciales).
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Hidrólisis]] — hidrólisis
+- [[Buffer]] — soluciones reguladoras
+- [[Curva de Titulacion]] — titulación
+- [[Equilibrio de precipitacion]] — precipitación
+- [[Electroquímica]] — electroquímica
+- [[Resumen Final Química]] — resumen del final
+
+<!-- notas-relacionadas:fin -->

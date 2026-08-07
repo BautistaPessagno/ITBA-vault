@@ -92,3 +92,18 @@ llama a la interrupción, es un vector con todas las llamadas a interrupciones
 el que lo define es el pasaje al argumento en eax
 
 ![[image 260.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Clase 1 Intro]] — clase anterior
+- [[Clase 3 ASM y C]] — clase siguiente
+- [[Assembler de Intel]] — referencia completa de instrucciones
+- [[Codigos Assembler]] — ejemplos de código
+
+<!-- notas-relacionadas:fin -->

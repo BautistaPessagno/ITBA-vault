@@ -89,3 +89,17 @@ sustanicias polares se mezclan bien entre si, y no polares prefieren otras no po
 
 ### Interacción Ión-dipolo
 ![[Pasted image 20260320111423.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Cambios de Estados]] — transiciones entre estados
+- [[Uniones Químicas]] — fuerzas intermoleculares
+- [[Resumen Final Química]] — resumen integrador
+
+<!-- notas-relacionadas:fin -->

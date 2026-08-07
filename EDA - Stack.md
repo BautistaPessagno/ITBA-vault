@@ -58,3 +58,23 @@ Convierte una expresión infija (a+b) a postfija (ab+) usando un Stack para mane
 - ¿Cómo se evalúa una expresión postfija con una pila?
 
 [[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (EDA)**
+
+- [[EDA - Queue (Cola)]] — la otra estructura LIFO/FIFO
+- [[EDA - Listas Lineales]] — implementación subyacente
+
+**Otras materias**
+
+- **Arqui**  [[Assembler de Intel]] — push y pop a nivel máquina
+- **Arqui**  [[Seguimiento de Pila en C]] — el stack frame real en memoria
+- **PI**  [[PI - Recursividad en C]] — la pila de llamadas
+- **TLA**  [[TLA -Autómatas de Pila]] — la pila como modelo de cómputo
+
+<!-- notas-relacionadas:fin -->

@@ -427,3 +427,25 @@ System.out.println(cstmt.getDouble(3));
 4. Por que `SELECT MAX(ID) + 1` no es seguro para generar claves ficticias? (Dos transacciones concurrentes pueden leer el mismo MAX y producir el mismo valor).
 5. Que ventaja tiene `PreparedStatement` sobre `createStatement` mas alla de la seguridad? (La sentencia se compila y optimiza una sola vez en el DBMS; en invocaciones sucesivas solo viajan los parametros).
 6. En un nivel `REPEATABLE READ`, puede una transaccion ver tuplas nuevas insertadas por otra transaccion? (Si, esa es exactamente la anomalia Phantom que este nivel permite).
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 14 triggers]] — clase anterior
+- [[BD clase 8 SQL consultas]] — las consultas que se embeben
+
+**Otras materias**
+
+- **EDA**  [[EDA - Hashing]] — índices hash
+- **EDA**  [[EDA - Árboles]] — índices B-tree en el diseño físico
+- **PI**  [[PI - Intro C]] — SQL embebido en C
+- **PI**  [[PI - Struct y Union en C]] — structs y variables host en C
+- **POO**  [[POO - Introduccion a Java]] — JDBC desde Java
+- **SO**  [[Threads]] — concurrencia y niveles de aislamiento
+
+<!-- notas-relacionadas:fin -->

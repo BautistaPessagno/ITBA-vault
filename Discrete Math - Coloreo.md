@@ -60,3 +60,21 @@ Todo grafo bipartito con aristas tiene X = 2.
 - ¿Por qué X(bipartito con aristas) = 2?
 
 [[Discrete Math.base|Discrete Math]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Discrete Math)**
+
+- [[Discrete Math - Planaridad]] — teorema de los 4 colores
+- [[Discrete Math - Grafos Fundamentos]] — grafos bipartitos
+
+**Otras materias**
+
+- **EDA**  [[EDA - Grafos]] — algoritmos sobre grafos
+- **EDA**  [[EDA - Tipos de Algoritmos y Heurísticas]] — coloreo greedy y backtracking
+
+<!-- notas-relacionadas:fin -->

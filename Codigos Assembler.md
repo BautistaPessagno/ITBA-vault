@@ -291,3 +291,18 @@ categories:
 > placeholder resb 128
 > 
 > ```
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Assembler de Intel]] — referencia de instrucciones
+- [[Clase 2 ASM intel]] — teoría de ASM
+- [[ASM y C]] — llamar ASM desde C
+- [[Seguimiento de Pila en C]] — seguimiento del stack en los ejemplos
+
+<!-- notas-relacionadas:fin -->

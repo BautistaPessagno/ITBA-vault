@@ -110,3 +110,22 @@ los bits para los directorios se calcula con el restante
 ej1: en este caso se supone arquitectura intel de 32 bits, entones quedan 20 bits los cuales se reparten 10 y 10
 
 ej2025: al tener **un solo nivel de indexación**, solo tiene un directorio(sin tabla de paginación),y el procesador es de 24 bits, entonces quedan 14 bits los cuales son para el directorio
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Modo protegido]] — protección y segmentación
+- [[Memoria Cache]] — TLB como caché de traducciones
+
+**Otras materias**
+
+- **SO**  [[Memoria]] — gestión de memoria en el SO
+- **SO**  [[Memory Management]] — algoritmos de reemplazo
+- **SO**  [[Procesos]] — espacio de direcciones por proceso
+
+<!-- notas-relacionadas:fin -->

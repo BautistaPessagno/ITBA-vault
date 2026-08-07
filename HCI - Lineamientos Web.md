@@ -53,3 +53,20 @@ temas:
 - ¿Qué es la navegación persistente y por qué importa?
 
 [[HCI.base|HCI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (HCI)**
+
+- [[HCI - Usabilidad y Evaluación]] — heurísticas de Nielsen
+- [[HCI - Ciencia Cognitiva]] — carga cognitiva
+
+**Otras materias**
+
+- **Protos**  [[2. Protos - HTTP]] — el protocolo detrás de la web
+
+<!-- notas-relacionadas:fin -->

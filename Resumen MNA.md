@@ -552,3 +552,15 @@ $T: V \to W$, $B_V = \{v_1,\ldots,v_n\}$, $B_W = \{w_1,\ldots,w_m\}$:
 12. **Para matrices triangulares**: autovalores = diagonal, pero los autovectores se calculan igual (escalonando $A - \lambda I$).
 13. **QR rectangular**: si $A$ es $m \times n$ con $m > n$, $Q$ tiene $n$ columnas (no $m$) y $R$ es $n \times n$. El QR completo extiende $Q$ a $m \times m$.
 14. **Cuadrados mínimos via QR**: resolver $Rx = Q^\top b$ (no $Rx = b$).
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (MNA)**
+
+- [[GUIA_ESTUDIO_FINAL]] — guía de estudio del final
+
+<!-- notas-relacionadas:fin -->

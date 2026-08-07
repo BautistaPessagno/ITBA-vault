@@ -1,7 +1,0 @@
-filters:
-  or:
-    - file.hasLink("Unión Covalente.base")
-    - file.hasTag("Union_Covalente")
-views:
-  - type: table
-    name: Table

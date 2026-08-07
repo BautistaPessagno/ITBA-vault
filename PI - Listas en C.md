@@ -82,3 +82,22 @@ TList concat(TList l1, TList l2) {
 - ¿Cuándo usar arreglo vs lista para implementar una cola?
 
 [[PI.base|PI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (PI)**
+
+- [[PI - Punteros en C]] — encadenamiento con punteros
+- [[PI - TAD en C]] — lista como TAD
+
+**Otras materias**
+
+- **EDA**  [[EDA - Listas Lineales]] — la misma estructura desde EDA
+- **EDA**  [[EDA - Queue (Cola)]] — cola sobre lista
+- **EDA**  [[EDA - Stack]] — pila sobre lista
+
+<!-- notas-relacionadas:fin -->

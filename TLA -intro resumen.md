@@ -202,3 +202,17 @@ Las gramáticas se clasifican según el formato de sus producciones. Si un lengu
 > $L_3 \subset L_2 \subset L_1 \subset L_0$
 >
 > También existen **lenguajes no enumerables** que no son generados por ninguna gramática.
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[Alfabeto]] — alfabetos y cadenas
+- [[TLA -Lenguajes Regulares]] — tema siguiente
+- [[TLA -Mega Resumen Final]] — resumen integrador
+
+<!-- notas-relacionadas:fin -->

@@ -517,3 +517,18 @@ y los lookaheads $c/d$ y $\$$ se combinan como $c/d/\$$.
 ## Preguntas
 
 -
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -Análisis Sintáctico]] — tema anterior
+- [[TLA -Análisis Semántico]] — tema siguiente
+- [[TLA -Autómatas de Pila]] — el autómata LR(0)
+- [[frontend]] — Bison genera un parser LALR
+
+<!-- notas-relacionadas:fin -->

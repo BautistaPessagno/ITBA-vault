@@ -114,3 +114,23 @@ y se cambio el push por guardados en los registros (esi, edi)
 ## Canary
 
 el canary va entre la dirección de retorno y el EBP y antes de retornar llama a una función para chequear que el canary no se haya modificado. si cambio detiene la ejecución del programax
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Clase 2 ASM intel]] — clase anterior
+- [[Clase 4 Intro transmisión Digital]] — clase siguiente
+- [[ASM y C]] — misma temática
+- [[Seguimiento de Pila en C]] — cómo se ve la pila desde ASM
+
+**Otras materias**
+
+- **PI**  [[PI - Funciones en C]] — convención de llamada de funciones
+- **PI**  [[PI - Intro C]] — el C que se compila a ASM
+
+<!-- notas-relacionadas:fin -->

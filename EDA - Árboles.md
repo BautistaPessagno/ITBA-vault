@@ -60,3 +60,23 @@ Variante de BST balanceado con reglas de coloración (rojo/negro). Java `TreeMap
 - ¿Cuál es la complejidad de búsqueda en un Árbol B?
 
 [[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (EDA)**
+
+- [[EDA - Grafos]] — un árbol es un grafo acíclico conexo
+
+**Otras materias**
+
+- **BD**  [[BD clase 16 programacion embebida]] — índices B-tree
+- **Discrete Math**  [[Discrete Math - Árboles y Recorridos]] — la teoría de árboles
+- **Protos**  [[3. Protos - DNS]] — el espacio de nombres es jerárquico
+- **SO**  [[File System]] — el FS como árbol de directorios
+- **TLA**  [[TLA -Análisis Sintáctico]] — árbol de derivación
+
+<!-- notas-relacionadas:fin -->

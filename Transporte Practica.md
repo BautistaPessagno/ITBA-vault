@@ -141,4 +141,16 @@ sudo nmap -sU -A 192.168.0.0/24 #habilita deteccino de servicio y script scannin
 
 ```
 
+---
 
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[5. Protos - Transporte]] — teoría de esta práctica
+- [[Analisis Wireshark]] — capturas de tráfico
+- [[Red Practica]] — práctica de la capa de abajo
+
+<!-- notas-relacionadas:fin -->

@@ -171,3 +171,21 @@ Si se corrompe → se pierde el FS (pero puede reconstruirse).
 - Siempre inicializar semáforos antes de usarlos.
 
 [[SO.base|Sistemas Operativos]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[Procesos]] — procesos
+- [[Scheduling]] — scheduling
+- [[Threads]] — threads
+- [[IPC]] — IPC y sincronización
+- [[Memory Management]] — gestión de memoria
+- [[File System]] — file system
+- [[SysCall]] — llamadas al sistema
+
+<!-- notas-relacionadas:fin -->

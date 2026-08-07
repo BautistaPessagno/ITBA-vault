@@ -100,3 +100,22 @@ Uso: representar un valor que puede ser de distintos tipos según el contexto.
 - ¿Por qué ordenar los campos del más grande al más pequeño ahorra memoria?
 
 [[PI.base|PI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (PI)**
+
+- [[PI - TAD en C]] — structs como base de un TAD
+- [[PI - Punteros en C]] — punteros a struct
+
+**Otras materias**
+
+- **BD**  [[BD clase 16 programacion embebida]] — variables host en SQL embebido
+- **POO**  [[POO - Enums]] — enums y tipos con valores fijos
+- **Protos**  [[10. Protos - Sockets]] — sockaddr y structs de la API
+
+<!-- notas-relacionadas:fin -->

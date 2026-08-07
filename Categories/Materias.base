@@ -1,0 +1,27 @@
+filters:
+  and:
+    - file.hasLink("Materias.base")
+formulas:
+  Cursada: Año.toString() + " - " + Cuatrimestre
+properties:
+  formula.Cursada:
+    displayName: Cursada
+  Materia:
+    displayName: Materia
+  Cuatrimestre:
+    displayName: Cuatrimestre
+  Año:
+    displayName: Año
+views:
+  - type: table
+    name: Materias
+    groupBy:
+      property: formula.Cursada
+      direction: DESC
+    order:
+      - file.name
+      - Materia
+      - formula.Cursada
+    sort:
+      - property: file.name
+        direction: ASC

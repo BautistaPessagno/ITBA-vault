@@ -111,3 +111,17 @@ se usa memoria dinamica solo cuando no se sabe el tamaño de la memoria que se v
 ![[image 181.png]]
 
 continuación en [[SysCall]]…
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[Estructura de un Sistema Operativo]] — tema siguiente
+- [[Procesos]] — la abstracción central del SO
+- [[Resumen SO]] — resumen integrador
+
+<!-- notas-relacionadas:fin -->

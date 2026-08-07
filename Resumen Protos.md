@@ -1704,3 +1704,25 @@ Obtener shell del usuario `pdc` en `parcial.leak.com.ar:2222`. La llave privada 
 18. **Socket pasivo** solo acepta conexiones (accept). Los datos van al socket activo.
 19. **IPv4 no elige camino** (eso es el protocolo de ruteo). No envía ACKs.
 20. **RIPv2 en red de un solo segmento** no tiene sentido.
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[1. Protos - introducción]] — unidad 1
+- [[2. Protos - HTTP]] — unidad 2
+- [[3. Protos - DNS]] — unidad 3
+- [[4. Protos - MAIL]] — unidad 4
+- [[5. Protos - Transporte]] — unidad 5
+- [[6. Protos - Red]] — unidad 6
+- [[7. Protos - Routing]] — unidad 7
+- [[8. Protos - Enlace]] — unidad 8
+- [[9. Protos - SSH]] — unidad 9
+- [[10. Protos - Sockets]] — unidad 10
+- [[Ejercicios de las guías claves para el parcial]] — ejercitación de parcial
+
+<!-- notas-relacionadas:fin -->

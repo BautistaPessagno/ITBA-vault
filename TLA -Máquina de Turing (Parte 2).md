@@ -203,3 +203,20 @@ La jerarquía completa que relaciona cada tipo de lenguaje con su autómata y gr
 ## Preguntas
 
 -
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -Máquina de Turing]] — parte 1
+- [[TLA -Guía Repaso Final (poco tiempo)]] — repaso final
+
+**Otras materias**
+
+- **EDA**  [[EDA - Algoritmos y Complejidad]] — problemas tratables e intratables
+
+<!-- notas-relacionadas:fin -->

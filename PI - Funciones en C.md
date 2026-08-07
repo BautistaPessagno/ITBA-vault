@@ -79,3 +79,22 @@ gcc modulo1.o modulo2.o -o programa   # linkedición
 - ¿Cuándo conviene usar Top-Down vs Bottom-Up?
 
 [[PI.base|PI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (PI)**
+
+- [[PI - Intro C]] — tema anterior
+- [[PI - Recursividad en C]] — tema siguiente
+
+**Otras materias**
+
+- **Arqui**  [[ASM y C]] — convención de llamada
+- **Arqui**  [[Seguimiento de Pila en C]] — cómo se ve una llamada en la pila
+- **BD**  [[BD clase 13 SQL PSM]] — funciones y procedimientos en SQL
+
+<!-- notas-relacionadas:fin -->

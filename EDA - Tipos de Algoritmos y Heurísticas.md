@@ -69,3 +69,21 @@ Almacena subresultados ya calculados para reutilizarlos en lugar de recalcularlo
 - ¿Por qué Fibonacci se beneficia de programación dinámica?
 
 [[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (EDA)**
+
+- [[EDA - Algoritmos y Complejidad]] — por qué hacen falta heurísticas
+- [[EDA - Grafos]] — greedy y backtracking sobre grafos
+
+**Otras materias**
+
+- **Discrete Math**  [[Discrete Math - Coloreo]] — coloreo greedy y backtracking
+- **PI**  [[PI - Recursividad en C]] — backtracking y divide y conquista
+
+<!-- notas-relacionadas:fin -->

@@ -135,3 +135,22 @@ los extents son grupos logicos de bloques continuos( mas grandes y mas faciles d
 ![[image 25.png]]
 
 se puede curar a si mismo
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[PIPELINES]] — todo es un archivo
+- [[SysCall]] — open, read, write
+
+**Otras materias**
+
+- **Arqui**  [[Clase 4 Intro transmisión Digital]] — el sistema de entrada y salida y el bus por donde viaja lo que el FS lee del disco
+- **EDA**  [[EDA - Árboles]] — el FS es un árbol de directorios
+- **Protos**  [[sendfile()]] — transferencia entre descriptores
+
+<!-- notas-relacionadas:fin -->

@@ -142,3 +142,18 @@ Si el tiempo es corto, hacé **1-2 de cada** priorizando los que caen como prác
 ---
 
 *Fuentes: Final 1 dic 2022, Final 24 julio 2023, Final 17 dic 2024, compilado "TLA - Finales", TPs 01-10 (ITBA 72.39).*
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -Mega Resumen Final]] — resumen completo
+- [[TLA -Máquina de Turing (Parte 2)]] — decidibilidad
+- [[TLA -Análisis Sintáctico]] — análisis sintáctico
+- [[ejercicios-parcial-ii]] — ejercitación
+
+<!-- notas-relacionadas:fin -->

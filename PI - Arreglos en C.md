@@ -73,3 +73,21 @@ void inicializar(int v[], int n) {
 - ¿Qué ocurre cuando se pasa un arreglo a una función sin especificar tamaño?
 
 [[PI.base|PI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (PI)**
+
+- [[PI - Punteros en C]] — arreglos y punteros
+- [[PI - Intro C]] — tipos de datos
+
+**Otras materias**
+
+- **EDA**  [[EDA - Estructuras Lineales y Ordenación]] — arreglos como estructura lineal
+- **POO**  [[POO - Introduccion a Java]] — arrays en Java
+
+<!-- notas-relacionadas:fin -->

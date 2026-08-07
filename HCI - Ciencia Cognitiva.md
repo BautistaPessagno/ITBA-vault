@@ -86,3 +86,17 @@ Las emociones forman parte de la toma de decisiones.
 - ¿Cómo afectan las emociones a la usabilidad percibida?
 
 [[HCI.base|HCI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (HCI)**
+
+- [[HCI - Fundamentos de HCI]] — tema anterior
+- [[HCI - Diseño Centrado en el Usuario]] — tema siguiente
+- [[HCI - Lineamientos Web]] — carga cognitiva aplicada a la web
+
+<!-- notas-relacionadas:fin -->

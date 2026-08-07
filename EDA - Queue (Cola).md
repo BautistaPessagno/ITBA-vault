@@ -56,3 +56,21 @@ Colección de datos ordenada por **orden de llegada**. Acceso por dos extremos: 
 - ¿Cuál es la diferencia entre una queue y un stack en términos de orden de salida?
 
 [[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (EDA)**
+
+- [[EDA - Stack]] — FIFO vs LIFO
+- [[EDA - Listas Lineales]] — implementación subyacente
+
+**Otras materias**
+
+- **Protos**  [[5. Protos - Transporte]] — buffers y ventana deslizante
+- **SO**  [[Scheduling]] — colas de listos y de prioridad
+
+<!-- notas-relacionadas:fin -->

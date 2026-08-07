@@ -69,3 +69,22 @@ de los apuntado por ESP y salta a esa posición de memoria
 ![[Captura_de_pantalla_2025-03-25_a_la(s)_12.11.48.png]]
 
 ![[Captura_de_pantalla_2025-03-31_a_la(s)_11.17.51.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Clase 3 ASM y C]] — clase de esta temática
+- [[Assembler de Intel]] — referencia de instrucciones
+- [[Codigos Assembler]] — ejemplos
+
+**Otras materias**
+
+- **PI**  [[PI - Funciones en C]] — pasaje de parámetros
+- **PI**  [[PI - Intro C]] — el lado C de la interoperación
+
+<!-- notas-relacionadas:fin -->

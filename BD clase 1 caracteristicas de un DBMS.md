@@ -112,4 +112,18 @@ El DBMS garantiza que todos los estados sean válidos respecto al esquema.
 - ¿Por qué ODBC sacrifica performance a cambio de portabilidad?
 - ¿En qué situación conviene una arquitectura distribuida heterogénea vs. homogénea?
 
+---
 
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 2 modelo entidad relacion]] — clase siguiente
+
+**Otras materias**
+
+- **SO**  [[File System]] — por qué un DBMS y no archivos planos
+
+<!-- notas-relacionadas:fin -->

@@ -75,3 +75,21 @@ public int hashCode() {
 - ¿Cuándo se rehashea y qué costo tiene?
 
 [[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (EDA)**
+
+- [[EDA - Listas Lineales]] — encadenamiento para colisiones
+
+**Otras materias**
+
+- **BD**  [[BD clase 16 programacion embebida]] — índices hash
+- **POO**  [[POO - Colecciones Java]] — HashMap y HashSet
+- **POO**  [[POO - Colecciones Ruby]] — Hash en Ruby
+
+<!-- notas-relacionadas:fin -->

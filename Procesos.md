@@ -154,3 +154,23 @@ no, no es realista
 ![[image 144.png]]
 
 ![[image 145.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[Estructura de un Sistema Operativo]] — dónde vive el proceso
+- [[Scheduling]] — cómo se eligen los procesos
+- [[Threads]] — hilos dentro del proceso
+- [[Memoria]] — espacio de direcciones
+
+**Otras materias**
+
+- **Arqui**  [[Intro Sistemas Operativos(Paginación)]] — paginación del espacio de direcciones
+- **Arqui**  [[Seguimiento de Pila en C]] — el stack del proceso en detalle
+
+<!-- notas-relacionadas:fin -->

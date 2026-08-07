@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.hasLink("Categories/Derecho.base")
+views:
+  - type: table
+    name: Table

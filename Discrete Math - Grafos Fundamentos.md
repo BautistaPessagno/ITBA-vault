@@ -70,3 +70,20 @@ Dos grafos son isomorfos si existe una biyección f: V_G → V_H que:
 - ¿Cuántas aristas tiene Kₙ?
 
 [[Discrete Math.base|Discrete Math]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Discrete Math)**
+
+- [[Discrete Math - Caminos y Conexidad]] — tema siguiente
+- [[Discrete Math - Árboles y Recorridos]] — árboles
+
+**Otras materias**
+
+- **EDA**  [[EDA - Grafos]] — representación e implementación
+
+<!-- notas-relacionadas:fin -->

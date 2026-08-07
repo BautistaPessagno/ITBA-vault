@@ -378,3 +378,21 @@ Cuando un esquema tiene **redundancia de datos**, surgen tres tipos de anomalía
 2. El algoritmo de Gottlob para proyectar $F^+$ sobre un subesquema, puede producir FDs redundantes en el resultado? Si es así, conviene aplicar cubrimiento minimal al resultado?
 3. Si una descomposición tiene pérdida de dependencias pero no de información, cual es el costo práctico? Se puede compensar con triggers o constraints adicionales?
 4. El algoritmo de descomposición en 3NF siempre produce la cantidad mínima de subesquemas posible, o puede haber descomposiciones con menos tablas que también cumplan 3NF + lossless join + preservación de FDs?
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 9 SQL avanzado consultas]] — clase anterior
+- [[BD clase 12 normalizacion parte 2]] — continuación
+- [[BD clase 3 modelo relacional]] — claves y restricciones
+
+**Otras materias**
+
+- **EDA**  [[EDA - Algoritmos y Complejidad]] — el cierre de atributos es lineal en |F|, mientras que calcular F⁺ es exponencial en la cantidad de atributos
+
+<!-- notas-relacionadas:fin -->

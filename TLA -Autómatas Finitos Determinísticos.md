@@ -350,3 +350,22 @@ $$pE_{n+1}q \iff \forall a \in \Sigma: \delta(p, a) E_n \delta(q, a)$$
 
 > [!info] Unicidad
 > El AFD mínimo es **único**, salvo renombramiento de estados.
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -Autómatas Finitos No Determinísticos]] — tema siguiente
+- [[TLA -Expresiones Regulares]] — equivalencia ER-AF
+- [[TLA -Lenguajes Regulares]] — qué reconocen
+
+**Otras materias**
+
+- **Arqui**  [[Integrados Compuertas y decodificadores]] — circuito secuencial = AFD en hardware
+- **Protos**  [[5. Protos - Transporte]] — TCP se especifica como máquina de estados
+
+<!-- notas-relacionadas:fin -->

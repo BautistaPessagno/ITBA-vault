@@ -113,3 +113,17 @@ permite a los programas en el espacio de usuario interactuar con el kernel del s
 ## Registros de Intel para programas
 
 ![[Captura_de_pantalla_2025-03-11_a_la(s)_12.39.47.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Clase 1 Intro]] — clase introductoria
+- [[Clase 2 ASM intel]] — siguiente tema
+- [[Resumen Arqui]] — resumen integrador
+
+<!-- notas-relacionadas:fin -->

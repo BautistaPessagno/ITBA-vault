@@ -151,3 +151,22 @@ la realidad es que esto no es mas que una estimacion
 ## Not Frecuently Used (NFU)
 
 ![[image 55.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[Memory Management]] — algoritmos de gestión
+- [[Procesos]] — espacio de direcciones del proceso
+
+**Otras materias**
+
+- **Arqui**  [[Intro Sistemas Operativos(Paginación)]] — paginación y MMU en el hardware
+- **Arqui**  [[Memoria Cache]] — jerarquía de memoria
+- **PI**  [[PI - Punteros en C]] — qué es realmente una dirección
+
+<!-- notas-relacionadas:fin -->

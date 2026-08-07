@@ -15,3 +15,17 @@ Materia: "[[protos.base|protos]]"
 ## Links Utiles
 
  [ARP](https://datatracker.ietf.org/doc/html/rfc826)
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[IP practica]] — laboratorio de IP
+- [[Red Practica]] — ARP y tablas de ruteo
+- [[Direccionamiento y HTTP - Practica]] — comandos de red
+
+<!-- notas-relacionadas:fin -->

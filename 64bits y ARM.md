@@ -142,3 +142,17 @@ ARM creo instrucciones condicionales
 ### Condiciones
 
 ![[image 210.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Procesadores de 64 bits]] — arquitecturas de 64 bits
+- [[ARM y GPU]] — ARM y cómputo paralelo
+- [[Assembler de Intel]] — comparación con x86
+
+<!-- notas-relacionadas:fin -->

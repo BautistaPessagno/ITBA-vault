@@ -80,3 +80,23 @@ Se pueden comparar punteros del mismo tipo con `==`, `!=`, `<`, `>`.
 - ¿Qué significa `NULL` y por qué es importante inicializar punteros a NULL?
 
 [[PI.base|PI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (PI)**
+
+- [[PI - Arreglos en C]] — aritmética de punteros
+- [[PI - Listas en C]] — estructuras encadenadas
+
+**Otras materias**
+
+- **Arqui**  [[Seguimiento de Pila en C]] — punteros a variables locales
+- **Protos**  [[10. Protos - Sockets]] — buffers en la API de C
+- **SO**  [[Memoria]] — qué es una dirección para el SO
+- **SO**  [[Memory Management]] — malloc/free y el heap
+
+<!-- notas-relacionadas:fin -->

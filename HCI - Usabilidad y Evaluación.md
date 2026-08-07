@@ -63,3 +63,17 @@ La evaluación participativa está en la **primera etapa**.
 - ¿Por qué el principio de visibilidad del estado es el primero de Nielsen?
 
 [[HCI.base|HCI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (HCI)**
+
+- [[HCI - Diseño Centrado en el Usuario]] — tema anterior
+- [[HCI - Lineamientos Web]] — tema siguiente
+- [[HCI - Fundamentos de HCI]] — definición de usabilidad
+
+<!-- notas-relacionadas:fin -->

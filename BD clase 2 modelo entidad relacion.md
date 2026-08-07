@@ -280,5 +280,18 @@ flowchart TD
 - ¿Cómo se determina si una relación en un ciclo del diagrama E/R es realmente redundante?
 - ¿Cuál es el criterio para elegir entre una relación ternaria y múltiples binarias?
 - ¿En una jerarquía es-un, cómo se manejan los atributos compartidos si una entidad pertenece a dos subclases simultáneamente?
-# Guia
-[[modelo_entidad_relacion.excalidraw]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 1 caracteristicas de un DBMS]] — clase anterior
+- [[BD clase 3 modelo relacional]] — clase siguiente
+- [[BD clase 4 mapeo EER a relacional]] — cómo se traduce el MER
+- [[Mapeo del diagrama MER al modelo relacional]] — práctica de mapeo
+
+<!-- notas-relacionadas:fin -->

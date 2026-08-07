@@ -357,3 +357,22 @@ SELECT * FROM personal WHERE sueldo > 1500;
 - Por que `GROUP BY` considera NULLs como equivalentes si `WHERE NULL = NULL` da FALSE?
 - Puede una vista definida sobre un JOIN ser actualizable? En general no, pero que excepciones existen segun el DBMS?
 - Cuando es necesario usar `DISTINCT` dentro de `COUNT` en un `HAVING`? Depende de si el atributo contado es clave candidata o no.
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 7 SQL DDL y DML]] — clase anterior
+- [[BD clase 9 SQL avanzado consultas]] — clase siguiente
+- [[BD clase 5 algebra relacional]] — el álgebra detrás de cada consulta
+
+**Otras materias**
+
+- **POO**  [[POO - Streams y Lambdas]] — estilo declarativo: filter/map vs WHERE/SELECT
+- **TLA**  [[TLA -Expresiones Regulares]] — LIKE y patrones
+
+<!-- notas-relacionadas:fin -->

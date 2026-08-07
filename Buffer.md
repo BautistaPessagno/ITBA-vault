@@ -1,4 +1,12 @@
-
+---
+categories:
+  - "[[ITBA.base|ITBA]]"
+Materia: "[[Quimica.base|Quimica]]"
+temas:
+  - Buffer
+  - Solución tampón
+  - Ácido-base
+---
 [Chat Claude](https://claude.ai/share/0169628e-88ba-4b5f-a26b-b75161678ffb)
 ## Buffer (Solución Tampón)
 
@@ -53,3 +61,18 @@ La sangre humana es un buffer (principalmente el sistema H₂CO₃/HCO₃⁻) qu
 ---
 
 ¿Querés que resolvamos algún problema de buffers de la serie?
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Hidrólisis]] — equilibrio ácido-base
+- [[Curva de Titulacion]] — zona buffer en la curva
+- [[Equilibrio Quimico]] — constante de equilibrio
+- [[Resumen Segundo Parcial Química]] — resumen del segundo parcial
+
+<!-- notas-relacionadas:fin -->

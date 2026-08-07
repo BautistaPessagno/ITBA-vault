@@ -424,3 +424,25 @@ Lo **inverso** de la pila: una **fuente externa** fuerza una reacción **no espo
 > [[Curva de Titulacion]], [[Equilibrio de precipitacion]], [[Electroquímica]] y
 > [[Resumen Segundo Parcial Química]]. Patrón de examen tomado de la compilación **Química – Finales
 > Viejos** (14-07-23, 16-12-22, 22-12-22, 12-07-19, 19-07-19).
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Uniones Químicas]] — uniones químicas
+- [[Solidos y Liquidos]] — sólidos y líquidos
+- [[Cambios de Estados]] — cambios de estado
+- [[Cinetica Quimica]] — cinética
+- [[Equilibrio Quimico]] — equilibrio
+- [[Hidrólisis]] — hidrólisis
+- [[Buffer]] — buffers
+- [[Curva de Titulacion]] — titulación
+- [[Equilibrio de precipitacion]] — precipitación
+- [[Electroquímica]] — electroquímica
+- [[Resumen Segundo Parcial Química]] — resumen del segundo parcial
+
+<!-- notas-relacionadas:fin -->

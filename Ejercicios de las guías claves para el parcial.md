@@ -554,3 +554,17 @@ Imposible que toman algo con esto sin labo de info. Pueden darte una captura de 
     ```bash
     scp usuario@servidor.com:/archivo/a/enviar /archivo/donde/recibir
     ```
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[Resumen Protos]] — teoría de respaldo
+- [[Guias Practicas Protos]] — guías prácticas en PDF
+- [[Link Notion]] — exámenes resueltos de años anteriores
+
+<!-- notas-relacionadas:fin -->

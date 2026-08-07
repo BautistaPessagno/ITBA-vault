@@ -50,3 +50,17 @@ tiene sentido que el pH > 7 ya que se esta hablando de una base
 ![[Pasted image 20260501114306.png]]
 ![[Pasted image 20260501114329.png]]
 
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Equilibrio Quimico]] — constante de equilibrio
+- [[Buffer]] — soluciones reguladoras
+- [[Curva de Titulacion]] — titulación ácido-base
+- [[Resumen Segundo Parcial Química]] — resumen del segundo parcial
+
+<!-- notas-relacionadas:fin -->

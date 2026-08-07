@@ -110,3 +110,17 @@ temas:
 - [ ] TP08 - Ejercicio 1
 - [ ] TP08 - Ejercicio 3
 - [ ] TP08 - Ejercicio 4
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -Guía Parcial 2 (paso a paso)]] — resolución paso a paso
+- [[TLA -Autómatas de Pila]] — GLC y autómatas de pila
+- [[TLA -Mega Resumen Final]] — teoría de respaldo
+
+<!-- notas-relacionadas:fin -->

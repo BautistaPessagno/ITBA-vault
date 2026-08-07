@@ -87,3 +87,20 @@ Preferir composición cuando la relación no es "es-un" o cuando el cambio de ro
 - ¿En qué caso conviene composición sobre herencia?
 
 [[POO.base|POO]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (POO)**
+
+- [[POO - Introduccion a Java]] — tema siguiente
+- [[POO - Interfaces y Generics]] — polimorfismo e interfaces
+
+**Otras materias**
+
+- **PI**  [[PI - TAD en C]] — el TAD como antecedente de la clase
+
+<!-- notas-relacionadas:fin -->

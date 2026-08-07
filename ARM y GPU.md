@@ -116,3 +116,16 @@ La condición ‘0000’ significa EQUAL. Por lo tanto la instrucción sólo pod
 ejecutada si el flag Z ( zero ) está activo.
 
 ![[Captura_de_pantalla_2025-06-05_a_la(s)_14.31.46.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[64bits y ARM]] — ARM
+- [[GPU]] — detalle de GPU
+
+<!-- notas-relacionadas:fin -->

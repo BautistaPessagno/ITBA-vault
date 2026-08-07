@@ -97,3 +97,18 @@ si aumenta e H3O aumenta el reactivo
 ![[Pasted image 20260416143809.png]]
 en el uno si se aumenta la presion busca tener menos moles, por lo que pasa a productos (3 a dos moles)
 en el dos por ejemplo si disminuye la presion va a productos y en la segunda no afecta
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Cinetica Quimica]] — velocidad de reacción
+- [[Equilibrio de precipitacion]] — equilibrio heterogéneo
+- [[Hidrólisis]] — equilibrio ácido-base
+- [[Resumen Final Química]] — resumen integrador
+
+<!-- notas-relacionadas:fin -->

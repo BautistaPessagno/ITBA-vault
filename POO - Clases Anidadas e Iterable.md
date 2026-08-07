@@ -106,3 +106,21 @@ while (it.hasNext()) { String s = it.next(); ... }
 - ¿Qué debe implementar una clase para poder usarse en el for-each?
 
 [[POO.base|POO]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (POO)**
+
+- [[POO - Colecciones Java]] — iterar colecciones
+- [[POO - Interfaces y Generics]] — Iterable e Iterator como interfaces
+- [[POO - Streams y Lambdas]] — la alternativa funcional
+
+**Otras materias**
+
+- **EDA**  [[EDA - Listas Lineales]] — recorrer una lista encadenada
+
+<!-- notas-relacionadas:fin -->

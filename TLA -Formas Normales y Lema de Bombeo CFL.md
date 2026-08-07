@@ -317,3 +317,18 @@ Como $G$ no tiene producciones unitarias (ni $\lambda$-producciones tras la simp
 ## Preguntas
 
 -
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -Autómatas de Pila]] — tema anterior
+- [[TLA -Análisis Sintáctico]] — tema siguiente
+- [[TLA -Lenguajes Regulares]] — lema de bombeo para regulares
+- [[TLA -Guía Parcial 2 (paso a paso)]] — resolución paso a paso
+
+<!-- notas-relacionadas:fin -->

@@ -66,3 +66,21 @@ public class Caja<E extends Comparable<E>> { E valor; }
 - ¿Qué es la técnica de Erasure y qué limitaciones impone?
 
 [[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (EDA)**
+
+- [[EDA - Listas Lineales]] — estructuras lineales
+- [[EDA - Algoritmos y Complejidad]] — análisis de costo
+
+**Otras materias**
+
+- **PI**  [[PI - Arreglos en C]] — arreglos y matrices en C
+- **POO**  [[POO - Interfaces y Generics]] — Comparable/Comparator para ordenar
+
+<!-- notas-relacionadas:fin -->

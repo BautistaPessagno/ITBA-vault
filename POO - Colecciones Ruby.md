@@ -116,3 +116,21 @@ end
 - ¿Cuál es la diferencia entre `map` y `select`?
 
 [[POO.base|POO]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (POO)**
+
+- [[POO - Intro Ruby]] — tema anterior
+- [[POO - Colecciones Java]] — el equivalente en Java
+- [[POO - Streams y Lambdas]] — Enumerable y bloques vs streams
+
+**Otras materias**
+
+- **EDA**  [[EDA - Hashing]] — Hash en Ruby
+
+<!-- notas-relacionadas:fin -->

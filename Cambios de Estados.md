@@ -63,3 +63,17 @@ tienen bajas fuerzas de atracción. se le es facil pasar a la fase vapor
 ![[Pasted image 20260327090328.png]]
 ## Sólidos cristalino
 ![[Pasted image 20260327090847.png|697]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Solidos y Liquidos]] — estados de la materia
+- [[Uniones Químicas]] — fuerzas intermoleculares
+- [[Resumen Final Química]] — resumen integrador
+
+<!-- notas-relacionadas:fin -->

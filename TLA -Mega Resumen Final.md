@@ -353,3 +353,20 @@ Idea del algoritmo (longitudes $1,2,4,8,\dots$): en cada pasada **tachá una $a$
 ---
 
 *Fuentes: compilado "TLA - Finales" (2C-2022, 1C-2023, 2C-2023, 1C-2024 1ª y 2ª fecha, 2C-2024) + fotos de finales resueltos (72.39, Lic. Ana María Arias Roig). Claves verificadas contra las notas del vault de TLA.*
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -intro resumen]] — definiciones básicas
+- [[TLA -Lenguajes Regulares]] — lenguajes regulares
+- [[TLA -Autómatas de Pila]] — autómatas de pila
+- [[TLA -Análisis Sintáctico]] — análisis sintáctico
+- [[TLA -Máquina de Turing]] — máquinas de Turing
+- [[TLA -Guía Repaso Final (poco tiempo)]] — repaso express
+
+<!-- notas-relacionadas:fin -->

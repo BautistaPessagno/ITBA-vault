@@ -78,3 +78,22 @@ static int potencia_rec(int base, int exp) {
 - ¿En qué casos es mejor usar iteración sobre recursión?
 
 [[PI.base|PI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (PI)**
+
+- [[PI - Funciones en C]] — llamadas a función
+
+**Otras materias**
+
+- **Arqui**  [[Seguimiento de Pila en C]] — stack frames de la recursión
+- **EDA**  [[EDA - Stack]] — la pila de llamadas
+- **EDA**  [[EDA - Tipos de Algoritmos y Heurísticas]] — divide y conquista, backtracking
+- **TLA**  [[TLA -Análisis Sintáctico]] — descenso recursivo
+
+<!-- notas-relacionadas:fin -->

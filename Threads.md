@@ -87,3 +87,22 @@ cuesta mas crear destruir threads, por lo que se suelen reutilizar
 # Scheduler activations
 
 ![[image 98.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[Procesos]] — hilo vs proceso
+- [[Scheduling]] — planificación de hilos
+- [[IPC]] — sincronización y comunicación
+
+**Otras materias**
+
+- **BD**  [[BD clase 16 programacion embebida]] — concurrencia y aislamiento transaccional
+- **Protos**  [[10. Protos - Sockets]] — servidores concurrentes
+
+<!-- notas-relacionadas:fin -->

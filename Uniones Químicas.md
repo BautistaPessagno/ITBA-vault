@@ -24,7 +24,7 @@ incluye sales, hidróxidos, óxidos iónicos
 ![[Pasted image 20260308134247.png]]
 en uniones iónicas no se arman moléculas. no podemos hablar de moleculas
 
-## [[Unión Covalente.base | Unión Covalente]]
+## Unión Covalente
 [[Uniones Químicas#Union Covalente]]
 Atracción de los núcleos de distintos atomos y uno, dos o tres pares de electrones
 los electrones se encuentran en una zona de solapamiento de los orbitales atómicos.
@@ -49,8 +49,8 @@ es una atracción electroestática a una nube electronica (electrones dezlocaliz
 
 no se puede hablar de molécula 
 
-# [[Polaridad.base | Polaridad]]
-propiedad de las [[Unión Covalente.base]]
+# Polaridad
+propiedad de la [[Uniones Químicas#Union Covalente|Unión Covalente]]
 es una unoin covalente entre átomos diferentes, los electrones se sentiran mas atraidos por uno de los núcleos (el núcleo mas electronegativo). esto genera una distribucion no homogenea de carga negativa
 
 ![[Pasted image 20260308141109.png]]
@@ -214,3 +214,17 @@ dado que los orbitales atomicos del atomo central no tienen los ángulos necesar
 ## Preguntas
 
 -
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Uniones Multiples]] — enlaces múltiples
+- [[Solidos y Liquidos]] — cómo el enlace determina el estado
+- [[Resumen Final Química]] — resumen integrador
+
+<!-- notas-relacionadas:fin -->

@@ -70,3 +70,19 @@ incluir toda la metodologia TDD a todo el proceso de desarrollo
 NO hacer el merge entre Feature 1 y Feature 2 !!!!
 
 ![[image 154.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (SO)**
+
+- [[Entorno de desarrollo]] — herramientas de trabajo
+
+**Otras materias**
+
+- **POO**  [[POO - Introduccion a Java]] — los tests se escriben en Java
+
+<!-- notas-relacionadas:fin -->

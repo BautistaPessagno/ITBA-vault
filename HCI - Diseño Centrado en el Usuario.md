@@ -54,3 +54,17 @@ El **Diseño Centrado en el Usuario (UCD)** es una filosofía de diseño cuyo ob
 - ¿Cuándo se hacen las evaluaciones con usuarios en el ciclo UCD?
 
 [[HCI.base|HCI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (HCI)**
+
+- [[HCI - Ciencia Cognitiva]] — tema anterior
+- [[HCI - Usabilidad y Evaluación]] — tema siguiente
+- [[HCI - Fundamentos de HCI]] — fundamentos
+
+<!-- notas-relacionadas:fin -->

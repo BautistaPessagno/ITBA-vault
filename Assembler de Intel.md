@@ -5,7 +5,6 @@ Materia: "[[ arqui.base |Aqrui]]"
 categories:
   - "[[ITBA.base|ITBA]]"
 ---
-[[NOTION_PAGE:2d43a46e-925d-48e8-9022-08154e1b2b11]] **(es distinto Intel a Z80, ver cartilla )**
 
 # Sintaxis
 
@@ -46,7 +45,6 @@ ej:Instrucción: **add eax, 0x1**
 > ![[Captura_de_pantalla_2025-03-18_a_la(s)_10.25.47.png]]
 
 > [!note]+ ### Modos de direccionamiento
-> [[NOTION_PAGE:2d43a46e-925d-48e8-9022-08154e1b2b11]] 
 > 
 > Como en otros procesadores tendremos la sintaxis general
 > será:
@@ -245,3 +243,23 @@ nasm -f elf64 archivo.asm -o archivo.o
 #linkeditar con gcc
 gcc archivo.o -o arhcivo
 ```
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Codigos Assembler]] — ejemplos de código
+- [[Clase 2 ASM intel]] — clase de ASM Intel
+- [[ASM y C]] — interoperación ASM/C
+- [[Modo protegido]] — modos de ejecución del procesador
+- [[Seguimiento de Pila en C]] — stack frames en la práctica
+
+**Otras materias**
+
+- **EDA**  [[EDA - Stack]] — push/pop: la pila a nivel máquina
+
+<!-- notas-relacionadas:fin -->

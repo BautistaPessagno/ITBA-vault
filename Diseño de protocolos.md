@@ -11,3 +11,17 @@ Materia: "[[protos.base|protos]]"
 para el [[Protos TP]] se necesita ver monitoreo en el servidor y usuarios
 
 [[spec]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[Protos TP]] — el TP que motiva el diseño
+- [[spec]] — la especificación resultante
+- [[10. Protos - Aplicaciones de Red]] — patrones de protocolos de aplicación
+
+<!-- notas-relacionadas:fin -->

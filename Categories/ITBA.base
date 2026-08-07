@@ -11,8 +11,9 @@ views:
       direction: ASC
     order:
       - file.name
-      - Materia
     sort:
+      - property: Materia
+        direction: ASC
       - property: file.ctime
         direction: DESC
   - type: table

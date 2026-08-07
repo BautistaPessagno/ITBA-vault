@@ -67,3 +67,20 @@ $$G \text{ es plano} \iff G \text{ no contiene ningún subgrafo homeomorfo a } K
 - ¿Qué es un vértice de corte?
 
 [[Discrete Math.base|Discrete Math]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Discrete Math)**
+
+- [[Discrete Math - Grafos Fundamentos]] — definiciones de grafo
+- [[Discrete Math - Coloreo]] — planaridad y número cromático
+
+**Otras materias**
+
+- **EDA**  [[EDA - Grafos]] — representación de grafos
+
+<!-- notas-relacionadas:fin -->

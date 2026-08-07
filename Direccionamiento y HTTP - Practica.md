@@ -467,3 +467,18 @@ Una razón es que algunos recursos se obtuvieron con **GET** mientras que otros 
 ### 7. Si un recurso se cachea en mi browser, ¿también se cachea en mi proxy?
 
 **No necesariamente.** La directiva `Cache-Control` puede incluir `private` o `public`. Si es `private`, indica que el recurso solo tiene sentido para el cliente que lo solicitó (por ejemplo, contiene datos personalizados), y los proxies intermedios no deberían cachearlo. Si es `public` (valor por defecto), los proxies sí pueden cachearlo.
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[2. Protos - HTTP]] — teoría de HTTP
+- [[HTTP Practica]] — laboratorio base
+- [[6. Protos - Red]] — direccionamiento IP
+- [[Cheatsheet]] — comandos y RFCs de referencia
+
+<!-- notas-relacionadas:fin -->

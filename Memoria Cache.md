@@ -71,3 +71,21 @@ palabra buscada.
 ![[Captura_de_pantalla_2025-06-05_a_la(s)_12.58.29.png]]
 
 hoy en dia se usa mas que nada la obligada
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Cache]] — nota corta de caché
+- [[Clase 4 Intro transmisión Digital]] — clasificación de memorias: la SRAM es la que implementa la caché
+- [[Intro Sistemas Operativos(Paginación)]] — TLB: caché de traducciones
+
+**Otras materias**
+
+- **SO**  [[Memoria]] — gestión de memoria desde el SO
+
+<!-- notas-relacionadas:fin -->

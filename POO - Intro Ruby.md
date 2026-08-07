@@ -162,3 +162,17 @@ end
 - ¿Cómo se simula una clase abstracta en Ruby?
 
 [[POO.base|POO]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (POO)**
+
+- [[POO - Colecciones Ruby]] — tema siguiente
+- [[POO - Introducción a POO]] — clases y herencia
+- [[POO - Introduccion a Java]] — comparación entre lenguajes
+
+<!-- notas-relacionadas:fin -->

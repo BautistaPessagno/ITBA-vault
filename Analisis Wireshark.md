@@ -21,3 +21,17 @@ temas:
 >[!warning]
 >Nota para el lector: ICMP empaqueta el datagrama que le llego, en otro datagrama y es por eso que ves dos ttls distintos. Tenes que ver el ttl que esta mas adentro o mas abajo del paquete.
 
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[6. Protos - Red]] — ICMP y encapsulamiento
+- [[DHCP Practica]] — el intercambio DHCP capturado
+- [[Red Practica]] — ARP en la práctica
+- [[Transporte Practica]] — capturas de transporte
+
+<!-- notas-relacionadas:fin -->

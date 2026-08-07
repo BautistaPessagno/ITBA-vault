@@ -24,4 +24,17 @@ ip es mas potente que ifconfig
 
 el /num es la mascara 
 
+---
 
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[6. Protos - Red]] — teoría de la capa de red
+- [[IP]] — IPs públicas vs privadas
+- [[Red Practica]] — práctica completa de red
+- [[Cheatsheet]] — cheatsheet de laboratorio IP
+
+<!-- notas-relacionadas:fin -->

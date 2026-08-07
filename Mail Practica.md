@@ -94,3 +94,16 @@ cat email.txt | nc -C localhost smpt #si pongo el protocolo nc resuelve sol
 ```
 
 si dos personas le escriben a la misma persona puede haber una corrupcion de datos
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Protos)**
+
+- [[4. Protos - MAIL]] — teoría de esta práctica
+- [[Direccionamiento y HTTP - Practica]] — también se usa nc para hablar el protocolo a mano
+
+<!-- notas-relacionadas:fin -->

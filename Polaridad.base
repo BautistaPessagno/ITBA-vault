@@ -1,7 +1,0 @@
-filters:
-  or:
-    - file.hasLink("Polaridad.base")
-    - file.hasTag("Polaridad")
-views:
-  - type: table
-    name: Table

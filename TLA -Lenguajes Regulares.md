@@ -216,3 +216,18 @@ Esto ocurre si $\hat{\delta}_L(q_L, \omega) \in F_L \wedge \hat{\delta}_M(q_M, \
 ---
 
 ## Preguntas
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -intro resumen]] — tema anterior
+- [[TLA -Expresiones Regulares]] — tema siguiente
+- [[TLA -Autómatas Finitos Determinísticos]] — el modelo que los reconoce
+- [[TLA -Formas Normales y Lema de Bombeo CFL]] — el lema de bombeo para CFL
+
+<!-- notas-relacionadas:fin -->

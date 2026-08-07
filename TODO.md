@@ -522,3 +522,18 @@ SELECT reporte_subastas('2030-01-01'::DATE, null);          -- no muestra NADA (
 - [ ] `reporte_subastas` con **cursor explícito** y salida por `RAISE NOTICE` (no `RETURN TABLE`).
 - [ ] Consultas **genéricas**: los docentes prueban con otros datasets. Nada hardcodeado a estos CSV.
 - [ ] Mensajes de error **claros** en cada `RAISE EXCEPTION`.
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 13 SQL PSM]] — funciones PSM del TP
+- [[BD clase 14 triggers]] — triggers del TP
+- [[BD clase 7 SQL DDL y DML]] — DDL del esquema
+- [[BD clase 16 programacion embebida]] — transacciones y diseño físico
+
+<!-- notas-relacionadas:fin -->

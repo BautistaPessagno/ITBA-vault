@@ -59,9 +59,7 @@ el controlador se fija si tiene el bloque a puntero (la etiquieta), devuelve por
 
 hoy en dia se usa asociativo
 
-## Politicas de restitución
-
-[[NOTION_PAGE:28df5e1c-86fe-801c-b4d3-d715f6d2352c]] 
+## Politicas de restitución 
 
 ![[image 222.png]]
 
@@ -70,3 +68,16 @@ hoy en dia se usa asociativo
 ![[image 223.png]]
 
 hoy en día se hace escritura obligada, primero se edita la cache y después la misma se sincroniza con la ram
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Memoria Cache]] — desarrollo completo del tema
+- [[Clase 4 Intro transmisión Digital]] — DRAM vs SRAM y tiempos de acceso
+
+<!-- notas-relacionadas:fin -->

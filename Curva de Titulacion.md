@@ -61,3 +61,18 @@ ahora tengo acido debil y base conjugada => se forma un [[Buffer]]
 
 ## Titulación de un acido débil con una base débil
 ![[Pasted image 20260501171000.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Química)**
+
+- [[Buffer]] — zona reguladora de la curva
+- [[Hidrólisis]] — pH en el punto de equivalencia
+- [[Equilibrio de precipitacion]] — titulación por precipitación
+- [[Resumen Segundo Parcial Química]] — resumen del segundo parcial
+
+<!-- notas-relacionadas:fin -->

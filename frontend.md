@@ -1437,3 +1437,23 @@ When changing the frontend, keep these constraints in mind:
 8. Rebuild through Docker so generated files match the Linux grading environment.
 
 The most important ownership rule is simple: once a semantic action stores a string or child pointer inside an AST node, that AST node owns it and its destructor must free it exactly once.
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (TLA)**
+
+- [[TLA -Análisis Sintáctico]] — la teoría del parser
+- [[TLA -Análisis Ascendente]] — Bison genera LALR
+- [[TLA -Expresiones Regulares]] — Flex usa ER
+- [[TLA -Análisis Semántico]] — la fase siguiente
+
+**Otras materias**
+
+- **PI**  [[PI - Intro C]] — el frontend está escrito en C
+- **Protos**  [[spec]] — parsear un protocolo es el mismo problema
+
+<!-- notas-relacionadas:fin -->

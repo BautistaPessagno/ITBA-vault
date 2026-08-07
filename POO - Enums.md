@@ -91,3 +91,20 @@ Colecciones optimizadas para Enums — más eficientes que `HashSet`/`HashMap` p
 - ¿Puede un Enum extender una clase? ¿Puede implementar interfaces?
 
 [[POO.base|POO]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (POO)**
+
+- [[POO - Introduccion a Java]] — tipos en Java
+- [[POO - Introducción a POO]] — clases y constantes
+
+**Otras materias**
+
+- **PI**  [[PI - Struct y Union en C]] — enum en C
+
+<!-- notas-relacionadas:fin -->

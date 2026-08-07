@@ -64,3 +64,22 @@ Sea Aᴳ la matriz de adyacencia de G (n×n; Aᴳ[u,v] = número de aristas u-v)
 - ¿Cuál es la diferencia entre un recorrido Euleriano y un camino Hamiltoniano?
 
 [[Discrete Math.base|Discrete Math]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Discrete Math)**
+
+- [[Discrete Math - Caminos y Conexidad]] — tema anterior
+- [[Discrete Math - Grafos Fundamentos]] — definiciones de grafo
+
+**Otras materias**
+
+- **EDA**  [[EDA - Grafos]] — árbol generador
+- **EDA**  [[EDA - Árboles]] — BST, AVL y árboles B
+- **SO**  [[File System]] — jerarquía de directorios
+
+<!-- notas-relacionadas:fin -->

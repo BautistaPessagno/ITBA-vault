@@ -93,3 +93,17 @@ Realizar el mapeo del diagrama MER del ejercicio 10 de la práctica anterior al 
 ![[Pasted image 20260311113946.png]]
 
 ![[Pasted image 20260311114056.png]]![[Pasted image 20260311114059.png]]![[Pasted image 20260311114101.png]]![[Pasted image 20260311114103.png]]![[Pasted image 20260311114106.png]]![[Pasted image 20260311114109.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (BD)**
+
+- [[BD clase 4 mapeo EER a relacional]] — teoría de esta práctica
+- [[BD clase 2 modelo entidad relacion]] — el diagrama de origen
+- [[BD clase 3 modelo relacional]] — el modelo destino
+
+<!-- notas-relacionadas:fin -->

@@ -80,3 +80,22 @@ Técnica para ocultar completamente la estructura interna:
 - ¿Cómo se relaciona el TAD con las clases en POO?
 
 [[PI.base|PI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (PI)**
+
+- [[PI - Struct y Union en C]] — la implementación del TAD
+- [[PI - Listas en C]] — lista como TAD
+
+**Otras materias**
+
+- **EDA**  [[EDA - Listas Lineales]] — TADs de estructuras lineales
+- **POO**  [[POO - Interfaces y Generics]] — interfaz vs implementación
+- **POO**  [[POO - Introducción a POO]] — el mismo concepto con clases
+
+<!-- notas-relacionadas:fin -->

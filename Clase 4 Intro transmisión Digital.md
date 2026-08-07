@@ -1,17 +1,49 @@
 ---
-temas: []
+temas:
+  - Unidad 2
+  - transmisión digital
+  - codificación de línea
+  - arquitectura Von Neumann y Harvard
+  - sistema de entrada y salida
+  - mapa de memoria
+  - memorias ROM y RAM
 Cuatri: 2do-2025
 Materia: "[[ arqui.base |Aqrui]]"
 categories:
   - "[[ITBA.base|ITBA]]"
 ---
+> [!info]+ Nota fusionada
+> Reúne los apuntes de esta clase de las dos cursadas (1ro-2025 y 2do-2025), que cubrían el mismo tema. Las capturas de una y otra aparecen intercaladas.
+
+# Intro a Transmisión Digital
+
 ![[image 282.png]]
 
 todos los periféricos (ram rom, placa de wifi, de video, teclado, mouse, etc) hablan con procesador con 1 y 0s
 
+## Codificación de linea
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_10.20.45.png]]
+
+## Codificación unipolar
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_10.21.02.png]]
+
 ## Transmicion en serie y paralela
 
 ![[image 283.png]]
+
+**Transmisión serie:** un dato atras del otro
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_10.34.07.png]]
+
+**Transmisión paralela:** llega todo junto
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_10.34.51.png]]
+
+me permite acceder a datos mas rapido
+
+hoy en día es el que mas se usa
 
 # Tipo de arquitectura
 
@@ -23,7 +55,11 @@ se arma. un cuello de botella, se satura facilmente
 
 es que me se usa porque es mas barato y no se necita dividir en dos memorias
 
+un solo tipo de memoria para todo (memoria ram) — es la que se usa hoy en dia
+
 ![[image 284.png]]
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_10.41.30.png]]
 
 ## Harvard
 
@@ -33,15 +69,36 @@ es mas caro y requiere dos tipo de memoria
 
 ![[image 285.png]]
 
+![[Captura_de_pantalla_2025-04-08_a_la(s)_10.41.48.png]]
+
 # Sistema de Entrada y Salida
 
 ![[image 286.png]]
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_10.49.13.png]]
 
 Un unico Bus por que todos se cuelgan
 
 ## CPU
 
 ![[image 287.png]]
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_11.00.00.png]]
+
+### Resumen
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_10.49.32.png]]
+
+- **Unidad de Control:** Recupera Instrucciones de memoria, las decodifica, Escribe en memoria
+- **Unidad de Ejecución:** Lleva a cabo la ejecución de la instrucción
+- **Registros:** Memoria interna utilizada como variable
+- **Flags:** Indican eventos luego de ejecutar instrucciones
+
+### Simulador
+
+[VonSim — A 8088-like Assembly Simulator](https://vonsim.github.io/)
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_11.03.13.png]]
 
 ![[image 288.png]]
 
@@ -73,6 +130,12 @@ para el disco se pasan un par de direcciones nada mas
 # Mapa de memoria
 
 todo lo que puede apuntar un procesador
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_11.49.09.png]]
+
+- Supongamos un procesador que tiene 16 líneas de bus de direcciones y 8 líneas de bus de datos. ¿Que cantidad de información puede acceder?
+- ¿Y un procesador que tiene 16 líneas de bus de direcciones y 16 líneas de bus de datos?
+- ¿Y un procesador con 32 líneas de datos y 32 líneas de direcciones?
 
 ### Ejemplo 1
 
@@ -114,17 +177,36 @@ tiene que haber código en dicha dirección (la BIOS) en la ROM ya que la misma 
 
 No se apunta al disco rigido ya que es mucho mas lento
 
+## IP (puntero a instruccion)
+
+se guarda la dirección de memoria de donde se puede conseguir la siguiente instrucción
+
+tiene una incrementacion automatica y no hace falta incrementarlo
+
 # Memorias
 
 ## Clasificación
 
+Se clasifican:
+
+- Por el **modo** en que se accede a los datos
+- Por las **operaciones** que aceptan
+- Por la **duración** de los datos
+
 ### ROM
+
+ROM (Read Only Memory)
+
+- Mantienen su información sin energía (no volátil)
+- La escritura es más lenta que la RAM
 
 ![[image 295.png]]
 
 ### RAM
 
-mas dinamica que la ROM
+RAM (Random Access Memory) — mas dinamica que la ROM
+
+- Pierde su información sin energía (volátil)
 
 ![[image 296.png]]
 
@@ -136,18 +218,74 @@ en las PC tenemos la dinamica ya que es menos costosa
 
 la SRAM se usa para la memoria **cache**
 
+#### Tipos de RAM
+
+- DRAM:
+    - Necesita refresco de valores cada n milisegundos
+    - Menos compleja. Más económica.
+    - Más lenta
+- SRAM:
+    - No necesita refresco.
+    - Más compleja, más costosa.
+    - Más rápida
+    - Se suele utilizar para memoria cache.
+
 ## Tiempo de Acceso
 
-Transferencia: tiempo que tarda un bit en viajar del procesador a la memora
+Es el tiempo que le toma a una memoria RAM para completar un acceso después de otro. Se compone de:
 
-Latencia: tiempo que tarda la memoria en devolverte el valor
+- **Latencia:** tiempo que tarda la memoria en devolverte el valor
+- **Transferencia:** tiempo que tarda un bit en viajar del procesador a la memoria
+
+Las <u>DRAM</u> suelen tener tiempos entre 50 y 150 ns.
+
+Las <u>SRAM</u> menores a 10 ns.
 
 ![[image 298.png]]
 
+### Operacion
+
+Las memorias para operar utilizan:
+
+- Acción a realizar (lectura o escritura)
+- Dirección de la palabra a acceder.
+- Dato (entrante o saliente según acción)
+
 ## Estructura
 
+Si el procesador, como es el caso de Intel, quiere mantener compatibilidad hacia atrás, permite acceder a la memoria a nivel byte. Por lo tanto la decodificación cambia según el tipo de memoria.
+
 ![[image 299.png]]
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_12.39.18.png]]
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_12.39.57.png]]
 
 # Memoria comercial
 
 ![[image 300.png]]
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_12.40.19.png]]
+
+![[Captura_de_pantalla_2025-04-08_a_la(s)_12.40.27.png]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Clase 3 ASM y C]] — clase anterior
+- [[Integrados Compuertas y decodificadores]] — lógica digital
+- [[Memoria Cache]] — la SRAM que acá se clasifica es la que implementa la caché
+- [[Interrupciones]] — la otra forma de manejar la E/S de los periféricos
+- [[Resumen Criollo (Memoria, Deco, Perifericos)]] — repaso de memoria y periféricos
+
+**Otras materias**
+
+- **Protos**  [[8. Protos - Enlace]] — la codificación unipolar de acá es la misma técnica que codifica el frame en el medio físico
+- **Protos**  [[Hub]] — el hub opera sobre esta señal, sin interpretarla
+
+<!-- notas-relacionadas:fin -->

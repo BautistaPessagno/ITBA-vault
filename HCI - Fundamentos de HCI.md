@@ -60,3 +60,17 @@ Los diseñadores deben:
 - ¿Por qué el modelo mental del usuario puede diferir del modelo real del sistema?
 
 [[HCI.base|HCI]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (HCI)**
+
+- [[HCI - Ciencia Cognitiva]] — tema siguiente
+- [[HCI - Usabilidad y Evaluación]] — usabilidad en detalle
+- [[HCI - Diseño Centrado en el Usuario]] — el proceso de diseño
+
+<!-- notas-relacionadas:fin -->

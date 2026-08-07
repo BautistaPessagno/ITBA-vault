@@ -56,3 +56,17 @@ igual que las interrupciones pero generadas por el procesador. el procesador se 
 ![[image 345.png]]
 
 las detecta el procesador porque cuando se esta corriendo una instruccion el sistema operativo no lo puede ver eso
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Arqui)**
+
+- [[Interrupciones]] — tema principal
+- [[Clase 4 Intro transmisión Digital]] — dispositivos que interrumpen
+- [[Resumen Arqui]] — resumen integrador
+
+<!-- notas-relacionadas:fin -->
