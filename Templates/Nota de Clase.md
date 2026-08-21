@@ -19,3 +19,18 @@ temas:
 ## Preguntas
 
 -
+
+
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia 
+
+
+**Otras materias**
+
+<!-- notas-relacionadas:fin -->

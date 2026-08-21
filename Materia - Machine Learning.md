@@ -16,6 +16,6 @@ Aprendizaje Automático (2C 2026). Cuatro módulos: fundamentos y supervisado cl
 clasificadores supervisados (KNN, SVM, árboles), teoría del aprendizaje y mejora de modelos
 (bias-variance, regularización, tuning), y no supervisado + feature engineering.
 
-→ [[Machine Learning Intro]]
+→ [[ML Clase 1 - Machine Learning Intro]]
 
 [[Materias.base]]

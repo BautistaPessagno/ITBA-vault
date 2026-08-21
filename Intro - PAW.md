@@ -270,7 +270,7 @@ Es el mismo principio que venimos viendo con Spring, aplicado a un caso más chi
 
 **Misma materia (PAW)**
 
-Primera nota de la materia — todavía no hay otras clases para linkear.
+[[Clase 2 - PAW]] — Siguiente clase
 
 **Otras materias**
 

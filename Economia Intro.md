@@ -131,11 +131,11 @@ Es **creciente**: cuantas más unidades produzcamos de un bien, mayor es el cost
 
 Dulcita SA produce azúcar a partir de caña y obtiene **bagazo** como subproducto, que hoy **vende sin industrializar**. Evalúa invertir en una planta de papel que usaría ese bagazo como materia prima.
 
-| | Azúcar | Bagazo |
-|---|---|---|
-| Producción y ventas (ton.) | 5.000 | 30.000 |
-| Costo ($/ton.) | 800 | 300 |
-| Precio de venta ($/ton.) | 1.800 | 400 |
+|                            | Azúcar | Bagazo |
+| -------------------------- | ------ | ------ |
+| Producción y ventas (ton.) | 5.000  | 30.000 |
+| Costo ($/ton.)             | 800    | 300    |
+| Precio de venta ($/ton.)   | 1.800  | 400    |
 
 Planta de papel: **10.000 ton. de papel/año**, con **2 ton. de bagazo por ton. de papel**.
 
@@ -158,8 +158,6 @@ Planta de papel: **10.000 ton. de papel/año**, con **2 ton. de bagazo por ton. 
 **Modelo**: simplificación de la realidad que, a través de supuestos, argumentos y conclusiones, explica una determinada proposición. Ejemplos vistos: la **FPP** (y el crecimiento económico) y el **flujo circular**.
 
 ### Modelo del flujo circular
-
-![[Pasted image 20260804135714.png]]w
 
 Forma sencilla de visualizar las transacciones económicas entre **familias** y **empresas** a través de dos mercados, con dos flujos que giran en sentidos opuestos: el de bienes y factores, y el de dinero.
 
