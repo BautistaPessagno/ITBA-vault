@@ -72,7 +72,23 @@ Al agregar una materia nueva, creá también su nota `Materia - <Nombre>.md`.
 frontmatter y por links, no por carpetas.
 
 Carpetas administrativas — **no poner notas de contenido acá**:
-`_Claude/`, `Attachments/`, `Excalidraw/`, `Templates/`, `Categories/`
+`_Claude/`, `_Material/`, `Attachments/`, `Excalidraw/`, `Templates/`, `Categories/`
+
+### `_Material/`
+
+Archivos fuente de la cursada, **no notas**: PDFs de teóricas, guías, prácticas, exámenes y
+cronogramas, en una subcarpeta por materia. Es la fuente primaria para completar o
+verificar una nota contra lo que dio la cátedra.
+
+- Los nombres de las subcarpetas son heredados y **no coinciden** con los `.base`
+  (p. ej. `criptografia_&_seguridad/` ↔ `Criptografía y Seguridad.base`). Resolvé la
+  materia por similitud, no por igualdad exacta.
+- No está versionado (está en `.gitignore`): lo que se borre o pise acá no se recupera con
+  git. No borres ni renombres archivos de `_Material/` sin pedirlo.
+- Puede haber archivos que están solo en la nube (no descargados). Si uno no se puede
+  leer, avisá en vez de asumir que está vacío.
+- Los proyectos de código de la facultad (repos de TPs) viven **fuera del vault**, en
+  `~/Desktop/proyectos_itba/`. No los traigas al vault.
 
 ## Frontmatter
 
@@ -166,7 +182,6 @@ Después de crear, mover o borrar notas, revisá si hay que actualizar:
 
 Antes de usar un BP Vault Skill en este vault, leer:
 
-- [Contrato de estructura](docs/agents/bp-vault-structure.md)
 - [Contrato de método](docs/agents/bp-vault-method.md)
 
 Estos contratos documentan las convenciones locales. No reemplazan las reglas de esta guía.
