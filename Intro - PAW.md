@@ -270,7 +270,7 @@ Es el mismo principio que venimos viendo con Spring, aplicado a un caso más chi
 
 **Misma materia (PAW)**
 
-[[Clase 2 - PAW]] — Siguiente clase
+[[Clase 2 - Introducción a Spring Web y Maven]] — Siguiente clase
 
 **Otras materias**
 

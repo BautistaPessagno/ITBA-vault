@@ -76,3 +76,34 @@ es el leviatan que nos controla
 ![[Pasted image 20260805153359.png]]
 personas,  obligaciones
 
+[[Derecho.base|Derecho]]
+
+---
+
+<!-- notas-relacionadas:inicio -->
+
+## Notas relacionadas
+
+**Misma materia (Derecho)**
+
+- [[El Derecho constitucional]] — el desarrollo del **escalón más alto** de la pirámide de
+  Kelsen: qué es la Constitución, por qué manda sobre las demás normas y cómo organiza el poder.
+- [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]] — la rama del **derecho
+  privado** que se estudia primero; acá se define quién es sujeto de derecho.
+- [[Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos]] — el **derecho comercial**
+  nació como **costumbre** (*lex mercatoria*) antes de ser ley: es el ejemplo de manual de una
+  fuente no legislada que termina codificada.
+- [[Derecho - U5 Propiedad Intelectual, Marcas y Patentes]] — el Convenio de París, el de Berna
+  y el ADPIC son **tratados con jerarquía superior a las leyes** (CN art. 75 inc. 22): se
+  ubican en el segundo escalón de la pirámide y destraban lo que las leyes internas no resuelven.
+- [[Derecho - Resumen Primer Parcial]] — el repaso consolidado de las cinco unidades que
+  entran en el primer parcial; casi todas las preguntas a desarrollar salen de esta unidad.
+- [[Materia - Derecho]] — índice de la materia.
+
+**Otras materias**
+
+- **Economia** — [[Economia Intro]] — la distinción entre **derecho público y privado** se
+  apoya en la misma frontera Estado / particulares que ordena la discusión sobre intervención
+  estatal.
+
+<!-- notas-relacionadas:fin -->

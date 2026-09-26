@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "apply-learning": {
+      "source": "BautistaPessagno/bp-obsidian-skills",
+      "sourceType": "github",
+      "skillPath": "skills/apply-learning/SKILL.md",
+      "computedHash": "0e9e991e2d7619da0695ffffde3c3bb2e08ca3a40d9ea471c415ebb707071de8"
+    },
+    "ask-bp": {
+      "source": "BautistaPessagno/bp-obsidian-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ask-bp/SKILL.md",
+      "computedHash": "0470ec61be43f81658577d02cff9be1047ed8f8fac667a4a63c7c2fa7e853b93"
+    },
+    "develop-note": {
+      "source": "BautistaPessagno/bp-obsidian-skills",
+      "sourceType": "github",
+      "skillPath": "skills/develop-note/SKILL.md",
+      "computedHash": "ed459975d8564c5483e401303113fc5e0f900b2be03400fc4fa8b5999e0d9814"
+    },
+    "review-progress": {
+      "source": "BautistaPessagno/bp-obsidian-skills",
+      "sourceType": "github",
+      "skillPath": "skills/review-progress/SKILL.md",
+      "computedHash": "b17332343143b7a7a6004ccf76962f87c406e05e3b3e0cd1416d0fd53346b13b"
+    },
+    "setup-bp-vault": {
+      "source": "BautistaPessagno/bp-obsidian-skills",
+      "sourceType": "github",
+      "skillPath": "skills/setup-bp-vault/SKILL.md",
+      "computedHash": "955afa638a74013feecb5a95fc181f40fc275bde549e964dd38b8735f4b89706"
+    },
+    "test-understanding": {
+      "source": "BautistaPessagno/bp-obsidian-skills",
+      "sourceType": "github",
+      "skillPath": "skills/test-understanding/SKILL.md",
+      "computedHash": "1bf6aa842097426a2eb83de69e89a08106195b87742ac07fb2b7e661603edfa8"
+    }
+  }
+}

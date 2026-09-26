@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+  <title id="title">Elasticidad a lo largo de una demanda lineal e ingreso total</title>
+  <desc id="desc">La mitad superior de una demanda lineal es elástica, el punto medio tiene elasticidad unitaria y la mitad inferior es inelástica. El ingreso total alcanza su máximo en el punto medio.</desc>
+  <rect width="1100" height="560" fill="#ffffff"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172033; }
+    .title { font-size: 22px; font-weight: 600; }
+    .label { font-size: 17px; }
+    .small { font-size: 15px; }
+    .axis { stroke: #172033; stroke-width: 2; }
+    .guide { stroke: #94a3b8; stroke-width: 1.5; stroke-dasharray: 6 6; }
+    .demand { stroke: #2563eb; stroke-width: 5; fill: none; }
+    .revenue { stroke: #16a34a; stroke-width: 5; fill: none; }
+    .point { fill: #172033; }
+  </style>
+
+  <text class="title" x="550" y="36" text-anchor="middle">Demanda lineal: elasticidad e ingreso total</text>
+
+  <g transform="translate(40,60)">
+    <line class="axis" x1="55" y1="420" x2="485" y2="420"/>
+    <line class="axis" x1="55" y1="420" x2="55" y2="45"/>
+    <path class="demand" d="M80 70 L450 390"/>
+    <circle class="point" cx="265" cy="230" r="6"/>
+    <line class="guide" x1="55" y1="230" x2="265" y2="230"/>
+    <line class="guide" x1="265" y1="230" x2="265" y2="420"/>
+    <text class="label" x="195" y="122" text-anchor="middle">Elástica</text>
+    <text class="small" x="195" y="145" text-anchor="middle">|ε| &gt; 1</text>
+    <text class="label" x="356" y="325" text-anchor="middle">Inelástica</text>
+    <text class="small" x="356" y="348" text-anchor="middle">|ε| &lt; 1</text>
+    <text class="small" x="276" y="219">|ε| = 1</text>
+    <text class="small" x="493" y="426">Q</text>
+    <text class="small" x="48" y="39">P</text>
+    <text class="small" x="265" y="447" text-anchor="middle">Q medio</text>
+  </g>
+
+  <g transform="translate(575,60)">
+    <line class="axis" x1="55" y1="420" x2="485" y2="420"/>
+    <line class="axis" x1="55" y1="420" x2="55" y2="45"/>
+    <path class="revenue" d="M75 395 C185 105 355 105 465 395"/>
+    <circle class="point" cx="270" cy="178" r="6"/>
+    <line class="guide" x1="270" y1="178" x2="270" y2="420"/>
+    <text class="label" x="270" y="140" text-anchor="middle">IT máximo</text>
+    <text class="small" x="270" y="163" text-anchor="middle">IM = 0</text>
+    <text class="small" x="493" y="426">Q</text>
+    <text class="small" x="48" y="39">IT</text>
+    <text class="small" x="270" y="447" text-anchor="middle">Q medio</text>
+  </g>
+</svg>

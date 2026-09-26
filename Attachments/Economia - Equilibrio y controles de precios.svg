@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Equilibrio, precio máximo e impuesto unitario</title>
+  <desc id="desc">Tres gráficos de oferta y demanda muestran el equilibrio, la escasez por un precio máximo vinculante y la cuña entre el precio del comprador y del vendedor generada por un impuesto.</desc>
+  <rect width="1200" height="560" fill="#ffffff"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172033; }
+    .title { font-size: 22px; font-weight: 600; }
+    .label { font-size: 17px; }
+    .small { font-size: 15px; }
+    .axis { stroke: #172033; stroke-width: 2; }
+    .guide { stroke: #94a3b8; stroke-width: 1.5; stroke-dasharray: 6 6; }
+    .demand { stroke: #2563eb; stroke-width: 4; fill: none; }
+    .supply { stroke: #ea580c; stroke-width: 4; fill: none; }
+    .policy { stroke: #7c3aed; stroke-width: 3; fill: none; }
+    .point { fill: #172033; }
+  </style>
+
+  <g transform="translate(30,30)">
+    <text class="title" x="170" y="24" text-anchor="middle">Equilibrio</text>
+    <line class="axis" x1="45" y1="420" x2="350" y2="420"/>
+    <line class="axis" x1="45" y1="420" x2="45" y2="70"/>
+    <path class="demand" d="M70 100 L330 380"/>
+    <path class="supply" d="M70 365 L330 105"/>
+    <circle class="point" cx="200" cy="235" r="6"/>
+    <line class="guide" x1="45" y1="235" x2="200" y2="235"/>
+    <line class="guide" x1="200" y1="235" x2="200" y2="420"/>
+    <text class="label" x="337" y="378" fill="#2563eb">D</text>
+    <text class="label" x="337" y="112" fill="#ea580c">S</text>
+    <text class="label" x="211" y="226">E</text>
+    <text class="small" x="30" y="240" text-anchor="end">P*</text>
+    <text class="small" x="200" y="446" text-anchor="middle">Q*</text>
+    <text class="small" x="358" y="426">Q</text>
+    <text class="small" x="38" y="64">P</text>
+  </g>
+
+  <g transform="translate(415,30)">
+    <text class="title" x="170" y="24" text-anchor="middle">Precio máximo vinculante</text>
+    <line class="axis" x1="45" y1="420" x2="350" y2="420"/>
+    <line class="axis" x1="45" y1="420" x2="45" y2="70"/>
+    <path class="demand" d="M70 100 L330 380"/>
+    <path class="supply" d="M70 365 L330 105"/>
+    <line class="policy" x1="45" y1="300" x2="330" y2="300"/>
+    <line class="guide" x1="135" y1="300" x2="135" y2="420"/>
+    <line class="guide" x1="255" y1="300" x2="255" y2="420"/>
+    <line class="policy" x1="135" y1="390" x2="255" y2="390"/>
+    <path class="policy" d="M135 382 v16 M255 382 v16"/>
+    <text class="small" x="195" y="380" text-anchor="middle" fill="#7c3aed">escasez</text>
+    <text class="small" x="36" y="305" text-anchor="end" fill="#7c3aed">Pmax</text>
+    <text class="small" x="135" y="446" text-anchor="middle">Qs</text>
+    <text class="small" x="255" y="446" text-anchor="middle">Qd</text>
+    <text class="label" x="337" y="378" fill="#2563eb">D</text>
+    <text class="label" x="337" y="112" fill="#ea580c">S</text>
+    <text class="small" x="358" y="426">Q</text>
+    <text class="small" x="38" y="64">P</text>
+  </g>
+
+  <g transform="translate(800,30)">
+    <text class="title" x="170" y="24" text-anchor="middle">Impuesto unitario</text>
+    <line class="axis" x1="45" y1="420" x2="350" y2="420"/>
+    <line class="axis" x1="45" y1="420" x2="45" y2="70"/>
+    <path class="demand" d="M70 100 L330 380"/>
+    <path class="supply" d="M70 365 L330 105" opacity="0.45"/>
+    <path class="supply" d="M70 300 L300 70"/>
+    <circle class="point" cx="166" cy="203" r="6"/>
+    <line class="guide" x1="45" y1="203" x2="166" y2="203"/>
+    <line class="guide" x1="45" y1="269" x2="166" y2="269"/>
+    <line class="guide" x1="166" y1="203" x2="166" y2="420"/>
+    <path class="policy" d="M145 203 h-15 v66 h15"/>
+    <text class="small" x="122" y="241" text-anchor="end" fill="#7c3aed">t</text>
+    <text class="small" x="36" y="208" text-anchor="end">Pd</text>
+    <text class="small" x="36" y="274" text-anchor="end">Po</text>
+    <text class="small" x="166" y="446" text-anchor="middle">Qt</text>
+    <text class="label" x="337" y="378" fill="#2563eb">D</text>
+    <text class="label" x="307" y="78" fill="#ea580c">S + t</text>
+    <text class="small" x="358" y="426">Q</text>
+    <text class="small" x="38" y="64">P</text>
+  </g>
+</svg>

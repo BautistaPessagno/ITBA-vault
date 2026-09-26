@@ -17,7 +17,7 @@ temas:
   - Enigma
   - Secreto perfecto
 ---
-# Criptografia y seguridad intro
+**# Criptografia y seguridad intro
 Usos:
 - Comunicaciones seguras
 - trafico web

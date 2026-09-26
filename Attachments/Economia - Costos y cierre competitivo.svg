@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Costos y decisión de cierre de una empresa competitiva</title>
+  <desc id="desc">El costo marginal corta al costo variable medio y al costo total medio en sus mínimos. Un precio entre ambos costos medios implica producir con pérdida; un precio por debajo del mínimo del costo variable medio implica cerrar.</desc>
+  <rect width="1000" height="620" fill="#ffffff"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172033; }
+    .title { font-size: 24px; font-weight: 600; }
+    .label { font-size: 18px; }
+    .small { font-size: 16px; }
+    .axis { stroke: #172033; stroke-width: 2; }
+    .guide { stroke: #94a3b8; stroke-width: 1.5; stroke-dasharray: 7 7; }
+    .mc { stroke: #ea580c; stroke-width: 5; fill: none; }
+    .atc { stroke: #2563eb; stroke-width: 5; fill: none; }
+    .avc { stroke: #16a34a; stroke-width: 5; fill: none; }
+    .price { stroke: #7c3aed; stroke-width: 3; fill: none; }
+    .loss { fill: #f59e0b; opacity: 0.22; }
+    .point { fill: #172033; }
+  </style>
+
+  <text class="title" x="500" y="42" text-anchor="middle">Competencia perfecta: producir o cerrar</text>
+  <g transform="translate(75,65)">
+    <line class="axis" x1="70" y1="470" x2="820" y2="470"/>
+    <line class="axis" x1="70" y1="470" x2="70" y2="45"/>
+
+    <path class="atc" d="M170 200 Q460 480 750 200"/>
+    <path class="avc" d="M180 300 Q460 570 740 300"/>
+    <path class="mc" d="M280 470 C340 430 420 370 680 80"/>
+
+    <line class="price" x1="70" y1="380" x2="760" y2="380"/>
+    <circle class="point" cx="405" cy="380" r="6"/>
+    <line class="guide" x1="405" y1="380" x2="405" y2="470"/>
+    <rect class="loss" x="70" y="335" width="335" height="45"/>
+    <line class="guide" x1="70" y1="335" x2="405" y2="335"/>
+
+    <line class="price" x1="70" y1="455" x2="760" y2="455" opacity="0.55"/>
+    <text class="small" x="60" y="385" text-anchor="end" fill="#7c3aed">P1</text>
+    <text class="small" x="60" y="460" text-anchor="end" fill="#7c3aed">P0</text>
+    <text class="small" x="405" y="493" text-anchor="middle">q*</text>
+
+    <text class="label" x="690" y="90" fill="#ea580c">CMg</text>
+    <text class="label" x="758" y="205" fill="#2563eb">CTMe</text>
+    <text class="label" x="748" y="305" fill="#16a34a">CVMe</text>
+    <text class="small" x="500" y="350">Produce con pérdida</text>
+    <text class="small" x="500" y="405">CVMe &lt; P1 &lt; CTMe</text>
+    <text class="small" x="570" y="447">P0 &lt; mín CVMe: cierra</text>
+    <text class="small" x="832" y="477">q</text>
+    <text class="small" x="61" y="38">Costo y precio</text>
+  </g>
+</svg>

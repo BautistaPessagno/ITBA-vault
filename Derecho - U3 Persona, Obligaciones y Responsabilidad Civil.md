@@ -509,5 +509,8 @@ propio?"** → esqueleto de respuesta:
 **Misma materia (Derecho)**
 
 - [[Materia - Derecho]] — índice de la materia; ubica esta unidad dentro del programa.
+- [[Derecho - Resumen Primer Parcial]] — el repaso consolidado de las cinco unidades que
+  entran en el primer parcial, con la tabla de números, las trampas verificadas y el banco de
+  preguntas.
 
 <!-- notas-relacionadas:fin -->

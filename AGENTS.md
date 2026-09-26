@@ -159,3 +159,16 @@ Después de crear, mover o borrar notas, revisá si hay que actualizar:
 - los `.base` afectados,
 - los bloques de notas relacionadas que apuntaban a una nota renombrada o borrada
   (un link roto es peor que un link faltante).
+
+<!-- bp-vault-skills:start -->
+
+## BP Vault Skills
+
+Antes de usar un BP Vault Skill en este vault, leer:
+
+- [Contrato de estructura](docs/agents/bp-vault-structure.md)
+- [Contrato de método](docs/agents/bp-vault-method.md)
+
+Estos contratos documentan las convenciones locales. No reemplazan las reglas de esta guía.
+
+<!-- bp-vault-skills:end -->

@@ -17,5 +17,6 @@ clasificadores supervisados (KNN, SVM, árboles), teoría del aprendizaje y mejo
 (bias-variance, regularización, tuning), y no supervisado + feature engineering.
 
 → [[ML Clase 1 - Machine Learning Intro]]
+→ [[ML TP1 - Insurance]] — TP1: regresión sobre el dataset Insurance (defensa 26/08/2026)
 
 [[Materias.base]]
