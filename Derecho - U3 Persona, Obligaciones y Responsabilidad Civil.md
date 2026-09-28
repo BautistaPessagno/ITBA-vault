@@ -498,7 +498,7 @@ propio?"** → esqueleto de respuesta:
    sin crear nuevos sujetos.
 7. Cierre con *Yzur*: darles nuestro lenguaje sería, para ellos, **sumisión y no liberación**.
 
-[[Derecho.base|Derecho]]
+[Derecho](Categories/Derecho.base)
 
 ---
 
@@ -508,8 +508,8 @@ propio?"** → esqueleto de respuesta:
 
 **Misma materia (Derecho)**
 
-- [[Materia - Derecho]] — índice de la materia; ubica esta unidad dentro del programa.
-- [[Derecho - Resumen Primer Parcial]] — el repaso consolidado de las cinco unidades que
+- [Materia - Derecho](Materia%20-%20Derecho.md) — índice de la materia; ubica esta unidad dentro del programa.
+- [Derecho - Resumen Primer Parcial](Derecho%20-%20Resumen%20Primer%20Parcial.md) — el repaso consolidado de las cinco unidades que
   entran en el primer parcial, con la tabla de números, las trampas verificadas y el banco de
   preguntas.
 

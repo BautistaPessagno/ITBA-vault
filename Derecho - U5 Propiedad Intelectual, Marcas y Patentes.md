@@ -43,7 +43,7 @@ persona. Tres regímenes distintos, tres leyes distintas, tres organismos y plaz
 
 Las clases son tres PPT: `clase_itba_dpi.ppt` (derechos de la persona + derecho de autor),
 `marcas.ppt` y `patentes.ppt`. Los **tres fallos** (Boca, Botox, Buquebus) están aparte, en
-[[Derecho - Casos de Marcas y Patentes]].
+[Derecho - Casos de Marcas y Patentes](Derecho%20-%20Casos%20de%20Marcas%20y%20Patentes.md).
 
 ---
 
@@ -65,7 +65,7 @@ DERECHOS DE LA PERSONA
 > **"¿Qué integra el patrimonio?"** → **bienes, cosas y deudas**. No integran el patrimonio
 > las *ideas*, los *derechos políticos*, ni los *conceptos*. Y ojo: en un modelo apareció
 > "escrituras" como opción y **no** era correcta. Ver
-> [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]].
+> [Derecho - U3 Persona, Obligaciones y Responsabilidad Civil](Derecho%20-%20U3%20Persona,%20Obligaciones%20y%20Responsabilidad%20Civil.md).
 
 ### 1.2 Los tres derechos intelectuales
 
@@ -161,7 +161,7 @@ procedimientos, métodos y conceptos en sí**."
 >
 > Esto contesta también la pregunta suelta *"¿Cómo protegés una idea si no tenés la plata para
 > patentarla?"* → **con un contrato de confidencialidad** (una obligación de **no hacer**, ver
-> [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]]). La idea en sí no la protege
+> [Derecho - U3 Persona, Obligaciones y Responsabilidad Civil](Derecho%20-%20U3%20Persona,%20Obligaciones%20y%20Responsabilidad%20Civil.md)). La idea en sí no la protege
 > ni el derecho de autor ni la patente.
 
 ### 2.3 Sujeto: el AUTOR (arts. 3, 4 y 5)
@@ -282,7 +282,7 @@ al público**.
 > [!tip] Por qué importa
 > Es lo que explica el caso **Boca Juniors**: usaba el azul y oro **desde 1908** y aun así tuvo
 > que ir a registrarlo, porque el uso previo **no es título**. Ver
-> [[Derecho - Casos de Marcas y Patentes]].
+> [Derecho - Casos de Marcas y Patentes](Derecho%20-%20Casos%20de%20Marcas%20y%20Patentes.md).
 
 **Duración y caducidad (art. 5):** **10 años**, **renovables indefinidamente** por períodos
 iguales si la marca **fue utilizada dentro de los 5 años previos** a cada vencimiento.
@@ -592,7 +592,7 @@ con un **certificado de modelo de utilidad**.
 - ¿Qué derechos son transmisibles y cuáles no?
 - ¿Cómo protegés una idea si no la podés patentar?
 
-[[Derecho.base|Derecho]]
+[Derecho](Categories/Derecho.base)
 
 ---
 
@@ -602,29 +602,29 @@ con un **certificado de modelo de utilidad**.
 
 **Misma materia (Derecho)**
 
-- [[Derecho - Casos de Marcas y Patentes]] — los tres fallos de la unidad (Boca, Botox,
+- [Derecho - Casos de Marcas y Patentes](Derecho%20-%20Casos%20de%20Marcas%20y%20Patentes.md) — los tres fallos de la unidad (Boca, Botox,
   Buquebus); esta nota es la teoría de la que salen los conceptos que los fallos aplican
   (capacidad distintiva, marca notoria, sistema atributivo).
-- [[Derecho - Resumen Primer Parcial]] — el repaso consolidado de las cinco unidades que
+- [Derecho - Resumen Primer Parcial](Derecho%20-%20Resumen%20Primer%20Parcial.md) — el repaso consolidado de las cinco unidades que
   entran en el parcial, con el banco de preguntas resueltas.
-- [[Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos]] — las **marcas de fábrica**,
+- [Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos](Derecho%20-%20U4%20Fondo%20de%20Comercio,%20Seguros,%20Bolsa%20y%20Concursos.md) — las **marcas de fábrica**,
   las **patentes de invención** y los **dibujos y modelos industriales** son elementos
   constitutivos del fondo de comercio (art. 1, ley 11.867) y se transfieren con él.
-- [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]] — los derechos intelectuales
+- [Derecho - U3 Persona, Obligaciones y Responsabilidad Civil](Derecho%20-%20U3%20Persona,%20Obligaciones%20y%20Responsabilidad%20Civil.md) — los derechos intelectuales
   son una especie de los **derechos patrimoniales de la persona**; y proteger una idea sin
   patentarla es una **obligación de no hacer** (contrato de confidencialidad).
-- [[Intro Derecho]] — jerarquía de Kelsen: el **Convenio de París**, el de **Berna** y el
+- [Intro Derecho](Intro%20Derecho.md) — jerarquía de Kelsen: el **Convenio de París**, el de **Berna** y el
   **ADPIC** son tratados con jerarquía **superior a las leyes** (CN art. 75 inc. 22), y por eso
   completan lo que las leyes 22.362 y 24.481 no resuelven solas.
-- [[El Derecho constitucional]] — el **art. 17 CN** es la norma de la que cuelgan los tres
+- [El Derecho constitucional](El%20Derecho%20constitucional.md) — el **art. 17 CN** es la norma de la que cuelgan los tres
   regímenes, y es el mismo artículo de la inviolabilidad de la propiedad y la expropiación.
 
 **Otras materias**
 
-- **PAW** — [[Intro - PAW]] — el código que se escribe en la cursada es **obra protegida por
+- **PAW** — [Intro - PAW](Intro%20-%20PAW.md) — el código que se escribe en la cursada es **obra protegida por
   la ley 11.723** desde que se escribe; y si lo produce un dependiente en el desempeño de sus
   funciones, el titular es la **empresa** (art. 4 inc. d).
-- **Economía** — [[Economia - Oferta, Demanda y Mercado]] — la patente es un **monopolio legal
+- **Economía** — [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) — la patente es un **monopolio legal
   temporal** y la marca una **barrera de entrada**: el plazo limitado es el modo en que el
   derecho equilibra incentivo a innovar contra pérdida de eficiencia del monopolio.
 

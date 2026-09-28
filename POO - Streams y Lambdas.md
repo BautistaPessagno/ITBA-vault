@@ -90,7 +90,7 @@ lista.stream()
 - ¿Cuándo usar `Optional` vs simplemente retornar `null`?
 - ¿Qué significa que una variable sea "effectively final"?
 
-[[POO.base|POO]]
+[POO](Categories/POO.base)
 
 ---
 
@@ -100,12 +100,12 @@ lista.stream()
 
 **Misma materia (POO)**
 
-- [[POO - Colecciones Java]] — streams sobre colecciones
-- [[POO - Clases Anidadas e Iterable]] — iteración externa vs interna
-- [[POO - Interfaces y Generics]] — interfaces funcionales
+- [POO - Colecciones Java](POO%20-%20Colecciones%20Java.md) — streams sobre colecciones
+- [POO - Clases Anidadas e Iterable](POO%20-%20Clases%20Anidadas%20e%20Iterable.md) — iteración externa vs interna
+- [POO - Interfaces y Generics](POO%20-%20Interfaces%20y%20Generics.md) — interfaces funcionales
 
 **Otras materias**
 
-- **BD**  [[BD clase 8 SQL consultas]] — estilo declarativo: filter/map vs WHERE/SELECT
+- **BD**  [BD clase 8 SQL consultas](BD%20clase%208%20SQL%20consultas.md) — estilo declarativo: filter/map vs WHERE/SELECT
 
 <!-- notas-relacionadas:fin -->

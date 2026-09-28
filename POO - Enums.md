@@ -90,7 +90,7 @@ Colecciones optimizadas para Enums — más eficientes que `HashSet`/`HashMap` p
 - ¿Qué retorna `ordinal()` y cuándo es útil?
 - ¿Puede un Enum extender una clase? ¿Puede implementar interfaces?
 
-[[POO.base|POO]]
+[POO](Categories/POO.base)
 
 ---
 
@@ -100,11 +100,11 @@ Colecciones optimizadas para Enums — más eficientes que `HashSet`/`HashMap` p
 
 **Misma materia (POO)**
 
-- [[POO - Introduccion a Java]] — tipos en Java
-- [[POO - Introducción a POO]] — clases y constantes
+- [POO - Introduccion a Java](POO%20-%20Introduccion%20a%20Java.md) — tipos en Java
+- [POO - Introducción a POO](POO%20-%20Introducción%20a%20POO.md) — clases y constantes
 
 **Otras materias**
 
-- **PI**  [[PI - Struct y Union en C]] — enum en C
+- **PI**  [PI - Struct y Union en C](PI%20-%20Struct%20y%20Union%20en%20C.md) — enum en C
 
 <!-- notas-relacionadas:fin -->

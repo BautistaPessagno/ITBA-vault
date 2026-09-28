@@ -28,7 +28,7 @@ temas:
 > 4. Curva ROC
 > 5. Multiclase
 >
-> Viene de [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas|Clase 3]]: Problema-Datos-Features, EDA, feature selection, regularización y métricas de regresión.
+> Viene de [Clase 3](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md): Problema-Datos-Features, EDA, feature selection, regularización y métricas de regresión.
 
 ## Repaso
 si eliminamos una variable entre dos con mucha correlacion, eliminar la que menos correlacion tenga con la variable objetivo
@@ -78,7 +78,7 @@ Caracteristicas:
 Problemas:
 - predice valores fuera del rango 0 y 1 y no tiene sentido interpretarlos
 
-![[ML-C4-regresion-lineal-outlier.png]]
+![](Attachments/ML-C4-regresion-lineal-outlier.png)
 
 > [!observacion] Lo que muestra el gráfico
 > Con los datos "lindos" la recta separaba bien: cortaba $y = 0.5$ justo entre los benignos y los malignos.
@@ -94,7 +94,7 @@ $$
 P(Y=1) = \frac{1}{1+e^{-(wx+b)}}
 $$
 
-![[ML-C4-funcion-sigmoidea.png]]
+![](Attachments/ML-C4-funcion-sigmoidea.png)
 
 - Asíntotas en 0 y 1
 - Transforma cualquier número real en una probabilidad
@@ -135,7 +135,7 @@ $$
 \frac{p}{1-p} = e^{z} \;\Rightarrow\; p = e^{z}(1-p) \;\Rightarrow\; p(1+e^{z}) = e^{z} \;\Rightarrow\; p = \frac{e^{z}}{1+e^{z}} = \frac{1}{1+e^{-z}}
 $$
 
-![[ML-C4-despeje-sigmoidea.png]]
+![](Attachments/ML-C4-despeje-sigmoidea.png)
 
 > [!observacion] Por qué importa el logit
 > Es lo que explica de dónde sale la fórmula rara de la sigmoidea: **no es una función inventada para "aplastar"**, es la inversa de aplicar una regresión lineal sobre el log de las odds.
@@ -145,7 +145,7 @@ $$
 ### Del número a la predicción: el umbral
 la respuesta no va a ser binaria (ej: 0,7), para tener algo binario necesitamos un umbral
 
-![[ML-C4-ejemplo-prediccion.png]]
+![](Attachments/ML-C4-ejemplo-prediccion.png)
 
 Ejemplo de la clase: llega un paciente con un tumor de 4cm, la salida del modelo es **0.7** → el paciente tiene 70% de probabilidad de tener un tumor maligno. Para pasar de esa probabilidad a una predicción (0 o 1) hace falta **un umbral**.
 
@@ -175,7 +175,7 @@ Ejemplo: probamos el modelo con 10 pacientes nuevos y acertó el diagnóstico en
 
 limitaciones: hay distintos tipos de errores que me puede importar (no es lo mismo dos errores a dos falsos positvos)
 
-![[ML-C4-limitaciones-accuracy.png]]
+![](Attachments/ML-C4-limitaciones-accuracy.png)
 
 3 modelos, 3 resultados distintos, los mismos 10 pacientes, **la misma accuracy**:
 
@@ -199,7 +199,7 @@ se deslglozan los errores
 | **Predicho: +**    | verdadero positivo (TP)     | falso positivo (FP)         |
 | **Predicho: −**    | falso negativo (FN)         | verdadero negativo (TN)     |
 
-![[ML-C4-matriz-confusion.png]]
+![](Attachments/ML-C4-matriz-confusion.png)
 
 Con el ejemplo del tumor (positivo = maligno):
 
@@ -210,7 +210,7 @@ Con el ejemplo del tumor (positivo = maligno):
 
 esta bueno agregar porcentajes para ver realmente como predice
 
-![[ML-C4-matriz-confusion-ejemplos.png]]
+![](Attachments/ML-C4-matriz-confusion-ejemplos.png)
 
 > [!observacion] Ojo con la orientación de la matriz
 > No hay una convención única: acá las **filas son la predicción** y las **columnas el ground truth**, pero `sklearn.metrics.confusion_matrix` lo devuelve **al revés** (filas = real, columnas = predicho) y con el orden `[[TN, FP], [FN, TP]]`.
@@ -224,7 +224,7 @@ esta bueno agregar porcentajes para ver realmente como predice
 
 ### Precision y Recall (Sensitivity)
 
-![[ML-C4-precision-recall.png]]
+![](Attachments/ML-C4-precision-recall.png)
 
 Recall = TP/(TP+FN)
 Precision = TP/(TP+FP)
@@ -241,7 +241,7 @@ Accuracy = (TP + TN)/(TP + FP + TN + FN)
 ### Specificity y Negative Predicted Value
 Las dos métricas espejo, mirando la clase **negativa**:
 
-![[ML-C4-specificity.png]]
+![](Attachments/ML-C4-specificity.png)
 
 $$
 Specificity = \frac{TN}{TN + FP} \qquad NPV = \frac{TN}{TN + FN}
@@ -272,11 +272,11 @@ Recordemos: la regresión logística devuelve una **probabilidad**. Nosotros ele
 bajamos el umbral -> mas falsos positivos entonces, sube el recall y baja la precision
 subimos el umbral mas precision y baja el recall
 
-![[ML-C4-umbral-bajo.png]]
+![](Attachments/ML-C4-umbral-bajo.png)
 
 **Si bajamos el umbral:** el modelo marca maligno más seguido → ↑ **Recall**, ↓ **Precision**. Más falsas alarmas pero no se escapa ningún maligno.
 
-![[ML-C4-umbral-alto.png]]
+![](Attachments/ML-C4-umbral-alto.png)
 
 **Si subimos el umbral:** el modelo marca benigno más seguido → ↑ **Precision**, ↓ **Recall**. No hay falsas alarmas pero se escapan algunos tumores malignos.
 
@@ -323,7 +323,7 @@ Los tres puntos que construyó la clase:
 | 0.5 | 35 | 5 | 6 | 37 | 0.85 | 0.11 | (0.11, 0.85) |
 | 0.0 (todo es positivo) | 45 | 45 | 0 | 0 | 1 | 1 | esquina (1,1) |
 
-![[ML-C4-curva-roc.png]]
+![](Attachments/ML-C4-curva-roc.png)
 
 > [!observacion] Cómo leer la curva
 > - La curva **siempre** arranca en (0,0) y termina en (1,1): son los dos umbrales extremos, y no dependen del modelo.
@@ -345,7 +345,7 @@ Los tres puntos que construyó la clase:
 ## AUC
 Manera equivalente de ver el desempeño del clasificador para diferentes umbrales: el **área bajo la curva ROC**.
 
-![[ML-C4-auc-clasificadores.png]]
+![](Attachments/ML-C4-auc-clasificadores.png)
 
 - **AUC = 1** → clasificador ideal
 - **AUC = 0.5** → clasificador aleatorio (la diagonal)
@@ -376,7 +376,7 @@ d = \sqrt{FPR^2 + (1 - TPR)^2}
 $$
 
 > [!warning] El umbral se elige en validación, no en test
-> Barrer umbrales y quedarse con el mejor es **ajustar un hiperparámetro**. Si lo hacés mirando el test, el número que reportás ya no es una estimación honesta — es el mismo problema de "overfitting a la validación" de la [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas|Clase 3]].
+> Barrer umbrales y quedarse con el mejor es **ajustar un hiperparámetro**. Si lo hacés mirando el test, el número que reportás ya no es una estimación honesta — es el mismo problema de "overfitting a la validación" de la [Clase 3](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md).
 >
 > Y este criterio (distancia a (0,1)) trata a FP y FN como **igual de caros**, que es justo lo que la clase venía diciendo que casi nunca es cierto. Si un error cuesta más que el otro, el criterio correcto es minimizar el costo esperado, no la distancia geométrica.
 
@@ -404,17 +404,17 @@ $$
 
 **Misma materia (Machine Learning)**
 
-- [[ML Clase 6 - GDA y Naive Bayes]] — clase siguiente: la regresión logística es el ejemplo de modelo **discriminativo**; LDA (generativo) llega a la misma frontera lineal y su posterior es exactamente esta sigmoide
-- [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas]] — clase anterior: cierra la etapa de preparación (EDA, feature selection, regularización) y deja planteado el paso de Modelado que arranca acá; además el "overfitting a la validación" es lo que hace que el umbral se elija en dev y no en test
-- [[ML Clase 2 - Datos, variables, overfitting y métricas]] — de ahí vienen los data splits y las métricas de **regresión** (RMSE, R²); esta clase es el contraste: cambia el tipo de problema, cambian las métricas
-- [[ML Clase 1 - Machine Learning Intro]] — encuadre supervisado/no supervisado: la clasificación binaria es aprendizaje supervisado con target categórico
-- [[ML TP1 - Insurance]] — el TP1 es de regresión; la regresión logística es el modelo que faltaba para atacar un target binario
-- [[Terminologia ML]] — el **umbral** es un hiperparámetro más: se elige en validación, no se aprende en el entrenamiento
-- [[Materia - Machine Learning]] — índice de la materia
+- [ML Clase 6 - GDA y Naive Bayes](ML%20Clase%206%20-%20GDA%20y%20Naive%20Bayes.md) — clase siguiente: la regresión logística es el ejemplo de modelo **discriminativo**; LDA (generativo) llega a la misma frontera lineal y su posterior es exactamente esta sigmoide
+- [ML Clase 3 - EDA, Feature selection, Regularización y Métricas](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md) — clase anterior: cierra la etapa de preparación (EDA, feature selection, regularización) y deja planteado el paso de Modelado que arranca acá; además el "overfitting a la validación" es lo que hace que el umbral se elija en dev y no en test
+- [ML Clase 2 - Datos, variables, overfitting y métricas](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md) — de ahí vienen los data splits y las métricas de **regresión** (RMSE, R²); esta clase es el contraste: cambia el tipo de problema, cambian las métricas
+- [ML Clase 1 - Machine Learning Intro](ML%20Clase%201%20-%20Machine%20Learning%20Intro.md) — encuadre supervisado/no supervisado: la clasificación binaria es aprendizaje supervisado con target categórico
+- [ML TP1 - Insurance](ML%20TP1%20-%20Insurance.md) — el TP1 es de regresión; la regresión logística es el modelo que faltaba para atacar un target binario
+- [Terminologia ML](Terminologia%20ML.md) — el **umbral** es un hiperparámetro más: se elige en validación, no se aprende en el entrenamiento
+- [Materia - Machine Learning](Materia%20-%20Machine%20Learning.md) — índice de la materia
 
 **Otras materias**
 
-- **MNA** — [[Resumen MNA]] — la regresión logística no tiene solución cerrada como cuadrados mínimos: se ajusta con métodos iterativos (gradiente / Newton), que es la otra mitad de los métodos numéricos
-- **Discrete Math** — [[Discrete Math - Grafos Fundamentos]] — el umbral de decisión $wx+b=0$ es un hiperplano separador: la misma idea de "partir el espacio en dos" que aparece en coloreo y bipartición
+- **MNA** — [Resumen MNA](Resumen%20MNA.md) — la regresión logística no tiene solución cerrada como cuadrados mínimos: se ajusta con métodos iterativos (gradiente / Newton), que es la otra mitad de los métodos numéricos
+- **Discrete Math** — [Discrete Math - Grafos Fundamentos](Discrete%20Math%20-%20Grafos%20Fundamentos.md) — el umbral de decisión $wx+b=0$ es un hiperplano separador: la misma idea de "partir el espacio en dos" que aparece en coloreo y bipartición
 
 <!-- notas-relacionadas:fin -->

@@ -145,7 +145,7 @@ Vale la misma distinción que en demanda: un **aumento del precio** produce un *
 
 Esquema de pizarrón que aterriza demanda y oferta en un mercado concreto y agrega tres cosas que no están en las filminas: el supuesto de *ceteris paribus*, las funciones de demanda y oferta con todos sus argumentos, y la construcción de la oferta a partir de los costos.
 
-![[Ejemplo Mercado inmobiliario.excalidraw]]
+![Ejemplo Mercado inmobiliario.excalidraw](Excalidraw/Ejemplo%20Mercado%20inmobiliario.excalidraw.md)
 
 ### Ceteris paribus
 
@@ -262,7 +262,7 @@ $$\eta = \lim_{\Delta P \to 0} \frac{\Delta Q}{\Delta P}\cdot\frac{P}{Q} = \frac
 
 ### Elasticidad punto y gasto total
 
-![[Pasted image 20260804143608.png]]
+![](Attachments/Pasted%20image%2020260804143608.png)
 
 Con la demanda lineal de la clase (Q = 8.000 − 1.000·P):
 
@@ -367,7 +367,7 @@ $$\eta_o = \frac{\%\Delta Q_O}{\%\Delta P}$$
 
 **Misma materia (Economia)**
 
-- [[Economia Intro]] — clase anterior: define la escasez y el costo de oportunidad, que son el problema que el mercado viene a resolver acá; el análisis marginal reaparece como el consumidor marginal que fija el precio
-- [[Materia - Economia]] — nota índice de la materia
+- [Economia Intro](Economia%20Intro.md) — clase anterior: define la escasez y el costo de oportunidad, que son el problema que el mercado viene a resolver acá; el análisis marginal reaparece como el consumidor marginal que fija el precio
+- [Materia - Economia](Materia%20-%20Economia.md) — nota índice de la materia
 
 <!-- notas-relacionadas:fin -->

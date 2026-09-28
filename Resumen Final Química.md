@@ -29,7 +29,7 @@ Resumen integrador de **toda la materia** para el final. Cubre lo del **1er parc
 gases, cinética y equilibrio) **y el 2do parcial** (ácido-base, hidrólisis, buffer, titulación,
 precipitación, electroquímica, electrólisis).
 
-Vista del curso: [[Quimica.base]] · Para el 2do parcial con **ejercicios resueltos paso a paso**: [[Resumen Segundo Parcial Química]]
+Vista del curso: [Quimica.base](Categories/Quimica.base) · Para el 2do parcial con **ejercicios resueltos paso a paso**: [Resumen Segundo Parcial Química](Resumen%20Segundo%20Parcial%20Química.md)
 
 > [!abstract] Cómo usar este resumen
 > Cada tema tiene **teoría breve**, la **receta de resolución** y las **fórmulas clave**. Está pensado
@@ -115,7 +115,7 @@ La **unión química** es la fuerza que mantiene unidos a los átomos.
 
 **Tipos de unión covalente:** simple (1 par), doble (2 pares), triple (3 pares) y **dativa/coordinada** (el par lo aporta un solo átomo; físicamente igual a la simple).
 
-### Uniones múltiples: σ y π ([[Uniones Multiples]])
+### Uniones múltiples: σ y π ([Uniones Multiples](Uniones%20Multiples.md))
 - **σ (sigma):** unión sobre el **eje internuclear** (solapamiento frontal). Toda unión simple es σ.
 - **π (pi):** solapamiento **lateral**, por fuera del eje; refuerza a la σ.
 - **Doble** = 1σ + 1π · **Triple** = 1σ + 2π.
@@ -221,7 +221,7 @@ Recipiente cerrado de volumen $V$ a T, se mete una masa $m$ de líquido:
 
 ---
 
-## 8. Cinética química ([[Cinetica Quimica]])
+## 8. Cinética química ([Cinetica Quimica](Cinetica%20Quimica.md))
 
 ### Velocidad de reacción
 Para $aA+bB\to dD+eE$:
@@ -265,7 +265,7 @@ Aceleran la reacción **bajando la $E_a$** (ofrecen un **mecanismo alternativo**
 
 ---
 
-## 9. Equilibrio químico ([[Equilibrio Quimico]])
+## 9. Equilibrio químico ([Equilibrio Quimico](Equilibrio%20Quimico.md))
 
 Las reacciones son **reversibles**; en el **equilibrio dinámico** $v_{directa}=v_{inversa}$ (las concentraciones ya no cambian).
 
@@ -298,7 +298,7 @@ Si se perturba un sistema en equilibrio, este responde **contrarrestando** la pe
 # PARTE B — Segundo parcial
 
 > [!note] Versión detallada con ejercicios resueltos
-> Esta parte va condensada (teoría + receta). Para los **finales/parciales resueltos paso a paso** de cada tema, ver [[Resumen Segundo Parcial Química]].
+> Esta parte va condensada (teoría + receta). Para los **finales/parciales resueltos paso a paso** de cada tema, ver [Resumen Segundo Parcial Química](Resumen%20Segundo%20Parcial%20Química.md).
 
 ## 10. Ácido-base (fundamentos)
 
@@ -308,7 +308,7 @@ $$HA\rightleftharpoons H^++A^- \quad K_a=\frac{[H^+][A^-]}{[HA]}=\frac{x^2}{C-x}
 - $pH=-\log[H_3O^+]$ · $pH+pOH=14$ · $pK_a=-\log K_a$.
 - Par conjugado: $\boxed{K_a\cdot K_b=K_w=10^{-14}}$.
 
-## 11. Hidrólisis ([[Hidrólisis]])
+## 11. Hidrólisis ([Hidrólisis](Hidrólisis.md))
 
 Una **sal** proviene de un ácido y una base; sus iones pueden reaccionar con el agua.
 
@@ -323,14 +323,14 @@ $$K_{h,b}=\frac{K_w}{K_a}\ (\text{anión})\qquad K_{h,a}=\frac{K_w}{K_b}\ (\text
 
 **Receta:** disociar la sal → ver qué ion hidroliza → $K_h=K_w/K_{a\ ó\ b}$ del conjugado → resolver $K_h=x^2/C$ → pH.
 
-## 12. Soluciones reguladoras / Buffer ([[Buffer]])
+## 12. Soluciones reguladoras / Buffer ([Buffer](Buffer.md))
 
 Par conjugado ácido-base débil en concentraciones **similares y apreciables**; resiste cambios de pH.
 $$\boxed{[H_3O^+]=K_a\,\frac{C_{HA}}{C_{A^-}}}\qquad pH=pK_a+\log\frac{[A^-]}{[HA]}\ \text{(Henderson)}$$
 - El **volumen se cancela** (es razón de moles). Rango útil: $pH=pK_a\pm1$.
 - Si se agrega ácido/base fuerte: actualizar moles ($A^-+H^+\to HA$ ó $HA+OH^-\to A^-$) y recalcular.
 
-## 13. Curva de titulación ([[Curva de Titulacion]])
+## 13. Curva de titulación ([Curva de Titulacion](Curva%20de%20Titulacion.md))
 
 Se agrega titulante hasta el **punto de equivalencia** ($n_{ácido}=n_{base}$). Gráfico pH vs volumen.
 
@@ -344,7 +344,7 @@ Se agrega titulante hasta el **punto de equivalencia** ($n_{ácido}=n_{base}$). 
 - Fuerte/fuerte: p. eq. en **pH 7**. Débil/fuerte: p. eq. en **pH > 7**; a mitad de titulación $pH=pK_a$.
 - ⚠️ Recalcular concentraciones con el **volumen total** (aditivo).
 
-## 14. Equilibrio de precipitación / Kps ([[Equilibrio de precipitacion]])
+## 14. Equilibrio de precipitación / Kps ([Equilibrio de precipitacion](Equilibrio%20de%20precipitacion.md))
 
 $$A_aB_b(s)\rightleftharpoons a A^{+}+b B^{-}\qquad K_{ps}=[A^+]^a[B^-]^b\ (\text{el sólido no aparece})$$
 
@@ -357,7 +357,7 @@ $$A_aB_b(s)\rightleftharpoons a A^{+}+b B^{-}\qquad K_{ps}=[A^+]^a[B^-]^b\ (\tex
 - **Sulfuros y pH:** $H_2S\rightleftharpoons 2H^++S^{2-}$; bajar el pH (más $H^+$) baja $[S^{2-}]$ → cuesta más precipitar. Por eso la precipitación de sulfuros **depende del pH**.
 - **Disolver un precipitado:** lograr $Q_{ps}<K_{ps}$ (bajar [ión]) vía pH, redox o **ión complejo** (constante de inestabilidad $K_i$).
 
-## 15. Electroquímica — celdas galvánicas y Nernst ([[Electroquímica]])
+## 15. Electroquímica — celdas galvánicas y Nernst ([Electroquímica](Electroquímica.md))
 
 **Balanceo redox (ión-electrón):** separar en 2 hemirreacciones → balancear átomo que cambia, O con $H_2O$, H con $H^+$ (medio básico: neutralizar con $OH^-$) → balancear carga con $e^-$ → igualar $e^-$ y sumar.
 
@@ -419,10 +419,10 @@ Lo **inverso** de la pila: una **fuente externa** fuerza una reacción **no espo
 ---
 
 > [!success] Fuentes
-> Notas de clase del vault: [[Uniones Químicas]], [[Uniones Multiples]], [[Solidos y Liquidos]],
-> [[Cambios de Estados]], [[Cinetica Quimica]], [[Equilibrio Quimico]], [[Hidrólisis]], [[Buffer]],
-> [[Curva de Titulacion]], [[Equilibrio de precipitacion]], [[Electroquímica]] y
-> [[Resumen Segundo Parcial Química]]. Patrón de examen tomado de la compilación **Química – Finales
+> Notas de clase del vault: [Uniones Químicas](Uniones%20Químicas.md), [Uniones Multiples](Uniones%20Multiples.md), [Solidos y Liquidos](Solidos%20y%20Liquidos.md),
+> [Cambios de Estados](Cambios%20de%20Estados.md), [Cinetica Quimica](Cinetica%20Quimica.md), [Equilibrio Quimico](Equilibrio%20Quimico.md), [Hidrólisis](Hidrólisis.md), [Buffer](Buffer.md),
+> [Curva de Titulacion](Curva%20de%20Titulacion.md), [Equilibrio de precipitacion](Equilibrio%20de%20precipitacion.md), [Electroquímica](Electroquímica.md) y
+> [Resumen Segundo Parcial Química](Resumen%20Segundo%20Parcial%20Química.md). Patrón de examen tomado de la compilación **Química – Finales
 > Viejos** (14-07-23, 16-12-22, 22-12-22, 12-07-19, 19-07-19).
 
 ---
@@ -433,16 +433,16 @@ Lo **inverso** de la pila: una **fuente externa** fuerza una reacción **no espo
 
 **Misma materia (Química)**
 
-- [[Uniones Químicas]] — uniones químicas
-- [[Solidos y Liquidos]] — sólidos y líquidos
-- [[Cambios de Estados]] — cambios de estado
-- [[Cinetica Quimica]] — cinética
-- [[Equilibrio Quimico]] — equilibrio
-- [[Hidrólisis]] — hidrólisis
-- [[Buffer]] — buffers
-- [[Curva de Titulacion]] — titulación
-- [[Equilibrio de precipitacion]] — precipitación
-- [[Electroquímica]] — electroquímica
-- [[Resumen Segundo Parcial Química]] — resumen del segundo parcial
+- [Uniones Químicas](Uniones%20Químicas.md) — uniones químicas
+- [Solidos y Liquidos](Solidos%20y%20Liquidos.md) — sólidos y líquidos
+- [Cambios de Estados](Cambios%20de%20Estados.md) — cambios de estado
+- [Cinetica Quimica](Cinetica%20Quimica.md) — cinética
+- [Equilibrio Quimico](Equilibrio%20Quimico.md) — equilibrio
+- [Hidrólisis](Hidrólisis.md) — hidrólisis
+- [Buffer](Buffer.md) — buffers
+- [Curva de Titulacion](Curva%20de%20Titulacion.md) — titulación
+- [Equilibrio de precipitacion](Equilibrio%20de%20precipitacion.md) — precipitación
+- [Electroquímica](Electroquímica.md) — electroquímica
+- [Resumen Segundo Parcial Química](Resumen%20Segundo%20Parcial%20Química.md) — resumen del segundo parcial
 
 <!-- notas-relacionadas:fin -->

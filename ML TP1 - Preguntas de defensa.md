@@ -17,7 +17,7 @@ temas:
 
 # ML TP1 - Preguntas de defensa
 
-Preguntas que es razonable esperar en los **8 minutos de preguntas** del [[ML TP1 - Insurance|TP1]], agrupadas por tema. Las respuestas están en versión corta — la idea es poder decirlas, no leerlas.
+Preguntas que es razonable esperar en los **8 minutos de preguntas** del [TP1](ML%20TP1%20-%20Insurance.md), agrupadas por tema. Las respuestas están en versión corta — la idea es poder decirlas, no leerlas.
 
 > [!tip] Estrategia
 > Casi todas las preguntas de este TP se reducen a **tres**: ¿por qué separaste así los datos?, ¿por qué elegiste ese modelo?, ¿cómo sabés que va a andar en datos nuevos? Si esas tres están sólidas, el resto sale.
@@ -129,7 +129,7 @@ Preguntas que es razonable esperar en los **8 minutos de preguntas** del [[ML TP
 > 1. **Más variables**, no más datos: historia clínica, patologías previas, tipo de plan. Buena parte del error actual es **ruido por información faltante** — más filas del mismo tipo no lo arreglan.
 > 2. **Modelos no lineales por partes** (árboles, gradient boosting): capturan el quiebre en BMI=30 sin necesidad de polinomios.
 > 3. **Modelar el target en escala logarítmica**, dado el skew de 1,52.
-> 4. Una curva de aprendizaje diría si más datos ayudarían — ver [[ML Clase 2 - Datos, variables, overfitting y métricas#8. ¿Cuántos datos hacen falta?|Clase 2 §8]].
+> 4. Una curva de aprendizaje diría si más datos ayudarían — ver [Clase 2 §8](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md#8.%20¿Cuántos%20datos%20hacen%20falta%3F).
 
 > [!question]- ¿No estarían overfitteando a la validación por probar 15 configuraciones?
 > Es un riesgo real: cuantas más veces mirás el dev, más se parece a un train. Con 15 configuraciones el efecto es chico, pero existe — y es exactamente la razón por la que el **test se reservó intacto**. Nuestro test confirma que el modelo generaliza. Si hubiéramos probado cientos de configuraciones, habría que agregar un nivel más (nested cross-validation).
@@ -145,13 +145,13 @@ Preguntas que es razonable esperar en los **8 minutos de preguntas** del [[ML TP
 
 **Misma materia (Machine Learning)**
 
-- [[ML TP1 - Insurance]] — el TP en sí: decisiones, resultados y respuestas de la consigna
-- [[ML Clase 2 - Datos, variables, overfitting y métricas]] — de acá salen las respuestas sobre data splits, k-fold, outliers y fuentes de ruido
-- [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas]] — L1 vs L2, escalado y overfitting a la validación
-- [[Terminologia ML]] — parámetros vs. hiperparámetros: útil para responder qué se aprende en train y qué se elige en dev
+- [ML TP1 - Insurance](ML%20TP1%20-%20Insurance.md) — el TP en sí: decisiones, resultados y respuestas de la consigna
+- [ML Clase 2 - Datos, variables, overfitting y métricas](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md) — de acá salen las respuestas sobre data splits, k-fold, outliers y fuentes de ruido
+- [ML Clase 3 - EDA, Feature selection, Regularización y Métricas](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md) — L1 vs L2, escalado y overfitting a la validación
+- [Terminologia ML](Terminologia%20ML.md) — parámetros vs. hiperparámetros: útil para responder qué se aprende en train y qué se elige en dev
 
 **Otras materias**
 
-- **MNA** — [[Resumen MNA]] — por qué $X^TX$ singular rompe la solución de cuadrados mínimos: es el fundamento de la respuesta sobre la *dummy variable trap*
+- **MNA** — [Resumen MNA](Resumen%20MNA.md) — por qué $X^TX$ singular rompe la solución de cuadrados mínimos: es el fundamento de la respuesta sobre la *dummy variable trap*
 
 <!-- notas-relacionadas:fin -->

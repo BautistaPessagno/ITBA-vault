@@ -44,23 +44,23 @@ Ojo: "el examen se evalúa por lo que está escrito", usando **vocabulario y alg
 ### 🔴 Alta prioridad — aparece en los 3 finales y/o mucho puntaje
 
 1. **Lema de bombeo (regular y LLC).** Cae en Ej 3 y Ej 4 casi siempre. No te piden aplicarlo tanto como **saber cómo se demuestra** y **la forma exacta de las condiciones** (los distractores del multiple choice cambian `|xyz|≤P`, `|xz|≥1`, `∀i≥0`, etc.).
-   → [[TLA -Formas Normales y Lema de Bombeo CFL]], [[TLA -Lenguajes Regulares]]
+   → [TLA -Formas Normales y Lema de Bombeo CFL](TLA%20-Formas%20Normales%20y%20Lema%20de%20Bombeo%20CFL.md), [TLA -Lenguajes Regulares](TLA%20-Lenguajes%20Regulares.md)
 2. **Definiciones recursivas exactas** (Ej 1 y 6): función de transición extendida `δ̂` (AFD), clausura-λ, **forma sentencial**. Te las piden literal, recursivas (base + paso inductivo).
-   → [[TLA -Autómatas Finitos Determinísticos]], [[TLA -Autómatas Finitos No Determinísticos]], [[TLA -intro resumen]]
+   → [TLA -Autómatas Finitos Determinísticos](TLA%20-Autómatas%20Finitos%20Determinísticos.md), [TLA -Autómatas Finitos No Determinísticos](TLA%20-Autómatas%20Finitos%20No%20Determinísticos.md), [TLA -intro resumen](TLA%20-intro%20resumen.md)
 3. **Demostraciones "de librito" (Ej 2).** Las que se repiten:
    - AFD ⇒ AFND-λ (2022)
    - Minimización = equivalente y mínimo (algoritmo del **conjunto cociente**) (2023)
    - AP por **vaciado de pila** ⇔ AP por **estado final** (2024)
-   → [[TLA -Autómatas de Pila]], [[TLA -Autómatas Finitos Determinísticos]]
+   → [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md), [TLA -Autómatas Finitos Determinísticos](TLA%20-Autómatas%20Finitos%20Determinísticos.md)
 4. **Multiple choice de análisis sintáctico** (Ej 3, 2 pts): condiciones **LL(1)**, forma de un **item LR(1)**, definición de **Primeros/Siguientes**, acción **desplazar/reducir**, **FNC/FNG**.
-   → [[TLA -Análisis Sintáctico]], [[TLA -Análisis Ascendente]]
+   → [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md), [TLA -Análisis Ascendente](TLA%20-Análisis%20Ascendente.md)
 
 ### 🟡 Media prioridad
 
 5. **Gramáticas con atributos** (Ej 6/7): **sintetizado vs heredado**, definición dirigida por la sintaxis (DDS), S-atribuida/ETDS postfijo.
-   → [[TLA -Análisis Semántico]]
+   → [TLA -Análisis Semántico](TLA%20-Análisis%20Semántico.md)
 6. **Máquinas de Turing + jerarquía de Chomsky** (Ej 7, relacionar conceptos): Autómata Linealmente Acotado (AAL), Recursivamente Enumerable, Sensible al Contexto, Decidible vs Tratable.
-   → [[TLA -Máquina de Turing]], [[TLA -Máquina de Turing (Parte 2)]]
+   → [TLA -Máquina de Turing](TLA%20-Máquina%20de%20Turing.md), [TLA -Máquina de Turing (Parte 2)](TLA%20-Máquina%20de%20Turing%20%28Parte%202%29.md)
 
 ### 🟢 El único práctico (Ej 5)
 
@@ -71,27 +71,27 @@ Diseñar/corregir un **autómata de pila** o **completar una MT**. Practicá 2-3
 ## 3. Qué estudiar de cada tema (con notas del vault)
 
 **Introducción / Gramáticas** — Jerarquía de Chomsky (4 tipos), forma sentencial (def. recursiva), gramática ambigua, tipos de gramática.
-→ [[TLA -intro resumen]]
+→ [TLA -intro resumen](TLA%20-intro%20resumen.md)
 
 **Autómatas Finitos** — `δ̂` recursiva (AFD y AFND-λ), clausura-λ, estados distinguibles/indistinguibles, algoritmo de minimización (conjunto cociente), equivalencias AFD↔AFND↔AFND-λ.
-→ [[TLA -Autómatas Finitos Determinísticos]], [[TLA -Autómatas Finitos No Determinísticos]]
+→ [TLA -Autómatas Finitos Determinísticos](TLA%20-Autómatas%20Finitos%20Determinísticos.md), [TLA -Autómatas Finitos No Determinísticos](TLA%20-Autómatas%20Finitos%20No%20Determinísticos.md)
 
 **Lenguajes y Expresiones Regulares** — identidades de ER (clausura de ∅ y λ, `α+∅`, Lema de Arden `X=αX+β ⇒ X=α*β`), propiedades de cierre (intersección, unión), lema de bombeo regular.
-→ [[TLA -Lenguajes Regulares]], [[TLA -Expresiones Regulares]]
+→ [TLA -Lenguajes Regulares](TLA%20-Lenguajes%20Regulares.md), [TLA -Expresiones Regulares](TLA%20-Expresiones%20Regulares.md)
 
 **GLC y Autómatas de Pila** — FNC y FNG, lema de bombeo para LLC, AP determinista vs no determinista, vaciado de pila ↔ estado final, lenguajes no ambiguos no reconocibles por AP determinista.
-→ [[TLA -Autómatas de Pila]], [[TLA -Formas Normales y Lema de Bombeo CFL]]
+→ [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md), [TLA -Formas Normales y Lema de Bombeo CFL](TLA%20-Formas%20Normales%20y%20Lema%20de%20Bombeo%20CFL.md)
 
 **Análisis Sintáctico** — Descendente: LL(1) (no ambigua, sin recursividad izquierda, factorizada), Primeros/Siguientes, backtracking. Ascendente: items LR(0)/LR(1), tablas SLR(1)/LR(1), acción desplazar/reducir, conflicto desplazamiento-reducción.
-→ [[TLA -Análisis Sintáctico]], [[TLA -Análisis Ascendente]]
+→ [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md), [TLA -Análisis Ascendente](TLA%20-Análisis%20Ascendente.md)
 
 **Máquinas de Turing** — definición formal, configuraciones, RE vs recursivo/decidible, AAL, sensible al contexto, decidible vs tratable.
-→ [[TLA -Máquina de Turing]], [[TLA -Máquina de Turing (Parte 2)]]
+→ [TLA -Máquina de Turing](TLA%20-Máquina%20de%20Turing.md), [TLA -Máquina de Turing (Parte 2)](TLA%20-Máquina%20de%20Turing%20%28Parte%202%29.md)
 
 **Gramáticas con atributos** — sintetizado vs heredado, DDS, S-atribuida, esquema de traducción.
-→ [[TLA -Análisis Semántico]]
+→ [TLA -Análisis Semántico](TLA%20-Análisis%20Semántico.md)
 
-Guía extra ya armada: [[TLA -Guía Parcial 2 (paso a paso)]]
+Guía extra ya armada: [TLA -Guía Parcial 2 (paso a paso)](TLA%20-Guía%20Parcial%202%20%28paso%20a%20paso%29.md)
 
 ---
 
@@ -151,9 +151,9 @@ Si el tiempo es corto, hacé **1-2 de cada** priorizando los que caen como prác
 
 **Misma materia (TLA)**
 
-- [[TLA -Mega Resumen Final]] — resumen completo
-- [[TLA -Máquina de Turing (Parte 2)]] — decidibilidad
-- [[TLA -Análisis Sintáctico]] — análisis sintáctico
-- [[ejercicios-parcial-ii]] — ejercitación
+- [TLA -Mega Resumen Final](TLA%20-Mega%20Resumen%20Final.md) — resumen completo
+- [TLA -Máquina de Turing (Parte 2)](TLA%20-Máquina%20de%20Turing%20%28Parte%202%29.md) — decidibilidad
+- [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md) — análisis sintáctico
+- [ejercicios-parcial-ii](ejercicios-parcial-ii.md) — ejercitación
 
 <!-- notas-relacionadas:fin -->

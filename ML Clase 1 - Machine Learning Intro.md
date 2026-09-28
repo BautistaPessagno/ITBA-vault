@@ -30,7 +30,7 @@ El AA invierte el esquema de la programación tradicional: en vez de darle al or
 
 > Es el proceso mediante el cual un sistema (humano, animal o máquina) **adquiere, modifica o mejora su comportamiento o conocimiento** a partir de la experiencia o la información del entorno, permitiéndole adaptarse y responder mejor a situaciones futuras.
 
-![[Pasted image 20260805164412.png]]
+![](Attachments/Pasted%20image%2020260805164412.png)
 
 ## ¿Sin ser programados explícitamente?
 
@@ -40,13 +40,13 @@ En la forma **explícita** se le da al ordenador el algoritmo con las instruccio
 
 **Programación "tradicional"**: `Datos + Programa → Ordenador → Output`
 
-![[Pasted image 20260805164507.png]]
+![](Attachments/Pasted%20image%2020260805164507.png)
 
 Ejemplos: ordenar una lista de números, verificador de contraseña, contador de palabras. El programador conoce las reglas y las escribe.
 
 **Aprendizaje automático**: `Datos + Outputs → Ordenador → Programa`
 
-![[Pasted image 20260805164617.png]]
+![](Attachments/Pasted%20image%2020260805164617.png)
 
 Se **etiquetan** los datos y el algoritmo busca patrones; el resultado es el programa, que después se aplica a datos nuevos. Ejemplos: clasificador de spam, predictor del precio de una casa, identificación de pájaros.
 
@@ -60,11 +60,11 @@ Dos fases distintas:
 1. **Entrenamiento** — `Datos + Outputs (etiquetas) → Ordenador → Modelo`
 2. **Inferencia** — `Datos nuevos + Modelo → Ordenador → Output`
 
-![[Pasted image 20260805164801.png]]
+![](Attachments/Pasted%20image%2020260805164801.png)
 
 Hace falta **etiquetar los datos** (label). En el ejemplo del spam, las etiquetas salen de los usuarios que marcan correos como spam. Este trabajo de etiquetado muchas veces lo hacen personas:
 
-![[Pasted image 20260805164824.png|337]] ![[Pasted image 20260805164836.png|331]]
+![imagen|337](Attachments/Pasted%20image%2020260805164824.png) ![imagen|331](Attachments/Pasted%20image%2020260805164836.png)
 
 ### Ventajas frente a la programación tradicional
 
@@ -96,7 +96,7 @@ Analogía con cómo aprendemos:
 | Agrupar juguetes por colores | Observamos patrones (forma, color) sin que nadie nos diga que son categorías distintas | **No supervisado** |
 | Aprender a caminar | Probamos movimientos, recibimos feedback "caída / no caída" y ajustamos | **Por refuerzo** |
 
-![[ML C1 - tipos de aprendizaje.png]]
+![](Attachments/ML%20C1%20-%20tipos%20de%20aprendizaje.png)
 
 #### Aprendizaje supervisado
 
@@ -113,7 +113,7 @@ $$D_n = \{(x^{(1)}, y^{(1)}), \dots, (x^{(n)}, y^{(n)})\}$$
 
 En el ejemplo del perro, cada dato se ubica en un espacio de características (*orejas de perro* × *cola de perro*) y buscamos la frontera que separa las clases. Se ve en el **módulo 1**, y en profundidad en los **módulos 2 y 3**.
 
-![[ML C1 - supervisado.png]]
+![](Attachments/ML%20C1%20-%20supervisado.png)
 
 #### Aprendizaje no supervisado
 
@@ -123,7 +123,7 @@ Algoritmos diseñados para **buscar patrones en los datos** sin etiquetas.
 - En el ejemplo de los juguetes, cada uno se representa por sus componentes RGB y los grupos emergen solos.
 - Se ve en el **módulo 4**.
 
-![[ML C1 - no supervisado.png]]
+![](Attachments/ML%20C1%20-%20no%20supervisado.png)
 
 #### Aprendizaje por refuerzo
 
@@ -154,7 +154,7 @@ Aprende a tomar decisiones óptimas **interactuando con un entorno**, recibiendo
 | Adaptarse a datos nuevos | Hay que **reentrenar todo** (coste alto) | Se adapta de forma continua |
 | Ruido | Robusto si una parte de los datos es ruidosa | Una secuencia ruidosa puede arruinar el funcionamiento un tiempo → importa definir el **learning rate** (qué tan rápido se adapta) |
 
-![[ML C1 - batch vs online.png]]
+![](Attachments/ML%20C1%20-%20batch%20vs%20online.png)
 
 > [!note] Caso especial: out-of-core learning
 > En entornos con poca memoria y/o muchos datos, las estrategias de online learning son muy útiles:
@@ -169,7 +169,7 @@ Aprende a tomar decisiones óptimas **interactuando con un entorno**, recibiendo
 | Qué se usa para predecir | Los **datos** mismos: cuál y cómo es el dato más parecido | El **modelo** |
 | Qué hay que definir | Cómo se evalúa la **similitud** entre datos | Cómo **construir el modelo** a partir de los datos |
 
-![[ML C1 - instance vs model based.png]]
+![](Attachments/ML%20C1%20-%20instance%20vs%20model%20based.png)
 
 ## IA vs AA vs DL
 
@@ -182,7 +182,7 @@ Son conjuntos anidados: **IA ⊃ ML ⊃ ANN ⊃ DL**.
 | **Redes neuronales (ANN)** | Sistemas de AA inspirados en las redes neuronales humanas: neuronas conectadas que aprenden las relaciones entre inputs y outputs |
 | **Deep Learning** | Redes neuronales grandes, con múltiples capas (>3) |
 
-![[ML C1 - IA vs AA vs DL.png]]
+![](Attachments/ML%20C1%20-%20IA%20vs%20AA%20vs%20DL.png)
 
 Esta materia se sitúa en el nivel de **AA / ML** (las redes neuronales y los LLM corresponden a *Sistemas de Inteligencia Artificial*, SIA).
 
@@ -216,7 +216,7 @@ Métodos de **clustering** y **reducción de dimensionalidad**. Técnicas de pre
 | 3. Definir cómo evaluar | 3.1 Elegir una métrica que **penalice más el falso negativo**, para no dejar sin detectar un caso positivo |
 | 4. Evaluar en datos nuevos | 4.1 Probar el sistema completo (pasos 1 a 3) sobre datos nunca vistos |
 
-![[ML C1 - estructura proyecto alzheimer.png]]
+![](Attachments/ML%20C1%20-%20estructura%20proyecto%20alzheimer.png)
 
 ## Principales retos del ML
 
@@ -226,7 +226,7 @@ Métodos de **clustering** y **reducción de dimensionalidad**. Técnicas de pre
 - **Variables/características irrelevantes.** Seleccionar o crear nuevas características es una parte crítica del proyecto, tanto en el diseño (antes de obtener los datos) como después, al seleccionar o combinar features.
 - **Underfitting / overfitting.** Pocos datos + modelo muy complejo → overfitting. Se reduce con más datos, un algoritmo más simple y buenas prácticas.
 
-![[ML C1 - sampling bias.png]]
+![](Attachments/ML%20C1%20-%20sampling%20bias.png)
 
 > [!info] Dónde caen los retos
 > Los cuatro primeros son problemas del **paso 1** (obtener y preparar los datos); underfitting/overfitting aparecen en los **pasos 2 a 4**.
@@ -242,7 +242,7 @@ Todo el proceso desde que definimos el problema hasta que tenemos variables rele
 - ¿Cómo se elige el learning rate en online learning para balancear adaptación vs. robustez al ruido?
 - ¿Por qué en el ejemplo de Alzheimer se penaliza más el falso negativo? ¿Qué métrica concreta se usaría?
 
-[[Machine Learning.base|Machine Learning]]
+[Machine Learning](Categories/Machine%20Learning.base)
 
 ---
 
@@ -252,10 +252,10 @@ Todo el proceso desde que definimos el problema hasta que tenemos variables rele
 
 **Misma materia (Machine Learning)**
 
-- [[Materia - Machine Learning]] — índice de la materia y sus módulos
+- [Materia - Machine Learning](Materia%20-%20Machine%20Learning.md) — índice de la materia y sus módulos
 
 **Otras materias**
 
-- **MNA**  [[Resumen MNA]] — la SVD y los cuadrados mínimos son la base matemática de la reducción de dimensionalidad (módulo 4) y de los modelos lineales del módulo 1
+- **MNA**  [Resumen MNA](Resumen%20MNA.md) — la SVD y los cuadrados mínimos son la base matemática de la reducción de dimensionalidad (módulo 4) y de los modelos lineales del módulo 1
 
 <!-- notas-relacionadas:fin -->

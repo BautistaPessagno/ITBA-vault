@@ -52,11 +52,11 @@ temas:
 >
 > | Clase | Tema | Guía | Nota |
 > |---|---|---|---|
-> | 1 | Intro, criptografía clásica | 1 | [[Criptografia y seguridad intro]] · [[Guia 1 - criptografia y seguridad]] |
-> | 2 | Secreto perfecto, OTP, EAV/CPA, cifrado en bloque y modos | 2 | [[Criptografia y seguridad Clase 2 - Cifrado]] |
-> | 3 | MAC, hash, cifrado autenticado | 3 | [[Clase 3 - Criptografia - MACs y modo autenticado]] |
-> | 4 | Diffie-Hellman, RSA, ElGamal, firma digital | 4 | [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital]] |
-> | 5 | PKI, Needham-Schroeder, TLS, Shamir | 4 | [[Protocolos]] |
+> | 1 | Intro, criptografía clásica | 1 | [Criptografia y seguridad intro](Criptografia%20y%20seguridad%20intro.md) · [Guia 1 - criptografia y seguridad](Guia%201%20-%20criptografia%20y%20seguridad.md) |
+> | 2 | Secreto perfecto, OTP, EAV/CPA, cifrado en bloque y modos | 2 | [Criptografia y seguridad Clase 2 - Cifrado](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md) |
+> | 3 | MAC, hash, cifrado autenticado | 3 | [Clase 3 - Criptografia - MACs y modo autenticado](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md) |
+> | 4 | Diffie-Hellman, RSA, ElGamal, firma digital | 4 | [Clase 4 - Criptografía - Cifrado asimétrico y Firma digital](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md) |
+> | 5 | PKI, Needham-Schroeder, TLS, Shamir | 4 | [Protocolos](Protocolos.md) |
 >
 > **No entra**: políticas y control de acceso, autenticación, flujo de información, vulnerabilidades (Clase 6 en adelante). Las prácticas *Clase 8* y *Clase 9* de la carpeta son del 1C 2026 y son de esos temas.
 
@@ -107,7 +107,7 @@ Las preguntas son siempre las mismas: *¿qué tipo de protocolo es y qué intent
 | Derivar la clave de sesión con nonces de las dos partes | clave nueva en cada sesión aunque el secreto de base se repita |
 | Firmas / certificados | atar una clave pública a una identidad → frenan MITM |
 
-Las fichas de cada protocolo, la tabla de señales y el guion de cada ataque están en **§13.1–13.5**. El detalle de cada ataque está en [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital#Mini-resumen para la Guía 4|el mini-resumen de la Guía 4]].
+Las fichas de cada protocolo, la tabla de señales y el guion de cada ataque están en **§13.1–13.5**. El detalle de cada ataque está en [el mini-resumen de la Guía 4](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md#Mini-resumen%20para%20la%20Guía%204).
 
 ### 2C-2025 — autenticación mutua con MACs
 
@@ -131,7 +131,7 @@ $A$ elige $(G,q,g)$, $x \leftarrow \mathbb{Z}_q$, manda $h_1=g^x$; $B$ elige $y$
 
 - **a)** Intercambio de claves de Diffie-Hellman: acordar un secreto $g^{xy}$ sobre un canal inseguro sin haber compartido nada antes.
 - **b)** Ejemplo y valores válidos de $q$ → abajo.
-- **c)** La seguridad está en que, viendo $g$, $g^x$ y $g^y$, no se pueda calcular $g^{xy}$ (CDH) **ni distinguirlo de un valor al azar (DDH)**, que es la hipótesis que realmente hace falta. Que el logaritmo discreto sea difícil es necesario pero **no suficiente** (ver [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital#La seguridad Diffie-Hellman|la tabla DL/CDH/DDH]]).
+- **c)** La seguridad está en que, viendo $g$, $g^x$ y $g^y$, no se pueda calcular $g^{xy}$ (CDH) **ni distinguirlo de un valor al azar (DDH)**, que es la hipótesis que realmente hace falta. Que el logaritmo discreto sea difícil es necesario pero **no suficiente** (ver [la tabla DL/CDH/DDH](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md#La%20seguridad%20Diffie-Hellman)).
 - **d)** Problemas: (1) **MITM** — no autentica a nadie, solo resiste atacantes pasivos; se arregla firmando $(g^x,g^y)$ con certificados (Guía 4, ej 7). (2) Los parámetros $(G,q,g)$ los elige $A$ y viajan **sin autenticar**: con $q$ chico o $g$ que no genera el grupo, el logaritmo discreto es fácil. (3) Nada ata $g^x$ a la identidad de $A$ → *masquerading*.
 
 > [!example] Ejemplo numérico hecho a mano
@@ -151,7 +151,7 @@ $A$ elige $(G,q,g)$, $x \leftarrow \mathbb{Z}_q$, manda $h_1=g^x$; $B$ elige $y$
 
 ### 1C-2023 — handshake tipo TLS y 1C-2018 — Needham-Schroeder
 
-Están resueltos en detalle en [[Protocolos#Preguntas de parciales anteriores]]. Lo que hay que escribir:
+Están resueltos en detalle en [Protocolos > Preguntas de parciales anteriores](Protocolos.md#Preguntas%20de%20parciales%20anteriores). Lo que hay que escribir:
 
 | Ejercicio | Respuesta |
 |---|---|
@@ -189,7 +189,7 @@ El molde: *"$C_0 = IV$, $C_i = \dots$ ¿Es un esquema de cifrado en bloque váli
 - **Error en el plano** durante el cifrado CBC (Guía 2, ej 6a): cambia **todos** los $C$ siguientes, pero al descifrar solo sale mal ese $M_i$ (el que ya venía mal).
 - **CFB de 8 bits con bloque de 64** (Guía 2, ej 6c): el error afecta ese byte y los 8 siguientes.
 
-![[Clase 2 - Encadenamiento CBC.png|480]]
+![imagen|480](Attachments/Clase%202%20-%20Encadenamiento%20CBC.png)
 
 > [!tip] Doce formas de modos inventados, con veredicto, están en **§13.6**.
 
@@ -369,7 +369,7 @@ Con $(a,b)$ se descifra el desafío. Es lineal: dos pares alcanzan. Verificado.
 - Un **MAC** da **integridad + autenticación de origen** entre quienes comparten $k$. **No** da confidencialidad ($m$ va en claro), **ni no repudio** (los dos tienen $k$), **ni protege contra replay** (hace falta nonce, timestamp o número de secuencia).
 - Seguridad: **Mac-forge**. Con un oráculo $Mac_k(\cdot)$, producir un $(m,t)$ válido con $m$ que no se haya consultado.
 - **Para romper un MAC propuesto** (Guía 3, ej 1 y 2): pedir el MAC de $0^n$ y ver si sale la clave o algo reutilizable ($G(k)\oplus m$ entrega $G(k)$; $k\oplus \text{first}(m)$ entrega $k$), o buscar dos mensajes con el mismo tag (con el XOR de bloques alcanza permutar bloques: *"el auto es azul y el lápiz rojo"* ↔ *"el auto es rojo y el lápiz azul"*).
-- **CBC-MAC**: $t_0 = 0^n$ (IV **fijo**), $t_i = F_k(t_{i-1}\oplus m_i)$, se emite solo $t_\ell$. Es seguro **solo con longitud fija**. Con longitud variable: si $t = Mac_k(m)$ para un $m$ de un bloque, entonces $(m\,\|\,(m\oplus t),\ t)$ verifica. Arreglos: **prefijar** la longitud (como sufijo no sirve), usar $k_\ell = F_k(\ell)$, o cifrar el tag con otra clave, $\hat t = F_{k_2}(t)$. Detalle en [[Clase 3 - Criptografia - MACs y modo autenticado#CBC-MAC]].
+- **CBC-MAC**: $t_0 = 0^n$ (IV **fijo**), $t_i = F_k(t_{i-1}\oplus m_i)$, se emite solo $t_\ell$. Es seguro **solo con longitud fija**. Con longitud variable: si $t = Mac_k(m)$ para un $m$ de un bloque, entonces $(m\,\|\,(m\oplus t),\ t)$ verifica. Arreglos: **prefijar** la longitud (como sufijo no sirve), usar $k_\ell = F_k(\ell)$, o cifrar el tag con otra clave, $\hat t = F_{k_2}(t)$. Detalle en [Clase 3 - Criptografia - MACs y modo autenticado > CBC-MAC](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md#CBC-MAC).
 
 > [!warning] IV en CBC-MAC vs IV en CBC
 > En CBC para **cifrar** el IV tiene que ser aleatorio. En CBC-MAC tiene que ser **fijo**: con un IV aleatorio que viaja con el tag, se cambia el primer bloque y el IV a la vez y el tag sigue verificando.
@@ -422,7 +422,7 @@ $$t = H\big((k\oplus opad)\,\|\,H((k\oplus ipad)\,\|\,m)\big), \qquad ipad = \te
 - **Direcciones de las claves**: cifrado → la **pública cifra** y la privada descifra. Firma → la **privada firma** y la pública verifica.
 - **Certificado X.509**: identidad del titular + **clave pública del titular** + emisor, validez, uso y número de serie, todo **firmado con la privada de la CA**. **Nunca** contiene una clave privada.
 - **Validar un certificado**: (1) conseguir la pública del emisor (subir por la cadena hasta una raíz confiable); (2) verificar la **firma de la CA**; (3) vigencia; (4) identidad (el nombre esperado); (5) uso permitido; (6) que no esté revocado (CRL / OCSP).
-- **TLS**: confidencialidad + integridad + autenticación (del servidor siempre, del cliente opcional) sobre **PKI**. **Sin** KDC y **sin** no repudio (los datos van con MAC/AEAD de clave compartida). Handshake: nonces $r_1, r_2$ (contra replay) → certificado → *pre-master* (por RSA o DH) → *master* derivado del pre-master y los nonces → *Finished* (MAC de todo lo intercambiado: confirma las claves y detecta manipulación). Detalle en [[Protocolos]].
+- **TLS**: confidencialidad + integridad + autenticación (del servidor siempre, del cliente opcional) sobre **PKI**. **Sin** KDC y **sin** no repudio (los datos van con MAC/AEAD de clave compartida). Handshake: nonces $r_1, r_2$ (contra replay) → certificado → *pre-master* (por RSA o DH) → *master* derivado del pre-master y los nonces → *Finished* (MAC de todo lo intercambiado: confirma las claves y detecta manipulación). Detalle en [Protocolos](Protocolos.md).
 
 ---
 
@@ -447,7 +447,7 @@ $$L_2(0) = \frac{(-3)(-5)}{(2-3)(2-5)} = \frac{15}{3} = 5, \qquad L_3(0) = \frac
 
 $$s = 0\cdot 5 + 6\cdot 6 + 4\cdot 1 = 40 \equiv 7 \pmod{11} \;\checkmark$$
 
-> [!bug] Dos errores de la slide (ya anotados en [[Protocolos]])
+> [!bug] Dos errores de la slide (ya anotados en [Protocolos](Protocolos.md))
 > - $P(4) = 80+12+7 = 99 \equiv \mathbf{0}$, no 2: toda terna con la sombra $(4,2)$ reconstruye mal.
 > - "Un polinomio de grado $t$ se especifica con $t$ puntos": hacen falta $t+1$. Para umbral $t$ el polinomio es de grado $t-1$, como en el propio ejemplo.
 
@@ -497,7 +497,7 @@ $$s = 0\cdot 5 + 6\cdot 6 + 4\cdot 1 = 40 \equiv 7 \pmod{11} \;\checkmark$$
 9. **2C-2025, 4**: la condición es $l \ge n$ (con clave uniforme y de un solo uso), no solo $l = n$ (§4).
 10. **Guía 6, ej 14**: el mensaje es **8** (§9).
 
-Y de las slides, lo que puede aparecer: Shamir $P(4) = 0$ y grado $t-1$ (§9), ipad/opad intercambiados (§7), y el logaritmo discreto **no** es NP-hard (ver [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital#La seguridad Diffie-Hellman|Clase 4]]).
+Y de las slides, lo que puede aparecer: Shamir $P(4) = 0$ y grado $t-1$ (§9), ipad/opad intercambiados (§7), y el logaritmo discreto **no** es NP-hard (ver [Clase 4](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md#La%20seguridad%20Diffie-Hellman)).
 
 ---
 
@@ -644,7 +644,7 @@ $g^x \to g^{xy} \to g^{xyz}$: cada uno eleva lo que recibe y lo pasa, dos rondas
 | nonce de Bob que viaja al KDC (Guía 4, ej 5) | lo mismo sin relojes: el token trae un nonce que $B$ generó **antes** |
 
 - **Se rompe (el original)**: $B$ entra recién en el paso 3 y **no puede saber si el token es fresco**. Con una $k_s$ vieja comprometida, Mallory reinyecta el token, contesta el desafío y se hace pasar por $A$.
-- Detalle y verificación en [[Protocolos#Intercambio Simetrico]].
+- Detalle y verificación en [Protocolos > Intercambio Simetrico](Protocolos.md#Intercambio%20Simetrico).
 
 #### ⑪ Needham-Schroeder de clave pública — *extra, no está en las slides*
 
@@ -773,19 +773,19 @@ Es el argumento para los ejercicios donde no hay probabilidades que calcular: **
 
 **Misma materia (Criptografía y Seguridad)**
 
-- [[Cripto - Resumen Teórico Primer Parcial]] — la contraparte teórica: definiciones, experimentos, teoremas y tablas transversales que justifican cada receta de esta nota
-- [[Criptografia y seguridad intro]] — Clase 1: criptosistema, clásicos y Kasiski; la base del §6
-- [[Guia 1 - criptografia y seguridad]] — ejercicios de clásicos resueltos a mano, práctica directa del §6
-- [[Criptografia y seguridad Clase 2 - Cifrado]] — Clase 2: secreto perfecto, EAV/CPA y los modos de bloque; la teoría del §3, §4 y §5
-- [[Clase 3 - Criptografia - MACs y modo autenticado]] — Clase 3: maleabilidad, CCA, CBC-MAC, hash y Encrypt-then-MAC; la teoría del §7
-- [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital]] — Clase 4: DH, RSA, ElGamal, firmas y el mini-resumen de la Guía 4; la teoría del §2 y §8
-- [[Protocolos]] — Clase 5: PKI, Needham-Schroeder, TLS y Shamir, con las preguntas de parciales de esa clase resueltas en detalle
-- [[Materia - Criptografía y Seguridad]] — índice de la materia
+- [Cripto - Resumen Teórico Primer Parcial](Cripto%20-%20Resumen%20Teórico%20Primer%20Parcial.md) — la contraparte teórica: definiciones, experimentos, teoremas y tablas transversales que justifican cada receta de esta nota
+- [Criptografia y seguridad intro](Criptografia%20y%20seguridad%20intro.md) — Clase 1: criptosistema, clásicos y Kasiski; la base del §6
+- [Guia 1 - criptografia y seguridad](Guia%201%20-%20criptografia%20y%20seguridad.md) — ejercicios de clásicos resueltos a mano, práctica directa del §6
+- [Criptografia y seguridad Clase 2 - Cifrado](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md) — Clase 2: secreto perfecto, EAV/CPA y los modos de bloque; la teoría del §3, §4 y §5
+- [Clase 3 - Criptografia - MACs y modo autenticado](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md) — Clase 3: maleabilidad, CCA, CBC-MAC, hash y Encrypt-then-MAC; la teoría del §7
+- [Clase 4 - Criptografía - Cifrado asimétrico y Firma digital](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md) — Clase 4: DH, RSA, ElGamal, firmas y el mini-resumen de la Guía 4; la teoría del §2 y §8
+- [Protocolos](Protocolos.md) — Clase 5: PKI, Needham-Schroeder, TLS y Shamir, con las preguntas de parciales de esa clase resueltas en detalle
+- [Materia - Criptografía y Seguridad](Materia%20-%20Criptografía%20y%20Seguridad.md) — índice de la materia
 
 **Otras materias**
 
-- **EDA** — [[EDA - Hashing]] — el mismo nombre, otro requisito: a un hash de tabla le alcanza con repartir uniforme; a uno criptográfico se le exige que encontrar colisiones sea inviable (§7)
-- **Protos** — [[2. Protos - HTTP]] — HTTPS es TLS: certificados, pre-master y Finished del §8 funcionando juntos
-- **Protos** — [[9. Protos - SSH]] — SSH resuelve el MITM de Diffie-Hellman firmando el intercambio con la host key, el arreglo del §2
+- **EDA** — [EDA - Hashing](EDA%20-%20Hashing.md) — el mismo nombre, otro requisito: a un hash de tabla le alcanza con repartir uniforme; a uno criptográfico se le exige que encontrar colisiones sea inviable (§7)
+- **Protos** — [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) — HTTPS es TLS: certificados, pre-master y Finished del §8 funcionando juntos
+- **Protos** — [9. Protos - SSH](9.%20Protos%20-%20SSH.md) — SSH resuelve el MITM de Diffie-Hellman firmando el intercambio con la host key, el arreglo del §2
 
 <!-- notas-relacionadas:fin -->

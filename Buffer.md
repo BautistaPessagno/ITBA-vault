@@ -70,9 +70,9 @@ La sangre humana es un buffer (principalmente el sistema H₂CO₃/HCO₃⁻) qu
 
 **Misma materia (Química)**
 
-- [[Hidrólisis]] — equilibrio ácido-base
-- [[Curva de Titulacion]] — zona buffer en la curva
-- [[Equilibrio Quimico]] — constante de equilibrio
-- [[Resumen Segundo Parcial Química]] — resumen del segundo parcial
+- [Hidrólisis](Hidrólisis.md) — equilibrio ácido-base
+- [Curva de Titulacion](Curva%20de%20Titulacion.md) — zona buffer en la curva
+- [Equilibrio Quimico](Equilibrio%20Quimico.md) — constante de equilibrio
+- [Resumen Segundo Parcial Química](Resumen%20Segundo%20Parcial%20Química.md) — resumen del segundo parcial
 
 <!-- notas-relacionadas:fin -->

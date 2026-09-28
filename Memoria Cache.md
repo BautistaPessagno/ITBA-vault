@@ -10,9 +10,9 @@ trae bloques de la memoria principal para tenerlos a mano
 Los programas se ejecutan en pasos secuenciales
 Las variables se alojan en zonas adyacentes
 
-![[Captura_de_pantalla_2025-05-27_a_la(s)_11.03.20.png]]
+![](Attachments/Captura_de_pantalla_2025-05-27_a_la%28s%29_11.03.20.png)
 
-![[Captura_de_pantalla_2025-05-27_a_la(s)_11.20.21.png]]
+![](Attachments/Captura_de_pantalla_2025-05-27_a_la%28s%29_11.20.21.png)
 
 [https://docs.google.com/file/d/1OuDzy262jvp52JOsGNaZYoMpdaIMtfSW/preview](https://docs.google.com/file/d/1OuDzy262jvp52JOsGNaZYoMpdaIMtfSW/preview)
 
@@ -28,19 +28,19 @@ datos. Utiliza diferentes algoritmos.
 - El controlador ve a la RAM en bloques de tamaño fijo
 - Por ejemplo de 32 bytes
 - Entonces RAM de 1MB son 32768 bloques
-![[Captura_de_pantalla_2025-05-27_a_la(s)_11.22.17.png]]
+![](Attachments/Captura_de_pantalla_2025-05-27_a_la%28s%29_11.22.17.png)
 
 ## Memoria Cache ejemplos
 
 - Suponemos RAM de 1 MB (1M x 8).
 - Bloques de 32 bytes.
 - Caché de 4 K para datos (sin etiquetas)
-![[Captura_de_pantalla_2025-05-27_a_la(s)_11.23.05.png]]
+![](Attachments/Captura_de_pantalla_2025-05-27_a_la%28s%29_11.23.05.png)
 por lo tanto:
 $$
 \frac{cache}{bloque}= etiquetas
 $$
-![[Captura_de_pantalla_2025-05-27_a_la(s)_11.23.11.png]]
+![](Attachments/Captura_de_pantalla_2025-05-27_a_la%28s%29_11.23.11.png)
 $$
 \frac{mem\_fisica}{tamaño\_bloques}=2^{bits\_etiquetas}
 $$
@@ -68,7 +68,7 @@ palabra buscada.
 
 ## Escritura inmediata vs obligada
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_12.58.29.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_12.58.29.png)
 
 hoy en dia se usa mas que nada la obligada
 
@@ -80,12 +80,12 @@ hoy en dia se usa mas que nada la obligada
 
 **Misma materia (Arqui)**
 
-- [[Cache]] — nota corta de caché
-- [[Clase 4 Intro transmisión Digital]] — clasificación de memorias: la SRAM es la que implementa la caché
-- [[Intro Sistemas Operativos(Paginación)]] — TLB: caché de traducciones
+- [Cache](Cache.md) — nota corta de caché
+- [Clase 4 Intro transmisión Digital](Clase%204%20Intro%20transmisión%20Digital.md) — clasificación de memorias: la SRAM es la que implementa la caché
+- [Intro Sistemas Operativos(Paginación)](Intro%20Sistemas%20Operativos%28Paginación%29.md) — TLB: caché de traducciones
 
 **Otras materias**
 
-- **SO**  [[Memoria]] — gestión de memoria desde el SO
+- **SO**  [Memoria](Memoria.md) — gestión de memoria desde el SO
 
 <!-- notas-relacionadas:fin -->

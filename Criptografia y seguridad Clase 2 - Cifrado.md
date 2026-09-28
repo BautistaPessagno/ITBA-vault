@@ -24,7 +24,7 @@ floflfl# Cifrado
 
 ## Repaso: criptosistema
 
-![[Pasted image 20260813160940.png|480]]
+![imagen|480](Attachments/Pasted%20image%2020260813160940.png)
 
 Un criptosistema es una terna de algoritmos:
 
@@ -38,7 +38,7 @@ La seguridad no debe depender de ocultar el algoritmo, sino de mantener secreta 
 
 ## Secreto perfecto
 
-![[Pasted image 20260814141315.png|488]]
+![imagen|488](Attachments/Pasted%20image%2020260814141315.png)
 
 Un criptosistema posee secreto perfecto si observar el texto cifrado no modifica la distribución de probabilidad del mensaje:
 
@@ -50,7 +50,7 @@ Por lo tanto, las variables aleatorias $M$ y $C$ son independientes: conocer $c$
 
 ## One Time Pad (OTP)
 
-![[Pasted image 20260814141724.png]]
+![](Attachments/Pasted%20image%2020260814141724.png)
 
 El One Time Pad, atribuido a Vernam (1917), trabaja con una clave uniforme y verdaderamente aleatoria de la misma longitud que el mensaje:
 
@@ -81,7 +81,7 @@ Una clave sesgada tampoco sirve: si algunos valores de $k$ son más probables, o
 
 ## Más allá del OTP
 
-![[Pasted image 20260814142902.png]]
+![](Attachments/Pasted%20image%2020260814142902.png)
 
 Según el resultado visto en clase, cualquier criptosistema con secreto perfecto es reducible al OTP. Además, el secreto perfecto requiere un espacio de claves al menos tan grande como el espacio de mensajes cifrables.
 
@@ -94,13 +94,13 @@ El secreto perfecto brinda **seguridad incondicional**. La seguridad computacion
 - limita los recursos del adversario, sobre todo su tiempo de cómputo;
 - acepta una probabilidad de éxito pequeña, en lugar de exigir que sea exactamente cero.
 
-![[Pasted image 20260814143612.png|392]]
+![imagen|392](Attachments/Pasted%20image%2020260814143612.png)
 
 La pregunta deja de ser “¿existe algún ataque?” y pasa a ser “¿existe un ataque factible dentro del modelo considerado?”. Toda afirmación de seguridad computacional depende entonces de tres elementos: qué puede hacer el adversario, cuánto puede computar y qué ventaja se considera tolerable.
 
 ## Criptosistemas de flujo
 
-![[Pasted image 20260814143644.png]]
+![](Attachments/Pasted%20image%2020260814143644.png)
 
 Un criptosistema de flujo reemplaza la clave larga del OTP por la salida de un generador pseudoaleatorio:
 
@@ -116,8 +116,8 @@ Así, una semilla corta produce una secuencia del largo necesario y $|K|\ll|M|$.
 
 Un generador pseudoaleatorio (PRG) es un algoritmo determinístico que expande una semilla corta $s$ en una salida más larga $G(s)$. La salida no es aleatoria en sentido estricto: una misma semilla siempre produce la misma secuencia.
 
-![[Pasted image 20260814144020.png|600]]
-![[Pasted image 20260814144200.png|595]]
+![imagen|600](Attachments/Pasted%20image%2020260814144020.png)
+![imagen|595](Attachments/Pasted%20image%2020260814144200.png)
 
 La propiedad relevante es la **indistinguibilidad computacional**. Para todo distinguidor eficiente $D$, la diferencia
 
@@ -131,7 +131,7 @@ El generador congruencial mostrado como ejemplo permite entender la expansión y
 
 ## Pruebas de seguridad
 
-![[Pasted image 20260814144520.png|547]]
+![imagen|547](Attachments/Pasted%20image%2020260814144520.png)
 
 Una prueba de seguridad formaliza un juego entre un retador y un adversario. El juego fija qué información recibe el adversario, qué consultas puede realizar y en qué condición gana. Repetirlo permite medir su probabilidad de éxito.
 
@@ -139,7 +139,7 @@ Cada prueba modela un escenario distinto. Superar una prueba no significa ser �
 
 ### Prueba de indistinguibilidad EAV
 
-![[Pasted image 20260814144739.png]]
+![](Attachments/Pasted%20image%2020260814144739.png)
 
 En la prueba de escucha pasiva (EAV):
 
@@ -152,7 +152,7 @@ Si no puede hacer algo mejor que adivinar, su probabilidad de éxito es $1/2$ m�
 
 ### Nivel de seguridad y función despreciable
 
-![[Pasted image 20260814145229.png]]
+![](Attachments/Pasted%20image%2020260814145229.png)
 
 El parámetro de seguridad $n$ relaciona el poder permitido al adversario con su ventaja. Se consideran adversarios de tiempo probabilístico polinomial, $PPT(n)$, y se exige que su ventaja $\varepsilon(n)$ sea despreciable.
 
@@ -166,7 +166,7 @@ No significa simplemente “un número chico”: una constante como $10^{-20}$ s
 
 ### Teorema para criptosistemas de flujo
 
-![[Pasted image 20260814145622.png]]
+![](Attachments/Pasted%20image%2020260814145622.png)
 
 Si $G$ es un generador pseudoaleatorio seguro, el criptosistema de flujo construido como $G(k)\oplus m$ es indistinguible ante escucha pasiva para **un solo cifrado**.
 
@@ -174,13 +174,13 @@ La demostración es por reducción: si un adversario distinguiera los cifrados, 
 
 ## Múltiples cifrados
 
-![[Pasted image 20260814145653.png]]
+![](Attachments/Pasted%20image%2020260814145653.png)
 
 La prueba MUL extiende EAV a dos secuencias de mensajes. El retador cifra todos los mensajes de una de ellas con la misma clave y el adversario intenta identificar cuál fue elegida.
 
 Los criptosistemas de flujo anteriores **no son seguros** bajo múltiples cifrados si reutilizan exactamente $G(k)$:
 
-![[Pasted image 20260814145802.png]]
+![](Attachments/Pasted%20image%2020260814145802.png)
 
 $$
 c_1\oplus c_2=m_1\oplus m_2.
@@ -196,7 +196,7 @@ La aleatorización no necesita ocultarse. Su función es lograr que dos cifrados
 
 ### Evitar la reutilización
 
-![[Pasted image 20260814150408.png]]
+![](Attachments/Pasted%20image%2020260814150408.png)
 
 Se incorpora a la generación de la secuencia un valor que no se repite para una misma clave. La clase presenta dos alternativas:
 
@@ -207,7 +207,7 @@ Aunque en explicaciones introductorias se usan casi como sinónimos, la condici�
 
 ## Ataque de texto plano escogido
 
-![[Pasted image 20260814150713.png|625]]
+![imagen|625](Attachments/Pasted%20image%2020260814150713.png)
 
 En la prueba CPA el adversario tiene acceso a un oráculo de cifrado $e_k(\cdot)$ antes —y, en la formulación habitual, también después— de recibir el desafío. Puede elegir entradas y observar sus cifrados, pero no consultar directamente el mensaje desafío de una forma que trivialice el juego.
 
@@ -219,13 +219,13 @@ Este modelo es más fuerte y realista que EAV: en protocolos y aplicaciones, un 
 - La seguridad CPA para un mensaje implica seguridad CPA para múltiples mensajes mediante un argumento híbrido.
 - Una construcción segura para bloques de tamaño limitado puede extenderse a mensajes mayores si cada bloque usa correctamente la aleatoriedad o el encadenamiento requerido.
 
-![[Pasted image 20260814151003.png]]
+![](Attachments/Pasted%20image%2020260814151003.png)
 
 La confidencialidad CPA no brinda integridad. Un modo puede impedir que el atacante conozca el mensaje y aun así permitirle modificar el cifrado de manera controlada. En un sistema real suele requerirse cifrado autenticado.
 
 ## Primitivas de cifrado en bloque
 
-![[Pasted image 20260814151714.png]]
+![](Attachments/Pasted%20image%2020260814151714.png)
 
 Una primitiva de bloque transforma bloques de tamaño fijo mediante una clave:
 
@@ -239,7 +239,7 @@ La primitiva por sí sola es determinística y no constituye un esquema seguro p
 
 ## Extensión, padding y encadenamiento
 
-![[Pasted image 20260814152001.png]]
+![](Attachments/Pasted%20image%2020260814152001.png)
 
 Si el mensaje supera el tamaño de bloque, se divide en $m_0\|m_1\|\dots\|m_i$. Si el último bloque queda incompleto, se aplica **padding**:
 
@@ -250,7 +250,7 @@ El padding debe validarse con cuidado. En protocolos mal diseñados, informar si
 
 ### ECB
 
-![[Pasted image 20260814152113.png]]
+![](Attachments/Pasted%20image%2020260814152113.png)
 
 ECB cifra cada bloque de forma independiente: $c_i=E_k(m_i)$.
 
@@ -261,7 +261,7 @@ Bloques iguales producen cifrados iguales, por lo que conserva patrones y no es 
 
 ### CBC
 
-![[Clase 2 - Encadenamiento CBC.png|640]]
+![imagen|640](Attachments/Clase%202%20-%20Encadenamiento%20CBC.png)
 
 CBC combina cada bloque plano con el cifrado anterior antes de aplicar la primitiva:
 
@@ -275,7 +275,7 @@ Con una primitiva segura y un IV aleatorio e impredecible, CBC alcanza seguridad
 
 ### CFB
 
-![[Pasted image 20260814152541.png]]
+![](Attachments/Pasted%20image%2020260814152541.png)
 
 CFB usa únicamente la operación de cifrado de la primitiva y convierte el cifrador de bloque en uno de flujo. Realimenta el cifrado previo, por lo que puede trabajar en unidades menores que un bloque y autosincronizarse.
 
@@ -283,7 +283,7 @@ Un error de transmisión afecta la porción correspondiente del texto plano y ta
 
 ### OFB
 
-![[Pasted image 20260814152749.png]]
+![](Attachments/Pasted%20image%2020260814152749.png)
 
 OFB realimenta la **salida interna** de la primitiva para generar una secuencia de clave independiente del mensaje y del cifrado. Esa secuencia puede precalcularse.
 
@@ -291,7 +291,7 @@ A diferencia de lo que sugería el apunte original, un cambio de bit en el texto
 
 ### Counter (CTR)
 
-![[Pasted image 20260814152814.png]]
+![](Attachments/Pasted%20image%2020260814152814.png)
 
 CTR cifra valores formados por un nonce y un contador para producir la secuencia de clave:
 
@@ -305,8 +305,8 @@ En OFB, CFB y CTR, modificar un bit del cifrado puede modificar el texto plano d
 
 ### Seguridad de los modos de bloque
 
-![[Pasted image 20260814153402.png|532]]
-![[Pasted image 20260814153430.png|535]]
+![imagen|532](Attachments/Pasted%20image%2020260814153402.png)
+![imagen|535](Attachments/Pasted%20image%2020260814153430.png)
 
 Las pruebas se hacen por reducción a la seguridad de la primitiva subyacente. Si se comporta como una función o permutación pseudoaleatoria, entonces, bajo las condiciones indicadas en clase:
 
@@ -322,7 +322,7 @@ DES fue desarrollado por IBM y adoptado como estándar por el gobierno de Estado
 
 Es una red de Feistel de 16 rondas. En cada ronda se divide el estado en dos mitades, se transforma una de ellas con una subclave y se intercambian las mitades. La estructura de Feistel permite descifrar aplicando la misma arquitectura con las subclaves en orden inverso.
 
-![[Pasted image 20260821180927.png|398]]
+![imagen|398](Attachments/Pasted%20image%2020260821180927.png)
 
 La función de ronda expande 32 bits a 48, aplica cajas de sustitución de 6 a 4 bits y luego una permutación. Las sustituciones aportan no linealidad; las permutaciones y expansiones difunden la influencia de cada bit.
 
@@ -334,7 +334,7 @@ La función de ronda expande 32 bits a 48, aplica cajas de sustitución de 6 a 4
 
 ## Generación de subclaves
 
-![[Pasted image 20260821183813.png]]
+![](Attachments/Pasted%20image%2020260821183813.png)
 
 La permutación PC-1 descarta los 8 bits de paridad y divide los 56 restantes en dos mitades. Estas se rotan en cada ronda y PC-2 selecciona 48 bits para formar cada subclave.
 
@@ -342,7 +342,7 @@ La clave efectiva de 56 bits hace que DES sea vulnerable a fuerza bruta. Los ata
 
 ## 3DES
 
-![[Pasted image 20260821184605.png]]
+![](Attachments/Pasted%20image%2020260821184605.png)
 
 3DES aplica DES tres veces con el esquema cifrar–descifrar–cifrar (EDE):
 
@@ -365,7 +365,7 @@ Representa el bloque como una matriz de bytes llamada **estado** y aplica cuatro
 3. **MixColumns:** transformación lineal invertible que mezcla los cuatro bytes de cada columna.
 4. **AddRoundKey:** XOR del estado con la subclave de la ronda.
 
-![[Clase 2 - Esquema AES.png|640]]
+![imagen|640](Attachments/Clase%202%20-%20Esquema%20AES.png)
 
 Antes de las rondas normales hay un AddRoundKey inicial; la última ronda omite MixColumns. Es más preciso hablar de una **etapa inicial** que decir que la primera ronda “solo” contiene AddRoundKey.
 
@@ -412,15 +412,15 @@ La elección práctica no termina en “AES”: también hay que definir modo, m
 
 **Misma materia (Criptografía y Seguridad)**
 
-- [[Criptografia y seguridad intro]] — clase anterior: define criptosistema y secreto perfecto, que acá se retoman como repaso
-- [[Materia - Criptografía y Seguridad]] — índice de la materia
-- [[Guia 1 - criptografia y seguridad]] — ejercicios sobre cifrados clásicos, previos al OTP
-- [[Practica 1 - criptografia y seguridad]] — práctica asociada
+- [Criptografia y seguridad intro](Criptografia%20y%20seguridad%20intro.md) — clase anterior: define criptosistema y secreto perfecto, que acá se retoman como repaso
+- [Materia - Criptografía y Seguridad](Materia%20-%20Criptografía%20y%20Seguridad.md) — índice de la materia
+- [Guia 1 - criptografia y seguridad](Guia%201%20-%20criptografia%20y%20seguridad.md) — ejercicios sobre cifrados clásicos, previos al OTP
+- [Practica 1 - criptografia y seguridad](Practica%201%20-%20criptografia%20y%20seguridad.md) — práctica asociada
 
 **Otras materias**
 
-- **Protos** — [[9. Protos - SSH]] — SSH negocia justamente estas primitivas (AES-CTR, AES-CBC) y usa el intercambio de claves para acordar la `k`
-- **Protos** — [[2. Protos - HTTP]] — HTTPS/TLS es el caso de uso masivo de los criptosistemas de flujo y bloque vistos acá (y donde RC4 quedó deprecado)
-- **TLA** — [[TLA -Autómatas Finitos Determinísticos]] — el LFSR de §6.1 es literalmente un autómata finito determinístico: estado = contenido del registro, y su **período** es el largo del ciclo en el grafo de transiciones
+- **Protos** — [9. Protos - SSH](9.%20Protos%20-%20SSH.md) — SSH negocia justamente estas primitivas (AES-CTR, AES-CBC) y usa el intercambio de claves para acordar la `k`
+- **Protos** — [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) — HTTPS/TLS es el caso de uso masivo de los criptosistemas de flujo y bloque vistos acá (y donde RC4 quedó deprecado)
+- **TLA** — [TLA -Autómatas Finitos Determinísticos](TLA%20-Autómatas%20Finitos%20Determinísticos.md) — el LFSR de §6.1 es literalmente un autómata finito determinístico: estado = contenido del registro, y su **período** es el largo del ciclo en el grafo de transiciones
 
 <!-- notas-relacionadas:fin -->

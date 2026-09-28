@@ -326,9 +326,9 @@ Como $G$ no tiene producciones unitarias (ni $\lambda$-producciones tras la simp
 
 **Misma materia (TLA)**
 
-- [[TLA -Autómatas de Pila]] — tema anterior
-- [[TLA -Análisis Sintáctico]] — tema siguiente
-- [[TLA -Lenguajes Regulares]] — lema de bombeo para regulares
-- [[TLA -Guía Parcial 2 (paso a paso)]] — resolución paso a paso
+- [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md) — tema anterior
+- [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md) — tema siguiente
+- [TLA -Lenguajes Regulares](TLA%20-Lenguajes%20Regulares.md) — lema de bombeo para regulares
+- [TLA -Guía Parcial 2 (paso a paso)](TLA%20-Guía%20Parcial%202%20%28paso%20a%20paso%29.md) — resolución paso a paso
 
 <!-- notas-relacionadas:fin -->

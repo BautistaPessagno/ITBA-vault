@@ -28,7 +28,7 @@ temas:
 > (2020, 2023 y dos sin fecha) y del envío corregido de Blackboard, **agrupadas por unidad** y
 > con las respuestas **verificadas**.
 >
-> La teoría condensada está en [[Derecho - Resumen Primer Parcial]].
+> La teoría condensada está en [Derecho - Resumen Primer Parcial](Derecho%20-%20Resumen%20Primer%20Parcial.md).
 
 > [!tip] Cómo usar este banco
 > Leé la columna de **preguntas tapando la de respuestas**. Lo que falles, buscalo en la nota de
@@ -374,8 +374,8 @@ temas:
 | ¿Qué puede hacer el titular de una patente? | **Explotarla industrial y comercialmente en exclusiva**, **oponerse** a que terceros la usen y **licenciarla** a cambio de una regalía. Límites: **agotamiento del derecho** (art. 36 inc. c) y **licencias obligatorias** (art. 42 y ss., tras **150 días** de negativa infundada) ✅ |
 | ¿Se pueden patentar los **programas de computación**? | **No** (art. 6 inc. c). Pero **sí** están protegidos como **obra** por la ley **11.723** (ley 25.036) |
 | ¿Cómo protegés una idea si no tenés la plata para patentarla? | Con un **contrato de confidencialidad** (obligación de **no hacer**) |
-| ¿Qué es una **marca notoria** y cuáles son sus efectos? | Ver [[Derecho - Resumen Primer Parcial#11.5 Marca notoria\|el esqueleto en el resumen]] |
-| ¿Por qué el plazo de protección de la PI es limitado? | Ver [[Derecho - Resumen Primer Parcial#11.6 Las de patentes y derechos de autor\|el esqueleto en el resumen]] |
+| ¿Qué es una **marca notoria** y cuáles son sus efectos? | Ver [el esqueleto en el resumen](Derecho%20-%20Resumen%20Primer%20Parcial.md#11.5%20Marca%20notoria) |
+| ¿Por qué el plazo de protección de la PI es limitado? | Ver [el esqueleto en el resumen](Derecho%20-%20Resumen%20Primer%20Parcial.md#11.6%20Las%20de%20patentes%20y%20derechos%20de%20autor) |
 
 ---
 
@@ -387,7 +387,7 @@ En el megadoc figuran con "NO SE" o con la respuesta incompleta. Quedan resuelta
 |---|---|
 | "¿Cuáles son las normas de nuestro ordenamiento jurídico que sustentan el sistema de protección legal de la propiedad intelectual?" | Ver §9, fila correspondiente |
 | "¿A qué se refiere la ley de patentes cuando habla de *estado de la técnica*?" | Ver §9 |
-| "Imagine un hecho que no esté contemplado en el derecho actual. ¿Cómo funcionarían las fuentes?" | [[Derecho - Resumen Primer Parcial#11.3 Un hecho no contemplado por el derecho\|Esqueleto en el resumen]] |
+| "Imagine un hecho que no esté contemplado en el derecho actual. ¿Cómo funcionarían las fuentes?" | [Esqueleto en el resumen](Derecho%20-%20Resumen%20Primer%20Parcial.md#11.3%20Un%20hecho%20no%20contemplado%20por%20el%20derecho) |
 | "El régimen de transferencia de Fondo de Comercio establecido en la ley 11.867 declara que los elementos constitutivos son…" | Ver §6 |
 | "Los empleados en relación de dependencia gozan de la estabilidad de su empleo cuando…" | **Ninguna de las anteriores** ✅ — no hay **estabilidad absoluta** en el empleo privado: se puede despedir sin causa pagando **indemnización**. La estabilidad como **inamovilidad** solo alcanza a casos especiales (empleo público, delegados gremiales) |
 | "Sujetar una obligación a un plazo es supeditarla al acontecimiento de un hecho…" | **Futuro y cierto** ✅ |
@@ -395,7 +395,7 @@ En el megadoc figuran con "NO SE" o con la respuesta incompleta. Quedan resuelta
 | "El documento por el cual se acredita un pago se llama…" | **Recibo** (el megadoc contesta "cheque" con signo de pregunta; el cheque es una **orden de pago**, no un comprobante de pago) |
 | "¿Cómo se denomina el organismo del Estado encargado del registro de los derechos de autor?" | **DNDA** ⚠️ — el megadoc dice "INPI" y está mal |
 
-[[Derecho.base|Derecho]]
+[Derecho](Categories/Derecho.base)
 
 ---
 
@@ -405,23 +405,23 @@ En el megadoc figuran con "NO SE" o con la respuesta incompleta. Quedan resuelta
 
 **Misma materia (Derecho)**
 
-- [[Derecho - Resumen Primer Parcial]] — la teoría condensada de las cinco unidades, la tabla
+- [Derecho - Resumen Primer Parcial](Derecho%20-%20Resumen%20Primer%20Parcial.md) — la teoría condensada de las cinco unidades, la tabla
   de números, las trampas verificadas y los esqueletos de las preguntas a desarrollar. Este
   banco es su contracara práctica.
-- [[Intro Derecho]] — la teoría de la Unidad 1, de donde salen casi todas las preguntas a
+- [Intro Derecho](Intro%20Derecho.md) — la teoría de la Unidad 1, de donde salen casi todas las preguntas a
   desarrollar del parcial.
-- [[El Derecho constitucional]] — la teoría de la Unidad 2; ahí están los artículos completos
+- [El Derecho constitucional](El%20Derecho%20constitucional.md) — la teoría de la Unidad 2; ahí están los artículos completos
   que acá se citan sueltos.
-- [[Parcialito Derecho - Unidad 2 Constitucional]] — el banco largo de constitucional (~109
+- [Parcialito Derecho - Unidad 2 Constitucional](Parcialito%20Derecho%20-%20Unidad%202%20Constitucional.md) — el banco largo de constitucional (~109
   preguntas del compilado); si fallás mucho §2, el volumen está allá.
-- [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]] — la teoría de §3, §4 y §5,
+- [Derecho - U3 Persona, Obligaciones y Responsabilidad Civil](Derecho%20-%20U3%20Persona,%20Obligaciones%20y%20Responsabilidad%20Civil.md) — la teoría de §3, §4 y §5,
   con el detalle de los fallos.
-- [[Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos]] — la teoría de §6, §7 y §8.
-- [[Parcialito Derecho - Tercer Parcialito]] — el banco de V/F de fondo de comercio, con los
+- [Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos](Derecho%20-%20U4%20Fondo%20de%20Comercio,%20Seguros,%20Bolsa%20y%20Concursos.md) — la teoría de §6, §7 y §8.
+- [Parcialito Derecho - Tercer Parcialito](Parcialito%20Derecho%20-%20Tercer%20Parcialito.md) — el banco de V/F de fondo de comercio, con los
   plazos y la inoponibilidad trabajados uno por uno.
-- [[Derecho - U5 Propiedad Intelectual, Marcas y Patentes]] — la teoría de §9: los tres
+- [Derecho - U5 Propiedad Intelectual, Marcas y Patentes](Derecho%20-%20U5%20Propiedad%20Intelectual,%20Marcas%20y%20Patentes.md) — la teoría de §9: los tres
   regímenes, sus leyes, plazos y artículos.
-- [[Derecho - Casos de Marcas y Patentes]] — los tres fallos, para las preguntas a desarrollar
+- [Derecho - Casos de Marcas y Patentes](Derecho%20-%20Casos%20de%20Marcas%20y%20Patentes.md) — los tres fallos, para las preguntas a desarrollar
   de marca notoria y publicidad comparativa.
 
 <!-- notas-relacionadas:fin -->

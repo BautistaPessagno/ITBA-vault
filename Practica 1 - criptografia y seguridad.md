@@ -44,7 +44,7 @@ AJE
 
 c = EEUEASENNJTSMSE
 
-![[Drawing 2026-08-10 16.17.09.excalidraw]]
+![Drawing 2026-08-10 16.17.09.excalidraw](Excalidraw/Drawing%202026-08-10%2016.17.09.excalidraw.md)
 
 # Ataques
 ## Pasivo

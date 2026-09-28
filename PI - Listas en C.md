@@ -81,7 +81,7 @@ TList concat(TList l1, TList l2) {
 - ¿Cómo se accede al n-ésimo elemento de una lista?
 - ¿Cuándo usar arreglo vs lista para implementar una cola?
 
-[[PI.base|PI]]
+[PI](Categories/PI.base)
 
 ---
 
@@ -91,13 +91,13 @@ TList concat(TList l1, TList l2) {
 
 **Misma materia (PI)**
 
-- [[PI - Punteros en C]] — encadenamiento con punteros
-- [[PI - TAD en C]] — lista como TAD
+- [PI - Punteros en C](PI%20-%20Punteros%20en%20C.md) — encadenamiento con punteros
+- [PI - TAD en C](PI%20-%20TAD%20en%20C.md) — lista como TAD
 
 **Otras materias**
 
-- **EDA**  [[EDA - Listas Lineales]] — la misma estructura desde EDA
-- **EDA**  [[EDA - Queue (Cola)]] — cola sobre lista
-- **EDA**  [[EDA - Stack]] — pila sobre lista
+- **EDA**  [EDA - Listas Lineales](EDA%20-%20Listas%20Lineales.md) — la misma estructura desde EDA
+- **EDA**  [EDA - Queue (Cola)](EDA%20-%20Queue%20%28Cola%29.md) — cola sobre lista
+- **EDA**  [EDA - Stack](EDA%20-%20Stack.md) — pila sobre lista
 
 <!-- notas-relacionadas:fin -->

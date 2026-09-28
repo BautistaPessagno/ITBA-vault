@@ -289,9 +289,9 @@ flowchart TD
 
 **Misma materia (BD)**
 
-- [[BD clase 1 caracteristicas de un DBMS]] — clase anterior
-- [[BD clase 3 modelo relacional]] — clase siguiente
-- [[BD clase 4 mapeo EER a relacional]] — cómo se traduce el MER
-- [[Mapeo del diagrama MER al modelo relacional]] — práctica de mapeo
+- [BD clase 1 caracteristicas de un DBMS](BD%20clase%201%20caracteristicas%20de%20un%20DBMS.md) — clase anterior
+- [BD clase 3 modelo relacional](BD%20clase%203%20modelo%20relacional.md) — clase siguiente
+- [BD clase 4 mapeo EER a relacional](BD%20clase%204%20mapeo%20EER%20a%20relacional.md) — cómo se traduce el MER
+- [Mapeo del diagrama MER al modelo relacional](Mapeo%20del%20diagrama%20MER%20al%20modelo%20relacional.md) — práctica de mapeo
 
 <!-- notas-relacionadas:fin -->

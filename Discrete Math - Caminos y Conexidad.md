@@ -70,7 +70,7 @@ Sea u y v dos vértices no adyacentes en un grafo conexo G. El máximo número d
 - ¿Por qué no hay condición simple para Hamiltoniano?
 - ¿Qué significa 2-conexo intuitivamente?
 
-[[Discrete Math.base|Discrete Math]]
+[Discrete Math](Categories/Discrete%20Math.base)
 
 ---
 
@@ -80,13 +80,13 @@ Sea u y v dos vértices no adyacentes en un grafo conexo G. El máximo número d
 
 **Misma materia (Discrete Math)**
 
-- [[Discrete Math - Grafos Fundamentos]] — tema anterior
-- [[Discrete Math - Árboles y Recorridos]] — recorridos eulerianos
+- [Discrete Math - Grafos Fundamentos](Discrete%20Math%20-%20Grafos%20Fundamentos.md) — tema anterior
+- [Discrete Math - Árboles y Recorridos](Discrete%20Math%20-%20Árboles%20y%20Recorridos.md) — recorridos eulerianos
 
 **Otras materias**
 
-- **BD**  [[BD clase 9 SQL avanzado consultas]] — clausura transitiva con WITH RECURSIVE
-- **EDA**  [[EDA - Grafos]] — Dijkstra y camino mínimo
-- **Protos**  [[7. Protos - Routing]] — ruteo como problema de camino mínimo
+- **BD**  [BD clase 9 SQL avanzado consultas](BD%20clase%209%20SQL%20avanzado%20consultas.md) — clausura transitiva con WITH RECURSIVE
+- **EDA**  [EDA - Grafos](EDA%20-%20Grafos.md) — Dijkstra y camino mínimo
+- **Protos**  [7. Protos - Routing](7.%20Protos%20-%20Routing.md) — ruteo como problema de camino mínimo
 
 <!-- notas-relacionadas:fin -->

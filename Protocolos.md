@@ -53,7 +53,7 @@ temas:
 
 > [!abstract] De qué va la clase
 > Un **protocolo criptográfico** combina de una forma concreta las primitivas que ya vimos (cifrado, MACs, hashes, firmas, intercambio de claves) para obtener servicios que ninguna da por separado. Hay cientos; la clase recorre cuatro, salteados, elegidos por los recursos que dejan y porque casi seguro aparecen en la vida profesional:
-> 1. **PKI** — cómo atar una clave pública a una identidad (certificados). Resuelve el MITM que dejó abierto Diffie-Hellman en la [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital|clase anterior]].
+> 1. **PKI** — cómo atar una clave pública a una identidad (certificados). Resuelve el MITM que dejó abierto Diffie-Hellman en la [clase anterior](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md).
 > 2. **Needham-Schroeder** — intercambio de claves usando **solo** criptografía simétrica y un KDC. Lo que importa no es el protocolo sino los cuatro recursos que introduce: *token*, claves de vida corta, *nonce* + *challenge-response* y *timestamp*.
 > 3. **TLS** — el protocolo más usado del planeta: construye un **canal seguro** sobre uno inseguro mezclando todo lo anterior.
 > 4. **Criptografía de umbrales** (Shamir) — un bloque básico distinto: $n$ claves, y $t$ cualesquiera alcanzan para recuperar el secreto.
@@ -90,15 +90,15 @@ tipo de ataque: **man in the middle**
 | **Repetir** | reenvía a propósito un mensaje válido, una o muchas veces (*replay*) |
 
 > [!important] Error fortuito vs atacante
-> Varias de estas cosas ya aparecían en otras materias: un paquete que se duplica en la red o una cola de mensajes que reentrega, y por eso se diseña con **idempotencia** (ver [[Resumen Protos]]). La diferencia que remarcó la clase es de fondo: en seguridad, el mensaje repetido o modificado **no** es ruido ni una falla del medio. Es un atacante **activo e inteligente** que lo hace a propósito, con una intención, y elige cuándo. A veces la solución se parece, pero el modelo de amenaza es otro: hay que asumir el peor caso, no el caso probable.
+> Varias de estas cosas ya aparecían en otras materias: un paquete que se duplica en la red o una cola de mensajes que reentrega, y por eso se diseña con **idempotencia** (ver [Resumen Protos](Resumen%20Protos.md)). La diferencia que remarcó la clase es de fondo: en seguridad, el mensaje repetido o modificado **no** es ruido ni una falla del medio. Es un atacante **activo e inteligente** que lo hace a propósito, con una intención, y elige cuándo. A veces la solución se parece, pero el modelo de amenaza es otro: hay que asumir el peor caso, no el caso probable.
 
 ## Problemas
-![[Pasted image 20260918164841.png]]
+![](Attachments/Pasted%20image%2020260918164841.png)
 
 El problema no está en los criptosistemas: RSA o ElGamal siguen siendo seguros, con su prueba. Está en una de sus hipótesis. Para cifrar hacia $B$ hace falta $pk_B$, y en la clase 4 dijimos "no es problema, es pública, se la damos a todo el mundo". Era una simplificación: en la práctica $A$ se la **pide a alguien** (a $B$, a un endpoint, a un directorio — el REP de la slide), y ese pedido viaja por el mismo canal donde está el atacante. Si el atacante reenvía el pedido, intercepta la respuesta y cambia $pk_B$ por $pk_E$, $A$ no tiene cómo darse cuenta.
 
 ## Man in the middle
-![[Pasted image 20260918164921.png]]
+![](Attachments/Pasted%20image%2020260918164921.png)
 
 pide la clave de B y recibe la clave publica, A pensando que usa la clave de B en realidad usa otra clave y el man in the middle tiene la clave de B
 
@@ -115,7 +115,7 @@ Ninguno de los dos se entera, y se perdió confidencialidad **e** integridad sin
 ## infrastructura de claves (PKI)
 
 busca asociar identidad a las claves
-![[Pasted image 20260918165402.png]]
+![](Attachments/Pasted%20image%2020260918165402.png)
 
 busca evitar el man-in-the-middle
 
@@ -132,7 +132,7 @@ es un problema de identidad
 La respuesta es un bloque básico nuevo: el **certificado**.
 
 ## Certificados
-![[Pasted image 20260918165547.png]]
+![](Attachments/Pasted%20image%2020260918165547.png)
 
 aparece en cualquier problema que requiera seguridad asimetrica
 
@@ -156,7 +156,7 @@ La identidad toma formas distintas según el dueño, pero siempre lo identifica 
 | Persona física | un identificador nacional único (DNI, CUIT) |
 
 > [!tip] Por qué importa el "tipo de uso"
-> Si una misma clave se permite para combinaciones de uso distintas, aparecen ataques — sobre todo mezclando **cifrado y firma**. El ejemplo concreto está en la [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital|clase 4]]: en textbook RSA, *firmar* $m$ es calcular $m^d \bmod n$, que es exactamente lo mismo que *descifrar* $m$. Si la clave sirve para las dos cosas, pedirle a alguien que "firme" un criptograma es pedirle que lo descifre. Por eso el certificado declara para qué sirve la clave, y el que lo valida lo tiene que chequear.
+> Si una misma clave se permite para combinaciones de uso distintas, aparecen ataques — sobre todo mezclando **cifrado y firma**. El ejemplo concreto está en la [clase 4](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md): en textbook RSA, *firmar* $m$ es calcular $m^d \bmod n$, que es exactamente lo mismo que *descifrar* $m$. Si la clave sirve para las dos cosas, pedirle a alguien que "firme" un criptograma es pedirle que lo descifre. Por eso el certificado declara para qué sirve la clave, y el que lo valida lo tiene que chequear.
 
 > [!question] ¿El certificado no debería estar hecho a medida del mensaje? (pregunta de la clase)
 > La duda: si no depende del mensaje, un atacante en el medio podría agarrar el certificado de un mensaje anterior y usarlo para uno nuevo.
@@ -176,7 +176,7 @@ La identidad toma formas distintas según el dueño, pero siempre lo identifica 
 > Detalle de la slide: "DSA-EC 320" se llama **ECDSA**, y las curvas que se usan en la PKI web son P-256 y P-384. Con 256 bits ya se tienen 128 bits de seguridad.
 
 ## Cadena de firmas
-![[Pasted image 20260918170706.png]]
+![](Attachments/Pasted%20image%2020260918170706.png)
 
 los AC raices son grupos muy chicos que todos conocemos (ya vienen instaladas) son la base de confianza y son muy controlados
 
@@ -210,7 +210,7 @@ donde $C'_X$ es el certificado propio de $X$ y $CA3$ está firmada por $CA2$, qu
 > A la otra pregunta — ¿se usa cualquiera de las ~100 raíces? — la respuesta fue que, parado en un certificado, la verificación tiene que **llegar a una de ellas**, y cuál depende de la CA que intervino cuando el dueño pidió el certificado. Con **certificación cruzada** puede haber más de un camino válido hasta raíces distintas; el ejercicio de más abajo es un caso.
 
 ## Validaciones entre C.A
-![[Pasted image 20260918171506.png]]
+![](Attachments/Pasted%20image%2020260918171506.png)
 
 
 
@@ -323,7 +323,7 @@ Lo que hay que saber leer: el **subject** es a nombre de quién está la clave p
 > En clase se leyó el emisor como "una empresa que está en Estados Unidos, en Cape Town". `C=ZA` es **Sudáfrica** (Cape Town está en la provincia de Western Cape, que es el `ST`). Thawte la fundó Mark Shuttleworth en Sudáfrica en 1995, y VeriSign la compró en 1999.
 
 > [!warning] Por qué este certificado hoy sería inaceptable
-> Además de estar vencido: firmar certificados con **MD5** está roto en la práctica. En diciembre de 2008 (25C3) Sotirov, Stevens y otros usaron una colisión de prefijo elegido de MD5 para fabricar un **certificado de CA trucho** a partir de uno legítimo de RapidSSL. Y RSA-1024 está prohibido por NIST desde 2013 (ver la [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital|clase 4]]).
+> Además de estar vencido: firmar certificados con **MD5** está roto en la práctica. En diciembre de 2008 (25C3) Sotirov, Stevens y otros usaron una colisión de prefijo elegido de MD5 para fabricar un **certificado de CA trucho** a partir de uno legítimo de RapidSSL. Y RSA-1024 está prohibido por NIST desde 2013 (ver la [clase 4](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md)).
 
 ### Verificación de certificados X.509
 
@@ -342,7 +342,7 @@ Si pasa todo, tengo la clave pública y la uso para lo que haga falta.
 
 ### Ejercicio: validar una cadena real
 
-![[Clase 5 - Ejercicio validacion de certificados.png|600]]
+![imagen|600](Attachments/Clase%205%20-%20Ejercicio%20validacion%20de%20certificados.png)
 
 *Describir todas las validaciones necesarias.* Es la cadena del certificado de `www.itba.edu.ar` en 2017:
 
@@ -370,7 +370,7 @@ Si pasa todo, tengo la clave pública y la uso para lo que haga falta.
 
 ## Revocacion de claves
 puedo no confiar en que la clave esta segura
-![[Pasted image 20260918172035.png]]
+![](Attachments/Pasted%20image%2020260918172035.png)
 
 Revocar = **invalidar un certificado antes de su vencimiento**. Si llega la fecha de expiración, listo, no hace falta revocar nada. Pero puedo tener todos los certificados del mundo bien configurados y otro problema de seguridad por otro lado: me entraron al servidor, el administrador que generó la clave se fue de la empresa, le instalaron un virus a alguien con acceso a la privada... y el certificado vence recién el año que viene.
 
@@ -393,7 +393,7 @@ La primera optimización: en vez de preguntar por cada certificado, **bajar la l
 - El problema: **no hay una lista, hay una por CA**, y hay que bajarlas y mantenerlas actualizadas. Igual es una primera forma de que, por ejemplo, un servidor que hace muchas validaciones todo el tiempo no tenga que consultar online cada vez.
 
 ## online Certificate Status Protocol
-![[Pasted image 20260918172521.png]]
+![](Attachments/Pasted%20image%2020260918172521.png)
 
 La clase presentó dos formas de usarlo:
 
@@ -417,7 +417,7 @@ Es configuración extra: es típico en sitios de mucho tráfico; el sitio de cin
 > - Typo de la slide: es *Stapling*, con una sola p.
 
 ## Resumen de certificados
-![[Pasted image 20260918172646.png]]
+![](Attachments/Pasted%20image%2020260918172646.png)
 
 **¿Qué es, entonces, una PKI?** Los **certificados** (el corazón de todo) **+** un **protocolo estandarizado** para pedirlos, recibirlos y revocarlos. Todo está en RFCs públicos — cómo es la URL, en qué formato se pasa la información, qué vuelve —, igual que el formato de los certificados, porque el objetivo es alcance mundial: empresas distintas, con stacks distintos, de países e idiomas distintos. La revocación también es parte de la PKI.
 
@@ -444,7 +444,7 @@ Notación del paper (un poco distinta a la que veníamos usando): $\{M\}_k = e_k
 
 ## Primera aproximacion
 
-![[Clase 5 - Needham-Schroeder primera aproximacion.png|560]]
+![imagen|560](Attachments/Clase%205%20-%20Needham-Schroeder%20primera%20aproximacion.png)
 
 La idea más simple: $A$ le pide ayuda al KDC, y el KDC **se inventa** una clave nueva $k_s$ y se la devuelve a $A$ **dos veces**, cifrada para cada uno.
 
@@ -461,7 +461,7 @@ $A$ descifra la primera parte y recupera $k_s$. ¿Y qué puede hacer con la segu
 
 El problema es que es demasiado simple y tiene veinte mil problemas de seguridad. Los dos de la slide que sigue:
 
-![[Pasted image 20260918173446.png]]
+![](Attachments/Pasted%20image%2020260918173446.png)
 
 - **Replay**: desde el punto de vista de $B$, la comunicación **empieza en el mensaje 3**: recibe una $k_s$ y a partir de ahí mensajes cifrados con ella. Si un atacante grabó el mensaje 3 y todo lo que $A$ y $B$ se mandaron después, puede repetir la comunicación entera otro día, y pasa todos los chequeos de seguridad. $B$ no sabe que no está hablando con $A$.
 - **Key reuse**: un atacante activo graba los dos primeros mensajes. Otro día, cuando $A$ hace un pedido nuevo, lo ignora (no lo deja llegar) y le contesta con el mensaje 2 **grabado**. $A$ lo descifra sin problema, pero termina usando **la misma $k_s$ del día anterior**. Se puede forzar a $A$ y $B$ a usar siempre la misma clave.
@@ -476,7 +476,7 @@ El problema es que es demasiado simple y tiene veinte mil problemas de seguridad
 ## segunda aproximacion 
 
 
-![[Pasted image 20260918173643.png]]
+![](Attachments/Pasted%20image%2020260918173643.png)
 
 Este sí es el protocolo **Needham-Schroeder** (en colores, lo que cambia respecto de la primera versión):
 
@@ -507,7 +507,7 @@ Los primeros tres pasos son conceptualmente iguales: $A$ pide ayuda, el KDC le d
 
 ### El ataque de Denning-Sacco
 
-![[Clase 5 - Ataque Denning-Sacco.png|560]]
+![imagen|560](Attachments/Clase%205%20-%20Ataque%20Denning-Sacco.png)
 
 Según la clase, durante mucho tiempo esto fue lo que se usó. En 1981, Denning y Sacco plantearon un escenario un poco tirado de los pelos pero que se volvió importante: un atacante graba una sesión hoy, le dedica **cinco años** y de alguna manera logra sacar la $k_s$ de esa sesión, con lo que puede leer todos los mensajes que se intercambiaron. La premisa de las claves cortas decía: listo, eso le sirve solo para esa sesión, información obsoleta hace cinco años.
 
@@ -517,7 +517,7 @@ Nada en el token dice **cuándo** se generó. Es un problema de **repetición**,
 
 ### Modificacion Denning-Sacco
 
-![[Clase 5 - Modificacion Denning-Sacco.png|560]]
+![imagen|560](Attachments/Clase%205%20-%20Modificacion%20Denning-Sacco.png)
 
 El arreglo, que es la base de Kerberos y de Active Directory: agregar una pieza de información que tiene que ir y volver — un **timestamp** $T$, una marca de tiempo (lo rojo de la slide):
 
@@ -545,7 +545,7 @@ donde $\text{Clock}$ es la hora local, $\Delta t_1$ la discrepancia normal entre
 > Implementé las dos versiones con AES-GCM como cifrado ($k_a$, $k_b$ y $k_s$ de 128 bits) y simulé el ataque. Con la segunda aproximación, un atacante que tiene una $k_s$ "de hace cinco años" reinyecta el token viejo, resuelve el desafío y **$B$ acepta que habla con $A$**. Con el timestamp (tolerancia de 300 s), el mismo token se **rechaza** por viejo. También reproduje el *key reuse*: en la segunda aproximación, un mensaje 2 repetido se descarta porque el $r_1$ no coincide.
 
 > [!note] La otra solución: el nonce de Bob
-> Needham y Schroeder publicaron en 1987 (*Authentication Revisited*) otra forma de arreglarlo sin relojes: que $B$ genere un nonce **antes** de que $A$ hable con el KDC, y que ese nonce viaje hasta el KDC y vuelva dentro del token. Es la variante del ejercicio 5 de la Guía 4 (ver el mini-resumen de la [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital|clase 4]]).
+> Needham y Schroeder publicaron en 1987 (*Authentication Revisited*) otra forma de arreglarlo sin relojes: que $B$ genere un nonce **antes** de que $A$ hable con el KDC, y que ese nonce viaje hasta el KDC y vuelva dentro del token. Es la variante del ejercicio 5 de la Guía 4 (ver el mini-resumen de la [clase 4](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md)).
 
 ### Los cuatro recursos
 
@@ -587,7 +587,7 @@ Todo lo que se llama "SSL algo" tiene problemas graves de seguridad y no deberí
 > Tiene sentido literal: en el cable, el campo de versión de TLS 1.2 vale `{3, 3}` (`0x0303`), y TLS 1.0 se codifica como `{3, 1}`. TLS se numera como una continuación de SSL 3.
 
 > [!warning] Discrepancia con lo que se dio en Protos
-> En [[Resumen Protos]] quedó como verdadera la afirmación *"TLS se diferencia de SSL en que la conexión se inicia sin seguridad por el puerto estándar y luego se negocia TLS sobre la misma conexión (STARTTLS), vs SSL que requería puerto especial"*. Desde esta materia, eso **mezcla dos ejes distintos**:
+> En [Resumen Protos](Resumen%20Protos.md) quedó como verdadera la afirmación *"TLS se diferencia de SSL en que la conexión se inicia sin seguridad por el puerto estándar y luego se negocia TLS sobre la misma conexión (STARTTLS), vs SSL que requería puerto especial"*. Desde esta materia, eso **mezcla dos ejes distintos**:
 > - **SSL vs TLS** = versiones del **protocolo** (TLS es el sucesor de SSL 3.0).
 > - **Puerto dedicado vs STARTTLS** = **cómo se arranca**: desde el primer byte en un puerto propio (HTTPS 443, SMTPS 465, IMAPS 993) o actualizando una conexión que empezó en claro (STARTTLS, por ejemplo en SMTP por el 587). Hoy se usa TLS **de las dos formas**.
 >
@@ -595,13 +595,13 @@ Todo lo que se llama "SSL algo" tiene problemas graves de seguridad y no deberí
 
 ## Concepto
 
-![[Clase 5 - TLS concepto.png|520]]
+![imagen|520](Attachments/Clase%205%20-%20TLS%20concepto.png)
 
 Dos aplicaciones que se comunican por una capa de transporte. TLS se agrega **entre la aplicación y el transporte** y crea una abstracción que, desde el punto de vista de la aplicación, es **transparente** — casi: en el *setup* de la conexión hay que configurarle parámetros a la biblioteca (el handshake es re complicado); una vez abierta la conexión, sí es transparente. Recicla todo lo que hay abajo en el stack (TCP, IP, Ethernet) y garantiza la parte protegida.
 
 ## TLS Record
 
-![[Clase 5 - TLS Record.png|560]]
+![imagen|560](Attachments/Clase%205%20-%20TLS%20Record.png)
 
 Obviamente TLS transforma la información: no se transmite el mismo mensaje. Esquemáticamente:
 
@@ -618,7 +618,7 @@ Lo que era un mensaje se convierte en una serie de bloquecitos cifrados y con co
 
 > [!warning] Dos pasos del record que hoy ya no se hacen así
 > - **Compresión**: el ataque **CRIME** (2012) mostró que comprimir antes de cifrar filtra información (el tamaño del criptograma depende de cuánto se repite el secreto con lo que controla el atacante). TLS 1.3 **eliminó la compresión**.
-> - **MAC y después cifrar** (*MAC-then-encrypt*) con CBC dio lugar a ataques como POODLE y Lucky 13. TLS 1.3 solo admite **AEAD**: el cifrado autenticado de la [[Clase 3 - Criptografia - MACs y modo autenticado|clase 3]] reemplaza al par "cifrado + MAC".
+> - **MAC y después cifrar** (*MAC-then-encrypt*) con CBC dio lugar a ataques como POODLE y Lucky 13. TLS 1.3 solo admite **AEAD**: el cifrado autenticado de la [clase 3](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md) reemplaza al par "cifrado + MAC".
 
 ## TLS – Tipo de mensajes
 
@@ -730,7 +730,7 @@ $$S \rightarrow C:\ \{p \,\|\, \operatorname{Sign}_{sk_S}\big(\operatorname{hash
 
 ### Parte 3 — Del lado del cliente
 
-![[Clase 5 - TLS Handshake parte 3.png|560]]
+![imagen|560](Attachments/Clase%205%20-%20TLS%20Handshake%20parte%203.png)
 
 - **Certificate** del cliente, si se lo pidieron.
 - **ClientKeyExchange**, la parte del intercambio que le corresponde:
@@ -747,7 +747,7 @@ $$S \rightarrow C:\ \{p \,\|\, \operatorname{Sign}_{sk_S}\big(\operatorname{hash
 
 ### Parte 4 — Change Cipher Spec y Finished
 
-![[Clase 5 - TLS Handshake parte 4.png|560]]
+![imagen|560](Attachments/Clase%205%20-%20TLS%20Handshake%20parte%204.png)
 
 Recién cuando el servidor recibe el ClientKeyExchange, cliente y servidor comparten un secreto: el **pre-master secret**. No es la clave que se usa — por eso el *pre*; en ese momento todavía no hay clave de sesión. De él, cliente y servidor derivan por separado el **master secret**, que sí es la clave de la sesión. Se calcula siempre de la misma manera, venga de donde venga el pre-master. La fórmula de la slide:
 
@@ -782,7 +782,7 @@ El servidor recibe el Finished del cliente y, si está todo bien, hace lo mismo:
 > - **TLS 1.3**: todo sale de **HKDF** (ver el mini-resumen de la clase 4).
 >
 > Dos detalles más de la slide, contra el RFC 6101:
-> - Los pads no son de **20 bytes**: `pad_1` es `0x36` repetido **48 veces para MD5 o 40 para SHA**, y `pad_2` es `0x5C`, con las mismas longitudes. Los valores sí están bien: $\texttt{00110110} = \texttt{0x36}$ (ipad) y $\texttt{01011100} = \texttt{0x5C}$ (opad). En la [[Clase 3 - Criptografia - MACs y modo autenticado|clase 3]] la slide de HMAC los tenía intercambiados; esta no.
+> - Los pads no son de **20 bytes**: `pad_1` es `0x36` repetido **48 veces para MD5 o 40 para SHA**, y `pad_2` es `0x5C`, con las mismas longitudes. Los valores sí están bien: $\texttt{00110110} = \texttt{0x36}$ (ipad) y $\texttt{01011100} = \texttt{0x5C}$ (opad). En la [clase 3](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md) la slide de HMAC los tenía intercambiados; esta no.
 > - El Finished de SSL 3.0 mete además un identificador de quién lo manda (`Sender`: `CLNT` o `SRVR`) dentro del hash interno, y se calcula dos veces, una con MD5 y otra con SHA. El `Sender` separa el Finished de cada lado, para que no se pueda reflejar el de uno como si fuera del otro.
 
 > [!tip] Forward secrecy: por qué TLS 1.3 sacó RSA como intercambio
@@ -818,7 +818,7 @@ Hay una discusión casi filosófica sobre si los errores de certificado no deber
 - Prácticamente nadie **implementa** TLS: ya están las implementaciones, uno las usa (y se va a aburrir de usarlas). Lo que sí hay que hacer es configurarlas bien: versiones, cipher suites, validación.
 
 > [!warning] SSH no es "SSH sobre TLS"
-> La regla de la S tiene excepciones importantes: **SSH** tiene su propio protocolo de transporte (con su propio DH autenticado), y **SFTP** corre sobre SSH, no sobre TLS. Ver [[9. Protos - SSH]]. El "FTP sobre TLS" es **FTPS**.
+> La regla de la S tiene excepciones importantes: **SSH** tiene su propio protocolo de transporte (con su propio DH autenticado), y **SFTP** corre sobre SSH, no sobre TLS. Ver [9. Protos - SSH](9.%20Protos%20-%20SSH.md). El "FTP sobre TLS" es **FTPS**.
 
 > [!question] ¿TLS usa criptografía asimétrica para el contenido? (pregunta de la clase)
 > La asimétrica se usa **solo en el handshake**: el cliente puede mandarle información al servidor de forma segura porque tiene su clave pública (por el certificado), y con eso se arma el intercambio de claves. Una vez que las dos partes acuerdan una clave, **todo el contenido se cifra con criptografía simétrica**, y las cipher suites solo ofrecen simétricos para esa parte.
@@ -877,7 +877,7 @@ $$d_{k''}\big(e_{k'}(m)\big) = m$$
 
 ## Método de Shamir
 
-![[Clase 5 - Metodo de Shamir.png|560]]
+![imagen|560](Attachments/Clase%205%20-%20Metodo%20de%20Shamir.png)
 
 El más fácil y el más conocido es el de **Shamir** (Adi Shamir, la S de RSA: *"How to share a secret"*, 1979). Se basa en un principio algebraico conocido: **un polinomio de grado $k$ queda definido exactamente por $k+1$ puntos**. Un polinomio de grado 1 (una recta) se define con 2 puntos; uno de grado 2 (una parábola), con 3. Y con **menos** puntos, hay **infinitos**: por un solo punto pasan infinitas rectas; por 2 puntos, infinitas parábolas. A un polinomio se le pueden calcular todos los puntos que se quiera (100.000, si hace falta); cualesquiera $k+1$ de ellos lo reconstruyen, y con menos no alcanza.
 
@@ -917,7 +917,7 @@ $$s = \sum_{a=1}^{t} s_{i_a} \prod_{b \neq a} \frac{-\,i_b}{i_a - i_b} \pmod p$$
 
 ## Ejemplo
 
-![[Clase 5 - Shamir ejemplo cifrado.png|560]]
+![imagen|560](Attachments/Clase%205%20-%20Shamir%20ejemplo%20cifrado.png)
 
 Un ejemplo tonto (esto se hace con números grandes): secreto $s = 7$, esquema $(3,5)$ — 5 claves, 3 cualesquiera recuperan el secreto. Polinomio de grado 2; el 5 y el 3 son al azar, el 7 no es cualquiera: es el secreto. Mod 11, para que no crezca al infinito (con un millón de claves, los números se van a cualquier lado):
 
@@ -937,7 +937,7 @@ Sombras: $(1,4),\ (2,0),\ (3,6),\ (4,0),\ (5,4)$.
 > La slide (y la clase, que la leyó) da $P(4) = 80 + 12 + 7 \bmod 11 = 2$. Pero $99 = 9 \cdot 11$, así que $P(4) = \mathbf{0}$ y la sombra correcta es $(4, 0)$.
 > No es un detalle menor: **cualquier** terna que incluya la sombra $(4,2)$ de la slide reconstruye un secreto **equivocado**. Probé las seis y dan 4, 9, 0, 2, 8 y 10; ninguna 7. El ejemplo de descifrado "funciona" solo porque usa $(2,0), (3,6), (5,4)$, que esquiva justo esa.
 
-![[Clase 5 - Shamir ejemplo descifrado.png|560]]
+![imagen|560](Attachments/Clase%205%20-%20Shamir%20ejemplo%20descifrado.png)
 
 Tomando tres cualesquiera, por ejemplo $(2,0)$, $(3,6)$ y $(5,4)$: tres términos, uno por punto. En cada uno va el valor del polinomio en ese punto, multiplicado por los $(x - \cdot)$ de los **otros** dos puntos; el denominador es lo mismo pero evaluado en el punto del término (2, 3 y 5):
 
@@ -1058,16 +1058,16 @@ $$\begin{aligned}
 
 **Misma materia (Criptografía y Seguridad)**
 
-- [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital]] — clase anterior: el MITM sobre Diffie-Hellman que resuelve la PKI, la firma digital sobre la que se arman los certificados, el KDC que formaliza Needham-Schroeder, y el mini-resumen de la Guía 4 (ataques a protocolos, certificados con openssl y TLS)
-- [[Clase 3 - Criptografia - MACs y modo autenticado]] — el HMAC con ipad/opad que reaparece en el Finished y en el master secret, y el cifrado autenticado (AEAD/GCM), lo único que admite TLS 1.3
-- [[Criptografia y seguridad Clase 2 - Cifrado]] — los cifrados de bloque y modos (DES, 3DES, AES-CBC/GCM) que forman el menú de cipher suites
-- [[Materia - Criptografía y Seguridad]] — índice de la materia
+- [Clase 4 - Criptografía - Cifrado asimétrico y Firma digital](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md) — clase anterior: el MITM sobre Diffie-Hellman que resuelve la PKI, la firma digital sobre la que se arman los certificados, el KDC que formaliza Needham-Schroeder, y el mini-resumen de la Guía 4 (ataques a protocolos, certificados con openssl y TLS)
+- [Clase 3 - Criptografia - MACs y modo autenticado](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md) — el HMAC con ipad/opad que reaparece en el Finished y en el master secret, y el cifrado autenticado (AEAD/GCM), lo único que admite TLS 1.3
+- [Criptografia y seguridad Clase 2 - Cifrado](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md) — los cifrados de bloque y modos (DES, 3DES, AES-CBC/GCM) que forman el menú de cipher suites
+- [Materia - Criptografía y Seguridad](Materia%20-%20Criptografía%20y%20Seguridad.md) — índice de la materia
 
 **Otras materias**
 
-- **Protos** — [[4. Protos - MAIL]] — la sección TLS/SSL, con el handshake de SSL y el listado de entidades certificantes; SMTPS y STARTTLS son TLS aplicado al correo
-- **Protos** — [[9. Protos - SSH]] — el mismo problema de autenticar la clave pública del servidor, resuelto sin CAs; y SSH no corre sobre TLS
-- **Protos** — [[Resumen Protos]] — idempotencia (tolerar repeticiones accidentales, frente al replay malicioso de esta clase) y la afirmación "TLS vs SSL = STARTTLS vs puerto dedicado", que choca con la definición de esta materia
-- **Protos** — [[Direccionamiento y HTTP - Practica]] — Basic Auth solo sobre HTTPS y la terminación TLS en nginx: hasta dónde llega el canal seguro
+- **Protos** — [4. Protos - MAIL](4.%20Protos%20-%20MAIL.md) — la sección TLS/SSL, con el handshake de SSL y el listado de entidades certificantes; SMTPS y STARTTLS son TLS aplicado al correo
+- **Protos** — [9. Protos - SSH](9.%20Protos%20-%20SSH.md) — el mismo problema de autenticar la clave pública del servidor, resuelto sin CAs; y SSH no corre sobre TLS
+- **Protos** — [Resumen Protos](Resumen%20Protos.md) — idempotencia (tolerar repeticiones accidentales, frente al replay malicioso de esta clase) y la afirmación "TLS vs SSL = STARTTLS vs puerto dedicado", que choca con la definición de esta materia
+- **Protos** — [Direccionamiento y HTTP - Practica](Direccionamiento%20y%20HTTP%20-%20Practica.md) — Basic Auth solo sobre HTTPS y la terminación TLS en nginx: hasta dónde llega el canal seguro
 
 <!-- notas-relacionadas:fin -->

@@ -25,4 +25,4 @@ derecho, capacidad y sistema de apoyos, obligaciones y responsabilidad civil) y 
 derecho comercial: fondo de comercio y su transferencia, seguros, bolsa, títulos de crédito
 y concursos. Se trabaja con fallos y textos de doctrina.
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

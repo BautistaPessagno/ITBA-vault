@@ -229,7 +229,7 @@ $$\{ \text{DatoA} \mid (\exists\, \text{DatoB})(r(\text{DatoA}, \text{DatoB}) \l
 
 **Misma materia (BD)**
 
-- [[BD clase 5 algebra relacional]] — equivalencia con el álgebra
-- [[BD clase 7 SQL DDL y DML]] — clase siguiente
+- [BD clase 5 algebra relacional](BD%20clase%205%20algebra%20relacional.md) — equivalencia con el álgebra
+- [BD clase 7 SQL DDL y DML](BD%20clase%207%20SQL%20DDL%20y%20DML.md) — clase siguiente
 
 <!-- notas-relacionadas:fin -->

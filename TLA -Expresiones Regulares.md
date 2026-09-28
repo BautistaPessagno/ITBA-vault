@@ -75,7 +75,7 @@ $$r_1 = r_2 \iff L(r_1) = L(r_2)$$
 ---
 
 ## Propiedades de las Expresiones Regulares
-![[Pasted image 20260325191946.png|697]]
+![imagen|697](Attachments/Pasted%20image%2020260325191946.png)
 
 ### Propiedad asociativa de $+$
 
@@ -416,13 +416,13 @@ El autómata de $R_1$ sirve directamente, ya que $L((R_1)) = L(R_1)$.
 
 **Misma materia (TLA)**
 
-- [[TLA -Lenguajes Regulares]] — tema anterior
-- [[TLA -Autómatas Finitos Determinísticos]] — equivalencia ER-AF
-- [[TLA -Autómatas Finitos No Determinísticos]] — construcción de Thompson
-- [[frontend]] — las ER del scanner en Flex
+- [TLA -Lenguajes Regulares](TLA%20-Lenguajes%20Regulares.md) — tema anterior
+- [TLA -Autómatas Finitos Determinísticos](TLA%20-Autómatas%20Finitos%20Determinísticos.md) — equivalencia ER-AF
+- [TLA -Autómatas Finitos No Determinísticos](TLA%20-Autómatas%20Finitos%20No%20Determinísticos.md) — construcción de Thompson
+- [frontend](frontend.md) — las ER del scanner en Flex
 
 **Otras materias**
 
-- **BD**  [[BD clase 8 SQL consultas]] — LIKE y patrones en SQL
+- **BD**  [BD clase 8 SQL consultas](BD%20clase%208%20SQL%20consultas.md) — LIKE y patrones en SQL
 
 <!-- notas-relacionadas:fin -->

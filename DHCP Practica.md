@@ -12,12 +12,12 @@ temas:
 ---
 # DHCP Practica 
 
-Completo en [[Red Practica]]
+Completo en [Red Practica](Red%20Practica.md)
 ## DORA
 
 DISCOVER, OFFER, RESPONSE, ACK
 
-![[Pasted image 20260421082115.png]]
+![](Attachments/Pasted%20image%2020260421082115.png)
 
 ## Armando servidor DHCP
 
@@ -38,8 +38,8 @@ sudo apt install isc-dhcp-server
 
 **Misma materia (Protos)**
 
-- [[6. Protos - Red]] — teoría de DHCP
-- [[Analisis Wireshark]] — captura de un intercambio DHCP
-- [[Red Practica]] — práctica de red
+- [6. Protos - Red](6.%20Protos%20-%20Red.md) — teoría de DHCP
+- [Analisis Wireshark](Analisis%20Wireshark.md) — captura de un intercambio DHCP
+- [Red Practica](Red%20Practica.md) — práctica de red
 
 <!-- notas-relacionadas:fin -->

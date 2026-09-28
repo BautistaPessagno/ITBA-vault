@@ -57,7 +57,7 @@ Convierte una expresión infija (a+b) a postfija (ab+) usando un Stack para mane
 - ¿Cuál es la complejidad de push y pop en ambas implementaciones?
 - ¿Cómo se evalúa una expresión postfija con una pila?
 
-[[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+[Data Structures and Algorithms](Categories/Data%20Structures%20and%20Algorithms.base)
 
 ---
 
@@ -67,14 +67,14 @@ Convierte una expresión infija (a+b) a postfija (ab+) usando un Stack para mane
 
 **Misma materia (EDA)**
 
-- [[EDA - Queue (Cola)]] — la otra estructura LIFO/FIFO
-- [[EDA - Listas Lineales]] — implementación subyacente
+- [EDA - Queue (Cola)](EDA%20-%20Queue%20%28Cola%29.md) — la otra estructura LIFO/FIFO
+- [EDA - Listas Lineales](EDA%20-%20Listas%20Lineales.md) — implementación subyacente
 
 **Otras materias**
 
-- **Arqui**  [[Assembler de Intel]] — push y pop a nivel máquina
-- **Arqui**  [[Seguimiento de Pila en C]] — el stack frame real en memoria
-- **PI**  [[PI - Recursividad en C]] — la pila de llamadas
-- **TLA**  [[TLA -Autómatas de Pila]] — la pila como modelo de cómputo
+- **Arqui**  [Assembler de Intel](Assembler%20de%20Intel.md) — push y pop a nivel máquina
+- **Arqui**  [Seguimiento de Pila en C](Seguimiento%20de%20Pila%20en%20C.md) — el stack frame real en memoria
+- **PI**  [PI - Recursividad en C](PI%20-%20Recursividad%20en%20C.md) — la pila de llamadas
+- **TLA**  [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md) — la pila como modelo de cómputo
 
 <!-- notas-relacionadas:fin -->

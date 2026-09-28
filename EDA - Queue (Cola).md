@@ -55,7 +55,7 @@ Colección de datos ordenada por **orden de llegada**. Acceso por dos extremos: 
 - ¿Cómo funciona el tratamiento circular de un arreglo para implementar la queue?
 - ¿Cuál es la diferencia entre una queue y un stack en términos de orden de salida?
 
-[[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+[Data Structures and Algorithms](Categories/Data%20Structures%20and%20Algorithms.base)
 
 ---
 
@@ -65,12 +65,12 @@ Colección de datos ordenada por **orden de llegada**. Acceso por dos extremos: 
 
 **Misma materia (EDA)**
 
-- [[EDA - Stack]] — FIFO vs LIFO
-- [[EDA - Listas Lineales]] — implementación subyacente
+- [EDA - Stack](EDA%20-%20Stack.md) — FIFO vs LIFO
+- [EDA - Listas Lineales](EDA%20-%20Listas%20Lineales.md) — implementación subyacente
 
 **Otras materias**
 
-- **Protos**  [[5. Protos - Transporte]] — buffers y ventana deslizante
-- **SO**  [[Scheduling]] — colas de listos y de prioridad
+- **Protos**  [5. Protos - Transporte](5.%20Protos%20-%20Transporte.md) — buffers y ventana deslizante
+- **SO**  [Scheduling](Scheduling.md) — colas de listos y de prioridad
 
 <!-- notas-relacionadas:fin -->

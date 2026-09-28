@@ -20,11 +20,11 @@ aliases:
 
 > [!warning] Documento privado de estudio
 > Banco de preguntas anticipadas para practicar la defensa oral del TPE SOCKS5.
-> No es material de entrega. Complementa a [[Protos TP - Defensa de commits]]:
+> No es material de entrega. Complementa a [Protos TP - Defensa de commits](Protos%20TP%20-%20Defensa%20de%20commits.md):
 > acá están las preguntas organizadas por tema para autoevaluarse
 > (leer la pregunta → responder de memoria → contrastar con la guía).
 
-Relacionado: [[Protos TP - Defensa de commits]] · [[Protos TP]] · [[10. Protos - Sockets]] · [[10. Protos - Aplicaciones de Red]] · [[5. Protos - Transporte]] · [[3. Protos - DNS]] · [[Resumen Protos]] · [[Diseño de protocolos]]
+Relacionado: [Protos TP - Defensa de commits](Protos%20TP%20-%20Defensa%20de%20commits.md) · [Protos TP](Protos%20TP.md) · [10. Protos - Sockets](10.%20Protos%20-%20Sockets.md) · [10. Protos - Aplicaciones de Red](10.%20Protos%20-%20Aplicaciones%20de%20Red.md) · [5. Protos - Transporte](5.%20Protos%20-%20Transporte.md) · [3. Protos - DNS](3.%20Protos%20-%20DNS.md) · [Resumen Protos](Resumen%20Protos.md) · [Diseño de protocolos](Diseño%20de%20protocolos.md)
 
 > [!tip] Cómo usar el banco
 > Cada pregunta trae una **guía breve** de 2–5 líneas, no un guion para recitar.
@@ -37,9 +37,9 @@ Relacionado: [[Protos TP - Defensa de commits]] · [[Protos TP]] · [[10. Protos
 
 ## Parte A — Teórico / general del proyecto
 
-Basado en las teóricas: [[10. Protos - Sockets]], [[10. Protos - Aplicaciones de Red]],
-[[5. Protos - Transporte]], [[3. Protos - DNS]], [[1. Protos - introducción]],
-[[Diseño de protocolos]].
+Basado en las teóricas: [10. Protos - Sockets](10.%20Protos%20-%20Sockets.md), [10. Protos - Aplicaciones de Red](10.%20Protos%20-%20Aplicaciones%20de%20Red.md),
+[5. Protos - Transporte](5.%20Protos%20-%20Transporte.md), [3. Protos - DNS](3.%20Protos%20-%20DNS.md), [1. Protos - introducción](1.%20Protos%20-%20introducción.md),
+[Diseño de protocolos](Diseño%20de%20protocolos.md).
 
 ### A.1 Sockets y Socket API
 
@@ -181,7 +181,7 @@ listener sobre el mismo event loop).
 ## Parte B — Mis aportes específicos
 
 Reorganizado por línea de trabajo (no por hash). Detalle por commit en
-[[Protos TP - Defensa de commits]].
+[Protos TP - Defensa de commits](Protos%20TP%20-%20Defensa%20de%20commits.md).
 
 ### B.1 Presentación de 30 segundos
 
@@ -384,9 +384,9 @@ La defensa fuerte no es "cada versión fue perfecta", sino explicar los
 
 **Misma materia (Protos)**
 
-- [[Protos TP]] — el TP defendido
-- [[Protos TP - Defensa de commits]] — el detalle commit a commit
-- [[spec]] — la especificación del protocolo
-- [[10. Protos - Sockets]] — la API que se defiende
+- [Protos TP](Protos%20TP.md) — el TP defendido
+- [Protos TP - Defensa de commits](Protos%20TP%20-%20Defensa%20de%20commits.md) — el detalle commit a commit
+- [spec](spec.md) — la especificación del protocolo
+- [10. Protos - Sockets](10.%20Protos%20-%20Sockets.md) — la API que se defiende
 
 <!-- notas-relacionadas:fin -->

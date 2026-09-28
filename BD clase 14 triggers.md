@@ -393,9 +393,9 @@ EXECUTE PROCEDURE fn_borrar_caros();
 
 **Misma materia (BD)**
 
-- [[BD clase 13 SQL PSM]] — clase anterior
-- [[BD clase 16 programacion embebida]] — clase siguiente
-- [[BD clase 7 SQL DDL y DML]] — restricciones declarativas vs activas
-- [[TODO]] — el TP usa triggers
+- [BD clase 13 SQL PSM](BD%20clase%2013%20SQL%20PSM.md) — clase anterior
+- [BD clase 16 programacion embebida](BD%20clase%2016%20programacion%20embebida.md) — clase siguiente
+- [BD clase 7 SQL DDL y DML](BD%20clase%207%20SQL%20DDL%20y%20DML.md) — restricciones declarativas vs activas
+- [TODO](TODO.md) — el TP usa triggers
 
 <!-- notas-relacionadas:fin -->

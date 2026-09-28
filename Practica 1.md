@@ -8,7 +8,7 @@ temas:
 ---
 # Practica 1
 
-[[mails PAW]]
-[[Bibliografia PAW]]
+[mails PAW](mails%20PAW.md)
+[Bibliografia PAW](Bibliografia%20PAW.md)
 
 

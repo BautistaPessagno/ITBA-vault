@@ -119,8 +119,8 @@ temas:
 
 **Misma materia (TLA)**
 
-- [[TLA -Guía Parcial 2 (paso a paso)]] — resolución paso a paso
-- [[TLA -Autómatas de Pila]] — GLC y autómatas de pila
-- [[TLA -Mega Resumen Final]] — teoría de respaldo
+- [TLA -Guía Parcial 2 (paso a paso)](TLA%20-Guía%20Parcial%202%20%28paso%20a%20paso%29.md) — resolución paso a paso
+- [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md) — GLC y autómatas de pila
+- [TLA -Mega Resumen Final](TLA%20-Mega%20Resumen%20Final.md) — teoría de respaldo
 
 <!-- notas-relacionadas:fin -->

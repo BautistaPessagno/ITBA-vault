@@ -65,7 +65,7 @@ al mandar un mensaje hola voy a encontrar el siguiente log
 91	2.690025	127.0.0.1	127.0.0.1	TCP	61	65360 → 9090 \[PSH, ACK] Seq=1 Ack=1 Win=6380 Len=5 TSval=3034802700 TSecr=3220219600
 ```
 
-![[Pasted image 20260403174339.png]]
+![](Attachments/Pasted%20image%2020260403174339.png)
 el 0a es el LF que pasa cuando hago enter. como hice el LF no se ve el CR od
 
 pero si en lugar de pasarlo yo con enter hago con printf
@@ -73,7 +73,7 @@ pero si en lugar de pasarlo yo con enter hago con printf
 printf "hola\r\n" | nc localhost 9090
 ```
 recibo lo siguiente
-![[Pasted image 20260403174726.png]]
+![](Attachments/Pasted%20image%2020260403174726.png)
 ahora si tengo el 0d 0a
 
 # Respuestas E24 a E41 — HTTP
@@ -476,9 +476,9 @@ Una razón es que algunos recursos se obtuvieron con **GET** mientras que otros 
 
 **Misma materia (Protos)**
 
-- [[2. Protos - HTTP]] — teoría de HTTP
-- [[HTTP Practica]] — laboratorio base
-- [[6. Protos - Red]] — direccionamiento IP
-- [[Cheatsheet]] — comandos y RFCs de referencia
+- [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) — teoría de HTTP
+- [HTTP Practica](HTTP%20Practica.md) — laboratorio base
+- [6. Protos - Red](6.%20Protos%20-%20Red.md) — direccionamiento IP
+- [Cheatsheet](Cheatsheet.md) — comandos y RFCs de referencia
 
 <!-- notas-relacionadas:fin -->

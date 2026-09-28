@@ -14,6 +14,6 @@ temas:
 
 Métodos Numéricos y Análisis: números complejos, vectores y matrices, espacios vectoriales y euclidianos, diagonalización, factorizaciones (LU/QR/SVD) y cuadrados mínimos.
 
-→ [[Resumen MNA]]
+→ [Resumen MNA](Resumen%20MNA.md)
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

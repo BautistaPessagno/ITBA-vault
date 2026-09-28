@@ -170,7 +170,7 @@ Si se corrompe → se pierde el FS (pero puede reconstruirse).
 - El proceso init (PID 1) adopta procesos huérfanos para evitar zombies perpetuos.
 - Siempre inicializar semáforos antes de usarlos.
 
-[[SO.base|Sistemas Operativos]]
+[Sistemas Operativos](Categories/SO.base)
 
 ---
 
@@ -180,12 +180,12 @@ Si se corrompe → se pierde el FS (pero puede reconstruirse).
 
 **Misma materia (SO)**
 
-- [[Procesos]] — procesos
-- [[Scheduling]] — scheduling
-- [[Threads]] — threads
-- [[IPC]] — IPC y sincronización
-- [[Memory Management]] — gestión de memoria
-- [[File System]] — file system
-- [[SysCall]] — llamadas al sistema
+- [Procesos](Procesos.md) — procesos
+- [Scheduling](Scheduling.md) — scheduling
+- [Threads](Threads.md) — threads
+- [IPC](IPC.md) — IPC y sincronización
+- [Memory Management](Memory%20Management.md) — gestión de memoria
+- [File System](File%20System.md) — file system
+- [SysCall](SysCall.md) — llamadas al sistema
 
 <!-- notas-relacionadas:fin -->

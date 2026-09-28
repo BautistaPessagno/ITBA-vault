@@ -39,12 +39,12 @@ vamos con TCP
 
 **Misma materia (Protos)**
 
-- [[Diseño de protocolos]] — criterios de diseño
-- [[Protos TP]] — el TP que implementa esta spec
-- [[5. Protos - Transporte]] — la decisión UDP vs TCP
+- [Diseño de protocolos](Diseño%20de%20protocolos.md) — criterios de diseño
+- [Protos TP](Protos%20TP.md) — el TP que implementa esta spec
+- [5. Protos - Transporte](5.%20Protos%20-%20Transporte.md) — la decisión UDP vs TCP
 
 **Otras materias**
 
-- **TLA**  [[TLA -Análisis Sintáctico]] — parsear un protocolo de texto es parsear una gramática
+- **TLA**  [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md) — parsear un protocolo de texto es parsear una gramática
 
 <!-- notas-relacionadas:fin -->

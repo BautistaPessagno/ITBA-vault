@@ -20,8 +20,8 @@ En resumen: **sin un ISP, no hay internet.**
 
 **Misma materia (Protos)**
 
-- [[1. Protos - introducción]] — cómo se estructura Internet
-- [[7. Protos - Routing]] — ruteo entre ISPs
-- [[6. Protos - Red]] — asignación de direcciones
+- [1. Protos - introducción](1.%20Protos%20-%20introducción.md) — cómo se estructura Internet
+- [7. Protos - Routing](7.%20Protos%20-%20Routing.md) — ruteo entre ISPs
+- [6. Protos - Red](6.%20Protos%20-%20Red.md) — asignación de direcciones
 
 <!-- notas-relacionadas:fin -->

@@ -16,12 +16,12 @@ El DNS (_Domain Name System_ o Sistema de Nombres de Dominio) es un **sistema je
 
 **Misma materia (Protos)**
 
-- [[3. Protos - DNS]] — clase completa de DNS
-- [[DNS practica]] — práctica
-- [[BIND - Configuracion de Zonas DNS]] — configuración de zonas
+- [3. Protos - DNS](3.%20Protos%20-%20DNS.md) — clase completa de DNS
+- [DNS practica](DNS%20practica.md) — práctica
+- [BIND - Configuracion de Zonas DNS](BIND%20-%20Configuracion%20de%20Zonas%20DNS.md) — configuración de zonas
 
 **Otras materias**
 
-- **EDA**  [[EDA - Árboles]] — el espacio de nombres es jerárquico
+- **EDA**  [EDA - Árboles](EDA%20-%20Árboles.md) — el espacio de nombres es jerárquico
 
 <!-- notas-relacionadas:fin -->

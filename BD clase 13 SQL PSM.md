@@ -498,12 +498,12 @@ $$ LANGUAGE plpgsql;
 
 **Misma materia (BD)**
 
-- [[BD clase 12 normalizacion parte 2]] — clase anterior
-- [[BD clase 14 triggers]] — clase siguiente: los triggers llaman funciones
-- [[TODO]] — el TP usa PSM
+- [BD clase 12 normalizacion parte 2](BD%20clase%2012%20normalizacion%20parte%202.md) — clase anterior
+- [BD clase 14 triggers](BD%20clase%2014%20triggers.md) — clase siguiente: los triggers llaman funciones
+- [TODO](TODO.md) — el TP usa PSM
 
 **Otras materias**
 
-- **PI**  [[PI - Funciones en C]] — funciones, parámetros y control de flujo
+- **PI**  [PI - Funciones en C](PI%20-%20Funciones%20en%20C.md) — funciones, parámetros y control de flujo
 
 <!-- notas-relacionadas:fin -->

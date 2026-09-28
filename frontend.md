@@ -1446,14 +1446,14 @@ The most important ownership rule is simple: once a semantic action stores a str
 
 **Misma materia (TLA)**
 
-- [[TLA -Análisis Sintáctico]] — la teoría del parser
-- [[TLA -Análisis Ascendente]] — Bison genera LALR
-- [[TLA -Expresiones Regulares]] — Flex usa ER
-- [[TLA -Análisis Semántico]] — la fase siguiente
+- [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md) — la teoría del parser
+- [TLA -Análisis Ascendente](TLA%20-Análisis%20Ascendente.md) — Bison genera LALR
+- [TLA -Expresiones Regulares](TLA%20-Expresiones%20Regulares.md) — Flex usa ER
+- [TLA -Análisis Semántico](TLA%20-Análisis%20Semántico.md) — la fase siguiente
 
 **Otras materias**
 
-- **PI**  [[PI - Intro C]] — el frontend está escrito en C
-- **Protos**  [[spec]] — parsear un protocolo es el mismo problema
+- **PI**  [PI - Intro C](PI%20-%20Intro%20C.md) — el frontend está escrito en C
+- **Protos**  [spec](spec.md) — parsear un protocolo es el mismo problema
 
 <!-- notas-relacionadas:fin -->

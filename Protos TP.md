@@ -76,16 +76,16 @@ resolucion de DNS bloqueante y despues bloqueante
 
 **Misma materia (Protos)**
 
-- [[Diseño de protocolos]] — requisitos de diseño del TP
-- [[spec]] — especificación del protocolo
-- [[10. Protos - Sockets]] — implementación con sockets
-- [[Protos TP - Preguntas de defensa]] — preguntas de la defensa
-- [[Protos TP - Defensa de commits]] — recorrido por los commits
+- [Diseño de protocolos](Diseño%20de%20protocolos.md) — requisitos de diseño del TP
+- [spec](spec.md) — especificación del protocolo
+- [10. Protos - Sockets](10.%20Protos%20-%20Sockets.md) — implementación con sockets
+- [Protos TP - Preguntas de defensa](Protos%20TP%20-%20Preguntas%20de%20defensa.md) — preguntas de la defensa
+- [Protos TP - Defensa de commits](Protos%20TP%20-%20Defensa%20de%20commits.md) — recorrido por los commits
 
 **Otras materias**
 
-- **PI**  [[PI - Punteros en C]] — manejo de buffers en C
-- **SO**  [[SysCall]] — select/poll y llamadas al sistema del servidor
-- **SO**  [[Threads]] — modelo de concurrencia del servidor
+- **PI**  [PI - Punteros en C](PI%20-%20Punteros%20en%20C.md) — manejo de buffers en C
+- **SO**  [SysCall](SysCall.md) — select/poll y llamadas al sistema del servidor
+- **SO**  [Threads](Threads.md) — modelo de concurrencia del servidor
 
 <!-- notas-relacionadas:fin -->

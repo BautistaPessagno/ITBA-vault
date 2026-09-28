@@ -17,15 +17,15 @@ vas moviendo los datos de disco a memoria
 
 de ahi nace el concepto de memoria virtual
 
-![[Captura_de_pantalla_2025-05-13_a_la(s)_10.53.43.png]]
+![](Attachments/Captura_de_pantalla_2025-05-13_a_la%28s%29_10.53.43.png)
 
-![[Captura_de_pantalla_2025-05-13_a_la(s)_11.00.52.png]]
+![](Attachments/Captura_de_pantalla_2025-05-13_a_la%28s%29_11.00.52.png)
 
 La protección de tareas previene interferencias, usando aislamiento de memoria y niveles de privilegio. El PDF en la página 4 pregunta "Como puede evitar el SO este acceso?", indicando que el sistema operativo usa segmentación y paginación para restringir accesos. Hay cuatro anillos (0 3), con 0 para el kernel y 3 para aplicaciones, detallado en la página 13 con "DPL (Nivel de privilegio)". Esto evita que un programa dañe memoria de otra tarea o del kernel, como se menciona en Modo protegido.
 
 # MMU
 
-![[Captura_de_pantalla_2025-05-13_a_la(s)_11.56.37.png]]
+![](Attachments/Captura_de_pantalla_2025-05-13_a_la%28s%29_11.56.37.png)
 
 - **Unidad de segmentacion:** todods los segmentos son de tamaño variable y se le asigna lo que requiera a cada proceso. No se puede deshabilitar. vendira a ser la GDT
 - **Unidad de paginación: si se puede deshabilitar **entonces la dirección lineal == dirección fisica. la unidad de paginacion vuelve a mapear la direccion
@@ -33,15 +33,15 @@ La protección de tareas previene interferencias, usando aislamiento de memoria 
 
 # Direccion Logica
 
-![[Captura_de_pantalla_2025-05-13_a_la(s)_12.06.03.png]]
+![](Attachments/Captura_de_pantalla_2025-05-13_a_la%28s%29_12.06.03.png)
 
 ## Dirección Logica a lineal
 
-![[Captura_de_pantalla_2025-05-13_a_la(s)_12.06.20.png]]
+![](Attachments/Captura_de_pantalla_2025-05-13_a_la%28s%29_12.06.20.png)
 
 ## GDT y LDT
 
-![[Captura_de_pantalla_2025-05-13_a_la(s)_12.12.51.png]]
+![](Attachments/Captura_de_pantalla_2025-05-13_a_la%28s%29_12.12.51.png)
 
 usa solo el GDT ya que se paso a usar paginacion
 
@@ -51,11 +51,11 @@ todo lo que esta en memoria tiene que estar descrito por la GDT
 
 describen un segmento en memoria, donde inicia y donde termina
 
-![[Captura_de_pantalla_2025-05-13_a_la(s)_12.13.15.png]]
+![](Attachments/Captura_de_pantalla_2025-05-13_a_la%28s%29_12.13.15.png)
 
 ### Descriptores del segmento
 
-![[Captura_de_pantalla_2025-05-13_a_la(s)_12.16.42.png]]
+![](Attachments/Captura_de_pantalla_2025-05-13_a_la%28s%29_12.16.42.png)
 
 si es ejecutable pongo un 1 en la e si no pongo un 0
 
@@ -80,7 +80,7 @@ si es ejecutable pongo un 1 en la e si no pongo un 0
 
 ## Dirección lineal
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_10.15.53.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_10.15.53.png)
 
 # Carga de IDT
 
@@ -103,13 +103,13 @@ habilitar el IRQ con la máscara correspondiente
 
 **Misma materia (Arqui)**
 
-- [[Assembler de Intel]] — registros y segmentación
-- [[Intro Sistemas Operativos(Paginación)]] — paginación y protección de memoria
-- [[Interrupciones]] — cambio de nivel de privilegio
+- [Assembler de Intel](Assembler%20de%20Intel.md) — registros y segmentación
+- [Intro Sistemas Operativos(Paginación)](Intro%20Sistemas%20Operativos%28Paginación%29.md) — paginación y protección de memoria
+- [Interrupciones](Interrupciones.md) — cambio de nivel de privilegio
 
 **Otras materias**
 
-- **SO**  [[Estructura de un Sistema Operativo]] — modo usuario vs modo kernel
-- **SO**  [[SysCall]] — cómo se cruza de usuario a kernel
+- **SO**  [Estructura de un Sistema Operativo](Estructura%20de%20un%20Sistema%20Operativo.md) — modo usuario vs modo kernel
+- **SO**  [SysCall](SysCall.md) — cómo se cruza de usuario a kernel
 
 <!-- notas-relacionadas:fin -->

@@ -37,7 +37,7 @@ temas:
 ---
 # ML Clase 7 - Arboles de decision
 
-[[Machine Learning.base]]
+[Machine Learning.base](Categories/Machine%20Learning.base)
 
 > [!abstract] Resumen de la clase
 > - Un **árbol de decisión** parte el espacio de features con preguntas binarias del tipo $x_j < t$, de forma jerárquica, hasta llegar a **hojas** lo bastante homogéneas. Cada corte es **perpendicular a un eje**.
@@ -47,16 +47,16 @@ temas:
 > - **Random Forest** = muchos árboles entrenados sobre muestras **bootstrap** y viendo solo un **subconjunto aleatorio de features** en cada nodo; votan. Cada árbol es más débil, pero el conjunto tiene **menos varianza**. **Extra Trees** además sortea los umbrales.
 
 ## Idea principal
-![[Pasted image 20260917171915.png]]
+![](Attachments/Pasted%20image%2020260917171915.png)
 
 Es la lógica del *¿Quién es quién?* o del Akinator: cada pregunta de sí/no descarta una parte del espacio de posibilidades, hasta que queda una sola respuesta. El algoritmo hace lo mismo, pero **aprende qué preguntas hacer** a partir de los datos.
 
-El profe lo presenta como un enfoque "casi opuesto" a la clase anterior ([[ML Clase 6 - GDA y Naive Bayes|GDA / Naive Bayes]]): ahí se modelaba la **distribución estadística** de cada clase; acá no se asume ninguna distribución, solo se parte el espacio con reglas. A cambio, las fronteras pueden ser mucho más versátiles.
+El profe lo presenta como un enfoque "casi opuesto" a la clase anterior ([GDA / Naive Bayes](ML%20Clase%206%20-%20GDA%20y%20Naive%20Bayes.md)): ahí se modelaba la **distribución estadística** de cada clase; acá no se asume ninguna distribución, solo se parte el espacio con reglas. A cambio, las fronteras pueden ser mucho más versátiles.
 
 ## Que es un arbol de decision
 
 divide en 2 subespacios de a dos deciciones
-![[Pasted image 20260917172128.png]]
+![](Attachments/Pasted%20image%2020260917172128.png)
 
 - **Nodo**: una pregunta sobre **una sola** feature, $x_j < t$ (en el dibujo, $b < b'$).
 - **Rama**: cada una de las dos respuestas. Cada subespacio se vuelve a tratar igual que el original.
@@ -70,7 +70,7 @@ divide en 2 subespacios de a dos deciciones
 ## como decidimos donde colocar cada corte?
 como dividimos cada decision binaria?
 
-![[Pasted image 20260917172340.png]]
+![](Attachments/Pasted%20image%2020260917172340.png)
 
 El enfoque más simple: **probar todos los cortes posibles** (todos los umbrales de todas las features), calcular qué tan bueno es cada uno con una métrica de **impureza**, y quedarse con el mínimo. Al elegir el corte se está eligiendo también **qué feature** mirar en ese nodo.
 
@@ -90,11 +90,11 @@ $$
 
 Con dos clases va de 0 (lado puro) a 0.5 (mitad y mitad).
 
-![[Pasted image 20260917172518.png]]
+![](Attachments/Pasted%20image%2020260917172518.png)
 
 Se comparan tres cortes posibles sobre $b$ (129 puntos en total):
 
-![[ML-C7-cortes-impureza.png]]
+![](Attachments/ML-C7-cortes-impureza.png)
 
 | Corte | Izquierda | Derecha | Impureza total (slide) | Impureza exacta |
 |---|---|---|---|---|
@@ -114,14 +114,14 @@ Gana el **corte 1**. Correrse a la izquierda deja la izquierda pura, pero mete 1
 > - Nada de esto cambia la conclusión: el corte 1 sigue siendo el mejor (0.109 < 0.124 < 0.178).
 
 ### Problemas de este metodo
-![[Pasted image 20260917172749.png]]
+![](Attachments/Pasted%20image%2020260917172749.png)
 
 El error de clasificación es **lineal**: penaliza igual cualquier punto que pasa de la clase mayoritaria a la minoritaria, esté donde esté. Entonces un lado 65/35 (error 0.35) y uno 55/45 (error 0.45) dan valores parecidos, cuando 55/45 es **casi aleatorio** (lo peor posible es 50/50).
 
 La idea del profe: los cortes malos **nunca** los vamos a elegir, así que no importa distinguirlos bien. Lo que queremos es **resolución en la zona buena** (cerca de 85/15 o 90/10), que es donde "se juega el partido". Para eso hace falta una curva que no sea lineal.
 
 ## Alternativas
-![[Pasted image 20260917172915.png]]
+![](Attachments/Pasted%20image%2020260917172915.png)
 
 > [!bug] La fórmula de Gini de la slide está incompleta (slides 12 y 13)
 > La slide escribe $\text{Gini} = \sum_i p_i^2$. Eso es la **pureza** (la probabilidad de que dos puntos sacados al azar sean de la misma clase): vale 1 en un nodo puro y 0.5 en uno 50/50 con dos clases. Una **impureza** tiene que valer 0 en un nodo puro. La fórmula correcta es
@@ -143,7 +143,7 @@ $$
 En las dos, $p_i$ es la proporción de la clase $i$ en el nodo y $n$ es la cantidad de clases (el profe aclara que es **proporción**, no probabilidad).
 
 ## Comparacion de metricas
-![[Pasted image 20260917173040.png]]
+![](Attachments/Pasted%20image%2020260917173040.png)
 
 Para ver la resolución en números, la impureza de **un lado** del corte con dos clases:
 
@@ -171,37 +171,37 @@ Recalculando los tres cortes de arriba con cada métrica, gana el mismo corte en
 | 3 | 0.124 | 0.217 | 0.539 |
 
 ### ejemplo calculo de Gini 
-![[Pasted image 20260917173253.png]]
+![](Attachments/Pasted%20image%2020260917173253.png)
 
 Para la *Feature 1* se calcula el Gini del split para **todos** los umbrales posibles (curva naranja; el eje X de las dos gráficas es el mismo). El mejor umbral es el **mínimo** de la curva, alrededor de 0.13, y cae justo entre las dos nubes (la línea amarilla de la slide 17). Con eso ya está resuelto el primer paso del algoritmo; lo que sigue es repetirlo recursivamente a cada lado.
 
 ## Como se construye un arbol de decision
 
-Se aplica el mismo procedimiento de forma **recursiva** en cada subespacio. En cada nodo se evalúan **todos los umbrales en todas las dimensiones** (por eso importa tanto no hacer cálculos de más; ver [[#Mejoras de eficiencia en el algoritmo CART]]).
+Se aplica el mismo procedimiento de forma **recursiva** en cada subespacio. En cada nodo se evalúan **todos los umbrales en todas las dimensiones** (por eso importa tanto no hacer cálculos de más; ver [Mejoras de eficiencia en el algoritmo CART](#Mejoras%20de%20eficiencia%20en%20el%20algoritmo%20CART)).
 
 1. **Primer corte** en $b = b'$. La izquierda ya tiene impureza lo bastante baja → se vuelve una **hoja azul**. La derecha sigue mezclada → es un **nodo**, se sigue cortando.
 2. En la derecha, el mejor corte ahora es sobre la **otra feature**, $a = a'$. Lo de abajo queda casi todo naranja → **hoja naranja**.
 3. Arriba a la derecha queda mezcla → un corte más en $b = b''$, que separa azul de naranja.
 
-![[ML-C7-arbol-construido.png]]
+![](Attachments/ML-C7-arbol-construido.png)
 
 **¿Cómo predice?** Un punto nuevo recorre el árbol desde la raíz: en cada nodo se mira **solo la feature de ese nodo**, se compara con su umbral y se va a la izquierda o a la derecha, hasta caer en una hoja. En el ejemplo de la slide 25 el punto verde tiene $b > b'$ → $a > a'$ → $b < b''$ → **azul**.
 
-![[ML-C7-prediccion.png]]
+![](Attachments/ML-C7-prediccion.png)
 
 ## Ventajas de arboles de decision
 
-![[Pasted image 20260917173613.png]]
+![](Attachments/Pasted%20image%2020260917173613.png)
 
 - **Interpretabilidad clara.** Se le puede explicar a un experto del dominio en dos frases ("si el tamaño es < 12 es tal fruta; si no, miramos el color…"). También sirve para **validar el modelo nosotros**: si conocemos las features, podemos juzgar si tiene sentido que decida así. En LDA/GDA se pueden mirar los coeficientes, pero no es tan directo; en deep learning, mucho menos.
 - **Maneja datos numéricos y categóricos, y mezclas de ambos.** Cada feature se evalúa por separado y lo que se compara entre features es la **impureza**, no distancias. Da igual qué tipo de variable sea.
 - **No necesita normalización.** Por lo mismo: la impureza depende de la **proporción de puntos** a cada lado, no del rango. Una feature de 0 a 1 000 000 y otra de 0 a 1 se tratan igual.
 
 > [!warning] Igual normalizá
-> El profe insiste: que el árbol no la necesite **no** es excusa para no hacerla. No le hace daño al árbol, y si después cambiás de algoritmo o lo comparás con otro (la mayoría sí se ven afectados), te la vas a olvidar. Ver [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas#Escalado de variables|escalado de variables]].
+> El profe insiste: que el árbol no la necesite **no** es excusa para no hacerla. No le hace daño al árbol, y si después cambiás de algoritmo o lo comparás con otro (la mayoría sí se ven afectados), te la vas a olvidar. Ver [escalado de variables](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md#Escalado%20de%20variables).
 
 ## Desventajas de Árboles de decision
-![[Pasted image 20260917173907.png]]
+![](Attachments/Pasted%20image%2020260917173907.png)
 
 - **Propenso al sobreajuste.** Si el único criterio para dejar de cortar es que la hoja sea pura, puede terminar haciendo **una hoja por punto**, con fronteras horribles (el recuadro de la slide).
 - **Fronteras de decisión muy rígidas.** Cada corte usa **una sola** feature, así que las fronteras son **siempre perpendiculares a los ejes** ("eso es innegociable"). LDA, en cambio, combina features y puede trazar rectas con cualquier ángulo.
@@ -210,7 +210,7 @@ Se aplica el mismo procedimiento de forma **recursiva** en cada subespacio. En c
 
 ## Tecnicas para controlar el sobreajuste
 
-![[Pasted image 20260917174316.png]]
+![](Attachments/Pasted%20image%2020260917174316.png)
 
 | | **Pre-poda** (restricciones durante el crecimiento) | **Poda** (post-pruning) |
 |---|---|---|
@@ -231,25 +231,25 @@ Ejemplos de restricciones de pre-poda:
 > Un compañero (Felipe) lo planteó: al restringir durante el crecimiento, podés no llegar a una división que era clave, que con poda hubieras visto antes de recortar.
 >
 > > [!success]- Respuesta del profe
-> > Es 100 % cierto. En **entrenamiento** la pre-poda **siempre** rinde peor que dejarlo crecer ("ya vale, no estudies más, vamos al examen"). Cuando ponemos la restricción es porque **sospechamos overfitting**; nada garantiza que el valor óptimo no esté un nivel más abajo. Pasa con todos los hiperparámetros de cualquier algoritmo, pero acá se ve muy claro. Por eso el valor se elige mirando **validación** (ver [[#Ajuste de hiperparametro]]).
+> > Es 100 % cierto. En **entrenamiento** la pre-poda **siempre** rinde peor que dejarlo crecer ("ya vale, no estudies más, vamos al examen"). Cuando ponemos la restricción es porque **sospechamos overfitting**; nada garantiza que el valor óptimo no esté un nivel más abajo. Pasa con todos los hiperparámetros de cualquier algoritmo, pero acá se ve muy claro. Por eso el valor se elige mirando **validación** (ver [Ajuste de hiperparametro](#Ajuste%20de%20hiperparametro)).
 
 **Profundidad máxima = 3.** Al llegar al tercer nivel, el último nodo (arriba a la derecha) no se sigue partiendo: se vuelve una hoja de la clase mayoritaria (azul). Quizás un corte más habría sido mejor, pero tampoco es una mala partición.
 
-![[ML-C7-profundidad-maxima.png]]
+![](Attachments/ML-C7-profundidad-maxima.png)
 
 ## Algoritmo Cart
 
 Como construimos un arbol?
 
-![[Pasted image 20260917175550.png]]
+![](Attachments/Pasted%20image%2020260917175550.png)
 
 Históricamente hubo varios algoritmos (**ID3**, **C4.5**). Hoy el más usado es **CART** (*Classification And Regression Trees*): es simple, intuitivo y tiene amplio soporte en librerías. Es el que implementa scikit-learn (la documentación dice "una versión optimizada de CART").
 
 ### Como funciona el algoritmo CART
 
-![[Pasted image 20260917175900.png]]
+![](Attachments/Pasted%20image%2020260917175900.png)
 
-![[Pasted image 20260917175912.png]]
+![](Attachments/Pasted%20image%2020260917175912.png)
 
 El diagrama de flujo, en pseudocódigo:
 
@@ -279,7 +279,7 @@ Hay dos lugares donde se chequea parada: **antes** de buscar el corte (nodo puro
 
 ## Mejoras de eficiencia en el algoritmo CART
 
-![[Pasted image 20260917180331.png]]
+![](Attachments/Pasted%20image%2020260917180331.png)
 
 El paso caro es "calcular Gini para cada umbral posible de cada característica": con $n$ muestras y $d$ features hay
 
@@ -298,13 +298,13 @@ $$
 
 Ejemplo real con dos "lunas" de datos (`make_moons` de sklearn) y un árbol **sin restricciones**:
 
-![[ML-C7-arbol-sin-restricciones.png]]
+![](Attachments/ML-C7-arbol-sin-restricciones.png)
 
 **Acc Train = 1.00 | Acc Validación = 0.86.** Las fronteras están hiper ajustadas a cada punto y el 100 % en train ya es "muy mal comienzo": es **overfitting**, con toda seguridad.
 
 Cómo evaluarlo (slide 50):
 1. **Definir la métrica** (acá accuracy) y calcularla en entrenamiento y validación.
-2. **Validación cruzada (K-fold)** para una estimación más estable (ver [[ML Clase 2 - Datos, variables, overfitting y métricas#6.5 Cross Validation (k-fold)|Clase 2]]).
+2. **Validación cruzada (K-fold)** para una estimación más estable (ver [Clase 2](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md#6.5%20Cross%20Validation%20%28k-fold%29)).
 3. **Gap de generalización**: diferencia entre train y validación.
    - Gap **grande** → sobreajuste.
    - Gap **chico** pero precisión **baja** → subajuste. Ahí conviene **liberar** un poco al algoritmo: mover los hiperparámetros en la dirección contraria a la que se usa contra el overfitting.
@@ -312,9 +312,9 @@ Cómo evaluarlo (slide 50):
 
 ## Ajuste de hiperparametro
 
-![[Pasted image 20260917180907.png]]
+![](Attachments/Pasted%20image%2020260917180907.png)
 
-**Hiperparámetro**: valor del modelo que **no** se aprende del train sino que lo fijamos nosotros para que funcione lo mejor posible con estos datos (ver [[Terminologia ML]]). En los árboles: profundidad máxima, mínimo de puntos para crear un nodo, mínimo por hoja, mejora mínima de impureza.
+**Hiperparámetro**: valor del modelo que **no** se aprende del train sino que lo fijamos nosotros para que funcione lo mejor posible con estos datos (ver [Terminologia ML](Terminologia%20ML.md)). En los árboles: profundidad máxima, mínimo de puntos para crear un nodo, mínimo por hoja, mejora mínima de impureza.
 
 **Curva de validación**: probar varios valores del hiperparámetro y graficar el rendimiento en train y en validación.
 
@@ -328,7 +328,7 @@ Cómo evaluarlo (slide 50):
 > Si al restringir **baja el train pero sube la validación**, el sobreajuste está bajando: el modelo deja de aprenderse puntos ruidosos. El problema es cuando **bajan las dos**.
 
 ## Y si queremos evaluar varios hiperparametros?
-![[Pasted image 20260917181832.png]]
+![](Attachments/Pasted%20image%2020260917181832.png)
 
 > [!warning] Los óptimos individuales no se suman
 > Si se elige cada hiperparámetro por separado en su mejor punto (profundidad 2, `min_samples_split` 20, `min_samples_leaf` 4), cada uno fue evaluado **con los otros libres**. Al combinarlos, las restricciones se **suman**: probablemente queda **demasiado restrictivo** y se empuja al modelo al **underfitting**.
@@ -345,7 +345,7 @@ Conviene combinar hiperparámetros que ataquen **aspectos distintos** del árbol
 
 Primera grilla (`min_samples_split` de 10 a 30):
 
-![[ML-C7-grid-search.png]]
+![](Attachments/ML-C7-grid-search.png)
 
 El máximo sale en **profundidad 3 y `min_samples_split` = 30**. Acá los dos valores más restrictivos resultaron ser los mejores combinados, pero eso se ve **con la grilla**, no se puede suponer.
 
@@ -356,13 +356,13 @@ Como el máximo cayó en el **borde** del rango probado (30), se **amplía la gr
 
 Resultado (slide 54): de **Train 1.00 / Val 0.86** a **Train 0.90 / Val 0.89**. Baja el train, pero sube la validación y la frontera es mucho más razonable. Ese sería el modelo a comparar en validación contra otros (por ejemplo, un LDA); el ganador pasa a test.
 
-![[ML-C7-antes-despues-hiperparametros.png]]
+![](Attachments/ML-C7-antes-despues-hiperparametros.png)
 
 > [!question] ¿Y si pruebo todas las combinaciones de todos los hiperparámetros?
 > > [!success]- Respuesta del profe
 > > En el mundo ideal, sí. El límite es el **costo computacional**, y eso lo decidís vos (si cada entrenamiento tarda 10 minutos y son 100 combinaciones…). Las curvas de validación son una forma **informada** de no tener que probarlo todo.
 > >
-> > **Asterisco:** cuantas más pruebas hacés mirando validación (miles de combinaciones, varios algoritmos), más riesgo de **overfitting a la validación**: al ir a test ves una caída. Para evitarlo se usa **validación cruzada anidada** (un K-fold adentro de cada train de otro K-fold). Está fuera de la materia; ver [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas#Cómo reducimos el overfitting a la validación (Avanzado)|Clase 3]].
+> > **Asterisco:** cuantas más pruebas hacés mirando validación (miles de combinaciones, varios algoritmos), más riesgo de **overfitting a la validación**: al ir a test ves una caída. Para evitarlo se usa **validación cruzada anidada** (un K-fold adentro de cada train de otro K-fold). Está fuera de la materia; ver [Clase 3](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md#Cómo%20reducimos%20el%20overfitting%20a%20la%20validación%20%28Avanzado%29).
 
 La moraleja del profe: **entender qué hace cada hiperparámetro** (en qué dirección y desde dónde restringe al algoritmo) vale más que copiar los valores de un foro o un paper. Así se puede anticipar el resultado y saber si un máximo tiene sentido.
 
@@ -374,7 +374,7 @@ La moraleja del profe: **entender qué hace cada hiperparámetro** (en qué dire
 - La frontera todavía es rígida y el error es alto para una distribución tan simple. ¿Se puede mejorar?
 
 ## Bootstrap
-![[Pasted image 20260917183151.png]]
+![](Attachments/Pasted%20image%2020260917183151.png)
 
 > [!warning] Lapsus en la clase
 > Al principio se escucha "sin reemplazos"; el profe se corrige enseguida: bootstrap es **con** reemplazo, como dice la slide.
@@ -401,7 +401,7 @@ En datasets **muy grandes** se usan muestras más chicas, y en general no se usa
 
 ## Random Forest
 
-![[ML-C7-rf-vs-arbol.png]]
+![](Attachments/ML-C7-rf-vs-arbol.png)
 
 **Random Forest** = conjunto de árboles de decisión entrenados con **variaciones aleatorias**. Promediar predicciones de árboles **individualmente más débiles** da una predicción **más robusta**.
 
@@ -448,7 +448,7 @@ De nuevo: hay que entender qué hace cada uno para no ser demasiado restrictivo 
 
 ## Extra Trees
 
-![[ML-C7-rf-vs-extratrees.png]]
+![](Attachments/ML-C7-rf-vs-extratrees.png)
 
 **Extra Trees** (*Extremely Randomized Trees*) es el caso extremo: igual que RF, pero **los umbrales a evaluar también son aleatorios**. Cada árbol es aún más débil, pero si los errores no están correlacionados, promediando muchos se diluyen y queda lo que consistentemente separa las clases. Se usan menos que los RF.
 
@@ -480,7 +480,7 @@ En validación el RF no mejora al árbol en este ejemplo porque hay **solo dos f
 
 La última variante es un experimento del profe (no es un método muy usado): a cada árbol le aplica una **rotación aleatoria** de las features, para atacar la debilidad de las fronteras perpendiculares a los ejes. Cada árbol tiene su propia orientación, así que el promedio ya no queda en escalera.
 
-![[ML-C7-rf-rotaciones.png]]
+![](Attachments/ML-C7-rf-rotaciones.png)
 
 > [!tip] ¿Cómo se dibuja la frontera de un bosque?
 > No se pueden "promediar nodos" (cada árbol usa features y órdenes distintos). Se arma una **grilla densa de puntos**, se predice cada uno y se pinta donde cambia la clase. Es poco elegante y caro; se hace solo para visualizar al final, no en cada iteración.
@@ -507,7 +507,7 @@ Los árboles (y los RF) dicen qué variables son más importantes: cada vez que 
 
 ### Mejoras útiles para estos métodos
 
-- **Selección de características**: menos variables → menos ruido y menos sobreajuste (ver [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas#Selección de características|Clase 3]]).
+- **Selección de características**: menos variables → menos ruido y menos sobreajuste (ver [Clase 3](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md#Selección%20de%20características)).
   - Con la importancia del propio RF (`feature_importances_`).
   - Por varianza, correlación o **discriminabilidad**: graficar la distribución de cada feature por clase para ver qué tan distintas son.
   - Mirar la **matriz de correlación** y, de cada grupo de variables correlacionadas, quedarse con una.
@@ -536,16 +536,16 @@ La slide dice "ninguna de las dos: **log-loss**", porque es **derivable** (permi
 
 **Misma materia (Machine Learning)**
 
-- [[ML Clase 6 - GDA y Naive Bayes]] — clase anterior: el enfoque opuesto. LDA/GDA modela la distribución de cada clase y traza fronteras con cualquier ángulo y **baja varianza**; el árbol no asume distribución, corta perpendicular a los ejes y tiene **alta varianza**. Por eso el bagging sirve con árboles y no con LDA
-- [[ML Clase 2 - Datos, variables, overfitting y métricas]] — overfitting/underfitting, el split train/dev/test y el **k-fold** que se usan para elegir `max_depth` y compañía. Además, los modelos que ahí **soportan categóricas sin encodear** (CatBoost, LightGBM, XGBoost) son todos ensembles de árboles: la ventaja de "maneja numéricos y categóricos" es de la familia
-- [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas]] — el **gap de generalización**, el **overfitting a la validación** y la nested CV de la respuesta sobre probar todas las combinaciones. La reducción de entropía de un split es la **información mutua** entre el corte y la clase, el mismo concepto del filtro MI de feature selection
-- [[Terminologia ML]] — los umbrales y las features de cada nodo son **parámetros** (se aprenden); `max_depth`, `min_samples_split`, `n_estimators` y `max_features` son **hiperparámetros**
-- [[ML TP1 - Insurance]] — el mismo procedimiento de elegir hiperparámetros con k-fold sobre el train (ahí con grado y λ), ahora con curvas de validación y grid search
-- [[Materia - Machine Learning]] — índice de la materia
+- [ML Clase 6 - GDA y Naive Bayes](ML%20Clase%206%20-%20GDA%20y%20Naive%20Bayes.md) — clase anterior: el enfoque opuesto. LDA/GDA modela la distribución de cada clase y traza fronteras con cualquier ángulo y **baja varianza**; el árbol no asume distribución, corta perpendicular a los ejes y tiene **alta varianza**. Por eso el bagging sirve con árboles y no con LDA
+- [ML Clase 2 - Datos, variables, overfitting y métricas](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md) — overfitting/underfitting, el split train/dev/test y el **k-fold** que se usan para elegir `max_depth` y compañía. Además, los modelos que ahí **soportan categóricas sin encodear** (CatBoost, LightGBM, XGBoost) son todos ensembles de árboles: la ventaja de "maneja numéricos y categóricos" es de la familia
+- [ML Clase 3 - EDA, Feature selection, Regularización y Métricas](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md) — el **gap de generalización**, el **overfitting a la validación** y la nested CV de la respuesta sobre probar todas las combinaciones. La reducción de entropía de un split es la **información mutua** entre el corte y la clase, el mismo concepto del filtro MI de feature selection
+- [Terminologia ML](Terminologia%20ML.md) — los umbrales y las features de cada nodo son **parámetros** (se aprenden); `max_depth`, `min_samples_split`, `n_estimators` y `max_features` son **hiperparámetros**
+- [ML TP1 - Insurance](ML%20TP1%20-%20Insurance.md) — el mismo procedimiento de elegir hiperparámetros con k-fold sobre el train (ahí con grado y λ), ahora con curvas de validación y grid search
+- [Materia - Machine Learning](Materia%20-%20Machine%20Learning.md) — índice de la materia
 
 **Otras materias**
 
-- **Data Structures and Algorithms** — [[EDA - Árboles]] — predecir es recorrer un **árbol binario** de la raíz a una hoja comparando contra un valor en cada nodo, como una búsqueda en un BST: el costo es la **altura**, no la cantidad de nodos. La diferencia es que acá cada nodo puede comparar una clave (feature) distinta
-- **Discrete Math** — [[Discrete Math - Árboles y Recorridos]] — un árbol binario de profundidad $d$ tiene a lo sumo $2^d$ hojas: es la cuenta detrás de por qué dejar crecer el árbol y podar después es exponencialmente caro
+- **Data Structures and Algorithms** — [EDA - Árboles](EDA%20-%20Árboles.md) — predecir es recorrer un **árbol binario** de la raíz a una hoja comparando contra un valor en cada nodo, como una búsqueda en un BST: el costo es la **altura**, no la cantidad de nodos. La diferencia es que acá cada nodo puede comparar una clave (feature) distinta
+- **Discrete Math** — [Discrete Math - Árboles y Recorridos](Discrete%20Math%20-%20Árboles%20y%20Recorridos.md) — un árbol binario de profundidad $d$ tiene a lo sumo $2^d$ hojas: es la cuenta detrás de por qué dejar crecer el árbol y podar después es exponencialmente caro
 
 <!-- notas-relacionadas:fin -->

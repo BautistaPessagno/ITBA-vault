@@ -35,7 +35,7 @@ temas:
 
 ## Repaso: de dónde venimos
 
-Un **criptosistema** es una terna de algoritmos (ver [[Criptografia y seguridad Clase 2 - Cifrado]]):
+Un **criptosistema** es una terna de algoritmos (ver [Criptografia y seguridad Clase 2 - Cifrado](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md)):
 
 $$
 Gen: () \rightarrow K
@@ -66,7 +66,7 @@ Eran CPA-Secure:
 > CPA solo modela un adversario que puede **cifrar**. No dice absolutamente nada sobre qué pasa si el adversario puede **tocar el ciphertext**. Todo el resto de la clase sale de tirar de ese hilo.
 
 ## Un nuevo tipo de ataque
-![[Pasted image 20260828132850.png]]
+![](Attachments/Pasted%20image%2020260828132850.png)
 
 se asume que es CPA-secure
 
@@ -74,26 +74,26 @@ el atacante sabe si alguien conoce el legajo de X empleado que cobra mas, puedo 
 
 sigue sin poder decifrar pero generar problemas
 
-![[Clase 3 - Ataque de copia de fila.png|620]]
+![imagen|620](Attachments/Clase%203%20-%20Ataque%20de%20copia%20de%20fila.png)
 
 El atacante conoce su legajo (2678) y el de su jefe (2890). No necesita **descifrar** nada: copia la celda cifrada de la fila 2890 sobre la suya y se autoaumenta el sueldo. El criptosistema sigue siendo CPA-Secure — la confidencialidad nunca se rompió — y aun así el sistema quedó comprometido.
 
-![[Pasted image 20260828133208.png]]
+![](Attachments/Pasted%20image%2020260828133208.png)
 
 La primera mitigación que aparece es cifrar `empleado||sueldo` **junto**, así el texto plano de la fila del jefe dice `2890 $...` y la copia se detecta al descifrar. Pero tampoco alcanza:
 
-![[Clase 3 - Maleabilidad quirurgica.png|620]]
+![imagen|620](Attachments/Clase%203%20-%20Maleabilidad%20quirurgica.png)
 
 Esto es **maleabilidad** (*malleability*): la propiedad de que modificar el ciphertext produzca un cambio *predecible* en el texto plano. No es un bug de implementación, es una consecuencia directa de cómo está construido el cifrado de flujo.
 
 ### Backstage del ataque
-![[Screenshot 2026-08-28 at 13.32.58.png]]
+![](Attachments/Screenshot%202026-08-28%20at%2013.32.58.png)
 
-![[Pasted image 20260828133346.png]]
+![](Attachments/Pasted%20image%2020260828133346.png)
 se hace el XOR de cada uno para obtener el valor y eso hace que sepas el valor
 
 
-![[Pasted image 20260828133456.png]]
+![](Attachments/Pasted%20image%2020260828133456.png)
 
 El ataque necesita conocer el criptosistema y el **formato del mensaje**:
 
@@ -134,7 +134,7 @@ y le hace XOR al ciphertext. En la slide esto se muestra en dos pasos: primero c
 > El ataque solo necesita tres cosas: (1) saber el formato del mensaje, (2) conocer *un* texto plano, (3) poder escribir el ciphertext. Nada de esto es "romper AES".
 
 ## Ataques de texto cifrado escogido (EJERCICIO)
-![[Pasted image 20260828134046.png]]
+![](Attachments/Pasted%20image%2020260828134046.png)
 
 Formalmente, **CCA** (*Chosen Ciphertext Attack*), $CCA_{A,\Pi}$, dado un nivel de seguridad $n$:
 
@@ -199,7 +199,7 @@ y $\Pi$ **no** es CCA-Secure. $\blacksquare$
 CCA no es un problema que el cifrado pueda resolver solo. Lo que falta es un **control de integridad**: identificar adulteraciones. La primitiva que lo provee es el **MAC** (*Message Authentication Code*).
 
 ## MAC- Message Authentication Code
-![[Pasted image 20260828135402.png]]
+![](Attachments/Pasted%20image%2020260828135402.png)
 un etiquetador que a partir de una clave y un mensaje genera una etiqueta, 
 
 Es una terna de algoritmos:
@@ -293,7 +293,7 @@ $Pr[\text{Mac-Forge}] = 1$.
 > 3. Tener **etiqueta de tamaño fijo y corto**, independiente de $|m|$ (falla 1).
 
 ## Como construir un MAC
-![[Pasted image 20260830171847.png]]
+![](Attachments/Pasted%20image%2020260830171847.png)
 dos grandes formas de armarlo
 la primera es usar un CBC-MAC que es una funcion pseudoaleatoria
 recicla el cifrado en modo CBC
@@ -323,7 +323,7 @@ Formalmente, sea $F$ una función pseudoaleatoria. **CBC-MAC (tamaño fijo de me
 > La otra gran familia de construcción es a partir de **funciones de hash** (→ HMAC, más abajo).
 
 ## CBC-MAC
-![[Pasted image 20260830172305.png]]
+![](Attachments/Pasted%20image%2020260830172305.png)
 
 ### El ataque de longitud variable, paso a paso
 
@@ -410,7 +410,7 @@ donde $L$ es la longitud del hash.
 
 tiene que tomar en cuenta todo el mensaje, cualquier mensaje arbitrario se convierte en un hash de igual longitud, cambiar algo del mensaje cambia todo el hash, similar a los macs, pero sin la necesidad de una clave
 
-![[Clase 3 - Hash etiquetador universal.png|600]]
+![imagen|600](Attachments/Clase%203%20-%20Hash%20etiquetador%20universal.png)
 
 Cambiar un solo carácter de la entrada cambia el digest por completo (*avalanche effect*).
 ### Colisiones
@@ -444,7 +444,7 @@ $\text{Hash-Coll}_{A,H} = 1$ si $x \neq x'$ y $H(x) = H(x')$. Si $Pr[\text{Hash-
 
 Propuesto por Merkle en 1989, usado por MD5, SHA-1 y SHA-2.
 
-![[Clase 3 - Modelo iterativo Merkle.png|420]]
+![imagen|420](Attachments/Clase%203%20-%20Modelo%20iterativo%20Merkle.png)
 
 g es una funcion no reversible, hace paddings, divide en bloques, hay una funcion f que se le pasa un bloque con y le vamos agregando bloques, y despues pasamos por la funcion g
 
@@ -617,13 +617,13 @@ graph TD
 3. Si $T' \neq T$ → **rechazar y no devolver $P$**. Si son iguales → devolver $P$.
 
 > [!danger] Condición que no se puede violar
-> El **nonce $N$ nunca se puede repetir con la misma clave $K$**. Repetirlo reusa el keystream (mismo problema que reusar el OTP) y además permite forjar tags. Es el mismo requisito que en CTR de [[Criptografia y seguridad Clase 2 - Cifrado]].
+> El **nonce $N$ nunca se puede repetir con la misma clave $K$**. Repetirlo reusa el keystream (mismo problema que reusar el OTP) y además permite forjar tags. Es el mismo requisito que en CTR de [Criptografia y seguridad Clase 2 - Cifrado](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md).
 
 ## Encadenamiento GCM
 
 **GCM = Galois/Counter Mode.** Forma de encadenar un criptosistema de bloque que provee **cifrado autenticado** en una sola pasada.
 
-![[Clase 3 - Encadenamiento GCM.png|640]]
+![imagen|640](Attachments/Clase%203%20-%20Encadenamiento%20GCM.png)
 
 - **Cifrado**: modo counter.
 - **Auth tag (MAC)**: GHASH, sobre el cuerpo finito $GF(2^{128})$.
@@ -710,16 +710,16 @@ Clase de criptografía sobre ataques de texto cifrado escogido (CCA): se mostró
 
 **Misma materia (Criptografía y Seguridad)**
 
-- [[Criptografia y seguridad Clase 2 - Cifrado]] — clase anterior: define CPA, los criptosistemas de flujo y bloque y los modos CBC/CTR que acá se atacan y se reciclan como CBC-MAC
-- [[Criptografia y seguridad intro]] — define criptosistema y secreto perfecto, la terna que el MAC replica con otro objetivo
-- [[Materia - Criptografía y Seguridad]] — índice de la materia
-- [[Practica 1 - criptografia y seguridad]] — práctica asociada
-- [[Guia 1 - criptografia y seguridad]] — ejercicios previos, sobre cifrados clásicos
+- [Criptografia y seguridad Clase 2 - Cifrado](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md) — clase anterior: define CPA, los criptosistemas de flujo y bloque y los modos CBC/CTR que acá se atacan y se reciclan como CBC-MAC
+- [Criptografia y seguridad intro](Criptografia%20y%20seguridad%20intro.md) — define criptosistema y secreto perfecto, la terna que el MAC replica con otro objetivo
+- [Materia - Criptografía y Seguridad](Materia%20-%20Criptografía%20y%20Seguridad.md) — índice de la materia
+- [Practica 1 - criptografia y seguridad](Practica%201%20-%20criptografia%20y%20seguridad.md) — práctica asociada
+- [Guia 1 - criptografia y seguridad](Guia%201%20-%20criptografia%20y%20seguridad.md) — ejercicios previos, sobre cifrados clásicos
 
 **Otras materias**
 
-- **Data Structures and Algorithms** — [[EDA - Hashing]] — misma palabra, objetivo opuesto: ahí la colisión es un caso a resolver con chaining u open addressing, acá es el ataque; y la función se elige por velocidad y distribución, no por irreversibilidad
-- **Protos** — [[9. Protos - SSH]] — SSH usa encrypt-and-MAC (el caso ❌ de la tabla de combinación) y negocia HMAC-SHA-2 como algoritmo de integridad
-- **Protos** — [[2. Protos - HTTP]] — HTTPS/TLS 1.3 solo admite AEAD (AES-GCM, ChaCha20-Poly1305), que es exactamente el cifrado autenticado de esta clase
+- **Data Structures and Algorithms** — [EDA - Hashing](EDA%20-%20Hashing.md) — misma palabra, objetivo opuesto: ahí la colisión es un caso a resolver con chaining u open addressing, acá es el ataque; y la función se elige por velocidad y distribución, no por irreversibilidad
+- **Protos** — [9. Protos - SSH](9.%20Protos%20-%20SSH.md) — SSH usa encrypt-and-MAC (el caso ❌ de la tabla de combinación) y negocia HMAC-SHA-2 como algoritmo de integridad
+- **Protos** — [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) — HTTPS/TLS 1.3 solo admite AEAD (AES-GCM, ChaCha20-Poly1305), que es exactamente el cifrado autenticado de esta clase
 
 <!-- notas-relacionadas:fin -->

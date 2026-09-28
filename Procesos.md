@@ -10,7 +10,7 @@ temas:
 
 # Modelo de Procesos
 
-![[image 122.png]]
+![](Attachments/image%20122.png)
 
 el software se organiza en procesos secuenciales o simplemente procesos
 
@@ -22,15 +22,15 @@ se le asigna un periodo de tiempo a cada procesos
 
 el switch entre un proceso y otro tiene un costo
 
-![[image 123.png]]
+![](Attachments/image%20123.png)
 
 en el grafico . c se ve como cada instante corresponde a un proceso especifico
 
-![[image 124.png]]
+![](Attachments/image%20124.png)
 
 # Procesos
 
-![[image 125.png]]
+![](Attachments/image%20125.png)
 
 cada proceso tiene su propio binario
 
@@ -38,7 +38,7 @@ un proceso no puede ejecutar su propio binario
 
 ## Creación de Procesos
 
-![[image 126.png]]
+![](Attachments/image%20126.png)
 
 no se puede crear un proceso sin el sistema operativo → se usan syscalls
 
@@ -46,25 +46,25 @@ el primero proceso es creado por el sistema operativo ya que el sistema operativ
 
 ### Unix
 
-![[image 127.png]]
+![](Attachments/image%20127.png)
 
 el execve cambia la imagen del proceso, en el fork el proceso hijo compartia heap, stack y código
 
 ### Win32
 
-![[image 128.png]]
+![](Attachments/image%20128.png)
 
 ## Terminación de Procesos
 
-![[image 129.png]]
+![](Attachments/image%20129.png)
 
 al programa, el compilador le agrega cosas, por lo tanto al terminar el main hay mas cosas por correr. por lo tanto al final hay un exit
 
-![[image 130.png]]
+![](Attachments/image%20130.png)
 
 todo lo distinto de 0 se considera un error
 
-![[image 131.png]]
+![](Attachments/image%20131.png)
 
 caso &&: ejecutar elk comando 1, si retorna 0 ejecutar el segundo
 
@@ -72,23 +72,23 @@ caso ||: contrario al del &&
 
 ## Jerarquia de procesos
 
-![[image 132.png]]
+![](Attachments/image%20132.png)
 
 el proceso innit es e padre de todos los procesos en UNIX
 
-![[image 133.png]]
+![](Attachments/image%20133.png)
 
 de A a B se puede hacer un execve que no va a dejar rastro de relación entre padre e hijo
 
 ## Grupo de Procesos - UNIX
 
-![[image 134.png]]
+![](Attachments/image%20134.png)
 
 ## Estados de procesos
 
-![[image 135.png]]
+![](Attachments/image%20135.png)
 
-![[image 136.png]]
+![](Attachments/image%20136.png)
 
 ejecutando es que este corriendo en el cpu
 
@@ -112,14 +112,14 @@ en ready no esta ejecutando en ese momento exacto pero esta esperando a ser usad
 
 ## Implementación de procesos
 
-![[image 137.png]]
+![](Attachments/image%20137.png)
 
 es un struct el cual puede tener el tamaño que uno le otorgue
 
 como el padre sabe del retorno del hijo?
 accede al PCB a traves de una syscall(en el wait)
 
-![[image 138.png]]
+![](Attachments/image%20138.png)
 
 ### estado zombie y huerfano
 
@@ -131,29 +131,29 @@ innit lo que hace es adoptarlos y hacer el wait para que no queden zombies
 
 # Implementación de procesos
 
-![[Captura_de_pantalla_2025-08-27_a_la(s)_10.52.33.png]]
+![](Attachments/Captura_de_pantalla_2025-08-27_a_la%28s%29_10.52.33.png)
 
 es una tabla de structs
 
-![[image 139.png]]
+![](Attachments/image%20139.png)
 
 por ejemplo el estado del proceso le puede importar al scheduler
 
-![[image 140.png]]
+![](Attachments/image%20140.png)
 
-![[image 141.png]]
+![](Attachments/image%20141.png)
 
 # Modelando multiprogramación
 
-![[image 142.png]]
+![](Attachments/image%20142.png)
 
-![[image 143.png]]
+![](Attachments/image%20143.png)
 
 no, no es realista
 
-![[image 144.png]]
+![](Attachments/image%20144.png)
 
-![[image 145.png]]
+![](Attachments/image%20145.png)
 
 ---
 
@@ -163,14 +163,14 @@ no, no es realista
 
 **Misma materia (SO)**
 
-- [[Estructura de un Sistema Operativo]] — dónde vive el proceso
-- [[Scheduling]] — cómo se eligen los procesos
-- [[Threads]] — hilos dentro del proceso
-- [[Memoria]] — espacio de direcciones
+- [Estructura de un Sistema Operativo](Estructura%20de%20un%20Sistema%20Operativo.md) — dónde vive el proceso
+- [Scheduling](Scheduling.md) — cómo se eligen los procesos
+- [Threads](Threads.md) — hilos dentro del proceso
+- [Memoria](Memoria.md) — espacio de direcciones
 
 **Otras materias**
 
-- **Arqui**  [[Intro Sistemas Operativos(Paginación)]] — paginación del espacio de direcciones
-- **Arqui**  [[Seguimiento de Pila en C]] — el stack del proceso en detalle
+- **Arqui**  [Intro Sistemas Operativos(Paginación)](Intro%20Sistemas%20Operativos%28Paginación%29.md) — paginación del espacio de direcciones
+- **Arqui**  [Seguimiento de Pila en C](Seguimiento%20de%20Pila%20en%20C.md) — el stack del proceso en detalle
 
 <!-- notas-relacionadas:fin -->

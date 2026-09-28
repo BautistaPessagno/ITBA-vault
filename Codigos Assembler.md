@@ -300,9 +300,9 @@ categories:
 
 **Misma materia (Arqui)**
 
-- [[Assembler de Intel]] — referencia de instrucciones
-- [[Clase 2 ASM intel]] — teoría de ASM
-- [[ASM y C]] — llamar ASM desde C
-- [[Seguimiento de Pila en C]] — seguimiento del stack en los ejemplos
+- [Assembler de Intel](Assembler%20de%20Intel.md) — referencia de instrucciones
+- [Clase 2 ASM intel](Clase%202%20ASM%20intel.md) — teoría de ASM
+- [ASM y C](ASM%20y%20C.md) — llamar ASM desde C
+- [Seguimiento de Pila en C](Seguimiento%20de%20Pila%20en%20C.md) — seguimiento del stack en los ejemplos
 
 <!-- notas-relacionadas:fin -->

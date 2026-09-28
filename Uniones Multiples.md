@@ -9,20 +9,20 @@ temas:
 # Uniones Multiples
 
 ## Enlace doble
-![[Pasted image 20260313085133.png]]
+![](Attachments/Pasted%20image%2020260313085133.png)
 
 ### Union Sigma ($\sigma$)
-![[Pasted image 20260313085442.png]]
+![](Attachments/Pasted%20image%2020260313085442.png)
 la linea negra es el **eje internuclear** el cual sobre el que se hace la union conocida como union sigma ($\sigma$)
 
 ### Union pi ($\pi$)
-![[Pasted image 20260313085627.png]]
+![](Attachments/Pasted%20image%2020260313085627.png)
 se hacen por fuera del eje internucluear. fortalece la union sigma
-![[Pasted image 20260313085659.png]]
+![](Attachments/Pasted%20image%2020260313085659.png)
 la doble union es un pi y un sigma
 
 ## Enlace Triple
-![[Pasted image 20260313085843.png]]
+![](Attachments/Pasted%20image%2020260313085843.png)
 
 ---
 
@@ -32,7 +32,7 @@ la doble union es un pi y un sigma
 
 **Misma materia (Química)**
 
-- [[Uniones Químicas]] — tema principal
-- [[Resumen Final Química]] — resumen integrador
+- [Uniones Químicas](Uniones%20Químicas.md) — tema principal
+- [Resumen Final Química](Resumen%20Final%20Química.md) — resumen integrador
 
 <!-- notas-relacionadas:fin -->

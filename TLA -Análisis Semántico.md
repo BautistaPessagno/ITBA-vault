@@ -326,13 +326,13 @@ Hay tres métodos principales:
 
 **Misma materia (TLA)**
 
-- [[TLA -Análisis Ascendente]] — tema anterior
-- [[TLA -Máquina de Turing]] — tema siguiente
-- [[frontend]] — la fase que sigue al parser
+- [TLA -Análisis Ascendente](TLA%20-Análisis%20Ascendente.md) — tema anterior
+- [TLA -Máquina de Turing](TLA%20-Máquina%20de%20Turing.md) — tema siguiente
+- [frontend](frontend.md) — la fase que sigue al parser
 
 **Otras materias**
 
-- **EDA**  [[EDA - Grafos]] — grafo de dependencias y orden topológico
-- **EDA**  [[EDA - Árboles]] — árbol decorado
+- **EDA**  [EDA - Grafos](EDA%20-%20Grafos.md) — grafo de dependencias y orden topológico
+- **EDA**  [EDA - Árboles](EDA%20-%20Árboles.md) — árbol decorado
 
 <!-- notas-relacionadas:fin -->

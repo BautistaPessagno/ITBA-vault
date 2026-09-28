@@ -105,7 +105,7 @@ while (it.hasNext()) { String s = it.next(); ... }
 - ¿Por qué la clase Iterator suele ser inner?
 - ¿Qué debe implementar una clase para poder usarse en el for-each?
 
-[[POO.base|POO]]
+[POO](Categories/POO.base)
 
 ---
 
@@ -115,12 +115,12 @@ while (it.hasNext()) { String s = it.next(); ... }
 
 **Misma materia (POO)**
 
-- [[POO - Colecciones Java]] — iterar colecciones
-- [[POO - Interfaces y Generics]] — Iterable e Iterator como interfaces
-- [[POO - Streams y Lambdas]] — la alternativa funcional
+- [POO - Colecciones Java](POO%20-%20Colecciones%20Java.md) — iterar colecciones
+- [POO - Interfaces y Generics](POO%20-%20Interfaces%20y%20Generics.md) — Iterable e Iterator como interfaces
+- [POO - Streams y Lambdas](POO%20-%20Streams%20y%20Lambdas.md) — la alternativa funcional
 
 **Otras materias**
 
-- **EDA**  [[EDA - Listas Lineales]] — recorrer una lista encadenada
+- **EDA**  [EDA - Listas Lineales](EDA%20-%20Listas%20Lineales.md) — recorrer una lista encadenada
 
 <!-- notas-relacionadas:fin -->

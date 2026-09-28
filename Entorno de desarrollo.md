@@ -11,9 +11,9 @@ temas:
 
 # Trucos Bash
 
-![[image 182.png]]
+![](Attachments/image%20182.png)
 
-![[image 183.png]]
+![](Attachments/image%20183.png)
 
 ---
 
@@ -23,11 +23,11 @@ temas:
 
 **Misma materia (SO)**
 
-- [[PIPELINES]] — encadenar comandos
-- [[Test Unitario-GitHub Workflow]] — flujo de trabajo y CI
+- [PIPELINES](PIPELINES.md) — encadenar comandos
+- [Test Unitario-GitHub Workflow](Test%20Unitario-GitHub%20Workflow.md) — flujo de trabajo y CI
 
 **Otras materias**
 
-- **Protos**  [[Introduccion Practica]] — setup de VM y entorno
+- **Protos**  [Introduccion Practica](Introduccion%20Practica.md) — setup de VM y entorno
 
 <!-- notas-relacionadas:fin -->

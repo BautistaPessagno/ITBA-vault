@@ -15,4 +15,4 @@ temas:
 
 Matemática Discreta: fundamentos de grafos, caminos y conexidad, árboles y recorridos, planaridad y coloreo.
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

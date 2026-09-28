@@ -22,8 +22,8 @@ systemctl reload nginx
 
 ```
 
-### [[2. Protos - HTTP#Proxy reverso| Proxy reverso ]]
-![[Pasted image 20260317184603.png]]
+### [Proxy reverso](2.%20Protos%20-%20HTTP.md#Proxy%20reverso)
+![](Attachments/Pasted%20image%2020260317184603.png)
 
 
 ## Notas
@@ -48,7 +48,7 @@ key dirs
 
 **Misma materia (Protos)**
 
-- [[2. Protos - HTTP]] — teoría de esta práctica
-- [[Direccionamiento y HTTP - Practica]] — práctica extendida de HTTP
+- [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) — teoría de esta práctica
+- [Direccionamiento y HTTP - Practica](Direccionamiento%20y%20HTTP%20-%20Practica.md) — práctica extendida de HTTP
 
 <!-- notas-relacionadas:fin -->

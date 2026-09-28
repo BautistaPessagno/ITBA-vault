@@ -17,7 +17,7 @@ AMD64: Tecnología AMD de extensión 64 bits, compatible con 32 bits.
 
 IA-64: Tecnología Intel de 64 bits (Itanium) no compatible con 32. No lograron hacerlo funcionar, fracasó.
 
-![[Captura_de_pantalla_2025-05-27_a_la(s)_12.18.54.png]]
+![](Attachments/Captura_de_pantalla_2025-05-27_a_la%28s%29_12.18.54.png)
 
 La **arquitectura** es la compatibilidad de un set de instrucciones, es decir, que una arquitectura es la misma cuando comparten un set de instrucciones (por ejemplo, la cartilla de ASM).
 
@@ -33,8 +33,8 @@ Los **procesadores** son la implementación comercial de la microarquitectura.
 
 **Misma materia (Arqui)**
 
-- [[64bits y ARM]] — arquitecturas de 64 bits
-- [[Assembler de Intel]] — registros de 64 bits
-- [[Modo protegido]] — modos del procesador
+- [64bits y ARM](64bits%20y%20ARM.md) — arquitecturas de 64 bits
+- [Assembler de Intel](Assembler%20de%20Intel.md) — registros de 64 bits
+- [Modo protegido](Modo%20protegido.md) — modos del procesador
 
 <!-- notas-relacionadas:fin -->

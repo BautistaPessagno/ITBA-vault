@@ -348,8 +348,8 @@ Como las transiciones no cambian, toda palabra aceptada en el AFD es aceptada en
 
 **Misma materia (TLA)**
 
-- [[TLA -Autómatas Finitos Determinísticos]] — construcción de subconjuntos
-- [[TLA -Expresiones Regulares]] — de ER a AFND-λ
-- [[TLA -Autómatas de Pila]] — tema siguiente: agregar una pila
+- [TLA -Autómatas Finitos Determinísticos](TLA%20-Autómatas%20Finitos%20Determinísticos.md) — construcción de subconjuntos
+- [TLA -Expresiones Regulares](TLA%20-Expresiones%20Regulares.md) — de ER a AFND-λ
+- [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md) — tema siguiente: agregar una pila
 
 <!-- notas-relacionadas:fin -->

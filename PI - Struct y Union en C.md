@@ -99,7 +99,7 @@ Uso: representar un valor que puede ser de distintos tipos según el contexto.
 - ¿Cuándo conviene usar `union` sobre `struct`?
 - ¿Por qué ordenar los campos del más grande al más pequeño ahorra memoria?
 
-[[PI.base|PI]]
+[PI](Categories/PI.base)
 
 ---
 
@@ -109,13 +109,13 @@ Uso: representar un valor que puede ser de distintos tipos según el contexto.
 
 **Misma materia (PI)**
 
-- [[PI - TAD en C]] — structs como base de un TAD
-- [[PI - Punteros en C]] — punteros a struct
+- [PI - TAD en C](PI%20-%20TAD%20en%20C.md) — structs como base de un TAD
+- [PI - Punteros en C](PI%20-%20Punteros%20en%20C.md) — punteros a struct
 
 **Otras materias**
 
-- **BD**  [[BD clase 16 programacion embebida]] — variables host en SQL embebido
-- **POO**  [[POO - Enums]] — enums y tipos con valores fijos
-- **Protos**  [[10. Protos - Sockets]] — sockaddr y structs de la API
+- **BD**  [BD clase 16 programacion embebida](BD%20clase%2016%20programacion%20embebida.md) — variables host en SQL embebido
+- **POO**  [POO - Enums](POO%20-%20Enums.md) — enums y tipos con valores fijos
+- **Protos**  [10. Protos - Sockets](10.%20Protos%20-%20Sockets.md) — sockaddr y structs de la API
 
 <!-- notas-relacionadas:fin -->

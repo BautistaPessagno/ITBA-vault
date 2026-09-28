@@ -194,9 +194,9 @@ flowchart BT
 
 **Misma materia (BD)**
 
-- [[BD clase 3 modelo relacional]] — clase anterior
-- [[BD clase 5 algebra relacional]] — clase siguiente
-- [[Mapeo del diagrama MER al modelo relacional]] — práctica de este tema
-- [[BD clase 2 modelo entidad relacion]] — el MER de origen
+- [BD clase 3 modelo relacional](BD%20clase%203%20modelo%20relacional.md) — clase anterior
+- [BD clase 5 algebra relacional](BD%20clase%205%20algebra%20relacional.md) — clase siguiente
+- [Mapeo del diagrama MER al modelo relacional](Mapeo%20del%20diagrama%20MER%20al%20modelo%20relacional.md) — práctica de este tema
+- [BD clase 2 modelo entidad relacion](BD%20clase%202%20modelo%20entidad%20relacion.md) — el MER de origen
 
 <!-- notas-relacionadas:fin -->

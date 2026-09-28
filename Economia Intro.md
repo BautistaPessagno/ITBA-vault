@@ -72,7 +72,7 @@ Los economistas estudian tres cosas: cómo **toman decisiones** los individuos, 
 
 Esquema de clase con el recorrido completo del bloque de micro: los **dos agentes** (consumidor y empresario), cómo de cada uno sale una **curva** en el plano P–Q, y hacia dónde converge todo (los **mercados**).
 
-![[Economia 4-8.excalidraw]]
+![Economia 4-8.excalidraw](Excalidraw/Economia%204-8.excalidraw.md)
 
 | Agente | Supuesto | Pregunta que resuelve | De qué depende | A qué curva llega |
 |---|---|---|---|---|
@@ -104,7 +104,7 @@ Oferta y demanda se encuentran en los **mercados**, que la materia clasifica en 
 
 ### Frontera de Posibilidades de Producción (FPP)
 
-![[Pasted image 20260804134904.png]]
+![](Attachments/Pasted%20image%2020260804134904.png)
 
 Modelo con dos bienes (ejemplo de la clase: **computadoras** y **autos**) que muestra las combinaciones **máximas** que la economía puede producir con sus recursos y tecnología dados.
 
@@ -115,7 +115,7 @@ Modelo con dos bienes (ejemplo de la clase: **computadoras** y **autos**) que mu
 
 **Crecimiento económico:** desplazamiento de la FPP **hacia afuera**. En el gráfico de la clase se pasa del punto A (2.000 computadoras, 700 autos) al punto E (2.100 computadoras, 750 autos): más de ambos bienes a la vez, algo imposible sobre la frontera original. Lo hacen posible más recursos, más capital y mejor tecnología. 
 
-![[Pasted image 20260804135217.png]]
+![](Attachments/Pasted%20image%2020260804135217.png)
 
 
 ### Costo de oportunidad
@@ -183,7 +183,7 @@ Forma sencilla de visualizar las transacciones económicas entre **familias** y 
 
 **Misma materia (Economia)**
 
-- [[Economia - Oferta, Demanda y Mercado]] — clase siguiente: el mercado como mecanismo concreto para asignar los recursos escasos definidos acá; el análisis marginal reaparece en el consumidor marginal y en el excedente del consumidor
-- [[Materia - Economia]] — nota índice de la materia: cuatrimestre, temas y punto de entrada al resto de las clases
+- [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) — clase siguiente: el mercado como mecanismo concreto para asignar los recursos escasos definidos acá; el análisis marginal reaparece en el consumidor marginal y en el excedente del consumidor
+- [Materia - Economia](Materia%20-%20Economia.md) — nota índice de la materia: cuatrimestre, temas y punto de entrada al resto de las clases
 
 <!-- notas-relacionadas:fin -->

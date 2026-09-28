@@ -8,7 +8,7 @@ temas:
 ---
 # Guias Practicas Protos
 
-![[guia-practica-r2.pdf]]
+![guia-practica-r2](_Material/protos/guia-practica-r2.pdf)
 
 ---
 
@@ -18,7 +18,7 @@ temas:
 
 **Misma materia (Protos)**
 
-- [[Ejercicios de las guías claves para el parcial]] — resolución de las guías
-- [[Resumen Protos]] — teoría de respaldo
+- [Ejercicios de las guías claves para el parcial](Ejercicios%20de%20las%20guías%20claves%20para%20el%20parcial.md) — resolución de las guías
+- [Resumen Protos](Resumen%20Protos.md) — teoría de respaldo
 
 <!-- notas-relacionadas:fin -->

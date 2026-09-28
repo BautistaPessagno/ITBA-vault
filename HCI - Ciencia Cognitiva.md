@@ -85,7 +85,7 @@ Las emociones forman parte de la toma de decisiones.
 - ¿Por qué la proximidad tiene mayor peso que la similitud en Gestalt?
 - ¿Cómo afectan las emociones a la usabilidad percibida?
 
-[[HCI.base|HCI]]
+[HCI](Categories/HCI.base)
 
 ---
 
@@ -95,8 +95,8 @@ Las emociones forman parte de la toma de decisiones.
 
 **Misma materia (HCI)**
 
-- [[HCI - Fundamentos de HCI]] — tema anterior
-- [[HCI - Diseño Centrado en el Usuario]] — tema siguiente
-- [[HCI - Lineamientos Web]] — carga cognitiva aplicada a la web
+- [HCI - Fundamentos de HCI](HCI%20-%20Fundamentos%20de%20HCI.md) — tema anterior
+- [HCI - Diseño Centrado en el Usuario](HCI%20-%20Diseño%20Centrado%20en%20el%20Usuario.md) — tema siguiente
+- [HCI - Lineamientos Web](HCI%20-%20Lineamientos%20Web.md) — carga cognitiva aplicada a la web
 
 <!-- notas-relacionadas:fin -->

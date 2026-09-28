@@ -14,10 +14,10 @@ Created: 2026-06-04T17:43:00
 # Mega Resumen — Segundo Parcial de Química
 
 Resumen integrador para el **segundo parcial**. Cubre los 6 temas que aparecen siempre:
-[[Hidrólisis]], soluciones reguladoras ([[Buffer]]), curvas de titulación ([[Curva de Titulacion]]),
-[[Equilibrio de precipitacion]], [[Electroquímica]] (celdas galvánicas + Nernst) y electrólisis.
+[Hidrólisis](Hidrólisis.md), soluciones reguladoras ([Buffer](Buffer.md)), curvas de titulación ([Curva de Titulacion](Curva%20de%20Titulacion.md)),
+[Equilibrio de precipitacion](Equilibrio%20de%20precipitacion.md), [Electroquímica](Electroquímica.md) (celdas galvánicas + Nernst) y electrólisis.
 
-Vista del curso: [[Quimica.base]]
+Vista del curso: [Quimica.base](Categories/Quimica.base)
 
 > [!abstract] Cómo está armado
 > Cada tema tiene **(1) teoría y fórmulas**, **(2) la receta de resolución** y **(3) ejemplos de
@@ -112,7 +112,7 @@ $$2{,}5\times10^{-5}=\frac{x^2}{0{,}2}\Rightarrow x=2{,}24\times10^{-3}\Rightarr
 
 ## 2. Soluciones reguladoras (Buffer)
 
-Ver también [[Buffer]].
+Ver también [Buffer](Buffer.md).
 
 ### Teoría
 Un **buffer** resiste cambios bruscos de pH. Está formado por un **par conjugado ácido-base débil**
@@ -161,7 +161,7 @@ El buffer pasó de 4 a 3,91 (Δ0,09). Una solución de HCl al mismo pH inicial h
 
 ## 3. Curvas de titulación
 
-Ver [[Curva de Titulacion]].
+Ver [Curva de Titulacion](Curva%20de%20Titulacion.md).
 
 ### Teoría
 Se agrega lentamente un reactivo (titulante, concentración conocida) sobre el **analito** hasta el
@@ -216,7 +216,7 @@ $$4{,}95\times10^{-9}=\frac{x(x+0{,}05)}{0{,}065-x}\Rightarrow x=[OH^-]=3{,}8\ti
 
 ## 4. Equilibrio de precipitación
 
-Ver [[Equilibrio de precipitacion]].
+Ver [Equilibrio de precipitacion](Equilibrio%20de%20precipitacion.md).
 
 ### Teoría
 Una sal poco soluble en equilibrio con sus iones tiene una **constante de producto de solubilidad $K_{ps}$**.
@@ -279,7 +279,7 @@ Agregar $NH_4Cl$ a NH₃ para que el pH baje 3 unidades y ver si precipita Mg(OH
 
 ## 5. Electroquímica — celdas galvánicas y Nernst
 
-Ver [[Electroquímica]].
+Ver [Electroquímica](Electroquímica.md).
 
 ### Repaso REDOX y balanceo (método ión-electrón)
 En una reacción **redox** una especie se **oxida** (pierde $e^-$, sube su número de oxidación) y otra
@@ -431,8 +431,8 @@ Electrólisis de NiSO₄ para depositar 10 g de Ni con $i=5$ A.
 ---
 
 > [!success] Fuentes integradas
-> Notas de clase ([[Equilibrio de precipitacion]], [[Hidrólisis]], [[Curva de Titulacion]],
-> [[Electroquímica]], [[Buffer]]), teóricas de *Soluciones reguladoras* y *Electrólisis*, compilación
+> Notas de clase ([Equilibrio de precipitacion](Equilibrio%20de%20precipitacion.md), [Hidrólisis](Hidrólisis.md), [Curva de Titulacion](Curva%20de%20Titulacion.md),
+> [Electroquímica](Electroquímica.md), [Buffer](Buffer.md)), teóricas de *Soluciones reguladoras* y *Electrólisis*, compilación
 > de segundos parciales resueltos (1C2023, 2C2022, Recu2C2022, 1C2018) y guía de *Problemas
 > adicionales* (ej. 11–42 + parciales).
 
@@ -444,11 +444,11 @@ Electrólisis de NiSO₄ para depositar 10 g de Ni con $i=5$ A.
 
 **Misma materia (Química)**
 
-- [[Hidrólisis]] — hidrólisis
-- [[Buffer]] — soluciones reguladoras
-- [[Curva de Titulacion]] — titulación
-- [[Equilibrio de precipitacion]] — precipitación
-- [[Electroquímica]] — electroquímica
-- [[Resumen Final Química]] — resumen del final
+- [Hidrólisis](Hidrólisis.md) — hidrólisis
+- [Buffer](Buffer.md) — soluciones reguladoras
+- [Curva de Titulacion](Curva%20de%20Titulacion.md) — titulación
+- [Equilibrio de precipitacion](Equilibrio%20de%20precipitacion.md) — precipitación
+- [Electroquímica](Electroquímica.md) — electroquímica
+- [Resumen Final Química](Resumen%20Final%20Química.md) — resumen del final
 
 <!-- notas-relacionadas:fin -->

@@ -539,7 +539,7 @@ norma en abstracto y miran **cómo percibe el público**.
 - ¿Por qué ordenar el cese de un aviso **no es censura previa**?
 - ¿Qué normas citadas en estos fallos ya **no están vigentes** y por cuáles se reemplazaron?
 
-[[Derecho.base|Derecho]]
+[Derecho](Categories/Derecho.base)
 
 ---
 
@@ -549,17 +549,17 @@ norma en abstracto y miran **cómo percibe el público**.
 
 **Misma materia (Derecho)**
 
-- [[Materia - Derecho]] — índice de la materia.
-- [[Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos]] — la **marca** es uno de los elementos **inmateriales** del fondo de comercio (art. 1, ley 11.867) y se transfiere con él; el "valor llave" es en buena medida lo que estos fallos protegen.
-- [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]] — el art. 953 del CC de Vélez que cita *Buquebus* es el antecesor del **art. 279 CCyCN**; y el descrédito comercial es un **daño** resarcible en los términos de la responsabilidad civil vista ahí.
-- [[Intro Derecho]] — jerarquía normativa: el Convenio de París (ley 17.011) y el ADPIC (ley 24.425) son **tratados con jerarquía superior a las leyes** (CN art. 75 inc. 22), y por eso destraban casos que la ley 22.362 sola no resuelve.
-- [[El Derecho constitucional]] — *Buquebus* es un caso de **colisión de derechos constitucionales** (art. 14 libertad de expresión vs. art. 42 consumidores) y de la regla de que ningún derecho es absoluto.
-- [[Derecho - Resumen Primer Parcial]] — el repaso consolidado de las cinco unidades que
+- [Materia - Derecho](Materia%20-%20Derecho.md) — índice de la materia.
+- [Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos](Derecho%20-%20U4%20Fondo%20de%20Comercio,%20Seguros,%20Bolsa%20y%20Concursos.md) — la **marca** es uno de los elementos **inmateriales** del fondo de comercio (art. 1, ley 11.867) y se transfiere con él; el "valor llave" es en buena medida lo que estos fallos protegen.
+- [Derecho - U3 Persona, Obligaciones y Responsabilidad Civil](Derecho%20-%20U3%20Persona,%20Obligaciones%20y%20Responsabilidad%20Civil.md) — el art. 953 del CC de Vélez que cita *Buquebus* es el antecesor del **art. 279 CCyCN**; y el descrédito comercial es un **daño** resarcible en los términos de la responsabilidad civil vista ahí.
+- [Intro Derecho](Intro%20Derecho.md) — jerarquía normativa: el Convenio de París (ley 17.011) y el ADPIC (ley 24.425) son **tratados con jerarquía superior a las leyes** (CN art. 75 inc. 22), y por eso destraban casos que la ley 22.362 sola no resuelve.
+- [El Derecho constitucional](El%20Derecho%20constitucional.md) — *Buquebus* es un caso de **colisión de derechos constitucionales** (art. 14 libertad de expresión vs. art. 42 consumidores) y de la regla de que ningún derecho es absoluto.
+- [Derecho - Resumen Primer Parcial](Derecho%20-%20Resumen%20Primer%20Parcial.md) — el repaso consolidado de las cinco unidades que
   entran en el primer parcial, con la tabla de números, las trampas verificadas y el banco de
   preguntas.
 
 **Otras materias**
 
-- **Economía** — [[Economia - Oferta, Demanda y Mercado]] — *Buquebus* es literalmente el ingreso de un competidor a un **monopolio**; el fallo dice que el dominante debe soportar más presión competitiva. La marca, además, es una **barrera de entrada** y un activo intangible.
+- **Economía** — [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) — *Buquebus* es literalmente el ingreso de un competidor a un **monopolio**; el fallo dice que el dominante debe soportar más presión competitiva. La marca, además, es una **barrera de entrada** y un activo intangible.
 
 <!-- notas-relacionadas:fin -->

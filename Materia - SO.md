@@ -15,6 +15,6 @@ temas:
 
 Sistemas Operativos: estructura del SO, syscalls, procesos, scheduling, threads e IPC, gestión de memoria, file system y pipelines.
 
-→ [[Resumen SO]]
+→ [Resumen SO](Resumen%20SO.md)
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

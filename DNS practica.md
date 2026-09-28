@@ -20,17 +20,17 @@ temas:
 ```
 dig google.com
 ```
-![[Pasted image 20260331163024.png]]
+![](Attachments/Pasted%20image%2020260331163024.png)
 esta la question section y el answer. no siempre tiene que haber un answer
 
-![[Pasted image 20260331164256.png]]
+![](Attachments/Pasted%20image%2020260331164256.png)
 el numero de tres digitos es el Time To Live
 
 
-![[Pasted image 20260331165313.png]]
+![](Attachments/Pasted%20image%2020260331165313.png)
 el numero antes del dominio es la prioridad
 
-![[TLDS.excalidraw]]
+![TLDS.excalidraw](Excalidraw/TLDS.excalidraw.md)
 
 el autoritativo nunca habla con el usuario. habla con cache
 
@@ -107,16 +107,16 @@ el Negative TTL cachea un resultado negativo
 
 # Guia Practica
 ## E42 
-![[Pasted image 20260406105906.png]]
+![](Attachments/Pasted%20image%2020260406105906.png)
 
-![[Pasted image 20260406105938.png|360]]![[Pasted image 20260406110010.png|299]]
+![imagen|360](Attachments/Pasted%20image%2020260406105938.png)![imagen|299](Attachments/Pasted%20image%2020260406110010.png)
 
-![[Pasted image 20260406110129.png|351]] ![[Screenshot 2026-04-06 at 11.01.39.png|332]]
+![imagen|351](Attachments/Pasted%20image%2020260406110129.png) ![imagen|332](Attachments/Screenshot%202026-04-06%20at%2011.01.39.png)
 
-![[Pasted image 20260406110238.png]] ![[Pasted image 20260406110248.png]]
+![](Attachments/Pasted%20image%2020260406110238.png) ![](Attachments/Pasted%20image%2020260406110248.png)
 
 ## E43
-![[Pasted image 20260406110332.png]]
+![](Attachments/Pasted%20image%2020260406110332.png)
 idem al E42 pero tengo que correr ```
 ```bash
 dig <domain> mx
@@ -131,8 +131,8 @@ y con eso consigo el dominio
 
 **Misma materia (Protos)**
 
-- [[3. Protos - DNS]] — teoría de esta práctica
-- [[BIND - Configuracion de Zonas DNS]] — configuración del servidor
-- [[DNS]] — definición corta
+- [3. Protos - DNS](3.%20Protos%20-%20DNS.md) — teoría de esta práctica
+- [BIND - Configuracion de Zonas DNS](BIND%20-%20Configuracion%20de%20Zonas%20DNS.md) — configuración del servidor
+- [DNS](DNS.md) — definición corta
 
 <!-- notas-relacionadas:fin -->

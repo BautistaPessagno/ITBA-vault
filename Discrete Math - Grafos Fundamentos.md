@@ -69,7 +69,7 @@ Dos grafos son isomorfos si existe una biyección f: V_G → V_H que:
 - ¿Qué diferencia hay entre grafo regular y grafo completo?
 - ¿Cuántas aristas tiene Kₙ?
 
-[[Discrete Math.base|Discrete Math]]
+[Discrete Math](Categories/Discrete%20Math.base)
 
 ---
 
@@ -79,11 +79,11 @@ Dos grafos son isomorfos si existe una biyección f: V_G → V_H que:
 
 **Misma materia (Discrete Math)**
 
-- [[Discrete Math - Caminos y Conexidad]] — tema siguiente
-- [[Discrete Math - Árboles y Recorridos]] — árboles
+- [Discrete Math - Caminos y Conexidad](Discrete%20Math%20-%20Caminos%20y%20Conexidad.md) — tema siguiente
+- [Discrete Math - Árboles y Recorridos](Discrete%20Math%20-%20Árboles%20y%20Recorridos.md) — árboles
 
 **Otras materias**
 
-- **EDA**  [[EDA - Grafos]] — representación e implementación
+- **EDA**  [EDA - Grafos](EDA%20-%20Grafos.md) — representación e implementación
 
 <!-- notas-relacionadas:fin -->

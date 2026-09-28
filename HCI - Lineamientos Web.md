@@ -52,7 +52,7 @@ temas:
 - ¿Cómo se aplica la Ley de Hick al diseño de menús de navegación?
 - ¿Qué es la navegación persistente y por qué importa?
 
-[[HCI.base|HCI]]
+[HCI](Categories/HCI.base)
 
 ---
 
@@ -62,11 +62,11 @@ temas:
 
 **Misma materia (HCI)**
 
-- [[HCI - Usabilidad y Evaluación]] — heurísticas de Nielsen
-- [[HCI - Ciencia Cognitiva]] — carga cognitiva
+- [HCI - Usabilidad y Evaluación](HCI%20-%20Usabilidad%20y%20Evaluación.md) — heurísticas de Nielsen
+- [HCI - Ciencia Cognitiva](HCI%20-%20Ciencia%20Cognitiva.md) — carga cognitiva
 
 **Otras materias**
 
-- **Protos**  [[2. Protos - HTTP]] — el protocolo detrás de la web
+- **Protos**  [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) — el protocolo detrás de la web
 
 <!-- notas-relacionadas:fin -->

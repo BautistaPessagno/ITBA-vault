@@ -11,24 +11,24 @@ Terminar de entender el Stack
 
 # Mezcla de lenguajes en un ejecutable
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_11.43.07.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_11.43.07.png)
 
 ## Pila
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_11.43.20.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_11.43.20.png)
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_11.45.25.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_11.45.25.png)
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_11.45.35.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_11.45.35.png)
 
 # Instruccion RET
 
 Cuando se ejecuta una instrucción RET, el procesador toma el contenido
 de los apuntado por ESP y salta a esa posición de memoria
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_11.46.22.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_11.46.22.png)
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_11.46.44.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_11.46.44.png)
 
 # Pasaje de argumentos en C
 
@@ -40,11 +40,11 @@ de los apuntado por ESP y salta a esa posición de memoria
 
 ## Pasaje de argumentos por registros
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_11.48.24.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_11.48.24.png)
 
 ## Convenciones en C
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_12.03.58.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_12.03.58.png)
 
 ## Armado Stack 
 
@@ -60,15 +60,15 @@ de los apuntado por ESP y salta a esa posición de memoria
 
 ## Resguardo y actualización EBP y Valores a Retornar(IMPORTANTE)
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_12.04.04.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_12.04.04.png)
 
 ## Llamadas
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_12.11.42.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_12.11.42.png)
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_12.11.48.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_12.11.48.png)
 
-![[Captura_de_pantalla_2025-03-31_a_la(s)_11.17.51.png]]
+![](Attachments/Captura_de_pantalla_2025-03-31_a_la%28s%29_11.17.51.png)
 
 ---
 
@@ -78,13 +78,13 @@ de los apuntado por ESP y salta a esa posición de memoria
 
 **Misma materia (Arqui)**
 
-- [[Clase 3 ASM y C]] — clase de esta temática
-- [[Assembler de Intel]] — referencia de instrucciones
-- [[Codigos Assembler]] — ejemplos
+- [Clase 3 ASM y C](Clase%203%20ASM%20y%20C.md) — clase de esta temática
+- [Assembler de Intel](Assembler%20de%20Intel.md) — referencia de instrucciones
+- [Codigos Assembler](Codigos%20Assembler.md) — ejemplos
 
 **Otras materias**
 
-- **PI**  [[PI - Funciones en C]] — pasaje de parámetros
-- **PI**  [[PI - Intro C]] — el lado C de la interoperación
+- **PI**  [PI - Funciones en C](PI%20-%20Funciones%20en%20C.md) — pasaje de parámetros
+- **PI**  [PI - Intro C](PI%20-%20Intro%20C.md) — el lado C de la interoperación
 
 <!-- notas-relacionadas:fin -->

@@ -53,7 +53,7 @@ temas:
 ---
 # Economia - Resumen Primer Parcial
 
-[[Economia.base|Economia]]
+[Economia](Categories/Economia.base)
 
 > [!abstract] Qué es esto
 > El repaso para el **Parcial 1 (29-sep)**: las fórmulas y los conceptos que más pesan, de **todo** lo que
@@ -71,13 +71,13 @@ temas:
 > [!info] Alcance — crono 2C 2026
 > | Clase | Fecha | Tema | Nota del vault |
 > |---|---|---|---|
-> | 1 | 4-ago | Introducción. Oferta y demanda. Elasticidades | [[Economia Intro]], [[Economia - Oferta, Demanda y Mercado]] |
-> | 2 | 11-ago | Producción. Costos | [[Economia - Resumen Microeconomía]] §3 |
-> | 3 | 18-ago | Competencia perfecta | [[Economia - Resumen Microeconomía]] §4 |
-> | 4 | 25-ago | Monopolio, competencia monopolística, oligopolio | [[Economia - Resumen Microeconomía]] §5 |
+> | 1 | 4-ago | Introducción. Oferta y demanda. Elasticidades | [Economia Intro](Economia%20Intro.md), [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) |
+> | 2 | 11-ago | Producción. Costos | [Economia - Resumen Microeconomía](Economia%20-%20Resumen%20Microeconomía.md) §3 |
+> | 3 | 18-ago | Competencia perfecta | [Economia - Resumen Microeconomía](Economia%20-%20Resumen%20Microeconomía.md) §4 |
+> | 4 | 25-ago | Monopolio, competencia monopolística, oligopolio | [Economia - Resumen Microeconomía](Economia%20-%20Resumen%20Microeconomía.md) §5 |
 > | 5 | 1-sep | Macro: intro, PBI, ciclos, empleo, inflación | *(sin nota — está desarrollado acá, §11–§14)* |
-> | 6 | 8-sep | OA–DA. Política fiscal | acá §15–§16 y [[Economia - Macro Clase 4 - Oferta y Demanda Agregada y Sector Externo]] |
-> | 7 | 15-sep | Dinero y política monetaria. Comercio internacional | [[Economia - Macro Clase 3 - Política Monetaria]], [[Economia - Macro Clase 4 - Oferta y Demanda Agregada y Sector Externo]] |
+> | 6 | 8-sep | OA–DA. Política fiscal | acá §15–§16 y [Economia - Macro Clase 4 - Oferta y Demanda Agregada y Sector Externo](Economia%20-%20Macro%20Clase%204%20-%20Oferta%20y%20Demanda%20Agregada%20y%20Sector%20Externo.md) |
+> | 7 | 15-sep | Dinero y política monetaria. Comercio internacional | [Economia - Macro Clase 3 - Política Monetaria](Economia%20-%20Macro%20Clase%203%20-%20Política%20Monetaria.md), [Economia - Macro Clase 4 - Oferta y Demanda Agregada y Sector Externo](Economia%20-%20Macro%20Clase%204%20-%20Oferta%20y%20Demanda%20Agregada%20y%20Sector%20Externo.md) |
 
 ---
 
@@ -196,7 +196,7 @@ $$IM = \frac{dIT}{dQ} = P\left(1 + \frac{1}{E}\right) \quad\Rightarrow\quad IM =
 
 > [!bug] Slide 002·45
 > Dice que con $\eta \ge 1$ una baja de precio aumenta el gasto. En $\eta = 1$ el gasto ya es máximo: vale
-> solo con $\eta > 1$ (detalle en [[Economia - Resumen Microeconomía]] §2.7).
+> solo con $\eta > 1$ (detalle en [Economia - Resumen Microeconomía](Economia%20-%20Resumen%20Microeconomía.md) §2.7).
 
 ---
 
@@ -214,7 +214,7 @@ $$IM = \frac{dIT}{dQ} = P\left(1 + \frac{1}{E}\right) \quad\Rightarrow\quad IM =
 | ↑ Demanda y ↓ Oferta | ↑ | **?** |
 
 - Sustitutos: $\uparrow P_Y \Rightarrow \uparrow D_X$. Complementarios: $\uparrow P_Y \Rightarrow \downarrow D_X$.
-  (Las slides 002·14–15 lo dicen al revés: ver [[Economia - Resumen Microeconomía]] §2.2.)
+  (Las slides 002·14–15 lo dicen al revés: ver [Economia - Resumen Microeconomía](Economia%20-%20Resumen%20Microeconomía.md) §2.2.)
 - Un cambio en el **costo** de producir X desplaza la **oferta** de X, no su demanda.
 
 **Agregación horizontal** — se suman **cantidades** a cada precio, y **solo las positivas**:
@@ -248,7 +248,7 @@ van hacia donde sube el precio).
 
 ## 4. Impuestos, subsidios e incidencia
 
-![[Economia - Clase004 - Impuesto sobre la producción.png]]
+![](Attachments/Economia%20-%20Clase004%20-%20Impuesto%20sobre%20la%20producción.png)
 
 **La cuña.** $P_c$ = lo que paga el consumidor, $P_v$ = lo que recibe el vendedor:
 
@@ -374,7 +374,7 @@ $$P = IMe = IM \quad\Longrightarrow\quad \boxed{P = CMg(q)}\ \text{ con el CMg c
 
 $$\pi = IT - CT = (P - CTMe)\cdot q$$
 
-![[Economia - Costos y cierre competitivo.svg]]
+![](Attachments/Economia%20-%20Costos%20y%20cierre%20competitivo.svg)
 
 | En $q^*$ (donde $P = CMg$) | Decisión de **corto plazo** |
 |---|---|
@@ -401,7 +401,7 @@ $$P_{LP} = CMg = \min CTMe_{LP} \qquad \pi_{\text{económico}} = 0 \qquad n = \f
 - Con demanda que sube: CP → sube $P$ y hay beneficios; LP → entran empresas y $P$ vuelve al $\min CTMe$
   (costos constantes), con **más empresas** y más $Q$.
 
-![[Economia - Clase004 - Equilibrio de largo plazo.png]]
+![](Attachments/Economia%20-%20Clase004%20-%20Equilibrio%20de%20largo%20plazo.png)
 
 ---
 
@@ -432,7 +432,7 @@ con los resultados, $IM = P(1 + 1/E)$ tiene que dar el CMg.
 
 ### 8.3 Costo social
 
-![[Economia - Clase005 - Pérdida irrecuperable.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Pérdida%20irrecuperable.png)
 
 | Al pasar de competencia ($P_C = CMg$) a monopolio | |
 |---|---|
@@ -453,7 +453,7 @@ con los resultados, $IM = P(1 + 1/E)$ tiene que dar el CMg.
 - **Monopolio natural** ($CMe$ decreciente, $CMg < CMe$): con $P = CMg$ **pierde plata** → se regula con
   **$P = CMe$** (la mayor producción sin pérdidas, $\pi = 0$), o $P = CMg$ + subsidio.
 
-![[Economia - Clase005 - Monopolio natural.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Monopolio%20natural.png)
 
 ### 8.5 Demanda con quiebres (varios grupos de consumidores)
 
@@ -494,7 +494,7 @@ distintas**.
 | **2.º** | Por **cantidad** o por **bloques** | Precio depende de cuánto compra |
 | **3.er** | Por **grupos** con demandas distintas | $IM_1 = IM_2 = CMg$ |
 
-![[Economia - Clase005 - Discriminación de tercer grado.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Discriminación%20de%20tercer%20grado.png)
 
 **Tercer grado:**
 
@@ -710,7 +710,7 @@ $$u_{natural} = u_{friccional} + u_{estructural} \qquad u_{efectivo} = u_{natura
 
 ## 15. Modelo de oferta y demanda agregada 🆕
 
-Detalle y gráficos: [[Economia - Macro Clase 4 - Oferta y Demanda Agregada y Sector Externo]] §2–§6.
+Detalle y gráficos: [Economia - Macro Clase 4 - Oferta y Demanda Agregada y Sector Externo](Economia%20-%20Macro%20Clase%204%20-%20Oferta%20y%20Demanda%20Agregada%20y%20Sector%20Externo.md) §2–§6.
 
 **DA** (pendiente **negativa**) — $\uparrow P$ reduce la cantidad demandada por tres canales: **riqueza**
 (↓C), **tasa de interés** (más demanda de dinero → ↑r → ↓I) y **tipo de cambio real** (economía más cara →
@@ -731,7 +731,7 @@ depende de P). **Lo que separa CP de LP es cuánto tardan los salarios en ajusta
 | Oferta + | OA CP → | ↓ | ↑ | **Direcciones opuestas** |
 | Oferta − | OA CP ← | ↑ | ↓ | **Estanflación** (shocks petroleros 1973 y 1979) |
 
-![[Economia - Macro Clase4 - Brecha recesiva y autocorreccion.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Brecha%20recesiva%20y%20autocorreccion.png)
 
 | | Brecha **recesiva** ($Y < Y_P$) | Brecha **inflacionaria** ($Y > Y_P$) |
 |---|---|---|
@@ -804,7 +804,7 @@ $$d^{*} = (r - \gamma)\cdot b \qquad(r \text{ tasa real},\ \gamma \text{ crecimi
 
 ## 17. Dinero y política monetaria
 
-Detalle: [[Economia - Macro Clase 3 - Política Monetaria]].
+Detalle: [Economia - Macro Clase 3 - Política Monetaria](Economia%20-%20Macro%20Clase%203%20-%20Política%20Monetaria.md).
 
 **Dinero** = lo que se acepta como **medio de cambio**. **Funciones**: medio de cambio · unidad de cuenta ·
 depósito de valor · patrón de pagos diferidos. (Con inflación alta se pierden primero depósito de valor y
@@ -860,7 +860,7 @@ $$1 + r = \frac{1 + i}{1 + \pi} \qquad r \approx i - \pi\ \text{(solo con tasas 
 
 ## 18. Sector externo 🆕
 
-Detalle: [[Economia - Macro Clase 4 - Oferta y Demanda Agregada y Sector Externo]] §7–§13.
+Detalle: [Economia - Macro Clase 4 - Oferta y Demanda Agregada y Sector Externo](Economia%20-%20Macro%20Clase%204%20-%20Oferta%20y%20Demanda%20Agregada%20y%20Sector%20Externo.md) §7–§13.
 
 **Ventaja comparativa**: menor **costo de oportunidad** (no productividad absoluta). Fuentes: clima, **dotación
 de factores** (Heckscher-Ohlin: exporta lo intensivo en su factor abundante), tecnología.
@@ -874,7 +874,7 @@ de factores** (Heckscher-Ohlin: exporta lo intensivo en su factor abundante), te
 | Productores | Pierden | **Ganan** |
 | Excedente total | **Sube** | **Sube** |
 
-![[Economia - Macro Clase4 - Efecto de un arancel.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Efecto%20de%20un%20arancel.png)
 
 **Arancel** (impuesto a las importaciones): $P$ interno sube a $P_I + a$; ↑ producción local, ↓ consumo,
 ↓ importaciones. Productores ganan **A**, el Estado recauda **C**, consumidores pierden **A+B+C+D**:
@@ -1235,23 +1235,23 @@ uno después de contestar.
 
 **Misma materia (Economia)**
 
-- [[Economia - Resumen Microeconomía]] — el desarrollo completo de las clases 001–005 que acá está
+- [Economia - Resumen Microeconomía](Economia%20-%20Resumen%20Microeconomía.md) — el desarrollo completo de las clases 001–005 que acá está
   condensado en §2–§10, con los gráficos de la cátedra y los errores de las slides de micro
-- [[Economia - Guía de resolución de Microeconomía]] — los procedimientos paso a paso de GP1–GP3; las
+- [Economia - Guía de resolución de Microeconomía](Economia%20-%20Guía%20de%20resolución%20de%20Microeconomía.md) — los procedimientos paso a paso de GP1–GP3; las
   recetas de §1 son su versión corta para el parcial
-- [[Economia - Macro Clase 3 - Política Monetaria]] — dinero, multiplicador, BC, bonos y tasa real
+- [Economia - Macro Clase 3 - Política Monetaria](Economia%20-%20Macro%20Clase%203%20-%20Política%20Monetaria.md) — dinero, multiplicador, BC, bonos y tasa real
   desarrollados (§17 es su resumen)
-- [[Economia - Macro Clase 4 - Oferta y Demanda Agregada y Sector Externo]] — OA–DA, brechas, comercio,
+- [Economia - Macro Clase 4 - Oferta y Demanda Agregada y Sector Externo](Economia%20-%20Macro%20Clase%204%20-%20Oferta%20y%20Demanda%20Agregada%20y%20Sector%20Externo.md) — OA–DA, brechas, comercio,
   balanza de pagos y tipo de cambio desarrollados (§15 y §18)
-- [[Economia - Oferta, Demanda y Mercado]] — elasticidades y excedentes con los ejemplos de clase (§2–§3)
-- [[Economia Intro]] — FPP y costo de oportunidad, la base de la ventaja comparativa y del V/F de la FPP
-- [[Materia - Economia]] — nota índice de la materia
+- [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) — elasticidades y excedentes con los ejemplos de clase (§2–§3)
+- [Economia Intro](Economia%20Intro.md) — FPP y costo de oportunidad, la base de la ventaja comparativa y del V/F de la FPP
+- [Materia - Economia](Materia%20-%20Economia.md) — nota índice de la materia
 
 **Otras materias**
 
-- **Derecho** [[Derecho - U5 Propiedad Intelectual, Marcas y Patentes]] — la patente es una de las tres
+- **Derecho** [Derecho - U5 Propiedad Intelectual, Marcas y Patentes](Derecho%20-%20U5%20Propiedad%20Intelectual,%20Marcas%20y%20Patentes.md) — la patente es una de las tres
   barreras de entrada del monopolio (§8)
-- **Derecho** [[Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos]] — bolsa, títulos y obligaciones
+- **Derecho** [Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos](Derecho%20-%20U4%20Fondo%20de%20Comercio,%20Seguros,%20Bolsa%20y%20Concursos.md) — bolsa, títulos y obligaciones
   negociables: los mismos instrumentos de renta fija y variable de §17.1, vistos desde lo jurídico
 
 <!-- notas-relacionadas:fin -->

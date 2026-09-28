@@ -225,9 +225,9 @@ Esto ocurre si $\hat{\delta}_L(q_L, \omega) \in F_L \wedge \hat{\delta}_M(q_M, \
 
 **Misma materia (TLA)**
 
-- [[TLA -intro resumen]] — tema anterior
-- [[TLA -Expresiones Regulares]] — tema siguiente
-- [[TLA -Autómatas Finitos Determinísticos]] — el modelo que los reconoce
-- [[TLA -Formas Normales y Lema de Bombeo CFL]] — el lema de bombeo para CFL
+- [TLA -intro resumen](TLA%20-intro%20resumen.md) — tema anterior
+- [TLA -Expresiones Regulares](TLA%20-Expresiones%20Regulares.md) — tema siguiente
+- [TLA -Autómatas Finitos Determinísticos](TLA%20-Autómatas%20Finitos%20Determinísticos.md) — el modelo que los reconoce
+- [TLA -Formas Normales y Lema de Bombeo CFL](TLA%20-Formas%20Normales%20y%20Lema%20de%20Bombeo%20CFL.md) — el lema de bombeo para CFL
 
 <!-- notas-relacionadas:fin -->

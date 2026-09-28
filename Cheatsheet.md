@@ -10,7 +10,7 @@ Materia: "[[protos.base|protos]]"
 
 ## PDF
 
-![[Cheatsheet Laboratorio IP.pdf]]
+![Cheatsheet Laboratorio IP](_Material/protos/Cheatsheet%20Laboratorio%20IP.pdf)
 
 ## Links Utiles
 
@@ -24,8 +24,8 @@ Materia: "[[protos.base|protos]]"
 
 **Misma materia (Protos)**
 
-- [[IP practica]] — laboratorio de IP
-- [[Red Practica]] — ARP y tablas de ruteo
-- [[Direccionamiento y HTTP - Practica]] — comandos de red
+- [IP practica](IP%20practica.md) — laboratorio de IP
+- [Red Practica](Red%20Practica.md) — ARP y tablas de ruteo
+- [Direccionamiento y HTTP - Practica](Direccionamiento%20y%20HTTP%20-%20Practica.md) — comandos de red
 
 <!-- notas-relacionadas:fin -->

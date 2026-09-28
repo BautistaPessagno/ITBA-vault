@@ -366,13 +366,13 @@ SELECT * FROM personal WHERE sueldo > 1500;
 
 **Misma materia (BD)**
 
-- [[BD clase 7 SQL DDL y DML]] — clase anterior
-- [[BD clase 9 SQL avanzado consultas]] — clase siguiente
-- [[BD clase 5 algebra relacional]] — el álgebra detrás de cada consulta
+- [BD clase 7 SQL DDL y DML](BD%20clase%207%20SQL%20DDL%20y%20DML.md) — clase anterior
+- [BD clase 9 SQL avanzado consultas](BD%20clase%209%20SQL%20avanzado%20consultas.md) — clase siguiente
+- [BD clase 5 algebra relacional](BD%20clase%205%20algebra%20relacional.md) — el álgebra detrás de cada consulta
 
 **Otras materias**
 
-- **POO**  [[POO - Streams y Lambdas]] — estilo declarativo: filter/map vs WHERE/SELECT
-- **TLA**  [[TLA -Expresiones Regulares]] — LIKE y patrones
+- **POO**  [POO - Streams y Lambdas](POO%20-%20Streams%20y%20Lambdas.md) — estilo declarativo: filter/map vs WHERE/SELECT
+- **TLA**  [TLA -Expresiones Regulares](TLA%20-Expresiones%20Regulares.md) — LIKE y patrones
 
 <!-- notas-relacionadas:fin -->

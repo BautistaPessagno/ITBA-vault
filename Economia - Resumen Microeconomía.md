@@ -50,7 +50,7 @@ temas:
 ---
 # Economia - Resumen Microeconomía
 
-[[Economia.base|Economia]]
+[Economia](Categories/Economia.base)
 
 > [!abstract] Qué es esto
 > El resumen de **todo el bloque de Microeconomía**: las **cinco clases teóricas** de la cátedra
@@ -62,13 +62,13 @@ temas:
 >
 > Al final: cuadro comparativo de mercados (§6), fórmulas (§7), los errores que tienen las slides (§8) y
 > preguntas de repaso (§9). Para los procedimientos de ejercicios de las guías está
-> [[Economia - Guía de resolución de Microeconomía]].
+> [Economia - Guía de resolución de Microeconomía](Economia%20-%20Guía%20de%20resolución%20de%20Microeconomía.md).
 
 > [!info] Alcance — cronograma 2C 2026
 > | PDF | Fecha | Tema según el crono | Nota completa |
 > |---|---|---|---|
-> | Clase 001 | 4-ago | Introducción | [[Economia Intro]] |
-> | Clase 002 | 4-ago | Oferta y demanda de mercado. Elasticidades | [[Economia - Oferta, Demanda y Mercado]] |
+> | Clase 001 | 4-ago | Introducción | [Economia Intro](Economia%20Intro.md) |
+> | Clase 002 | 4-ago | Oferta y demanda de mercado. Elasticidades | [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) |
 > | Clase 003 | 11-ago | Producción. Costos de producción | esta nota, §3 |
 > | Clase 004 | 18-ago | Mercados: competencia perfecta | esta nota, §4 |
 > | Clase 005 | 25-ago | Monopolio. Competencia monopolística. Oligopolio | esta nota, §5 |
@@ -139,7 +139,7 @@ realidad · la economía simplifica con **modelos**.
 **Costo de oportunidad**: el valor de lo que una persona o la sociedad deja de obtener por elegir una
 alternativa. Los costos de una elección no siempre son evidentes (¿estudiar o trabajar?). En el caso
 **Dulcita SA**, el bagazo no es gratis: la planta de papel usaría 10.000 × 2 = **20.000 t/año** que hoy
-se venden (la valuación exacta quedó abierta en [[Economia Intro]]).
+se venden (la valuación exacta quedó abierta en [Economia Intro](Economia%20Intro.md)).
 
 **Análisis marginal**: utilidad = capacidad de un bien de satisfacer necesidades; **utilidad marginal** =
 la de la última unidad poseída (cuanto más escaso, más valor). Una decisión es **racional si y sólo si el
@@ -234,7 +234,7 @@ No derogan la ley de oferta y demanda: generan un **desbalance permanente**.
 | **Precio máximo** | Control de alquileres: \$400 con equilibrio en \$600 | **Debajo** de $P^*$ | **Escasez**: a \$400 se ofrecen 4 y se demandan ≈ 8 |
 | **Precio mínimo** | Salario mínimo $W_m > W_e$ | **Encima** de $P^*$ | **Desempleo** = $Q_S - Q_D$ |
 
-![[Economia - Equilibrio y controles de precios.svg]]
+![](Attachments/Economia%20-%20Equilibrio%20y%20controles%20de%20precios.svg)
 
 ### 2.7 Elasticidades
 
@@ -270,7 +270,7 @@ Con $Q = 8.000 - 1.000\,P$:
 > su **máximo**, así que bajar el precio **no** lo aumenta: en la misma tabla, pasar de \$4 a \$3 lo lleva de
 > 16.000 a 15.000. La regla vale con $\eta > 1$ estricto.
 
-![[Economia - Elasticidad e ingreso total.svg]]
+![](Attachments/Economia%20-%20Elasticidad%20e%20ingreso%20total.svg)
 
 **Determinantes de la elasticidad precio de la demanda:** sustitutos cercanos · necesidad vs. lujo ·
 definición del mercado (más estrecho → más elástico) · horizonte temporal · proporción del gasto.
@@ -359,7 +359,7 @@ $$PMe_L = \frac{Q}{L} \qquad\qquad PMg_L = \frac{\Delta Q}{\Delta L}\ \left(=\fr
 
 ### 3.3 Etapas de la producción
 
-![[Economia - Clase003 - Etapas de la producción.png]]
+![](Attachments/Economia%20-%20Clase003%20-%20Etapas%20de%20la%20producción.png)
 
 | Etapa | En el ejemplo | Qué pasa | ¿Conviene? |
 |---|---|---|---|
@@ -440,7 +440,7 @@ El CMg es el mismo calculado con CT o con CV, porque el CF no cambia al producir
 | 10 | 50 | 300 | 350 | 58 | 5 | 30 | 35 |
 | 11 | 50 | 385 | 435 | 85 | 4,5 | 35 | 39,5 |
 
-![[Economia - Clase003 - Curvas de costo de corto plazo.png]]
+![](Attachments/Economia%20-%20Clase003%20-%20Curvas%20de%20costo%20de%20corto%20plazo.png)
 
 - El **CT es la suma vertical** de CF (horizontal en 50) y CV.
 - El **CMg corta al CVMe y al CTMe en sus mínimos** (CVMe en Q ≈ 7, CTMe en Q ≈ 8): la regla del promedio
@@ -474,7 +474,7 @@ son lo que hace subir el CMg.
 | 3 | 5→13 · 6→11,5 · 7→10,5 · **8→10** · 9→10,5 · 10→11 · 11→12 |
 | 4 | 9→12 · **10→11,5** · 11→11,7 · 12→12 · 13→13,5 |
 
-![[Economia - Clase003 - Tamaño de planta y EEM.png]]
+![](Attachments/Economia%20-%20Clase003%20-%20Tamaño%20de%20planta%20y%20EEM.png)
 
 - En **A** la empresa produce 2 unidades con la planta 1 (CMe 17).
 - Si quiere producir 4, en el **corto plazo** tiene que ir a **A'** (CMe 15, misma planta).
@@ -529,7 +529,7 @@ $$\pi(q) = I(q) - C(q) \qquad I(q) = P(q)\,q$$
 - **Costo marginal** $CM = dC/dq$: pendiente del costo total; lo que cuesta una unidad más.
 - $C(0) > 0$ porque aunque no produzca paga los **costos fijos**.
 
-![[Economia - Clase003 - Maximización del beneficio.png]]
+![](Attachments/Economia%20-%20Clase003%20-%20Maximización%20del%20beneficio.png)
 
 - Entre 0 y $q_0$: $C(q) > I(q)$ (CF + CV > I) → beneficio negativo, pero **IM > CM**: producir más
   aumenta el beneficio.
@@ -589,7 +589,7 @@ Como $IM = P$, la condición $IM = CM$ queda:
 
 $$\boxed{P = CM(q^*)}$$
 
-![[Economia - Clase004 - Empresa con beneficios.png]]
+![](Attachments/Economia%20-%20Clase004%20-%20Empresa%20con%20beneficios.png)
 
 - En el ejemplo, $P = 40$ y $q^* = 8$: ahí $IM = CM$ y **P > CTMe** → beneficio
   $\pi = (P - CTMe)\cdot q^*$ = rectángulo **ABCD**.
@@ -597,7 +597,7 @@ $$\boxed{P = CM(q^*)}$$
   áreas rosas son **beneficios perdidos**.
 - En $q_0 = 1$ también $CM = IM$, pero el CM **está bajando**: es un mínimo del beneficio.
 
-![[Economia - Clase004 - Empresa con pérdidas.png]]
+![](Attachments/Economia%20-%20Clase004%20-%20Empresa%20con%20pérdidas.png)
 
 Si en $q^*$ el precio queda **debajo del CTMe**, hay pérdidas: $(P - CTMe)\cdot q^*$ = rectángulo **ABCD**.
 ¿Sigue produciendo? **Sí, mientras P esté por encima del CVMe**: con el ingreso cubre todos los costos
@@ -620,7 +620,7 @@ $$\text{Cerrar si } IT < CV \iff P < CVMe$$
 
 ### 4.5 Curva de oferta de corto plazo
 
-![[Economia - Clase004 - Oferta de corto plazo de la empresa.png]]
+![](Attachments/Economia%20-%20Clase004%20-%20Oferta%20de%20corto%20plazo%20de%20la%20empresa.png)
 
 > [!important] Oferta de corto plazo de la empresa competitiva = **el tramo del CM por encima del mínimo del CVMe**
 > Para cada precio, la empresa produce donde $P = CM$ (si $P = P_1$, $q = q_1$; si $P = P_2$, $q = q_2$).
@@ -635,7 +635,7 @@ la producción puede ser **insensible a algunos cambios de precio y muy sensible
 
 **Oferta de la industria a corto plazo = suma horizontal** de las ofertas (CM) de todas las empresas.
 
-![[Economia - Clase004 - Oferta de la industria.png]]
+![](Attachments/Economia%20-%20Clase004%20-%20Oferta%20de%20la%20industria.png)
 
 | Precio | Empresa 1 | Empresa 2 | Empresa 3 | Industria |
 |---|---|---|---|---|
@@ -659,14 +659,14 @@ respuesta no está en la slide.)*
 **Excedente del productor**: el área entre el precio $P^*$ y la curva de oferta $S$, de 0 a $Q^*$. Es la
 contracara del excedente del consumidor de §2.3. Para una empresa equivale a ingresos menos costos
 variables, $EP = IT - CV$ *(no está en la slide; ver
-[[Economia - Guía de resolución de Microeconomía]])*.
+[Economia - Guía de resolución de Microeconomía](Economia%20-%20Guía%20de%20resolución%20de%20Microeconomía.md))*.
 
 ### 4.7 Largo plazo
 
 A largo plazo la empresa puede cambiar **todos** sus factores, incluido el tamaño de planta. Se supone
 **libre entrada y salida**.
 
-![[Economia - Clase004 - Ajuste de largo plazo de la empresa.png]]
+![](Attachments/Economia%20-%20Clase004%20-%20Ajuste%20de%20largo%20plazo%20de%20la%20empresa.png)
 
 - **Corto plazo** (factores fijos): $P = 40 > CTMe$ → beneficios **ABCD** produciendo $q_1$.
 - **Largo plazo**: agranda la planta y produce $q_3$, donde $P = CML$ → beneficios **EFGD > ABCD**.
@@ -689,7 +689,7 @@ donde $wL$ son los costos laborales y $rK$ es el **costo de oportunidad del capi
 > Beneficio **económico** nulo quiere decir que el capital rinde **lo mismo que en su mejor alternativa**.
 > El beneficio contable sigue siendo positivo ($rK$).
 
-![[Economia - Clase004 - Equilibrio de largo plazo.png]]
+![](Attachments/Economia%20-%20Clase004%20-%20Equilibrio%20de%20largo%20plazo.png)
 
 **Equilibrio competitivo de largo plazo:** la entrada corre la oferta de la industria de $S_1$ a $S_2$, el
 precio baja de $P_1 = 40$ a $P_2 = 30$ y la cantidad sube de $Q_1$ a $Q_2$, **hasta que el beneficio es
@@ -704,7 +704,7 @@ los bajan, negativa.)*
 
 ### 4.8 Impuesto sobre la producción
 
-![[Economia - Clase004 - Impuesto sobre la producción.png]]
+![](Attachments/Economia%20-%20Clase004%20-%20Impuesto%20sobre%20la%20producción.png)
 
 - **Empresa**: un impuesto de $t$ por unidad **eleva el CM en $t$** ($CM_2 = CM_1 + t$) y también el CVMe.
   La empresa reduce su producción de $q_1$ a $q_2$, hasta que **CM + t = P**.
@@ -778,7 +778,7 @@ $$CM = \frac{dC}{dQ} = 2Q \qquad I(Q) = 40Q - Q^2 \qquad IM = \frac{dI}{dQ} = 40
 
 $$IM = CM:\quad 40 - 2Q = 2Q \;\Rightarrow\; Q = 10 \;\Rightarrow\; P = 40 - 10 = 30$$
 
-![[Economia - Clase005 - Ejemplo de monopolio.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Ejemplo%20de%20monopolio.png)
 
 $$CT = 50 + 10^2 = 150 \qquad CMe = 15 \qquad \pi = IT - CT = 300 - 150 = 150 = (P - CMe)\cdot Q = (30 - 15)\cdot 10$$
 
@@ -809,7 +809,7 @@ $$CT = 50 + 10^2 = 150 \qquad CMe = 15 \qquad \pi = IT - CT = 300 - 150 = 150 = 
 decisión depende del CM **y de la forma de la demanda**: un mismo precio puede corresponder a distintas
 cantidades y viceversa.
 
-![[Economia - Clase005 - Desplazamientos de la demanda.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Desplazamientos%20de%20la%20demanda.png)
 
 - **Izquierda**: la demanda pasa de $D_1$ a $D_2$ (más plana) y **cambia el precio sin que cambie la
   cantidad** ($Q_1 = Q_2$, $P_1 \to P_2$).
@@ -821,7 +821,7 @@ cantidades y viceversa.
 Con poder de monopolio los precios son **más altos** y la cantidad **menor**. ¿Mejora o empeora el
 bienestar de consumidores y productores **en conjunto**?
 
-![[Economia - Clase005 - Pérdida irrecuperable.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Pérdida%20irrecuperable.png)
 
 | | Cambio al pasar de competencia ($P_C$, $Q_C$) a monopolio ($P_m$, $Q_m$) |
 |---|---|
@@ -837,7 +837,7 @@ unidades entre $Q_m$ y $Q_C$ que alguien valoraba más de lo que cuesta producir
 En un mercado **competitivo**, regular el precio **genera** pérdida irrecuperable (§2.6). En un
 **monopolio** puede **reducirla**:
 
-![[Economia - Clase005 - Regulación de precios.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Regulación%20de%20precios.png)
 
 | Precio máximo | Qué pasa |
 |---|---|
@@ -854,7 +854,7 @@ En un mercado **competitivo**, regular el precio **genera** pérdida irrecuperab
 
 ### 5.7 Monopolio natural
 
-![[Economia - Clase005 - Monopolio natural.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Monopolio%20natural.png)
 
 El CMe es **decreciente** en todo el rango relevante, así que el **CM está por debajo del CMe**.
 
@@ -874,7 +874,7 @@ de mercados de bienes sustitutos), impuestos de suma fija, subsidios, precios m�
 
 ### 5.9 Discriminación de precios
 
-![[Economia - Clase005 - Captura del excedente.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Captura%20del%20excedente.png)
 
 Con **un solo precio** ($P^*$, $Q^*$ donde IM = CM) el monopolista deja plata sobre la mesa:
 
@@ -899,7 +899,7 @@ grado es mía.)*
 > Un precio por bloques normal hace **más barata** la segunda unidad. Acá dos salen 15 € contra
 > 2 × 6 = 12 € comprando de a una: la "oferta" es más cara.
 
-![[Economia - Clase005 - Discriminación de tercer grado.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Discriminación%20de%20tercer%20grado.png)
 
 **Discriminación de tercer grado:**
 
@@ -916,7 +916,7 @@ $$IM_1 = IM_2 = CM$$
 diferenciados** pero **fácilmente sustituibles**. El poder de monopolio de cada una depende del **éxito
 de su diferenciación**. Ejemplos: pasta dentífrica, jabón, remedios para el catarro.
 
-![[Economia - Clase005 - Competencia monopolística.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Competencia%20monopolística.png)
 
 | | Corto plazo | Largo plazo |
 |---|---|---|
@@ -926,7 +926,7 @@ de su diferenciación**. Ejemplos: pasta dentífrica, jabón, remedios para el c
 | Precio vs. CM | $P > CM$ | $P > CM$ → **sigue teniendo poder de monopolio** |
 | Industria | — | La producción de la empresa y su precio caen; la de la **industria** aumenta |
 
-![[Economia - Clase005 - Competencia monopolística vs perfecta.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Competencia%20monopolística%20vs%20perfecta.png)
 
 **Comparación con competencia perfecta** (ambas a largo plazo, beneficio cero):
 
@@ -982,7 +982,7 @@ cantidad; cada una tiene en cuenta a sus competidoras y supone que ellas hacen l
 > La slide pone "cada miembro se siente tentado a hacer trampas" como *condición de éxito*. Es al revés:
 > es el **obstáculo** que el cártel tiene que poder controlar para durar.
 
-![[Economia - Clase005 - Cárteles OPEP y CIPEC.png]]
+![](Attachments/Economia%20-%20Clase005%20-%20Cárteles%20OPEP%20y%20CIPEC.png)
 
 | | **OPEP** (petróleo) | **CIPEC** (cobre) |
 |---|---|---|
@@ -1126,17 +1126,17 @@ Todos están explicados arriba en su sección; acá juntos para repasar la noche
 
 **Misma materia (Economia)**
 
-- [[Economia Intro]] — la Clase 001 completa (FPP, costo de oportunidad con el caso Dulcita, análisis
+- [Economia Intro](Economia%20Intro.md) — la Clase 001 completa (FPP, costo de oportunidad con el caso Dulcita, análisis
   marginal, flujo circular) que acá está condensada en §1
-- [[Economia - Oferta, Demanda y Mercado]] — la Clase 002 completa, con el ejemplo del mercado
+- [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) — la Clase 002 completa, con el ejemplo del mercado
   inmobiliario y todas las tablas de elasticidad; acá está condensada en §2
-- [[Economia - Guía de resolución de Microeconomía]] — la contracara práctica: los procedimientos de
+- [Economia - Guía de resolución de Microeconomía](Economia%20-%20Guía%20de%20resolución%20de%20Microeconomía.md) — la contracara práctica: los procedimientos de
   GP1–GP3 (cuña de impuestos, agregación por tramos, IM = CMg, discriminación) sobre esta misma teoría
-- [[Materia - Economia]] — índice de la materia
+- [Materia - Economia](Materia%20-%20Economia.md) — índice de la materia
 
 **Otras materias**
 
-- **Derecho** — [[Derecho - U5 Propiedad Intelectual, Marcas y Patentes]] — la patente es el segundo
+- **Derecho** — [Derecho - U5 Propiedad Intelectual, Marcas y Patentes](Derecho%20-%20U5%20Propiedad%20Intelectual,%20Marcas%20y%20Patentes.md) — la patente es el segundo
   origen del monopolio de la Clase 005 (derecho exclusivo concedido por el Estado, 20 años) y la marca
   aparece como barrera natural de entrada en el oligopolio
 

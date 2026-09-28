@@ -98,7 +98,7 @@ El **Banco Central** entra en los dos lados:
 - La **estabilidad de precios y de crecimiento** permite mejores decisiones de inversión: se pueden proyectar variables y enfrentar la incertidumbre.
 - Hace **política monetaria para alinear el producto a su tendencia**.
 
-![[Economia - Macro Clase4 - Tendencia y ciclo del PBI argentino.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Tendencia%20y%20ciclo%20del%20PBI%20argentino.png)
 
 *Izquierda: PBI real per cápita de Argentina (log) y su tendencia (punteada). Derecha: el ciclo, como desvío porcentual respecto de la tendencia — llega a ±20%. Fuente: Uribe y Schmitt-Grohé, Open Economy Macroeconomics.*
 
@@ -141,7 +141,7 @@ La pregunta de la clase es: **¿por qué la producción fluctúa alrededor de su
 
 La **curva de demanda agregada** refleja la relación entre el **nivel de precios agregado** y la **cantidad de producción agregada** que demandan hogares, empresas, Estado y resto del mundo. Muestra la producción total demandada para cada nivel de precios.
 
-![[Economia - Macro Clase4 - Curva de demanda agregada.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Curva%20de%20demanda%20agregada.png)
 
 *Un movimiento hacia abajo a lo largo de la DA: menor nivel de precios ↔ mayor producción demandada. Ejes: nivel de precios (deflactor del PIB) y PIB real.*
 
@@ -158,7 +158,7 @@ La DA tiene pendiente negativa porque **un aumento del nivel de precios reduce $
 > [!tip] Los tres canales, con nombre
 > La slide los enumera; en la bibliografía tienen nombre propio:
 > - **Efecto riqueza** ($C$): con precios más altos, el poder adquisitivo de los activos de los hogares cae → consumen menos.
-> - **Efecto tasa de interés** ($I$): con precios más altos la gente necesita más dinero para transacciones — la demanda de dinero es proporcional al nivel de precios (ver [[Economia - Macro Clase 3 - Política Monetaria]] §9.4) → sube la tasa de interés → cae la inversión.
+> - **Efecto tasa de interés** ($I$): con precios más altos la gente necesita más dinero para transacciones — la demanda de dinero es proporcional al nivel de precios (ver [Economia - Macro Clase 3 - Política Monetaria](Economia%20-%20Macro%20Clase%203%20-%20Política%20Monetaria.md) §9.4) → sube la tasa de interés → cae la inversión.
 > - **Efecto tipo de cambio real** ($X - M$): precios internos más altos con tipo de cambio dado = economía más cara (ver §10) → caen las exportaciones netas.
 
 > [!warning] No es la demanda de micro
@@ -181,7 +181,7 @@ Igual que en micro:
 | **Política fiscal** | $G$ directamente; impuestos y transferencias vía el **ingreso disponible** → consumo |
 | **Política monetaria** | $\uparrow M \Rightarrow$ más capacidad prestable $\Rightarrow \downarrow r \Rightarrow \uparrow I, \uparrow C \Rightarrow$ DA a la derecha |
 
-![[Economia - Macro Clase4 - Desplazamientos de la DA.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Desplazamientos%20de%20la%20DA.png)
 
 *(a) Aumento de la DA: $AD_1 \to AD_2$ a la derecha. (b) Disminución: a la izquierda.*
 
@@ -195,7 +195,7 @@ La **curva de oferta agregada** muestra la relación entre el **nivel de precios
 
 A corto plazo hay una **relación positiva**: céteris paribus, un aumento del nivel de precios provoca un aumento de la producción agregada, y viceversa.
 
-![[Economia - Macro Clase4 - Curva de oferta agregada de corto plazo.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Curva%20de%20oferta%20agregada%20de%20corto%20plazo.png)
 
 *EEUU 1929 → 1933: al caer el nivel de precios (11,9 → 8,9) la economía se mueve hacia abajo a lo largo de la SRAS y la producción cae (865 → 636 miles de millones de dólares de 2000).*
 
@@ -225,7 +225,7 @@ $$\downarrow \text{Beneficio} = \uparrow P - \uparrow w \cdot L \quad\Longrighta
 
 ### 3.3 OA de largo plazo (LRAS)
 
-![[Economia - Macro Clase4 - OA de corto y largo plazo.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20OA%20de%20corto%20y%20largo%20plazo.png)
 
 - La **LRAS es vertical** en el **producto potencial** $Y_P$: a largo plazo, con salarios flexibles, la producción **no depende del nivel de precios**.
 - $Y_P$ es el **nivel de producto que no acelera la inflación**.
@@ -241,17 +241,17 @@ Misma distinción: **movimiento a lo largo** (cambia el nivel de precios) vs **d
 | **Salarios nominales** | ↑ salario → ↑ costos → SRAS a la **izquierda** |
 | **Productividad** | ↑ productividad → ↓ costos, ↑ beneficios → SRAS a la **derecha** |
 
-![[Economia - Macro Clase4 - Desplazamientos de la OA de corto plazo.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Desplazamientos%20de%20la%20OA%20de%20corto%20plazo.png)
 
 ### 3.5 Del corto al largo plazo
 
-![[Economia - Macro Clase4 - PBI efectivo vs potencial EEUU.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20PBI%20efectivo%20vs%20potencial%20EEUU.png)
 
 *PBI real efectivo (azul) vs potencial (naranja), EEUU 1990–2018. Casi nunca coinciden: hay tramos con el efectivo por encima y tramos por debajo (p. ej. la caída post-2008). Krugman/Wells, Essentials of Economics 5e.*
 
 El PBI casi siempre está **por encima o por debajo** del potencial. Mientras la economía está solo sobre la SRAS (fuera del potencial), el **nivel de desempleo** fuerza un **ajuste de los salarios nominales** que la devuelve al potencial:
 
-![[Economia - Macro Clase4 - Ajuste de salarios del corto al largo plazo.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Ajuste%20de%20salarios%20del%20corto%20al%20largo%20plazo.png)
 
 | Situación | Mercado de trabajo | Salarios nominales | SRAS |
 |---|---|---|---|
@@ -272,7 +272,7 @@ Analiza las fluctuaciones estudiando **las dos curvas juntas**. Tiene:
 
 ### 4.1 Equilibrio macro de corto plazo
 
-![[Economia - Macro Clase4 - Equilibrio macro de corto plazo.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Equilibrio%20macro%20de%20corto%20plazo.png)
 
 La intersección de **DA** y **SRAS** determina el equilibrio de corto plazo $E_{CP}$, con nivel de precios $P_E$ y producción $Y_E$.
 
@@ -283,7 +283,7 @@ La intersección de **DA** y **SRAS** determina el equilibrio de corto plazo $E_
 
 **Shock de demanda** = cualquier acontecimiento que desplace la DA (expectativas, riqueza, políticas…).
 
-![[Economia - Macro Clase4 - Shocks de demanda.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Shocks%20de%20demanda.png)
 
 | Shock | DA | La economía se mueve… | $P$ | $Y$ |
 |---|---|---|---|---|
@@ -297,7 +297,7 @@ La intersección de **DA** y **SRAS** determina el equilibrio de corto plazo $E_
 
 **Shock de oferta** = cualquier acontecimiento que desplace la SRAS: precio de materias primas, salarios nominales, productividad.
 
-![[Economia - Macro Clase4 - Shocks de oferta.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Shocks%20de%20oferta.png)
 
 | Shock | SRAS | La economía se mueve… | $P$ | $Y$ |
 |---|---|---|---|---|
@@ -309,7 +309,7 @@ La intersección de **DA** y **SRAS** determina el equilibrio de corto plazo $E_
 
 ### 4.4 Equilibrio macro de largo plazo
 
-![[Economia - Macro Clase4 - Equilibrio macro de largo plazo.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Equilibrio%20macro%20de%20largo%20plazo.png)
 
 Cuando **DA, SRAS y LRAS se cortan en el mismo punto** $E_{LP}$, la producción de equilibrio es igual a la **producción potencial** $Y_P$: **equilibrio macroeconómico de largo plazo**.
 
@@ -321,7 +321,7 @@ Cuando **DA, SRAS y LRAS se cortan en el mismo punto** $E_{LP}$, la producción 
 
 ### 5.1 Brecha recesiva (shock de demanda negativo)
 
-![[Economia - Macro Clase4 - Brecha recesiva y autocorreccion.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Brecha%20recesiva%20y%20autocorreccion.png)
 
 1. Se parte de $E_1$ (equilibrio de CP y de LP). Cae la DA: $AD_1 \to AD_2$.
 2. Precios y producción caen a $P_2$, $Y_2$ ($E_2$). Como $Y_2 < Y_P$ hay una **brecha recesiva** (*output gap*).
@@ -329,7 +329,7 @@ Cuando **DA, SRAS y LRAS se cortan en el mismo punto** $E_{LP}$, la producción 
 
 ### 5.2 Brecha inflacionaria (shock de demanda positivo)
 
-![[Economia - Macro Clase4 - Brecha inflacionaria y autocorreccion.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Brecha%20inflacionaria%20y%20autocorreccion.png)
 
 1. Sube la DA: $AD_1 \to AD_2$.
 2. Precios y producción suben a $P_2$, $Y_2$. Como $Y_2 > Y_P$ hay una **brecha inflacionaria**.
@@ -347,7 +347,7 @@ Cuando **DA, SRAS y LRAS se cortan en el mismo punto** $E_{LP}$, la producción 
 > La slide lo pregunta a propósito: **en ningún momento**. Todo el ajuste de §5 lo hacen los salarios solos. La economía se **autorregula** — el debate (§6) es cuánto tarda y si conviene acelerarlo.
 
 > [!tip] Relación con la Clase 3
-> Es el mismo esquema que la **neutralidad del dinero**: a largo plazo, un cambio en la DA solo termina moviendo el nivel de precios, no el producto. Ver [[Economia - Macro Clase 3 - Política Monetaria]] §14.
+> Es el mismo esquema que la **neutralidad del dinero**: a largo plazo, un cambio en la DA solo termina moviendo el nivel de precios, no el producto. Ver [Economia - Macro Clase 3 - Política Monetaria](Economia%20-%20Macro%20Clase%203%20-%20Política%20Monetaria.md) §14.
 
 ---
 
@@ -378,7 +378,7 @@ Un shock de oferta negativo sube **a la vez** precios y desempleo → **dilema p
 
 ### 6.3 Shocks de oferta vs shocks de demanda
 
-![[Economia - Macro Clase4 - Desempleo EEUU y shocks de oferta.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Desempleo%20EEUU%20y%20shocks%20de%20oferta.png)
 
 *Desempleo en EEUU 1948–2017. Los picos después de 1973 (guerra árabe-israelí) y 1979 (revolución iraní) son shocks de oferta petroleros. Krugman/Wells 5e.*
 
@@ -391,11 +391,11 @@ Un shock de oferta negativo sube **a la vez** precios y desempleo → **dilema p
 - …pero la mayoría de los economistas piensa que **puede tardar una década o más**.
 - Rol de la política de estabilización: **reducir la severidad de las recesiones y refrenar las expansiones fuertes**.
 
-![[Economia - Macro Clase4 - Gran Depresion vs Gran Recesion.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Gran%20Depresion%20vs%20Gran%20Recesion.png)
 
 *Producción industrial mundial desde el pico: Gran Depresión (desde junio 1929) vs Gran Recesión (desde febrero 2008). En 2008 hubo política de estabilización agresiva y la caída fue mucho menor y más corta. Krugman/Wells 5e.*
 
-![[Economia - Macro Clase4 - DA en la Gran Depresion.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20DA%20en%20la%20Gran%20Depresion.png)
 
 *EEUU 1929–1942: de 1929 a 1933 caen **juntos** precios y producción → firma de un **shock de demanda negativo** (§4.2). La recuperación posterior es lenta. (La slide acompaña el gráfico con una foto de Ben Bernanke, estudioso de la Gran Depresión y presidente de la Fed en 2008.)*
 
@@ -416,7 +416,7 @@ Un shock de oferta negativo sube **a la vez** precios y desempleo → **dilema p
 > [!important] Ventaja comparativa
 > Un país tiene **ventaja comparativa** en la producción de un bien si el **costo de oportunidad** de producirlo es **menor** que el de otro país.
 
-Ojo: se compara **costo de oportunidad**, no productividad absoluta (eso sería ventaja *absoluta*). Un país puede ser peor produciendo todo y aun así tener ventaja comparativa en algo. (Costo de oportunidad y FPP: [[Economia Intro]].)
+Ojo: se compara **costo de oportunidad**, no productividad absoluta (eso sería ventaja *absoluta*). Un país puede ser peor produciendo todo y aun así tener ventaja comparativa en algo. (Costo de oportunidad y FPP: [Economia Intro](Economia%20Intro.md).)
 
 ### 7.1 Fuentes de la ventaja comparativa
 
@@ -430,11 +430,11 @@ Ojo: se compara **costo de oportunidad**, no productividad absoluta (eso sería 
 
 ## 8. Efectos del comercio sobre un mercado
 
-Todo este bloque es **análisis de excedentes de micro** (ver [[Economia - Oferta, Demanda y Mercado]] y [[Economia - Resumen Microeconomía]] §4.6–4.8) aplicado a un mercado que se abre. El supuesto clave: el país es **pequeño** y toma el **precio internacional $P_I$ como dado** — puede comprar o vender todo lo que quiera a ese precio.
+Todo este bloque es **análisis de excedentes de micro** (ver [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) y [Economia - Resumen Microeconomía](Economia%20-%20Resumen%20Microeconomía.md) §4.6–4.8) aplicado a un mercado que se abre. El supuesto clave: el país es **pequeño** y toma el **precio internacional $P_I$ como dado** — puede comprar o vender todo lo que quiera a ese precio.
 
 ### 8.1 Importaciones ($P_I < P_A$)
 
-![[Economia - Macro Clase4 - Efecto de las importaciones.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Efecto%20de%20las%20importaciones.png)
 
 Si el precio internacional es **menor** que el de autarquía $P_A$, a los importadores les conviene traer y vender en el mercado interno. El precio interno baja a $P_I$:
 
@@ -442,7 +442,7 @@ Si el precio internacional es **menor** que el de autarquía $P_A$, a los import
 - La **cantidad ofrecida** interna **baja** de $Q_A$ a $Q_S$.
 - **Importaciones** $= Q_D - Q_S$.
 
-![[Economia - Macro Clase4 - Excedentes con importaciones.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Excedentes%20con%20importaciones.png)
 
 | | Ganancias | Pérdidas |
 |---|---|---|
@@ -456,7 +456,7 @@ Cae el precio → **consumidores ganan**, **productores pierden**. $X$ es una tr
 
 Si el precio internacional es **mayor** que el de autarquía, los productores venden afuera y el precio interno **sube** a $P_I$: la cantidad demandada interna **baja** a $Q_D$, la ofrecida **sube** a $Q_S$, y **exportaciones** $= Q_S - Q_D$.
 
-![[Economia - Macro Clase4 - Excedentes con exportaciones.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Excedentes%20con%20exportaciones.png)
 
 | | Ganancias | Pérdidas |
 |---|---|---|
@@ -482,7 +482,7 @@ Con el arancel el precio interno sube de $P_I$ a $P_T = P_I + \text{arancel}$:
 - La cantidad **demandada** interna **disminuye** ($Q_D \to Q_{DT}$).
 - Las **importaciones caen**: de $Q_D - Q_S$ a $Q_{DT} - Q_{ST}$.
 
-![[Economia - Macro Clase4 - Efecto de un arancel.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Efecto%20de%20un%20arancel.png)
 
 | Área | Qué representa |
 |---|---|
@@ -521,7 +521,7 @@ En la práctica no se cumple a la perfección por **discrepancias estadísticas*
 
 ### 9.1 Ejemplo 1 — formato "pagos del / al extranjero"
 
-![[Economia - Macro Clase4 - Balanza de pagos EEUU.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Balanza%20de%20pagos%20EEUU.png)
 
 | | Saldo neto |
 |---|---|
@@ -539,7 +539,7 @@ En la práctica no se cumple a la perfección por **discrepancias estadísticas*
 
 ### 9.2 Ejemplo 2 — formato BCRA / FMI (débito, crédito y variación de activos/pasivos)
 
-![[Economia - Macro Clase4 - Balanza de pagos formato BCRA.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Balanza%20de%20pagos%20formato%20BCRA.png)
 
 | Concepto | Débito | Crédito | Saldo |
 |---|---|---|---|
@@ -638,7 +638,7 @@ $$i = i^* + \Delta TC^e + RP$$
 | $i$ | Tasa de interés local |
 | $i^*$ | Tasa de interés internacional |
 | $\Delta TC^e$ | **Depreciación esperada** de la moneda local |
-| $RP$ | **Riesgo país** (prima de riesgo — ver [[Economia - Macro Clase 3 - Política Monetaria]] §4.4–4.5) |
+| $RP$ | **Riesgo país** (prima de riesgo — ver [Economia - Macro Clase 3 - Política Monetaria](Economia%20-%20Macro%20Clase%203%20-%20Política%20Monetaria.md) §4.4–4.5) |
 
 Lectura: invertir en pesos tiene que rendir lo mismo que invertir afuera **más** lo que se espera que se deprecie el peso **más** una compensación por el riesgo. Si no se cumple, el **arbitraje** la hace cumplir:
 
@@ -694,7 +694,7 @@ Los sistemas cambiarios dependen de **si el Banco Central interviene o no** en e
 | **Flexible** | **Flotación libre** (pura) | No interviene: el mercado define el TC |
 | | **Flotación administrada** (sucia) | Deja flotar pero interviene para suavizar movimientos |
 
-![[Economia - Macro Clase4 - Regimenes cambiarios.png]]
+![](Attachments/Economia%20-%20Macro%20Clase4%20-%20Regimenes%20cambiarios.png)
 
 El espectro, de menos a más flexible: unión monetaria → adopción de moneda → junta monetaria → tipo de cambio fijo → zona objetivo → *crawling peg* → flotación sucia → flotación pura.
 
@@ -710,7 +710,7 @@ El espectro, de menos a más flexible: unión monetaria → adopción de moneda 
 > - **Convertibilidad** (Argentina 1991–2001, 1 peso = 1 dólar, con la base monetaria respaldada por reservas) → **junta monetaria** (*currency board*): moneda propia, pero el BC no puede emitir sin respaldo en divisas.
 
 > [!tip] Conexión con la Clase 3
-> Elegir un régimen cambiario es elegir un **ancla nominal**: la convertibilidad usaba el tipo de cambio como ancla; un régimen de flotación necesita otra (metas de inflación). Ver [[Economia - Macro Clase 3 - Política Monetaria]] §12–13.
+> Elegir un régimen cambiario es elegir un **ancla nominal**: la convertibilidad usaba el tipo de cambio como ancla; un régimen de flotación necesita otra (metas de inflación). Ver [Economia - Macro Clase 3 - Política Monetaria](Economia%20-%20Macro%20Clase%203%20-%20Política%20Monetaria.md) §12–13.
 
 ---
 
@@ -761,11 +761,11 @@ El espectro, de menos a más flexible: unión monetaria → adopción de moneda 
 
 **Misma materia (Economia)**
 
-- [[Economia - Macro Clase 3 - Política Monetaria]] — clase anterior: prometía el modelo OA–DA y solo mostraba cómo la política monetaria **desplaza** la DA; acá se desarrolla el modelo completo. También comparte el riesgo país (que reaparece en la paridad de tasas), la neutralidad del dinero (mismo esquema que la autocorrección de §5) y el ancla nominal de los regímenes cambiarios
-- [[Economia - Oferta, Demanda y Mercado]] — excedente del consumidor y del productor y la distinción movimiento vs desplazamiento de la curva: las mismas herramientas se usan en §2–3 (a nivel agregado) y en §8 (efectos del comercio)
-- [[Economia - Resumen Microeconomía]] — §4.6 (excedente del productor) y §4.8 (impuesto sobre la producción) son la base del análisis del arancel: un arancel es un impuesto y la pérdida $B + D$ es su pérdida irrecuperable
-- [[Economia Intro]] — costo de oportunidad y FPP, que son la definición misma de **ventaja comparativa** (§7)
-- [[Economia - La cadena de distribución dejó de funcionar]] — artículo sobre el crédito en Argentina; contexto para la restricción externa y la capacidad de generar dólares
-- [[Materia - Economia]] — nota índice de la materia
+- [Economia - Macro Clase 3 - Política Monetaria](Economia%20-%20Macro%20Clase%203%20-%20Política%20Monetaria.md) — clase anterior: prometía el modelo OA–DA y solo mostraba cómo la política monetaria **desplaza** la DA; acá se desarrolla el modelo completo. También comparte el riesgo país (que reaparece en la paridad de tasas), la neutralidad del dinero (mismo esquema que la autocorrección de §5) y el ancla nominal de los regímenes cambiarios
+- [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) — excedente del consumidor y del productor y la distinción movimiento vs desplazamiento de la curva: las mismas herramientas se usan en §2–3 (a nivel agregado) y en §8 (efectos del comercio)
+- [Economia - Resumen Microeconomía](Economia%20-%20Resumen%20Microeconomía.md) — §4.6 (excedente del productor) y §4.8 (impuesto sobre la producción) son la base del análisis del arancel: un arancel es un impuesto y la pérdida $B + D$ es su pérdida irrecuperable
+- [Economia Intro](Economia%20Intro.md) — costo de oportunidad y FPP, que son la definición misma de **ventaja comparativa** (§7)
+- [Economia - La cadena de distribución dejó de funcionar](Economia%20-%20La%20cadena%20de%20distribución%20dejó%20de%20funcionar.md) — artículo sobre el crédito en Argentina; contexto para la restricción externa y la capacidad de generar dólares
+- [Materia - Economia](Materia%20-%20Economia.md) — nota índice de la materia
 
 <!-- notas-relacionadas:fin -->

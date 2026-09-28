@@ -26,9 +26,9 @@ Un **switch** es un dispositivo de red inteligente que opera en la **capa 2 (Enl
 
 **Misma materia (Protos)**
 
-- [[8. Protos - Enlace]] — capa 2, direcciones MAC
-- [[Hub]] — el equivalente tonto de capa 1
-- [[Router]] — el de capa 3
-- [[Interfaz]] — puertos e interfaces
+- [8. Protos - Enlace](8.%20Protos%20-%20Enlace.md) — capa 2, direcciones MAC
+- [Hub](Hub.md) — el equivalente tonto de capa 1
+- [Router](Router.md) — el de capa 3
+- [Interfaz](Interfaz.md) — puertos e interfaces
 
 <!-- notas-relacionadas:fin -->

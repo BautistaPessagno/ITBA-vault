@@ -74,7 +74,7 @@ nc -C localhost 25 #hace falta el -C
 
 mandar mail al servidor:
 
-![[4. Protos - MAIL#Como enviar mail de un host a otro?#SMPT#Formato mail SMPT#| ejemplo clase]]
+![ejemplo clase](4.%20Protos%20-%20MAIL.md#Como%20enviar%20mail%20de%20un%20host%20a%20otro%3F#SMPT#Formato%20mail%20SMPT)
 
 Error Tipico de parcial es ver el queued y pensar que se mando
 
@@ -103,7 +103,7 @@ si dos personas le escriben a la misma persona puede haber una corrupcion de dat
 
 **Misma materia (Protos)**
 
-- [[4. Protos - MAIL]] — teoría de esta práctica
-- [[Direccionamiento y HTTP - Practica]] — también se usa nc para hablar el protocolo a mano
+- [4. Protos - MAIL](4.%20Protos%20-%20MAIL.md) — teoría de esta práctica
+- [Direccionamiento y HTTP - Practica](Direccionamiento%20y%20HTTP%20-%20Practica.md) — también se usa nc para hablar el protocolo a mano
 
 <!-- notas-relacionadas:fin -->

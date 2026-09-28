@@ -52,7 +52,7 @@ Algoritmo para encontrar el camino de menor peso desde un vértice origen a todo
 - ¿Por qué `Aⁿ[u][v]` da la cantidad de caminos de largo n?
 - ¿Cuál es la limitación principal de Dijkstra?
 
-[[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+[Data Structures and Algorithms](Categories/Data%20Structures%20and%20Algorithms.base)
 
 ---
 
@@ -62,13 +62,13 @@ Algoritmo para encontrar el camino de menor peso desde un vértice origen a todo
 
 **Misma materia (EDA)**
 
-- [[EDA - Árboles]] — árboles como caso particular
+- [EDA - Árboles](EDA%20-%20Árboles.md) — árboles como caso particular
 
 **Otras materias**
 
-- **Discrete Math**  [[Discrete Math - Caminos y Conexidad]] — teoría de caminos
-- **Discrete Math**  [[Discrete Math - Grafos Fundamentos]] — definiciones formales
-- **Protos**  [[7. Protos - Routing]] — Dijkstra en el ruteo real
-- **TLA**  [[TLA -Análisis Semántico]] — grafo de dependencias y orden topológico
+- **Discrete Math**  [Discrete Math - Caminos y Conexidad](Discrete%20Math%20-%20Caminos%20y%20Conexidad.md) — teoría de caminos
+- **Discrete Math**  [Discrete Math - Grafos Fundamentos](Discrete%20Math%20-%20Grafos%20Fundamentos.md) — definiciones formales
+- **Protos**  [7. Protos - Routing](7.%20Protos%20-%20Routing.md) — Dijkstra en el ruteo real
+- **TLA**  [TLA -Análisis Semántico](TLA%20-Análisis%20Semántico.md) — grafo de dependencias y orden topológico
 
 <!-- notas-relacionadas:fin -->

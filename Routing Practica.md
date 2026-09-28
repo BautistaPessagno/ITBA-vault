@@ -31,7 +31,7 @@ ping 192.168.0.101 #ping a una persona X
 ```
 
 como mi computadora no sabe el mac address hace un ARP
-![[Pasted image 20260506201340.png]]
+![](Attachments/Pasted%20image%2020260506201340.png)
 hay un broadcast ARP porque como no sabe la direccion de la MAC se lo manda a todos
 si ya lo tiene el MAC address entonces ya no usa ARP
 
@@ -130,7 +130,7 @@ en lugar de un ICMP hace ARP
 arping <ip>
 ```
 
-![[Pasted image 20260506205900.png]]
+![](Attachments/Pasted%20image%2020260506205900.png)
 se puede ver todos los llaados `arp` al IP
 arping no afecta a mi tabla arp
 
@@ -153,11 +153,11 @@ en arping puedo mentir con estos comandos permitiendo sobreescribir
 
 **Misma materia (Protos)**
 
-- [[7. Protos - Routing]] — teoría de esta práctica
-- [[Red Practica]] — tablas de ruteo
+- [7. Protos - Routing](7.%20Protos%20-%20Routing.md) — teoría de esta práctica
+- [Red Practica](Red%20Practica.md) — tablas de ruteo
 
 **Otras materias**
 
-- **EDA**  [[EDA - Grafos]] — los algoritmos de camino mínimo que implementa el ruteo
+- **EDA**  [EDA - Grafos](EDA%20-%20Grafos.md) — los algoritmos de camino mínimo que implementa el ruteo
 
 <!-- notas-relacionadas:fin -->

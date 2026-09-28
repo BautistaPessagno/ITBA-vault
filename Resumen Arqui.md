@@ -159,7 +159,7 @@ Aumenta el throughput; puede haber *hazards* (de datos, de control).
 - Siempre enviar EOI al PIC al finalizar una rutina de interrupción hardware.
 - La unidad de segmentación no se puede deshabilitar en x86 protegido.
 
-[[arqui.base|Arquitectura]]
+[Arquitectura](Categories/arqui.base)
 
 ---
 
@@ -169,12 +169,12 @@ Aumenta el throughput; puede haber *hazards* (de datos, de control).
 
 **Misma materia (Arqui)**
 
-- [[Clase 1 Intro]] — introducción
-- [[Assembler de Intel]] — assembler
-- [[Interrupciones]] — interrupciones
-- [[Memoria Cache]] — caché
-- [[Modo protegido]] — modo protegido
-- [[Intro Sistemas Operativos(Paginación)]] — MMU y paginación
-- [[Resumen Criollo (Memoria, Deco, Perifericos)]] — repaso de memoria y periféricos
+- [Clase 1 Intro](Clase%201%20Intro.md) — introducción
+- [Assembler de Intel](Assembler%20de%20Intel.md) — assembler
+- [Interrupciones](Interrupciones.md) — interrupciones
+- [Memoria Cache](Memoria%20Cache.md) — caché
+- [Modo protegido](Modo%20protegido.md) — modo protegido
+- [Intro Sistemas Operativos(Paginación)](Intro%20Sistemas%20Operativos%28Paginación%29.md) — MMU y paginación
+- [Resumen Criollo (Memoria, Deco, Perifericos)](Resumen%20Criollo%20%28Memoria,%20Deco,%20Perifericos%29.md) — repaso de memoria y periféricos
 
 <!-- notas-relacionadas:fin -->

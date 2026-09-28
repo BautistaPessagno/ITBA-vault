@@ -281,9 +281,9 @@ dig @localhost mi-zona.com.ar SOA
 
 ## Referencias
 
-- [[DNS practica]]
-- [[3. Protos - DNS]]
-- [[DNS]]
+- [DNS practica](DNS%20practica.md)
+- [3. Protos - DNS](3.%20Protos%20-%20DNS.md)
+- [DNS](DNS.md)
 
 ---
 
@@ -293,11 +293,11 @@ dig @localhost mi-zona.com.ar SOA
 
 **Misma materia (Protos)**
 
-- [[3. Protos - DNS]] — teoría de DNS
-- [[DNS practica]] — práctica de resolución
+- [3. Protos - DNS](3.%20Protos%20-%20DNS.md) — teoría de DNS
+- [DNS practica](DNS%20practica.md) — práctica de resolución
 
 **Otras materias**
 
-- **SO**  [[File System]] — los archivos de zona viven en el FS del servidor
+- **SO**  [File System](File%20System.md) — los archivos de zona viven en el FS del servidor
 
 <!-- notas-relacionadas:fin -->

@@ -10,15 +10,15 @@ temas:
 # SysCall
 
 
-Continuación de la clase [[Introducción]] 
+Continuación de la clase [Introducción](Introducción.md) 
 
-![[Captura_de_pantalla_2025-08-12_a_la(s)_18.16.59.png]]
+![](Attachments/Captura_de_pantalla_2025-08-12_a_la%28s%29_18.16.59.png)
 
 UNA SYSCALL ES UNA FUNCION
 
-![[Captura_de_pantalla_2025-08-12_a_la(s)_18.17.23.png]]
+![](Attachments/Captura_de_pantalla_2025-08-12_a_la%28s%29_18.17.23.png)
 
-![[image 160.png]]
+![](Attachments/image%20160.png)
 
 cuando necesitamos acceder al kernel usamos las syscalls
 
@@ -28,29 +28,29 @@ para todo call deberia haber un ret. el call pushea todo mietras que el ret pope
 
 # POSIX
 
-![[image 161.png]]
+![](Attachments/image%20161.png)
 
 ### File Descriptors
 
-![[image 162.png]]
+![](Attachments/image%20162.png)
 
 fork: permite crear nuevos procesos
 
 waitpid(): esperar a que un proceso hijo termine, indica cuando el proceso hijo termina
 
-![[image 163.png]]
+![](Attachments/image%20163.png)
 
 ## Usos desde la shell
 
 ### Pseudocodigo
 
-![[image 164.png]]
+![](Attachments/image%20164.png)
 
 esto es una shell muy simplificada
 
 ### Caso Real
 
-![[image 165.png]]
+![](Attachments/image%20165.png)
 
 si quiero que el comando para cambiar el directorio del proceso del. padre se cambie desde el chill, lo que deberia hacer es pasarle el PID del padre al chdir
 
@@ -62,14 +62,14 @@ si quiero que el comando para cambiar el directorio del proceso del. padre se ca
 
 **Misma materia (SO)**
 
-- [[Estructura de un Sistema Operativo]] — la frontera usuario/kernel
-- [[PIPELINES]] — read, write, close y pipe
+- [Estructura de un Sistema Operativo](Estructura%20de%20un%20Sistema%20Operativo.md) — la frontera usuario/kernel
+- [PIPELINES](PIPELINES.md) — read, write, close y pipe
 
 **Otras materias**
 
-- **Arqui**  [[Interrupciones]] — la interrupción de software que entra al kernel
-- **Arqui**  [[Modo protegido]] — cambio de nivel de privilegio
-- **Protos**  [[10. Protos - Sockets]] — la API de sockets son syscalls
-- **Protos**  [[sendfile()]] — ejemplo concreto de syscall
+- **Arqui**  [Interrupciones](Interrupciones.md) — la interrupción de software que entra al kernel
+- **Arqui**  [Modo protegido](Modo%20protegido.md) — cambio de nivel de privilegio
+- **Protos**  [10. Protos - Sockets](10.%20Protos%20-%20Sockets.md) — la API de sockets son syscalls
+- **Protos**  [sendfile()](sendfile%28%29.md) — ejemplo concreto de syscall
 
 <!-- notas-relacionadas:fin -->

@@ -5,27 +5,27 @@ Materia: "[[ arqui.base |Aqrui]]"
 categories:
   - "[[ITBA.base|ITBA]]"
 ---
-revisar clase [[Resumen Criollo (Memoria, Deco, Perifericos)]] 
+revisar clase [Resumen Criollo (Memoria, Deco, Perifericos)](Resumen%20Criollo%20%28Memoria,%20Deco,%20Perifericos%29.md) 
 
 ## Integrados
 
 ### Ejemplos Integrado
 
-![[image 330.png]]
+![](Attachments/image%20330.png)
 
-![[image 331.png]]
+![](Attachments/image%20331.png)
 
 # Compuertas
 
-![[image 332.png]]
+![](Attachments/image%20332.png)
 
-![[image 333.png]]
+![](Attachments/image%20333.png)
 
 la compuerta buffer se usa cuando uno quiere arreglar la señal, para no degradar la señal
 
 ### Sistema 1
 
-![[image 334.png]]
+![](Attachments/image%20334.png)
 
 ## Obtener bus de direcciones
 
@@ -33,7 +33,7 @@ en el caso de tener una ROM por ejemplo de 32k de espacio. entonces tengo $2^5*2
 
 ## Decodificador
 
-![[image 335.png]]
+![](Attachments/image%20335.png)
 
 ## Mapeo ES
 
@@ -43,7 +43,7 @@ ahora en nuevos procesadores como ARM ya no es necesario ya que esta todo mapead
 
 ## Sistema de entrada y salida
 
-![[image 336.png]]
+![](Attachments/image%20336.png)
 
 ---
 
@@ -53,11 +53,11 @@ ahora en nuevos procesadores como ARM ya no es necesario ya que esta todo mapead
 
 **Misma materia (Arqui)**
 
-- [[Clase 4 Intro transmisión Digital]] — lógica digital y señales
-- [[Resumen Criollo (Memoria, Deco, Perifericos)]] — decodificación de direcciones
+- [Clase 4 Intro transmisión Digital](Clase%204%20Intro%20transmisión%20Digital.md) — lógica digital y señales
+- [Resumen Criollo (Memoria, Deco, Perifericos)](Resumen%20Criollo%20%28Memoria,%20Deco,%20Perifericos%29.md) — decodificación de direcciones
 
 **Otras materias**
 
-- **TLA**  [[TLA -Autómatas Finitos Determinísticos]] — circuito secuencial = máquina de estados finita
+- **TLA**  [TLA -Autómatas Finitos Determinísticos](TLA%20-Autómatas%20Finitos%20Determinísticos.md) — circuito secuencial = máquina de estados finita
 
 <!-- notas-relacionadas:fin -->

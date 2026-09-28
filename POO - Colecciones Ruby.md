@@ -115,7 +115,7 @@ end
 - ¿Qué métodos habilita incluir el módulo `Comparable`?
 - ¿Cuál es la diferencia entre `map` y `select`?
 
-[[POO.base|POO]]
+[POO](Categories/POO.base)
 
 ---
 
@@ -125,12 +125,12 @@ end
 
 **Misma materia (POO)**
 
-- [[POO - Intro Ruby]] — tema anterior
-- [[POO - Colecciones Java]] — el equivalente en Java
-- [[POO - Streams y Lambdas]] — Enumerable y bloques vs streams
+- [POO - Intro Ruby](POO%20-%20Intro%20Ruby.md) — tema anterior
+- [POO - Colecciones Java](POO%20-%20Colecciones%20Java.md) — el equivalente en Java
+- [POO - Streams y Lambdas](POO%20-%20Streams%20y%20Lambdas.md) — Enumerable y bloques vs streams
 
 **Otras materias**
 
-- **EDA**  [[EDA - Hashing]] — Hash en Ruby
+- **EDA**  [EDA - Hashing](EDA%20-%20Hashing.md) — Hash en Ruby
 
 <!-- notas-relacionadas:fin -->

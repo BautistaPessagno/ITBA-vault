@@ -18,7 +18,7 @@ temas:
 
 Guía práctica armada a partir de los parciales 2 de **Autómatas, Teoría de Lenguajes y Compiladores (72.39)** entre 2016 y 2023. La idea no es repetir la teoría, sino darte un **algoritmo simple a seguir** para cada tipo de ejercicio, el **paso a paso** de cómo armarlo, y las **variaciones** que aparecen.
 
-Materia: [[TLA.base|TLA]] · Pertenece a [[ITBA.base|ITBA]]
+Materia: [TLA](Categories/TLA.base) · Pertenece a [ITBA](Categories/ITBA.base)
 
 > [!tip] Regla de oro del parcial
 > Todos los enunciados repiten la misma advertencia: *"todos los ejercicios deben resolverse utilizando los algoritmos vistos en clase"* y *"se evalúa por lo que está escrito, no por lo que se quiso poner"*. Por eso esta guía sigue los algoritmos de la cátedra y siempre te pide **escribir la definición formal completa** y **justificar cada paso**. La condición mínima de aprobación es **acumular 6 puntos**.
@@ -40,14 +40,14 @@ Casi siempre el parcial es la misma combinación de 5 (o 4) ejercicios. Si recon
 | 2023 1Q | Bombeo | Gramática + FNG | AP | Ascendente (LR) | — |
 
 > [!info] Las 8 familias de ejercicio
-> 1. [[#1. Pasar una gramática a Forma Normal de Greibach (FNG)|Forma Normal de Greibach]] (transformar una gramática)
-> 2. [[#2. Demostrar que un lenguaje NO es libre de contexto (Lema de Bombeo)|Demostrar que un lenguaje NO es libre de contexto]] (Lema de Bombeo)
-> 3. [[#3. Autómata de Pila que acepta por pila vacía|Autómata de Pila por pila vacía]]
-> 4. [[#4. Escribir una gramática que genere un lenguaje|Escribir una gramática (GLC)]]
-> 5. [[#5. Máquina de Turing reconocedora|Máquina de Turing reconocedora]]
-> 6. [[#6. Máquina de Turing calculadora (transductora)|Máquina de Turing calculadora]]
-> 7. [[#7. Análisis sintáctico descendente LL(1)|Análisis sintáctico descendente LL(1)]]
-> 8. [[#8. Análisis sintáctico ascendente (LR / SLR)|Análisis sintáctico ascendente (LR/SLR)]]
+> 1. [Forma Normal de Greibach](#1.%20Pasar%20una%20gramática%20a%20Forma%20Normal%20de%20Greibach%20%28FNG%29) (transformar una gramática)
+> 2. [Demostrar que un lenguaje NO es libre de contexto](#2.%20Demostrar%20que%20un%20lenguaje%20NO%20es%20libre%20de%20contexto%20%28Lema%20de%20Bombeo%29) (Lema de Bombeo)
+> 3. [Autómata de Pila por pila vacía](#3.%20Autómata%20de%20Pila%20que%20acepta%20por%20pila%20vacía)
+> 4. [Escribir una gramática (GLC)](#4.%20Escribir%20una%20gramática%20que%20genere%20un%20lenguaje)
+> 5. [Máquina de Turing reconocedora](#5.%20Máquina%20de%20Turing%20reconocedora)
+> 6. [Máquina de Turing calculadora](#6.%20Máquina%20de%20Turing%20calculadora%20%28transductora%29)
+> 7. [Análisis sintáctico descendente LL(1)](#7.%20Análisis%20sintáctico%20descendente%20LL%281%29)
+> 8. [Análisis sintáctico ascendente (LR/SLR)](#8.%20Análisis%20sintáctico%20ascendente%20%28LR%20/%20SLR%29)
 
 ---
 
@@ -56,7 +56,7 @@ Casi siempre el parcial es la misma combinación de 5 (o 4) ejercicios. Si recon
 > [!abstract] Cómo lo reconocés
 > Te dan una gramática `G` y te piden una **equivalente** donde todas las producciones tengan la forma `A → mβ` (empiezan con un terminal `m`, seguido de cero o más símbolos `β`), o bien `S → λ`. Eso es la **Forma Normal de Greibach**.
 
-Apoyo teórico: [[TLA -Formas Normales y Lema de Bombeo CFL]].
+Apoyo teórico: [TLA -Formas Normales y Lema de Bombeo CFL](TLA%20-Formas%20Normales%20y%20Lema%20de%20Bombeo%20CFL.md).
 
 ### Algoritmo (los 5 pasos, siempre en este orden)
 
@@ -92,7 +92,7 @@ Resultado: `P4`.
 ### Variaciones
 
 - **Solo transformar** (2016, 2017, 2019): te dan `G` y la convertís. *Ojo*: a veces un paso "no hace falta" (ej.: no hay anulables) → **aclaralo explícitamente**, lo piden.
-- **Generar + normalizar** (2022 2Q ej.2, 2023 1Q ej.2): primero [[#4. Escribir una gramática que genere un lenguaje|escribís una gramática]] que genere el lenguaje y *recién después* la pasás a la forma pedida.
+- **Generar + normalizar** (2022 2Q ej.2, 2023 1Q ej.2): primero [escribís una gramática](#4.%20Escribir%20una%20gramática%20que%20genere%20un%20lenguaje) que genere el lenguaje y *recién después* la pasás a la forma pedida.
 
 > [!warning] Errores comunes
 > - Cambiar el orden de los 5 pasos.
@@ -107,7 +107,7 @@ Resultado: `P4`.
 > [!abstract] Cómo lo reconocés
 > "Demostrar que `L = {…}` **no es libre de contexto**". El lenguaje suele tener un crecimiento "raro": potencias (`2ⁿ`), primos, cuadrados/cubos, factoriales, o estructuras de espejo con tamaños atados (`ωγωʳ`).
 
-Apoyo teórico: [[TLA -Formas Normales y Lema de Bombeo CFL]] (sección Lema de Bombeo para LLC).
+Apoyo teórico: [TLA -Formas Normales y Lema de Bombeo CFL](TLA%20-Formas%20Normales%20y%20Lema%20de%20Bombeo%20CFL.md) (sección Lema de Bombeo para LLC).
 
 ### Algoritmo (esquema fijo de demostración por el absurdo)
 
@@ -160,7 +160,7 @@ La parte difícil es **elegir `ω`**. Según el patrón del lenguaje:
 > [!abstract] Cómo lo reconocés
 > "Escribir un **autómata de pila** que acepte **por pila vacía** el lenguaje `L = {…}`". Casi siempre te piden además: (a) **explicar el funcionamiento** y (b) **mostrar formalmente** que reconoce una palabra concreta (la traza).
 
-Apoyo teórico: [[TLA -Autómatas de Pila]].
+Apoyo teórico: [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md).
 
 ### Algoritmo
 
@@ -208,9 +208,9 @@ La palabra se acepta si llegás a **pila vacía** habiendo consumido toda la ent
 ## 4. Escribir una gramática que genere un lenguaje
 
 > [!abstract] Cómo lo reconocés
-> "Escribir una **gramática** (libre de contexto) que genere `L = {…}`. Escribir la definición completa." A veces sigue con "…en esta forma normal" (entonces encadenás con [[#1. Pasar una gramática a Forma Normal de Greibach (FNG)|FNG]]).
+> "Escribir una **gramática** (libre de contexto) que genere `L = {…}`. Escribir la definición completa." A veces sigue con "…en esta forma normal" (entonces encadenás con [FNG](#1.%20Pasar%20una%20gramática%20a%20Forma%20Normal%20de%20Greibach%20%28FNG%29)).
 
-Apoyo teórico: [[TLA -Autómatas de Pila]] (equivalencia GLC ↔ AP) y [[TLA -Formas Normales y Lema de Bombeo CFL]].
+Apoyo teórico: [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md) (equivalencia GLC ↔ AP) y [TLA -Formas Normales y Lema de Bombeo CFL](TLA%20-Formas%20Normales%20y%20Lema%20de%20Bombeo%20CFL.md).
 
 ### Algoritmo
 
@@ -246,7 +246,7 @@ Apoyo teórico: [[TLA -Autómatas de Pila]] (equivalencia GLC ↔ AP) y [[TLA -F
 > [!abstract] Cómo lo reconocés
 > "Diseñar una **máquina de Turing** que **reconozca** las palabras de `L = {…}`." Pide explicar el funcionamiento y, a veces, mostrar formalmente que reconoce una palabra.
 
-Apoyo teórico: [[TLA -Máquina de Turing]] y [[TLA -Máquina de Turing (Parte 2)]].
+Apoyo teórico: [TLA -Máquina de Turing](TLA%20-Máquina%20de%20Turing.md) y [TLA -Máquina de Turing (Parte 2)](TLA%20-Máquina%20de%20Turing%20%28Parte%202%29.md).
 
 ### Algoritmo
 
@@ -282,7 +282,7 @@ Apoyo teórico: [[TLA -Máquina de Turing]] y [[TLA -Máquina de Turing (Parte 2
 > [!abstract] Cómo lo reconocés
 > "Diseñar una MT que **resuelva** `f(x,y) = …`" o que "**obtenga** la serie/sucesión `{…}`", con los operandos en **unario** (cadenas de `1`), separados por `*`, y el resultado en la cinta al final. Te dan ejemplos de "Situación Inicial → Situación Final".
 
-Apoyo teórico: [[TLA -Máquina de Turing]] y [[TLA -Máquina de Turing (Parte 2)]].
+Apoyo teórico: [TLA -Máquina de Turing](TLA%20-Máquina%20de%20Turing.md) y [TLA -Máquina de Turing (Parte 2)](TLA%20-Máquina%20de%20Turing%20%28Parte%202%29.md).
 
 ### Algoritmo
 
@@ -319,7 +319,7 @@ Apoyo teórico: [[TLA -Máquina de Turing]] y [[TLA -Máquina de Turing (Parte 2
 > [!abstract] Cómo lo reconocés
 > Te dan una gramática y piden: (a) **transformarla a LL(1)**, (b) calcular **PRIMEROS y SIGUIENTES**, (c) armar la **tabla de análisis descendente**, (d) escribir el **pseudocódigo** de los procedimientos, (e) **reconocer** una cadena.
 
-Apoyo teórico: [[TLA -Análisis Sintáctico]].
+Apoyo teórico: [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md).
 
 ### Algoritmo
 
@@ -356,7 +356,7 @@ Apoyo teórico: [[TLA -Análisis Sintáctico]].
 > [!abstract] Cómo lo reconocés
 > "Efectuar el **grafo de análisis ascendente**", "indicar en qué **estados hay conflictos**", "explicar cómo se resuelven (tabla sin conflictos)" y "hacer el **seguimiento**" de cadenas. Es análisis **bottom-up** (desplazamiento-reducción).
 
-Apoyo teórico: [[TLA -Análisis Ascendente]] y [[TLA -Análisis Sintáctico]].
+Apoyo teórico: [TLA -Análisis Ascendente](TLA%20-Análisis%20Ascendente.md) y [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md).
 
 ### Algoritmo
 
@@ -398,14 +398,14 @@ Apoyo teórico: [[TLA -Análisis Ascendente]] y [[TLA -Análisis Sintáctico]].
 
 ## Enlaces a los resúmenes de teoría
 
-- [[TLA -Formas Normales y Lema de Bombeo CFL]] — FNG, FNC, Lema de Bombeo
-- [[TLA -Autómatas de Pila]] — AP, aceptación por pila vacía, equivalencia con GLC
-- [[TLA -Máquina de Turing]] · [[TLA -Máquina de Turing (Parte 2)]] — MT reconocedoras y calculadoras
-- [[TLA -Análisis Sintáctico]] — descendente LL(1), PRIMEROS/SIGUIENTES
-- [[TLA -Análisis Ascendente]] — LR(0), SLR, conflictos
-- [[TLA -Lenguajes Regulares]] · [[TLA -Expresiones Regulares]] — base de la jerarquía
+- [TLA -Formas Normales y Lema de Bombeo CFL](TLA%20-Formas%20Normales%20y%20Lema%20de%20Bombeo%20CFL.md) — FNG, FNC, Lema de Bombeo
+- [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md) — AP, aceptación por pila vacía, equivalencia con GLC
+- [TLA -Máquina de Turing](TLA%20-Máquina%20de%20Turing.md) · [TLA -Máquina de Turing (Parte 2)](TLA%20-Máquina%20de%20Turing%20%28Parte%202%29.md) — MT reconocedoras y calculadoras
+- [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md) — descendente LL(1), PRIMEROS/SIGUIENTES
+- [TLA -Análisis Ascendente](TLA%20-Análisis%20Ascendente.md) — LR(0), SLR, conflictos
+- [TLA -Lenguajes Regulares](TLA%20-Lenguajes%20Regulares.md) · [TLA -Expresiones Regulares](TLA%20-Expresiones%20Regulares.md) — base de la jerarquía
 
-Vista del curso: [[TLA.base]]
+Vista del curso: [TLA.base](Categories/TLA.base)
 
 ---
 
@@ -415,9 +415,9 @@ Vista del curso: [[TLA.base]]
 
 **Misma materia (TLA)**
 
-- [[TLA -Formas Normales y Lema de Bombeo CFL]] — FNG y lema de bombeo
-- [[TLA -Autómatas de Pila]] — autómatas de pila
-- [[TLA -Análisis Sintáctico]] — LL(1)
-- [[ejercicios-parcial-ii]] — checklist de ejercicios
+- [TLA -Formas Normales y Lema de Bombeo CFL](TLA%20-Formas%20Normales%20y%20Lema%20de%20Bombeo%20CFL.md) — FNG y lema de bombeo
+- [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md) — autómatas de pila
+- [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md) — LL(1)
+- [ejercicios-parcial-ii](ejercicios-parcial-ii.md) — checklist de ejercicios
 
 <!-- notas-relacionadas:fin -->

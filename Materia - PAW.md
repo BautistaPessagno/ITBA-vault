@@ -10,4 +10,4 @@ temas:
 
 Materia recién iniciada (2C 2026) — todavía sin notas de clase cargadas.
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

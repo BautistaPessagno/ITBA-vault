@@ -51,7 +51,7 @@ Implementar la interfaz `Iterator` permite también el método `remove()`.
 - ¿Qué es una clase interna en Java y para qué se usa en la lista?
 - ¿Cuándo conviene una lista ordenada sobre un arreglo ordenado?
 
-[[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+[Data Structures and Algorithms](Categories/Data%20Structures%20and%20Algorithms.base)
 
 ---
 
@@ -61,14 +61,14 @@ Implementar la interfaz `Iterator` permite también el método `remove()`.
 
 **Misma materia (EDA)**
 
-- [[EDA - Estructuras Lineales y Ordenación]] — arreglos vs listas
-- [[EDA - Stack]] — se implementa sobre listas
-- [[EDA - Queue (Cola)]] — se implementa sobre listas
+- [EDA - Estructuras Lineales y Ordenación](EDA%20-%20Estructuras%20Lineales%20y%20Ordenación.md) — arreglos vs listas
+- [EDA - Stack](EDA%20-%20Stack.md) — se implementa sobre listas
+- [EDA - Queue (Cola)](EDA%20-%20Queue%20%28Cola%29.md) — se implementa sobre listas
 
 **Otras materias**
 
-- **PI**  [[PI - Listas en C]] — la misma estructura en C con punteros
-- **PI**  [[PI - Punteros en C]] — encadenamiento con punteros
-- **POO**  [[POO - Colecciones Java]] — List en el JCF
+- **PI**  [PI - Listas en C](PI%20-%20Listas%20en%20C.md) — la misma estructura en C con punteros
+- **PI**  [PI - Punteros en C](PI%20-%20Punteros%20en%20C.md) — encadenamiento con punteros
+- **POO**  [POO - Colecciones Java](POO%20-%20Colecciones%20Java.md) — List en el JCF
 
 <!-- notas-relacionadas:fin -->

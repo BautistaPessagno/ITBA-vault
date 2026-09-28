@@ -34,7 +34,7 @@ temas:
 > 3. LDA (protagonista), QDA y GDA
 > 4. Naive Bayes
 >
-> Viene de [[ML Clase 4 - Regresión Logística y Métricas de Evaluación|Clase 4]]: según la slide, la sesión anterior fue regresión logística.
+> Viene de [Clase 4](ML%20Clase%204%20-%20Regresión%20Logística%20y%20Métricas%20de%20Evaluación.md): según la slide, la sesión anterior fue regresión logística.
 
 > [!info] Cómo está armada esta nota
 > No había apunte propio de esta clase: todo sale del PDF de la cátedra (versión *WIP*, 50 slides). Los números de slide que cito son las **páginas del PDF**. Los ejercicios que la cátedra deja como "Resolverlo" están resueltos acá, y todas las cuentas están verificadas con python. Las dos figuras marcadas como *(figura propia)* no están en las slides: las generé para mostrar cosas que la clase dice pero no dibuja.
@@ -47,7 +47,7 @@ temas:
 
 | | Discriminativo | Generativo |
 | --- | --- | --- |
-| Ejemplo | Regresión logística ([[ML Clase 4 - Regresión Logística y Métricas de Evaluación\|Clase 4]]) | GDA (LDA, QDA), Naive Bayes |
+| Ejemplo | Regresión logística ([Clase 4](ML%20Clase%204%20-%20Regresión%20Logística%20y%20Métricas%20de%20Evaluación.md)) | GDA (LDA, QDA), Naive Bayes |
 | Qué aprende | el **límite de decisión** (la frontera) | **cómo se distribuye cada clase** por separado |
 | Qué modela | $P(y \mid x)$ directamente — ej. $P(\text{gato} \mid x) = 0.35$ | $P(x \mid y)$ (la **verosimilitud**) y $P(y)$ (el **prior**) |
 | ¿Puede generar datos nuevos? | No | Sí: si sé cómo se distribuye la clase, puedo muestrear de ahí |
@@ -105,7 +105,7 @@ $$
 
 Ejemplo: ¿probabilidad de sacar el 3 de diamantes **dado que** salió una carta roja?
 
-![[ML-C6-mazo-condicional.png]]
+![](Attachments/ML-C6-mazo-condicional.png)
 
 $$
 P(3\diamondsuit) = \frac{1}{52}, \qquad P(R) = \frac{26}{52} = \frac12 \qquad\Rightarrow\qquad P(3\diamondsuit \mid R) = \frac{1/52}{1/2} = \frac{1}{26}
@@ -121,7 +121,7 @@ $$
 P(A) = \sum_{i=1}^{n} P(A \cap B_i) = \sum_{i=1}^{n} P(B_i)\,P(A \mid B_i)
 $$
 
-![[ML-C6-probabilidad-total.png|420]]
+![imagen|420](Attachments/ML-C6-probabilidad-total.png)
 
 El evento $A$ (el óvalo) queda repartido en pedazos $A \cap B_i$ que no se pisan; sumarlos da $A$ entero. La segunda forma reescribe cada pedazo con la probabilidad condicional.
 
@@ -228,7 +228,7 @@ $$
 1. **Distribución normal por clase**: $P(x \mid C_k) = \mathcal N(\mu_k, \Sigma)$.
 2. **La misma matriz de covarianza (dispersión) para todas las clases**: cada clase tiene su propio centro $\mu_k$, pero todas comparten la forma $\Sigma$.
 
-![[ML-C6-lda-dos-gaussianas.png|420]]
+![imagen|420](Attachments/ML-C6-lda-dos-gaussianas.png)
 
 Dos gaussianas con la **misma forma**, solo desplazadas: eso es lo que asume LDA.
 
@@ -279,7 +279,7 @@ $$
 > [!observacion] Conexión con la Clase 4: el posterior de LDA es una sigmoide
 > Para dos clases,
 > $$P(C_1 \mid x) = \frac{1}{1 + e^{-(w^\top x + b)}}, \qquad w = \Sigma^{-1}(\mu_1-\mu_0), \qquad b = -\tfrac12\mu_1^\top\Sigma^{-1}\mu_1 + \tfrac12\mu_0^\top\Sigma^{-1}\mu_0 + \ln\tfrac{P(C_1)}{P(C_0)}$$
-> Es **la misma forma** que la regresión logística de la [[ML Clase 4 - Regresión Logística y Métricas de Evaluación|Clase 4]] (verificado numéricamente). Lo que cambia es de dónde salen $w$ y $b$: acá se calculan con medias y covarianza; allá se optimizan directamente.
+> Es **la misma forma** que la regresión logística de la [Clase 4](ML%20Clase%204%20-%20Regresión%20Logística%20y%20Métricas%20de%20Evaluación.md) (verificado numéricamente). Lo que cambia es de dónde salen $w$ y $b$: acá se calculan con medias y covarianza; allá se optimizan directamente.
 
 ### La mejor separación lineal: criterio de Fisher
 Hay otra forma de llegar a la misma dirección, sin hablar de gaussianas: buscar la recta sobre la que, al **proyectar** los puntos, las clases queden lo más separadas posible. LDA maximiza la **distancia entre los centros relativa a cuán apretada está cada clase**:
@@ -290,7 +290,7 @@ $$
 
 $S_W$ es la dispersión *dentro* de las clases (la $\Sigma$ compartida). Numerador grande: los centros proyectados quedan lejos. Denominador chico: cada clase proyectada queda compacta. Sale la **misma dirección** que por Bayes.
 
-![[ML-C6-proyeccion-lda.png|380]]
+![imagen|380](Attachments/ML-C6-proyeccion-lda.png)
 
 Cada punto se proyecta sobre la recta azul (la dirección $w$); la línea punteada naranja, perpendicular a ella, es la frontera de decisión.
 
@@ -298,7 +298,7 @@ Cada punto se proyecta sobre la recta azul (la dirección $w$); la línea puntea
 
 ### LDA vs. PCA
 
-![[ML-C6-lda-vs-pca.png]]
+![](Attachments/ML-C6-lda-vs-pca.png)
 
 | | PCA | LDA |
 | --- | --- | --- |
@@ -308,7 +308,7 @@ Cada punto se proyecta sobre la recta azul (la dirección $w$); la línea puntea
 | En la figura | eje poco inclinado: rojos y azules proyectados quedan **superpuestos** | eje casi vertical: rojos arriba y azules abajo, **separados** |
 
 > [!observacion] La dirección de más varianza no tiene por qué ser la que separa
-> PCA elige la dirección en la que la nube **completa** está más estirada, sin mirar colores; proyectados sobre ella, rojos y azules se pisan. LDA elige una dirección con menos varianza total pero que es la que distingue rojo de azul. PCA es la *feature projection* que la [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas|Clase 3]] dejó para el Módulo 4.
+> PCA elige la dirección en la que la nube **completa** está más estirada, sin mirar colores; proyectados sobre ella, rojos y azules se pisan. LDA elige una dirección con menos varianza total pero que es la que distingue rojo de azul. PCA es la *feature projection* que la [Clase 3](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md) dejó para el Módulo 4.
 
 ### Ejercicio (slide 29), resuelto
 > Generar un conjunto de puntos en $[0,1]\times[0,1]$ con 3 clases. Dividirlo en 70 % entrenamiento y 30 % test. Visualizar los puntos con las clases en colores. Mostrar la transformación con LDA (a una dimensión) sobre el mismo gráfico. Predecir el 30 % de test con LDA y mostrar los resultados.
@@ -358,7 +358,7 @@ plt.scatter(*proy.T, c=y_tr, cmap="brg", s=8, marker="x")
 plt.xlim(0, 1); plt.ylim(0, 1); plt.gca().set_aspect("equal"); plt.legend(); plt.show()
 ```
 
-![[ML-C6-ejercicio-lda.png]]
+![](Attachments/ML-C6-ejercicio-lda.png)
 *(figura propia: mismos datos y misma semilla que el código, con estilo más prolijo)*
 
 Resultados sobre el test (90 puntos): **accuracy 94.4 %** (85 de 90).
@@ -392,7 +392,7 @@ $$
 
 La familia de métodos (LDA, QDA y Gaussian Naive Bayes) se llama **Gaussian Discriminant Analysis (GDA)**.
 
-![[ML-C6-lda-qda-gnb-fronteras.png]]
+![](Attachments/ML-C6-lda-qda-gnb-fronteras.png)
 *(figura propia: el caso "círculo chico vs. óvalo enorme" de la slide 30, ajustado con los tres modelos de `sklearn`)*
 
 - **LDA** tiene que usar la misma $\Sigma$ para el óvalo y para el círculo: con una recta, algunos azules quedan del lado naranja.
@@ -413,7 +413,7 @@ Con $d$ atributos y $K$ clases (una matriz de covarianza simétrica de $d \times
 | QDA | $Kd$ | $K \cdot \frac{d(d+1)}{2}$ | $K-1$ | **251 501** |
 | Gaussian NB | $Kd$ | $Kd$ (solo las varianzas) | $K-1$ | **2 001** |
 
-Más parámetros significa más flexibilidad pero también más varianza: es el balance de *overfitting vs. underfitting* de la [[ML Clase 2 - Datos, variables, overfitting y métricas|Clase 2]]. LDA tiene más sesgo y menos varianza; QDA, al revés.
+Más parámetros significa más flexibilidad pero también más varianza: es el balance de *overfitting vs. underfitting* de la [Clase 2](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md). LDA tiene más sesgo y menos varianza; QDA, al revés.
 
 > [!question] Concept check (slide 31): ¿LDA o QDA en la práctica?
 > Dataset de imágenes médicas: **200 pacientes y 500 características** por paciente. Sospechamos que las clases tienen dispersiones un poco distintas. **¿Elegimos LDA o QDA?**
@@ -421,7 +421,7 @@ Más parámetros significa más flexibilidad pero también más varianza: es el 
 > > [!success]- Respuesta
 > > **LDA** (y regularizado). Aunque las dispersiones difieran "un poco", QDA tendría que estimar una $\Sigma_k$ de $500 \times 500$ (125 250 valores) **por clase** con unos 100 pacientes en cada una: imposible. Con menos ejemplos que atributos la covarianza estimada es **singular** (no se puede invertir): con 100 pacientes su rango es como mucho 99 de 500 (verificado con numpy).
 > >
-> > Un detalle que la slide no dice: **incluso LDA se rompe tal cual está**. La $\Sigma$ compartida se estima con los 200 pacientes y su rango queda en 198 de 500, así que tampoco se puede invertir. En la práctica se usa LDA con **shrinkage** (`LinearDiscriminantAnalysis(solver="lsqr", shrinkage="auto")`, que mezcla $\hat\Sigma$ con un múltiplo de la identidad), o se reduce la dimensión antes (PCA), o se va directo a Gaussian NB. Es la [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas|maldición de la dimensionalidad]] en versión matrices.
+> > Un detalle que la slide no dice: **incluso LDA se rompe tal cual está**. La $\Sigma$ compartida se estima con los 200 pacientes y su rango queda en 198 de 500, así que tampoco se puede invertir. En la práctica se usa LDA con **shrinkage** (`LinearDiscriminantAnalysis(solver="lsqr", shrinkage="auto")`, que mezcla $\hat\Sigma$ con un múltiplo de la identidad), o se reduce la dimensión antes (PCA), o se va directo a Gaussian NB. Es la [maldición de la dimensionalidad](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md) en versión matrices.
 
 ---
 
@@ -581,7 +581,7 @@ El que valía 0 ahora vale 0.083, y todos se acercan un poco al uniforme (0.25):
 **El tenis con Laplace** (solo en las condicionales; los priors quedan $9/14$ y $5/14$): $\hat P(\text{soleado} \mid \text{sí}) = \frac{2+1}{9+3} = \frac14$ porque el pronóstico tiene 3 valores, $\hat P(\text{alta} \mid \text{sí}) = \frac{3+1}{9+2} = \frac{4}{11}$ porque la humedad tiene 2, y así con el resto. El resultado sigue siendo **no**, con $P(\text{no} \mid x) \approx 0.72$ en vez de 0.795: Laplace suaviza y acerca las probabilidades a 50/50.
 
 > [!tip] En sklearn
-> El $+1$ se generaliza a $+\alpha$ ($\alpha = 1$ es Laplace; $\alpha < 1$ se llama suavizado de Lidstone). Es el parámetro `alpha` de `CategoricalNB`, `MultinomialNB` y `BernoulliNB` (por defecto `alpha=1.0`) y es un **hiperparámetro**: se elige en validación (ver [[Terminologia ML]]).
+> El $+1$ se generaliza a $+\alpha$ ($\alpha = 1$ es Laplace; $\alpha < 1$ se llama suavizado de Lidstone). Es el parámetro `alpha` de `CategoricalNB`, `MultinomialNB` y `BernoulliNB` (por defecto `alpha=1.0`) y es un **hiperparámetro**: se elige en validación (ver [Terminologia ML](Terminologia%20ML.md)).
 
 ### Ejemplo: ¿este correo es spam? (slide 46)
 Dataset sintético: 4 correos por clase, priors $P(\text{spam}) = P(\text{no spam}) = \frac12$. La slide muestra 2 de los 4 correos de cada clase: spam «oferta urgente» y «oferta oferta»; no spam «reunión reunión» y «oferta reunión».
@@ -691,16 +691,16 @@ Con Laplace ($k = 2$ porque cada atributo es binario) da $P(E \mid x) \approx 0.
 
 **Misma materia (Machine Learning)**
 
-- [[ML Clase 7 - Arboles de decision]] — clase siguiente: el enfoque opuesto. En vez de modelar la distribución de cada clase, el árbol parte el espacio con reglas; es de **alta varianza**, y por eso bagging/Random Forest le sirven a él y no a LDA
-- [[ML Clase 4 - Regresión Logística y Métricas de Evaluación]] — clase anterior: la regresión logística es el modelo **discriminativo** contra el que se define todo lo generativo, y el posterior de LDA termina siendo la misma sigmoide
-- [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas]] — maldición de la dimensionalidad (el concept check de 200 pacientes y 500 atributos) y *feature projection*: LDA es la versión supervisada de la reducción de dimensionalidad que ahí queda planteada para PCA
-- [[ML Clase 2 - Datos, variables, overfitting y métricas]] — LDA vs. QDA es el balance entre overfitting y underfitting, medido en cantidad de parámetros de $\Sigma$
-- [[Terminologia ML]] — medias, covarianzas y priors son **parámetros** (se estiman al entrenar); el $\alpha$ de Laplace y el `shrinkage` de LDA son **hiperparámetros**
-- [[Materia - Machine Learning]] — índice de la materia
+- [ML Clase 7 - Arboles de decision](ML%20Clase%207%20-%20Arboles%20de%20decision.md) — clase siguiente: el enfoque opuesto. En vez de modelar la distribución de cada clase, el árbol parte el espacio con reglas; es de **alta varianza**, y por eso bagging/Random Forest le sirven a él y no a LDA
+- [ML Clase 4 - Regresión Logística y Métricas de Evaluación](ML%20Clase%204%20-%20Regresión%20Logística%20y%20Métricas%20de%20Evaluación.md) — clase anterior: la regresión logística es el modelo **discriminativo** contra el que se define todo lo generativo, y el posterior de LDA termina siendo la misma sigmoide
+- [ML Clase 3 - EDA, Feature selection, Regularización y Métricas](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md) — maldición de la dimensionalidad (el concept check de 200 pacientes y 500 atributos) y *feature projection*: LDA es la versión supervisada de la reducción de dimensionalidad que ahí queda planteada para PCA
+- [ML Clase 2 - Datos, variables, overfitting y métricas](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md) — LDA vs. QDA es el balance entre overfitting y underfitting, medido en cantidad de parámetros de $\Sigma$
+- [Terminologia ML](Terminologia%20ML.md) — medias, covarianzas y priors son **parámetros** (se estiman al entrenar); el $\alpha$ de Laplace y el `shrinkage` de LDA son **hiperparámetros**
+- [Materia - Machine Learning](Materia%20-%20Machine%20Learning.md) — índice de la materia
 
 **Otras materias**
 
-- **Criptografía y Seguridad** — [[Criptografia y seguridad Clase 2 - Cifrado]] — el secreto perfecto $Pr[M=m \mid C=c] = Pr[M=m]$ es Bayes con verosimilitud "plana", la misma situación que el detector de metales: si la evidencia no discrimina entre hipótesis, el posterior queda igual al prior. En cripto eso es lo que se busca; en clasificación, un atributo así no sirve
-- **MNA** — [[Resumen MNA]] — LDA necesita **invertir** $\Sigma$, así que tiene que ser definida positiva (todos los autovalores $> 0$); con menos datos que atributos es singular. Con varias clases, las direcciones de Fisher salen de un problema de autovalores, y el solver por defecto de sklearn usa la SVD para no invertir nada
+- **Criptografía y Seguridad** — [Criptografia y seguridad Clase 2 - Cifrado](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md) — el secreto perfecto $Pr[M=m \mid C=c] = Pr[M=m]$ es Bayes con verosimilitud "plana", la misma situación que el detector de metales: si la evidencia no discrimina entre hipótesis, el posterior queda igual al prior. En cripto eso es lo que se busca; en clasificación, un atributo así no sirve
+- **MNA** — [Resumen MNA](Resumen%20MNA.md) — LDA necesita **invertir** $\Sigma$, así que tiene que ser definida positiva (todos los autovalores $> 0$); con menos datos que atributos es singular. Con varias clases, las direcciones de Fisher salen de un problema de autovalores, y el solver por defecto de sklearn usa la SVD para no invertir nada
 
 <!-- notas-relacionadas:fin -->

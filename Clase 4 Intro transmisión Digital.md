@@ -17,29 +17,29 @@ categories:
 
 # Intro a Transmisión Digital
 
-![[image 282.png]]
+![](Attachments/image%20282.png)
 
 todos los periféricos (ram rom, placa de wifi, de video, teclado, mouse, etc) hablan con procesador con 1 y 0s
 
 ## Codificación de linea
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_10.20.45.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_10.20.45.png)
 
 ## Codificación unipolar
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_10.21.02.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_10.21.02.png)
 
 ## Transmicion en serie y paralela
 
-![[image 283.png]]
+![](Attachments/image%20283.png)
 
 **Transmisión serie:** un dato atras del otro
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_10.34.07.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_10.34.07.png)
 
 **Transmisión paralela:** llega todo junto
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_10.34.51.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_10.34.51.png)
 
 me permite acceder a datos mas rapido
 
@@ -57,9 +57,9 @@ es que me se usa porque es mas barato y no se necita dividir en dos memorias
 
 un solo tipo de memoria para todo (memoria ram) — es la que se usa hoy en dia
 
-![[image 284.png]]
+![](Attachments/image%20284.png)
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_10.41.30.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_10.41.30.png)
 
 ## Harvard
 
@@ -67,27 +67,27 @@ se usan dos buses de datos, menos saturación
 
 es mas caro y requiere dos tipo de memoria
 
-![[image 285.png]]
+![](Attachments/image%20285.png)
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_10.41.48.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_10.41.48.png)
 
 # Sistema de Entrada y Salida
 
-![[image 286.png]]
+![](Attachments/image%20286.png)
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_10.49.13.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_10.49.13.png)
 
 Un unico Bus por que todos se cuelgan
 
 ## CPU
 
-![[image 287.png]]
+![](Attachments/image%20287.png)
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_11.00.00.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_11.00.00.png)
 
 ### Resumen
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_10.49.32.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_10.49.32.png)
 
 - **Unidad de Control:** Recupera Instrucciones de memoria, las decodifica, Escribe en memoria
 - **Unidad de Ejecución:** Lleva a cabo la ejecución de la instrucción
@@ -98,11 +98,11 @@ Un unico Bus por que todos se cuelgan
 
 [VonSim — A 8088-like Assembly Simulator](https://vonsim.github.io/)
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_11.03.13.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_11.03.13.png)
 
-![[image 288.png]]
+![](Attachments/image%20288.png)
 
-![[image 289.png]]
+![](Attachments/image%20289.png)
 
 el cuadrado de la izquierda es el procesador mientras que lo de la derecha seria la memoria
 
@@ -131,7 +131,7 @@ para el disco se pasan un par de direcciones nada mas
 
 todo lo que puede apuntar un procesador
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_11.49.09.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_11.49.09.png)
 
 - Supongamos un procesador que tiene 16 líneas de bus de direcciones y 8 líneas de bus de datos. ¿Que cantidad de información puede acceder?
 - ¿Y un procesador que tiene 16 líneas de bus de direcciones y 16 líneas de bus de datos?
@@ -139,13 +139,13 @@ todo lo que puede apuntar un procesador
 
 ### Ejemplo 1
 
-![[image 290.png]]
+![](Attachments/image%20290.png)
 
 cantidad de bus de datos no tiene que ser la misma que la de direcciones
 
 puede apuntar a mas de las que e puede traer
 
-![[image 291.png]]
+![](Attachments/image%20291.png)
 
 puedo apuntar a $2^{16}=64k$
 
@@ -155,7 +155,7 @@ entonces se puede acceder a 64kb ($64K*1B$)
 
 ### Ejemplo 2
 
-![[image 292.png]]
+![](Attachments/image%20292.png)
 
 en el segundo caso
 
@@ -165,11 +165,11 @@ en el segundo caso
 
 informacion total = $4G*4B=16GB$
 
-![[image 293.png]]
+![](Attachments/image%20293.png)
 
 # Registros de Intel
 
-![[image 294.png]]
+![](Attachments/image%20294.png)
 
 el valor que tome el instruction pinter al encenderse va a ser la primera dirección a la que apunte
 
@@ -200,7 +200,7 @@ ROM (Read Only Memory)
 - Mantienen su información sin energía (no volátil)
 - La escritura es más lenta que la RAM
 
-![[image 295.png]]
+![](Attachments/image%20295.png)
 
 ### RAM
 
@@ -208,9 +208,9 @@ RAM (Random Access Memory) — mas dinamica que la ROM
 
 - Pierde su información sin energía (volátil)
 
-![[image 296.png]]
+![](Attachments/image%20296.png)
 
-![[image 297.png]]
+![](Attachments/image%20297.png)
 
 la dinamic es mas lenta y necesita refresco mientras que la static es mas rapida y no necesita
 
@@ -241,7 +241,7 @@ Las <u>DRAM</u> suelen tener tiempos entre 50 y 150 ns.
 
 Las <u>SRAM</u> menores a 10 ns.
 
-![[image 298.png]]
+![](Attachments/image%20298.png)
 
 ### Operacion
 
@@ -255,19 +255,19 @@ Las memorias para operar utilizan:
 
 Si el procesador, como es el caso de Intel, quiere mantener compatibilidad hacia atrás, permite acceder a la memoria a nivel byte. Por lo tanto la decodificación cambia según el tipo de memoria.
 
-![[image 299.png]]
+![](Attachments/image%20299.png)
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_12.39.18.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_12.39.18.png)
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_12.39.57.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_12.39.57.png)
 
 # Memoria comercial
 
-![[image 300.png]]
+![](Attachments/image%20300.png)
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_12.40.19.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_12.40.19.png)
 
-![[Captura_de_pantalla_2025-04-08_a_la(s)_12.40.27.png]]
+![](Attachments/Captura_de_pantalla_2025-04-08_a_la%28s%29_12.40.27.png)
 
 ---
 
@@ -277,15 +277,15 @@ Si el procesador, como es el caso de Intel, quiere mantener compatibilidad hacia
 
 **Misma materia (Arqui)**
 
-- [[Clase 3 ASM y C]] — clase anterior
-- [[Integrados Compuertas y decodificadores]] — lógica digital
-- [[Memoria Cache]] — la SRAM que acá se clasifica es la que implementa la caché
-- [[Interrupciones]] — la otra forma de manejar la E/S de los periféricos
-- [[Resumen Criollo (Memoria, Deco, Perifericos)]] — repaso de memoria y periféricos
+- [Clase 3 ASM y C](Clase%203%20ASM%20y%20C.md) — clase anterior
+- [Integrados Compuertas y decodificadores](Integrados%20Compuertas%20y%20decodificadores.md) — lógica digital
+- [Memoria Cache](Memoria%20Cache.md) — la SRAM que acá se clasifica es la que implementa la caché
+- [Interrupciones](Interrupciones.md) — la otra forma de manejar la E/S de los periféricos
+- [Resumen Criollo (Memoria, Deco, Perifericos)](Resumen%20Criollo%20%28Memoria,%20Deco,%20Perifericos%29.md) — repaso de memoria y periféricos
 
 **Otras materias**
 
-- **Protos**  [[8. Protos - Enlace]] — la codificación unipolar de acá es la misma técnica que codifica el frame en el medio físico
-- **Protos**  [[Hub]] — el hub opera sobre esta señal, sin interpretarla
+- **Protos**  [8. Protos - Enlace](8.%20Protos%20-%20Enlace.md) — la codificación unipolar de acá es la misma técnica que codifica el frame en el medio físico
+- **Protos**  [Hub](Hub.md) — el hub opera sobre esta señal, sin interpretarla
 
 <!-- notas-relacionadas:fin -->

@@ -14,9 +14,9 @@ del la clase anterior
 Datos y etiquetas, busca patrones y aprende
 
 ## como es un dataset*?
-![[Pasted image 20260812162710.png]]
+![](Attachments/Pasted%20image%2020260812162710.png)
 ### ejemplo
-![[Pasted image 20260812162721.png]]
+![](Attachments/Pasted%20image%2020260812162721.png)
 
 ## Tipos de variables
 ### Numericas
@@ -77,22 +77,22 @@ Pueden afectar gravemente al modelo:
 ### Outliers - Deteccion
 
 **metodos visuales**
-![[Pasted image 20260812170550.png]]
+![](Attachments/Pasted%20image%2020260812170550.png)
 
 **metodos estadisticos**
 - IQR
 - Z-score
-![[Pasted image 20260812170635.png]]
+![](Attachments/Pasted%20image%2020260812170635.png)
 
 que hacer con ellos?
 - eliminar dato
 - transformacion estadistica pueden reducir su efecto
 
 # Regresion 
-![[Pasted image 20260812170928.png]]![[Pasted image 20260812171029.png]]
+![](Attachments/Pasted%20image%2020260812170928.png)![](Attachments/Pasted%20image%2020260812171029.png)
 
 ## overfitting y underfitting
-![[Pasted image 20260812171243.png]]
+![](Attachments/Pasted%20image%2020260812171243.png)
 
 ### como evitar overfitting?
 añadiendo multiples caracteristicas se llega a overfitting
@@ -102,17 +102,17 @@ añadiendo multiples caracteristicas se llega a overfitting
 ## Data split
 queremos que funcione bien con nuevos datos
 
-![[Pasted image 20260812173744.png]] 
+![](Attachments/Pasted%20image%2020260812173744.png) 
 ## Train vs Test
-![[Pasted image 20260812173823.png]]
+![](Attachments/Pasted%20image%2020260812173823.png)
 ### Error de prediccion esperado
-![[Pasted image 20260812174140.png]]
+![](Attachments/Pasted%20image%2020260812174140.png)
 
 ## Train vs Dev vs Test
-![[Pasted image 20260812174745.png]]
+![](Attachments/Pasted%20image%2020260812174745.png)
 ### Cross validation
-![[Pasted image 20260812175346.png]] 
-![[Pasted image 20260812180454.png]]
+![](Attachments/Pasted%20image%2020260812175346.png) 
+![](Attachments/Pasted%20image%2020260812180454.png)
 
 
 # Resumen
@@ -422,7 +422,7 @@ Un modelo **demasiado simple** puede **no capturar la relación real** (*underfi
 mientras que uno **demasiado complejo** puede **ajustarse demasiado a los datos de
 entrenamiento** (*overfitting*).
 
-![[Pasted image 20260812171243.png]]
+![](Attachments/Pasted%20image%2020260812171243.png)
 
 | | Underfitting | Buen ajuste | Overfitting |
 | --- | --- | --- | --- |
@@ -442,7 +442,7 @@ dimensiones los datos quedan cada vez **más dispersos** en el espacio (de una r
 puntos, a un plano con huecos, a un cubo casi vacío) → hay más "lugar" para que el modelo
 pase exactamente por cada punto.
 
-![[ML clase2 - dispersion al agregar dimensiones.png]]
+![](Attachments/ML%20clase2%20-%20dispersion%20al%20agregar%20dimensiones.png)
 *Los mismos ~15 puntos en 1D, 2D y 3D: al agregar features el espacio se vacía y sobra
 lugar para que el modelo pase justo por cada dato.*
 
@@ -520,7 +520,7 @@ y otra para **estimar el error** en otros datos nuevos → **Validation set (o D
   train; se obtienen k errores (7.8, 7.6, 8.2, 6.9, 7.5) y se **promedia** (8.0) para decidir.
 - El **test queda afuera** de todo el procedimiento.
 
-![[Pasted image 20260812175346.png]]
+![](Attachments/Pasted%20image%2020260812175346.png)
 
 **Leave-one-out**: caso extremo donde cada fold es **un solo dato**.
 
@@ -638,7 +638,7 @@ aumentaría el resultado.
 - Curva que **sigue mejorando** en el último tramo: **grabar más datos sí sería útil**.
 - Curva intermedia: mejora lenta, decisión de costo/beneficio.
 
-![[ML clase2 - curvas de aprendizaje.png]]
+![](Attachments/ML%20clase2%20-%20curvas%20de%20aprendizaje.png)
 *La naranja ("sigue mejorando") es la que justifica salir a recolectar más datos; la azul
 ya hizo plateau y con más datos no va a mejorar.*
 
@@ -714,14 +714,14 @@ Recap del flujo de un proyecto y **dónde** se hacen las separaciones:
 
 **Misma materia (Machine Learning)**
 
-- [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas]] — clase siguiente: retoma la regularización y la selección de características que esta clase deja explícitamente pendientes
-- [[ML Clase 1 - Machine Learning Intro]] — clase anterior: el encuadre supervisado/no supervisado sobre el que se apoyan los data splits
-- [[ML TP1 - Insurance]] — el TP1 pone en código los data splits, el k-fold y el criterio de outliers de esta clase
-- [[Terminologia ML]] — parámetros vs. hiperparámetros: el train ajusta los primeros, el dev elige los segundos
-- [[Materia - Machine Learning]] — índice de la materia
+- [ML Clase 3 - EDA, Feature selection, Regularización y Métricas](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md) — clase siguiente: retoma la regularización y la selección de características que esta clase deja explícitamente pendientes
+- [ML Clase 1 - Machine Learning Intro](ML%20Clase%201%20-%20Machine%20Learning%20Intro.md) — clase anterior: el encuadre supervisado/no supervisado sobre el que se apoyan los data splits
+- [ML TP1 - Insurance](ML%20TP1%20-%20Insurance.md) — el TP1 pone en código los data splits, el k-fold y el criterio de outliers de esta clase
+- [Terminologia ML](Terminologia%20ML.md) — parámetros vs. hiperparámetros: el train ajusta los primeros, el dev elige los segundos
+- [Materia - Machine Learning](Materia%20-%20Machine%20Learning.md) — índice de la materia
 
 **Otras materias**
 
-- **MNA** — [[Resumen MNA]] — la regresión lineal de §4.2 es el problema de cuadrados mínimos: las mismas ecuaciones normales $A^\top A x = A^\top b$, con otro nombre
+- **MNA** — [Resumen MNA](Resumen%20MNA.md) — la regresión lineal de §4.2 es el problema de cuadrados mínimos: las mismas ecuaciones normales $A^\top A x = A^\top b$, con otro nombre
 
 <!-- notas-relacionadas:fin -->

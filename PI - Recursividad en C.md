@@ -77,7 +77,7 @@ static int potencia_rec(int base, int exp) {
 - ¿Para qué sirve un wrapper en una función recursiva?
 - ¿En qué casos es mejor usar iteración sobre recursión?
 
-[[PI.base|PI]]
+[PI](Categories/PI.base)
 
 ---
 
@@ -87,13 +87,13 @@ static int potencia_rec(int base, int exp) {
 
 **Misma materia (PI)**
 
-- [[PI - Funciones en C]] — llamadas a función
+- [PI - Funciones en C](PI%20-%20Funciones%20en%20C.md) — llamadas a función
 
 **Otras materias**
 
-- **Arqui**  [[Seguimiento de Pila en C]] — stack frames de la recursión
-- **EDA**  [[EDA - Stack]] — la pila de llamadas
-- **EDA**  [[EDA - Tipos de Algoritmos y Heurísticas]] — divide y conquista, backtracking
-- **TLA**  [[TLA -Análisis Sintáctico]] — descenso recursivo
+- **Arqui**  [Seguimiento de Pila en C](Seguimiento%20de%20Pila%20en%20C.md) — stack frames de la recursión
+- **EDA**  [EDA - Stack](EDA%20-%20Stack.md) — la pila de llamadas
+- **EDA**  [EDA - Tipos de Algoritmos y Heurísticas](EDA%20-%20Tipos%20de%20Algoritmos%20y%20Heurísticas.md) — divide y conquista, backtracking
+- **TLA**  [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md) — descenso recursivo
 
 <!-- notas-relacionadas:fin -->

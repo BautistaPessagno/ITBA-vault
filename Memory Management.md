@@ -10,19 +10,19 @@ temas:
 
 # Abstracción de recursos
 
-![[image 75.png]]
+![](Attachments/image%2075.png)
 
 ## Memoria
 
-![[image 76.png]]
+![](Attachments/image%2076.png)
 
 # Memory Manager
 
-![[image 77.png]]
+![](Attachments/image%2077.png)
 
 ## Memory management layers
 
-![[image 78.png]]
+![](Attachments/image%2078.png)
 
 un ejemplo del user-space allocator es el malloc
 
@@ -33,11 +33,11 @@ las responsabilidades del memory manager son:
 - asignacion exclusiva de memoria libre
 - liberacion de memoria previamente asignada
 
-![[image 79.png]]
+![](Attachments/image%2079.png)
 
 # Consideraciones TP
 
-![[image 80.png]]
+![](Attachments/image%2080.png)
 
 mapeo uno a uno entre virtual y fisica → no hay virtual (memoria real)
 
@@ -50,21 +50,21 @@ mapeo uno a uno entre virtual y fisica → no hay virtual (memoria real)
 # Implementaciones de Physical
 Memory Allocators
 
-![[image 81.png]]
+![](Attachments/image%2081.png)
 
 [Expanded Main Page - OSDev Wiki](https://wiki.osdev.org/Expanded_Main_Page)
 
 ## Ejemplos
 
-![[image 82.png]]
+![](Attachments/image%2082.png)
 
  https://github.com/jubalh/awesome-os 
 
 # Ejemplo catedra
 
-![[Captura_de_pantalla_2025-09-30_a_la(s)_11.08.39.png]]
+![](Attachments/Captura_de_pantalla_2025-09-30_a_la%28s%29_11.08.39.png)
 
-![[image 83.png]]
+![](Attachments/image%2083.png)
 
 ---
 
@@ -74,12 +74,12 @@ Memory Allocators
 
 **Misma materia (SO)**
 
-- [[Memoria]] — tema principal
-- [[Procesos]] — memoria por proceso
+- [Memoria](Memoria.md) — tema principal
+- [Procesos](Procesos.md) — memoria por proceso
 
 **Otras materias**
 
-- **Arqui**  [[Intro Sistemas Operativos(Paginación)]] — paginación
-- **PI**  [[PI - Punteros en C]] — malloc/free desde el lado del programa
+- **Arqui**  [Intro Sistemas Operativos(Paginación)](Intro%20Sistemas%20Operativos%28Paginación%29.md) — paginación
+- **PI**  [PI - Punteros en C](PI%20-%20Punteros%20en%20C.md) — malloc/free desde el lado del programa
 
 <!-- notas-relacionadas:fin -->

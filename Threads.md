@@ -9,13 +9,13 @@ temas:
 
 # Threads
 
-![[image 84.png]]
+![](Attachments/image%2084.png)
 
 puede pasar de que se tienen muchos códigos con el mismo código, mismas direcciones, pero cada hilo tiene su propio stack
 
 ## Justificacion
 
-![[image 85.png]]
+![](Attachments/image%2085.png)
 
 los threads son baratos, si ya tengo un proceso creado, es mas barato crear mas threads antes que crear mas procesos, y se puede reutilizar
 
@@ -23,44 +23,44 @@ puedo tener a multiples threads leyendo multiples a la vez
 
 ## Modelo de threads
 
-![[image 86.png]]
+![](Attachments/image%2086.png)
 
 los threads son como procesos mas livianos(mas faciles de crear eliminar)
 
-![[image 87.png]]
+![](Attachments/image%2087.png)
 
 todos los procesos tiene un thread
 
 en la imagen b es un proceso con 3 threads
 
-![[image 88.png]]
+![](Attachments/image%2088.png)
 
 todo lo que esta en pre-thread es la informacion del instante actual para saber que hacer
 
-![[image 89.png]]
+![](Attachments/image%2089.png)
 
 los threads son como la memoria, nadie lo detiene al intentar modificarla lo que tiene disponible
 
-![[image 90.png]]
+![](Attachments/image%2090.png)
 
 ## POSIX:API
 
-![[image 91.png]]
+![](Attachments/image%2091.png)
 
 ### Ejemplo
 
-![[image 92.png]]
+![](Attachments/image%2092.png)
 
 # Implementación en espacio de usado
 
-![[image 93.png]]
+![](Attachments/image%2093.png)
 
 el kernel tiene solo una tabla de procesos
 luego tiene una tabla de threads manejada por el proceso
 
 todas las funciones para manejar el thread se manejan desde el proceso
 
-![[image 94.png]]
+![](Attachments/image%2094.png)
 
 cuando se hace syscall bloqueante con threads table en el usuario, se bloquean todos los threads de ese proceso
 
@@ -68,11 +68,11 @@ cuando se hace con el threads table en el kernel, el resto de threads del proces
 
 ### Desventajas en usuario
 
-![[image 95.png]]
+![](Attachments/image%2095.png)
 
 # **Implementación en espacio de Kernel**
 
-![[image 96.png]]
+![](Attachments/image%2096.png)
 
 cuesta mas crear destruir threads, por lo que se suelen reutilizar
 
@@ -82,11 +82,11 @@ cuesta mas crear destruir threads, por lo que se suelen reutilizar
 
 # Implementación hibrida
 
-![[image 97.png]]
+![](Attachments/image%2097.png)
 
 # Scheduler activations
 
-![[image 98.png]]
+![](Attachments/image%2098.png)
 
 ---
 
@@ -96,13 +96,13 @@ cuesta mas crear destruir threads, por lo que se suelen reutilizar
 
 **Misma materia (SO)**
 
-- [[Procesos]] — hilo vs proceso
-- [[Scheduling]] — planificación de hilos
-- [[IPC]] — sincronización y comunicación
+- [Procesos](Procesos.md) — hilo vs proceso
+- [Scheduling](Scheduling.md) — planificación de hilos
+- [IPC](IPC.md) — sincronización y comunicación
 
 **Otras materias**
 
-- **BD**  [[BD clase 16 programacion embebida]] — concurrencia y aislamiento transaccional
-- **Protos**  [[10. Protos - Sockets]] — servidores concurrentes
+- **BD**  [BD clase 16 programacion embebida](BD%20clase%2016%20programacion%20embebida.md) — concurrencia y aislamiento transaccional
+- **Protos**  [10. Protos - Sockets](10.%20Protos%20-%20Sockets.md) — servidores concurrentes
 
 <!-- notas-relacionadas:fin -->

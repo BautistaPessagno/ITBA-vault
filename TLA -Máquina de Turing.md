@@ -235,12 +235,12 @@ La MT puede verse como un **computador de funciones** $\mathbb{N} \to \mathbb{N}
 
 **Misma materia (TLA)**
 
-- [[TLA -Análisis Semántico]] — tema anterior
-- [[TLA -Máquina de Turing (Parte 2)]] — continuación
-- [[TLA -Autómatas de Pila]] — jerarquía de Chomsky
+- [TLA -Análisis Semántico](TLA%20-Análisis%20Semántico.md) — tema anterior
+- [TLA -Máquina de Turing (Parte 2)](TLA%20-Máquina%20de%20Turing%20%28Parte%202%29.md) — continuación
+- [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md) — jerarquía de Chomsky
 
 **Otras materias**
 
-- **EDA**  [[EDA - Algoritmos y Complejidad]] — qué es computable y a qué costo
+- **EDA**  [EDA - Algoritmos y Complejidad](EDA%20-%20Algoritmos%20y%20Complejidad.md) — qué es computable y a qué costo
 
 <!-- notas-relacionadas:fin -->

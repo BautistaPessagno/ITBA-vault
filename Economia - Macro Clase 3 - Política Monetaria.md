@@ -95,7 +95,7 @@ Por qué importa el primero: el sistema financiero **canaliza el ahorro hacia la
 | **Interés simple** | **No** se capitalizan / reinvierten | **Tasa Nominal Anual (TNA)** |
 | **Interés compuesto** | **Sí** se capitalizan / reinvierten | **Tasa Efectiva Anual (TEA)** |
 
-![[Economia - Macro Clase3 - Interes simple vs compuesto.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Interes%20simple%20vs%20compuesto.png)
 
 *Capital inicial 100 al 2% mensual, 101 períodos. La brecha entre las dos curvas no es un detalle: a horizonte largo es todo.*
 
@@ -178,7 +178,7 @@ La relación sistema financiero ↔ crecimiento económico es de **doble vía**.
 
 ### 3.2 Componentes
 
-![[Economia - Macro Clase3 - Componentes del sistema financiero.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Componentes%20del%20sistema%20financiero.png)
 
 | Componente | Rol |
 |---|---|
@@ -194,9 +194,9 @@ La relación sistema financiero ↔ crecimiento económico es de **doble vía**.
 
 ### 3.3 Indicadores: Argentina en contexto
 
-![[Economia - Macro Clase3 - Depositos del sector privado sobre PIB.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Depositos%20del%20sector%20privado%20sobre%20PIB.png)
 
-![[Economia - Macro Clase3 - Credito al sector privado sobre PIB.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Credito%20al%20sector%20privado%20sobre%20PIB.png)
 
 | Indicador (% del PIB) | América Latina | Otros emergentes | Desarrollados | **Argentina** |
 |---|---|---|---|---|
@@ -249,7 +249,7 @@ $$P^{B} = \frac{CF_1}{1+i} + \frac{CF_2}{(1+i)^2} + \cdots + \frac{CF_N}{(1+i)^N
 
 **Bono bullet** (amortiza todo el capital al final), cupones semestrales de 10% anual, a dos años. Flujo: 5, 5, 5 y 105.
 
-![[Economia - Macro Clase3 - Bono bullet a la par bajo y sobre la par.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Bono%20bullet%20a%20la%20par%20bajo%20y%20sobre%20la%20par.png)
 
 La **TIR** es la tasa que iguala el valor presente del flujo al precio de mercado — la tasa que refleja el **rendimiento esperado**:
 
@@ -320,11 +320,11 @@ $$\text{Más riesgo} \;\Longrightarrow\; \downarrow \text{Precio del bono} \;\Lo
 > [!important] La línea roja está entre BBB− y BB+
 > Esa es la frontera **investment grade / junk**. No es cosmética: muchos fondos institucionales tienen prohibido por mandato tener papeles debajo de esa línea, así que cruzarla dispara ventas forzadas.
 
-![[Economia - Macro Clase3 - Probabilidad historica de default por rating.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Probabilidad%20historica%20de%20default%20por%20rating.png)
 
 *Probabilidad histórica de default acumulada a 5 años. De A+ a BBB apenas se mueve (1,6% → 2,0%); de BBB para abajo se dispara hasta 14,6% en B−. Fuente: BofA Global Research sobre datos de Moody's, S&P y Fitch.*
 
-![[Economia - Macro Clase3 - Riesgo pais EMBI y rating 2021.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Riesgo%20pais%20EMBI%20y%20rating%202021.png)
 
 *Riesgo país (EMBI - JP Morgan) contra rating crediticio, 2021. La nube sube de izquierda a derecha: peor rating ⇒ mayor spread exigido.*
 
@@ -396,7 +396,7 @@ La cátedra hace votar cuáles de estas son características del dinero:
 
 > **Dinero es aquello que se utiliza como medio de cambio, aquello que se puede utilizar para intercambiarlo por bienes y servicios.**
 
-![[Economia - Macro Clase3 - Funciones del dinero.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Funciones%20del%20dinero.png)
 
 **Tipos de dinero:** mercancía · con respaldo en mercancías · fiduciario · electrónico
 
@@ -441,7 +441,7 @@ La cátedra hace votar cuáles de estas son características del dinero:
 | 7 | $R = r \cdot D$ | |
 | 8 | $\text{Préstamos} = D - R$ | |
 
-![[Economia - Macro Clase3 - Efectivo depositos y base monetaria.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Efectivo%20depositos%20y%20base%20monetaria.png)
 
 *Las existencias de dinero (M) son efectivo + depósitos; el dinero de alta potencia (BM) es efectivo + reservas. La diferencia entre las dos barras es todo lo que crearon los bancos. Fuente: elaboración propia sobre Dornbusch.*
 
@@ -464,7 +464,7 @@ La cátedra hace votar cuáles de estas son características del dinero:
 
 **El comportamiento de los bancos y del público también define la cantidad de dinero total en una economía.**
 
-![[Economia - Macro Clase3 - Multiplicador monetario balance agregado.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Multiplicador%20monetario%20balance%20agregado.png)
 
 Base monetaria \$100, coeficiente de encajes 10%:
 
@@ -487,7 +487,7 @@ Base monetaria \$100, coeficiente de encajes 10%:
 | **Expansión primaria** | Solo el **Banco Central** | La **base monetaria** |
 | **Expansión secundaria** | Los **bancos comerciales** | Crea **dinero secundario** |
 
-![[Economia - Macro Clase3 - Expansion primaria y secundaria.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Expansion%20primaria%20y%20secundaria.png)
 
 Ejemplo del deck, ahora con público que sí tiene efectivo (\$100 iniciales):
 
@@ -502,7 +502,7 @@ $$BM = 90 + 10 = \$100 \qquad M = 90 + 80 = \$170 \qquad m = \frac{170}{100} = 1
 
 ### 7.4 El multiplicador del dinero en Argentina
 
-![[Economia - Macro Clase3 - Multiplicador del dinero en Argentina.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Multiplicador%20del%20dinero%20en%20Argentina.png)
 
 A fecha del **16/09/2025** (Informe monetario diario del BCRA):
 
@@ -583,11 +583,11 @@ Los individuos y empresas **comparan beneficios y costos** de mantener dinero al
 
 Como el nivel general de tasas afecta el costo de oportunidad de mantener dinero, la **demanda de dinero** está **relacionada inversamente con la tasa de interés** ⇒ la curva MD tiene **pendiente negativa**.
 
-![[Economia - Macro Clase3 - Curva de demanda de dinero.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Curva%20de%20demanda%20de%20dinero.png)
 
 ### 9.4 Desplazamientos de la curva
 
-![[Economia - Macro Clase3 - Desplazamientos de la demanda de dinero.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Desplazamientos%20de%20la%20demanda%20de%20dinero.png)
 
 | Movimiento | Qué significa |
 |---|---|
@@ -617,7 +617,7 @@ Para entender cómo se determina la tasa de interés (suponiendo por simplicidad
 
 ### 10.1 Equilibrio en el mercado de dinero
 
-![[Economia - Macro Clase3 - Equilibrio en el mercado de dinero.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Equilibrio%20en%20el%20mercado%20de%20dinero.png)
 
 | Situación | Qué pasa |
 |---|---|
@@ -630,7 +630,7 @@ Para entender cómo se determina la tasa de interés (suponiendo por simplicidad
 
 ### 10.2 La política monetaria y la tasa de interés
 
-![[Economia - Macro Clase3 - Aumento de la oferta monetaria y tasa de interes.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Aumento%20de%20la%20oferta%20monetaria%20y%20tasa%20de%20interes.png)
 
 - Si **aumenta la oferta de dinero** de $M_1$ a $M_2$, la curva MS se desplaza a la derecha y la tasa de equilibrio **baja** de $r_1$ a $r_2$, porque **solo a una tasa más baja los agentes están dispuestos a mantener más dinero**.
 - Si el BC **reduce la oferta de dinero**, MS se desplaza a la izquierda y la **tasa aumenta**.
@@ -639,7 +639,7 @@ Para entender cómo se determina la tasa de interés (suponiendo por simplicidad
 
 Los BC hacen **compra/venta de bonos** para inyectar/sacar dinero de la economía:
 
-![[Economia - Macro Clase3 - Operaciones de mercado abierto y tasa objetivo.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Operaciones%20de%20mercado%20abierto%20y%20tasa%20objetivo.png)
 
 | Operación | Efecto sobre MS | Tasa |
 |---|---|---|
@@ -673,7 +673,7 @@ Los bancos comerciales y las personas **no pueden modificar la cantidad de diner
 
 ## 11. Política monetaria y demanda agregada
 
-![[Economia - Macro Clase3 - Politica monetaria y demanda agregada.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Politica%20monetaria%20y%20demanda%20agregada.png)
 
 La política monetaria es uno de los factores que puede mover la curva de **demanda agregada**:
 
@@ -692,7 +692,7 @@ En la práctica la política monetaria se lleva a cabo teniendo en cuenta **dos 
 >
 > Debería decir **políticas monetarias**. Los bancos centrales no hacen política fiscal — esa es del Tesoro / Ministerio de Economía. El contenido conceptual (expansiva en brecha recesiva, contractiva en brecha inflacionaria) es correcto.
 
-![[Economia - Macro Clase3 - Fed funds rate y desempleo.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Fed%20funds%20rate%20y%20desempleo.png)
 
 *Fed funds rate y tasa de desempleo, 2007–2019. La Fed llevó la tasa a cero en la crisis de 2008 y la mantuvo ahí hasta ~2016, recién subiéndola cuando el desempleo ya había bajado de 10% a ~5%. Krugman/Wells, Essentials of Economics 5e.*
 
@@ -700,7 +700,7 @@ En la práctica la política monetaria se lleva a cabo teniendo en cuenta **dos 
 
 ## 12. Régimen de política monetaria
 
-![[Economia - Macro Clase3 - Regimen de politica monetaria.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Regimen%20de%20politica%20monetaria.png)
 
 La cadena va de izquierda a derecha: el BC maneja **instrumentos**, que le permiten alcanzar un **objetivo operativo**, que sirve de **meta intermedia**, que finalmente persigue el **objetivo** último.
 
@@ -729,7 +729,7 @@ El tipo de política monetaria más usado en la práctica por los bancos central
 
 **Ventajas:** transparencia, reducción de la incertidumbre y **mayor responsabilidad (accountability)** del BC al ser explícito el objetivo.
 
-![[Economia - Macro Clase3 - Metas de inflacion por pais.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Metas%20de%20inflacion%20por%20pais.png)
 
 *Metas de inflación: Nueva Zelanda, Canadá y Suecia usan bandas (1–3%); Gran Bretaña y EEUU un punto (2%); Noruega 2,5%. Krugman/Wells 5e.*
 
@@ -744,7 +744,7 @@ La pregunta es si se puede adoptar un régimen de metas de inflación **desde un
 
 ## 14. Largo plazo: la neutralidad del dinero
 
-![[Economia - Macro Clase3 - Neutralidad del dinero en el largo plazo.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Neutralidad%20del%20dinero%20en%20el%20largo%20plazo.png)
 
 La secuencia completa:
 
@@ -767,7 +767,7 @@ $$r \approx i - \pi$$
 
 Si $i$ no puede bajar de 0 (nadie presta a tasa negativa teniendo la opción de guardar efectivo), entonces el piso de la tasa **real** es $r \ge -\pi$. Con inflación baja o negativa, el BC se queda sin margen para estimular.
 
-![[Economia - Macro Clase3 - Zero Lower Bound.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Zero%20Lower%20Bound.png)
 
 *Tasa efectiva de fondos federales y objetivo de política (% anual), jun-98 a jun-22. Se ve el piso cero de 2009–2015 y otra vez en 2020–2021. Fuente: FRED.*
 
@@ -780,7 +780,7 @@ Si $i$ no puede bajar de 0 (nadie presta a tasa negativa teniendo la opción de 
 | 3 | **Forward Guidance** | Manejo de expectativas pre-anunciando el comportamiento futuro de la política monetaria (condicionales / no-condicionales) |
 | 4 | **Tasas nominales negativas** | Sobre las reservas de los bancos en el BC (UE y Japón) |
 
-![[Economia - Macro Clase3 - Base monetaria de EEUU y QE.png]]
+![](Attachments/Economia%20-%20Macro%20Clase3%20-%20Base%20monetaria%20de%20EEUU%20y%20QE.png)
 
 *Base monetaria total de EEUU (BOGMBASE, FRED). Se identifican QE1 (2008), QE2 (2010), QE3 (2012), el salto del Covid (2020) y el QT posterior. De ~\$800.000 millones pre-2008 a más de \$6 billones en 2021.*
 
@@ -838,14 +838,14 @@ Si $i$ no puede bajar de 0 (nadie presta a tasa negativa teniendo la opción de 
 
 **Misma materia (Economia)**
 
-- [[Economia Intro]] — la clase introductoria ya anticipa el bloque "Dinero y Política Monetaria" en el contenido de la materia, y define el **costo de oportunidad** y el **análisis marginal** que acá reaparecen como base de la demanda de dinero
-- [[Economia - Oferta, Demanda y Mercado]] — el mercado de dinero de §10 es un mercado más: oferta, demanda y equilibrio. La diferencia es que la oferta la fija una autoridad (curva vertical) en vez de surgir de decisiones descentralizadas
-- [[Economia - Resumen Microeconomía]] — la primera mitad de la materia; el trade-off riesgo-retorno y el costo de oportunidad de §1 son la versión financiera de conceptos micro
-- [[Economia - La cadena de distribución dejó de funcionar]] — artículo sobre por qué no fluye el crédito en Argentina: es este marco teórico aplicado, con los mismos indicadores de §3.3
-- [[Materia - Economia]] — nota índice de la materia: cuatrimestre, temas y punto de entrada al resto de las clases
+- [Economia Intro](Economia%20Intro.md) — la clase introductoria ya anticipa el bloque "Dinero y Política Monetaria" en el contenido de la materia, y define el **costo de oportunidad** y el **análisis marginal** que acá reaparecen como base de la demanda de dinero
+- [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) — el mercado de dinero de §10 es un mercado más: oferta, demanda y equilibrio. La diferencia es que la oferta la fija una autoridad (curva vertical) en vez de surgir de decisiones descentralizadas
+- [Economia - Resumen Microeconomía](Economia%20-%20Resumen%20Microeconomía.md) — la primera mitad de la materia; el trade-off riesgo-retorno y el costo de oportunidad de §1 son la versión financiera de conceptos micro
+- [Economia - La cadena de distribución dejó de funcionar](Economia%20-%20La%20cadena%20de%20distribución%20dejó%20de%20funcionar.md) — artículo sobre por qué no fluye el crédito en Argentina: es este marco teórico aplicado, con los mismos indicadores de §3.3
+- [Materia - Economia](Materia%20-%20Economia.md) — nota índice de la materia: cuatrimestre, temas y punto de entrada al resto de las clases
 
 **Otras materias**
 
-- **Derecho** [[Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos]] — cubre bolsa y mercado de valores, títulos de crédito y **obligaciones negociables** desde el lado jurídico; acá se ven los mismos instrumentos desde la valuación (prospecto, cupones, CACs)
+- **Derecho** [Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos](Derecho%20-%20U4%20Fondo%20de%20Comercio,%20Seguros,%20Bolsa%20y%20Concursos.md) — cubre bolsa y mercado de valores, títulos de crédito y **obligaciones negociables** desde el lado jurídico; acá se ven los mismos instrumentos desde la valuación (prospecto, cupones, CACs)
 
 <!-- notas-relacionadas:fin -->

@@ -6,7 +6,7 @@ Materia: "[[ arqui.base |Aqrui]]"
 categories:
   - "[[ITBA.base|ITBA]]"
 ---
-![[Captura_de_pantalla_2025-03-11_a_la(s)_10.15.04.png]]
+![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_10.15.04.png)
 
 # Simulador x86 intel
 
@@ -22,11 +22,11 @@ categories:
 > 
 
 > [!note]+ # Presentación de la materia
-> ![[Captura_de_pantalla_2025-03-11_a_la(s)_10.36.19.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_10.36.19.png)
 
 # Arquitecturas
 
-![[Captura_de_pantalla_2025-03-11_a_la(s)_10.53.09.png]]
+![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_10.53.09.png)
 
 > [!note]+ ## PC vs MAC
 > - las pc son de hardware libre
@@ -36,20 +36,20 @@ categories:
 # Programas y Binarios
 
 > [!note]+ ## Compilación y linkedición en C
-> ![[Captura_de_pantalla_2025-03-11_a_la(s)_11.08.39.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_11.08.39.png)
 
 > [!note]+ ## Ejecución de un programa
-> ![[Captura_de_pantalla_2025-03-11_a_la(s)_11.14.49.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_11.14.49.png)
 
 > [!note]+ ## Programa en memoria
 > <!-- Column 1 -->
-> ![[Captura_de_pantalla_2025-03-11_a_la(s)_11.22.43.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_11.22.43.png)
 > 
 > <!-- Column 2 -->
-> ![[Captura_de_pantalla_2025-03-11_a_la(s)_11.22.51.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_11.22.51.png)
 
 > [!note]+ ## Programa en disco
-> ![[Captura_de_pantalla_2025-03-11_a_la(s)_11.56.27.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_11.56.27.png)
 > 
 
 > [!note]+ ## Analisis de binario
@@ -57,19 +57,19 @@ categories:
 > file <myFile> #ver info del file
 > ```
 > 
-> ![[Captura_de_pantalla_2025-03-11_a_la(s)_12.04.23.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_12.04.23.png)
 > 
 > ```bash
 > ./ #correr
 > ```
 > 
-> ![[Captura_de_pantalla_2025-03-11_a_la(s)_12.04.33.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_12.04.33.png)
 > 
 > ```bash
 > strings #ver todo el texto
 > ```
 > 
-> ![[Captura_de_pantalla_2025-03-11_a_la(s)_12.11.10.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_12.11.10.png)
 > 
 > - Con el **editor hexadecimal bless** podemos cambiar el texto y alterar el ejecutable
 > - al querer quitar/agregar cosas  va a fallar porque hay que espacio que se debería quitar/agregar
@@ -82,13 +82,13 @@ categories:
 
 # Introducción SO
 
-![[Captura_de_pantalla_2025-03-11_a_la(s)_12.19.57.png]]
+![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_12.19.57.png)
 
 ## System Calls
 
 permite a los programas en el espacio de usuario interactuar con el kernel del sistema
 
-![[Captura_de_pantalla_2025-03-11_a_la(s)_12.21.21.png]]
+![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_12.21.21.png)
 
 ### Formas de ejecutar system call
 
@@ -103,16 +103,16 @@ permite a los programas en el espacio de usuario interactuar con el kernel del s
 
 ### Ejemplo de syscall
 
-![[Captura_de_pantalla_2025-03-11_a_la(s)_12.25.08.png]]
+![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_12.25.08.png)
 
-![[Captura_de_pantalla_2025-03-11_a_la(s)_12.25.24.png]]
+![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_12.25.24.png)
 
 # Procesadores y Lenguaje ASM
 (en Intel)
 
 ## Registros de Intel para programas
 
-![[Captura_de_pantalla_2025-03-11_a_la(s)_12.39.47.png]]
+![](Attachments/Captura_de_pantalla_2025-03-11_a_la%28s%29_12.39.47.png)
 
 ---
 
@@ -122,8 +122,8 @@ permite a los programas en el espacio de usuario interactuar con el kernel del s
 
 **Misma materia (Arqui)**
 
-- [[Clase 1 Intro]] — clase introductoria
-- [[Clase 2 ASM intel]] — siguiente tema
-- [[Resumen Arqui]] — resumen integrador
+- [Clase 1 Intro](Clase%201%20Intro.md) — clase introductoria
+- [Clase 2 ASM intel](Clase%202%20ASM%20intel.md) — siguiente tema
+- [Resumen Arqui](Resumen%20Arqui.md) — resumen integrador
 
 <!-- notas-relacionadas:fin -->

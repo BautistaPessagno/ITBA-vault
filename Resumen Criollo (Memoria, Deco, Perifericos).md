@@ -96,8 +96,8 @@ Ver Ejemplos en la Guia 5
 
 **Misma materia (Arqui)**
 
-- [[Clase 4 Intro transmisión Digital]] — memoria y periféricos
-- [[Integrados Compuertas y decodificadores]] — decodificadores
-- [[Resumen Arqui]] — resumen general de la materia
+- [Clase 4 Intro transmisión Digital](Clase%204%20Intro%20transmisión%20Digital.md) — memoria y periféricos
+- [Integrados Compuertas y decodificadores](Integrados%20Compuertas%20y%20decodificadores.md) — decodificadores
+- [Resumen Arqui](Resumen%20Arqui.md) — resumen general de la materia
 
 <!-- notas-relacionadas:fin -->

@@ -11,11 +11,11 @@ temas:
 
 el scheduler es el que decide cual es el proximo prcesos( o thread ) a correr, debe elegir uno (no lo elige de maera random)
 
-![[image 56.png]]
+![](Attachments/image%2056.png)
 
 no es un proceso, es un componente del kernel
 
-![[image 57.png]]
+![](Attachments/image%2057.png)
 
 multiprogramar: preparar a uno mientras corre otro
 
@@ -27,11 +27,11 @@ tienen un “brust” hasta que se bloquean
 
 I/O se refiere a bloquearse esprando algo
 
-![[image 58.png]]
+![](Attachments/image%2058.png)
 
 hay procesos que rara vez se bloquean y otros que se bloquean con mucha frecuencia
 
-![[image 59.png]]
+![](Attachments/image%2059.png)
 
 a es cpu bound mientras que b es I/O bound. hay que fijarse en la rafaga de cpu porque es donde esta haciendo algo, ya que la rafaga I/O no depende del procesos
 
@@ -39,7 +39,7 @@ ej: el proceso shell es I/O bound (siempre esperando teclas)
 
 ## Cuando
 
-![[image 60.png]]
+![](Attachments/image%2060.png)
 
 el timer puede ser mas alto/bajo
 
@@ -49,13 +49,13 @@ preempt = proactivo
 
 scheduler preemptive: te quita el control del procesador. corre aunque el proceso este en ready
 
-![[image 61.png]]
+![](Attachments/image%2061.png)
 
 parapoder escalar un no preemptive los procesos tienen que ser colaborativos
 
 # Categorias
 
-![[image 62.png]]
+![](Attachments/image%2062.png)
 
 ### interactivo
 
@@ -67,7 +67,7 @@ se necesita un quantum mas largo ya que el content switch es costoso
 
 ## Objetivos
 
-![[image 63.png]]
+![](Attachments/image%2063.png)
 
 - no se priorizan procesos sobre otros
 - lo que se asigna se respeta
@@ -78,13 +78,13 @@ se necesita un quantum mas largo ya que el content switch es costoso
 
 ## first-come first-served
 
-![[image 64.png]]
+![](Attachments/image%2064.png)
 
 al ser non-preemptive puede perder un buen balance
 
 ## Shortest Job First
 
-![[image 65.png]]
+![](Attachments/image%2065.png)
 
 El turnaround es el tiempo que el proceso pasa en el sistema desde que entro hasta que se fue (no solo el que corrio)
 
@@ -92,7 +92,7 @@ El turnaround es el tiempo que el proceso pasa en el sistema desde que entro has
 
 atiende al proceso que menos le falta
 
-![[image 66.png]]
+![](Attachments/image%2066.png)
 
 solo compara el que llega y el que esta, poque supuestamente el que esta es el mas corto
 
@@ -104,21 +104,21 @@ beneficia la metrica de turnaround
 
 version preemptive del FIFO
 
-![[image 67.png]]
+![](Attachments/image%2067.png)
 
-![[image 68.png]]
+![](Attachments/image%2068.png)
 
 ## Priority scheduling
 
-![[image 69.png]]
+![](Attachments/image%2069.png)
 
 ### Multiple queues
 
-![[image 70.png]]
+![](Attachments/image%2070.png)
 
 ### Shortest Process Next
 
-![[image 71.png]]
+![](Attachments/image%2071.png)
 
 envejecimiento: busca darle mas peso a las ejecuciones mas antiguas/recientes
 
@@ -126,17 +126,17 @@ envejecimiento: busca darle mas peso a las ejecuciones mas antiguas/recientes
 
 cada vez que pusiste a correr un dato se guarda la ejecución y 
 
-![[image 72.png]]
+![](Attachments/image%2072.png)
 
 ## Lottery scheduling
 
-![[image 73.png]]
+![](Attachments/image%2073.png)
 
 convierte el siguiente evento a correr en una loteria
 
 ## Fair-Share Scheduling
 
-![[image 74.png]]
+![](Attachments/image%2074.png)
 
 ---
 
@@ -146,12 +146,12 @@ convierte el siguiente evento a correr en una loteria
 
 **Misma materia (SO)**
 
-- [[Procesos]] — qué se planifica
-- [[Threads]] — planificación de hilos
+- [Procesos](Procesos.md) — qué se planifica
+- [Threads](Threads.md) — planificación de hilos
 
 **Otras materias**
 
-- **Arqui**  [[Interrupciones]] — el timer que dispara la replanificación
-- **EDA**  [[EDA - Queue (Cola)]] — las colas de listos son FIFO/prioridad
+- **Arqui**  [Interrupciones](Interrupciones.md) — el timer que dispara la replanificación
+- **EDA**  [EDA - Queue (Cola)](EDA%20-%20Queue%20%28Cola%29.md) — las colas de listos son FIFO/prioridad
 
 <!-- notas-relacionadas:fin -->

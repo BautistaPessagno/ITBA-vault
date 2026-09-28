@@ -7,7 +7,7 @@ categories:
 ---
 ## Historia de arm
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_13.18.26.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_13.18.26.png)
 
 en el 2004 se convierte en el diseño de los telefonos celulares
 
@@ -27,27 +27,27 @@ esta integrado por:
 - Conversores A/D y D/A
 - interfaces(USB, Ethernet, USART)
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_13.36.17.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_13.36.17.png)
 
 ## Modos de procesador
 
 se pueden separar en con y sin privilegios
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_13.47.58.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_13.47.58.png)
 
 es mas detallista en el modo que trabajamos, se separa en muchos modos, en Intel el modo protegido cubre todas
 
 los registros son 1, 2, 3…
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_13.49.20.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_13.49.20.png)
 
 el r15 es instruccion pointer 
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_13.49.48.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_13.49.48.png)
 
 ## Registros Flags
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_13.50.14.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_13.50.14.png)
 
 ## Caracteristicas Generales
 
@@ -61,7 +61,7 @@ el r15 es instruccion pointer
 
 ## Mapa de memoria de una ARM
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_14.08.30.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_14.08.30.png)
 
 0 esta abajo y arriba hay 4G
 
@@ -77,7 +77,7 @@ el mapa de memoria tiene un lugar reservado para los perifericos
 
 ## Pipeline en ARM7
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_14.12.41.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_14.12.41.png)
 
 El concepto de pipeline existe en todos los procesadores del mundo(intel, ARM, TODOS)
 
@@ -91,7 +91,7 @@ Fetch, Decode, Execute
 
 Se creo Pipelines para poder hacer distintas etapas al mismo tiempo
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_14.22.32.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_14.22.32.png)
 
 los jumps son problematicos porque pueden hacer que se haga fetchs y decode al pedo
 
@@ -103,11 +103,11 @@ cuando detecta un jump condicional, pasa el codigo a una sandbox donde simula el
 
 instrucciones condicionales
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_14.29.14.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_14.29.14.png)
 
 Vemos que con las instrucciones condicionales se evitan los saltos en el código que demoran la ejecución del programa
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_14.29.41.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_14.29.41.png)
 
 Antes de la ejecución de cada instrucción se chequea los bits de condición (
 31:28, los 4 bits significativos  ) para determinar si se debe ejecutar o no.
@@ -115,7 +115,7 @@ Por ejemplo:
 La condición ‘0000’ significa EQUAL. Por lo tanto la instrucción sólo podrá ser
 ejecutada si el flag Z ( zero ) está activo.
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_14.31.46.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_14.31.46.png)
 
 ---
 
@@ -125,7 +125,7 @@ ejecutada si el flag Z ( zero ) está activo.
 
 **Misma materia (Arqui)**
 
-- [[64bits y ARM]] — ARM
-- [[GPU]] — detalle de GPU
+- [64bits y ARM](64bits%20y%20ARM.md) — ARM
+- [GPU](GPU.md) — detalle de GPU
 
 <!-- notas-relacionadas:fin -->

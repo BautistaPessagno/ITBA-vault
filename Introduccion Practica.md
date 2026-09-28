@@ -74,10 +74,10 @@ que no cambia la respuesta entre la primera y la n vez
 
 **Misma materia (Protos)**
 
-- [[1. Protos - introducción]] — teoría de esta práctica
+- [1. Protos - introducción](1.%20Protos%20-%20introducción.md) — teoría de esta práctica
 
 **Otras materias**
 
-- **SO**  [[Entorno de desarrollo]] — setup de entorno y trucos de bash
+- **SO**  [Entorno de desarrollo](Entorno%20de%20desarrollo.md) — setup de entorno y trucos de bash
 
 <!-- notas-relacionadas:fin -->

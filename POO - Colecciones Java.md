@@ -88,7 +88,7 @@ En POO/aprendizaje se extiende la clase concreta cuando la composición repetir�
 - ¿Cuándo usar `TreeSet` vs `HashSet`?
 - ¿Por qué `Map` no extiende `Iterable`?
 
-[[POO.base|POO]]
+[POO](Categories/POO.base)
 
 ---
 
@@ -98,14 +98,14 @@ En POO/aprendizaje se extiende la clase concreta cuando la composición repetir�
 
 **Misma materia (POO)**
 
-- [[POO - Interfaces y Generics]] — genéricos
-- [[POO - Clases Anidadas e Iterable]] — recorrer colecciones
-- [[POO - Colecciones Ruby]] — el equivalente en Ruby
+- [POO - Interfaces y Generics](POO%20-%20Interfaces%20y%20Generics.md) — genéricos
+- [POO - Clases Anidadas e Iterable](POO%20-%20Clases%20Anidadas%20e%20Iterable.md) — recorrer colecciones
+- [POO - Colecciones Ruby](POO%20-%20Colecciones%20Ruby.md) — el equivalente en Ruby
 
 **Otras materias**
 
-- **EDA**  [[EDA - Hashing]] — HashMap y HashSet
-- **EDA**  [[EDA - Listas Lineales]] — List
-- **EDA**  [[EDA - Árboles]] — TreeMap y TreeSet
+- **EDA**  [EDA - Hashing](EDA%20-%20Hashing.md) — HashMap y HashSet
+- **EDA**  [EDA - Listas Lineales](EDA%20-%20Listas%20Lineales.md) — List
+- **EDA**  [EDA - Árboles](EDA%20-%20Árboles.md) — TreeMap y TreeSet
 
 <!-- notas-relacionadas:fin -->

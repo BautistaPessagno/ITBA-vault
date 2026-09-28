@@ -18,7 +18,7 @@ temas:
 # TLA — Mega Resumen para el Final
 
 > [!important] Cómo leer esta nota
-> Está armada **desde los finales** (2C-2022, 1C-2023, 2C-2023, 1C-2024 x2, 2C-2024 + fotos de finales resueltos). Cubre lo que **realmente se toma**, con las **definiciones textuales** y las **demostraciones completas** del Ejercicio 2. Para la estrategia de estudio con poco tiempo mirá [[TLA -Guía Repaso Final (poco tiempo)]].
+> Está armada **desde los finales** (2C-2022, 1C-2023, 2C-2023, 1C-2024 x2, 2C-2024 + fotos de finales resueltos). Cubre lo que **realmente se toma**, con las **definiciones textuales** y las **demostraciones completas** del Ejercicio 2. Para la estrategia de estudio con poco tiempo mirá [TLA -Guía Repaso Final (poco tiempo)](TLA%20-Guía%20Repaso%20Final%20%28poco%20tiempo%29.md).
 
 ## 0. Estructura fija del final
 
@@ -100,7 +100,7 @@ Inclusión: $L_3\subset L_2\subset L_1\subset L_0$. Además hay lenguajes **no e
 - **Indistinguibilidad de orden $k{+}1$:** $p\,E_{k+1}\,q \iff \big(\forall a\in\Sigma:\ \delta(p,a)\,E_k\,\delta(q,a)\big)$ (y $p\,E_0\,q$ sii ambos están o ambos no están en $F$).
 - **Minimización (conjunto cociente):** se agrupan los estados en clases de equivalencia de indistinguibilidad; el AFD mínimo $A'$ tiene **un estado por clase**. El estado trampa/vacío **sí** tiene su clase. → demo completa en §8.4.
 
-→ [[TLA -Autómatas Finitos Determinísticos]], [[TLA -Autómatas Finitos No Determinísticos]]
+→ [TLA -Autómatas Finitos Determinísticos](TLA%20-Autómatas%20Finitos%20Determinísticos.md), [TLA -Autómatas Finitos No Determinísticos](TLA%20-Autómatas%20Finitos%20No%20Determinísticos.md)
 
 ---
 
@@ -125,7 +125,7 @@ Los regulares son **cerrados** bajo unión, concatenación, estrella, **intersec
 > [!tip] Cómo se demuestra (clave del multiple choice)
 > Se usa un **AFD con $N$ estados** ($N$ = cantidad de estados = constante del lema) y una **cadena $\omega\in L$ con $|\omega|\ge N$**. Al leer $\omega$ se visitan $\ge N{+}1$ estados, así que **por palomar (pigeonhole) un estado se repite** dentro de los primeros $N$ pasos → aparece un ciclo, que es la parte $y$ que se puede "bombear".
 
-→ [[TLA -Lenguajes Regulares]], [[TLA -Expresiones Regulares]]
+→ [TLA -Lenguajes Regulares](TLA%20-Lenguajes%20Regulares.md), [TLA -Expresiones Regulares](TLA%20-Expresiones%20Regulares.md)
 
 ---
 
@@ -153,7 +153,7 @@ $$|xyz|\le P \ \land\ |xz|\ge1 \ \land\ \forall i\ge0:\ r\,x^i\,y\,z^i\,s\in L$$
 > [!warning] Distractores típicos del multiple choice
 > Es $|xz|\ge1$ (no $|xyz|\ge1$) y $\forall i\ge0$ (no $i>1$ ni $i>0$). Se demuestra con una **gramática en Forma Normal de Chomsky que genere $L(G)=L-\{\lambda\}$** (por altura del árbol se repite un no terminal en un camino).
 
-→ [[TLA -Autómatas de Pila]], [[TLA -Formas Normales y Lema de Bombeo CFL]]
+→ [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md), [TLA -Formas Normales y Lema de Bombeo CFL](TLA%20-Formas%20Normales%20y%20Lema%20de%20Bombeo%20CFL.md)
 
 ---
 
@@ -173,7 +173,7 @@ $$\text{Primeros}(\alpha_i)\cap\text{Primeros}(\alpha_j)=\emptyset \quad\text{y 
   - **Reducir $A\to\beta$:** se sacan $|\beta|$ símbolos de la pila y, con $t$ en el tope, se apila $\text{ir}\_A[t,A]=q$ (no se consume entrada).
 - **Conflicto desplazamiento-reducción:** pertenece al **análisis ascendente**; ocurre cuando, conociendo el contenido de la pila y el siguiente símbolo de la entrada, el analizador **no puede decidir** si desplazar o reducir. El "problema de cuándo reducir / qué producción aplicar" es el problema central del **ascendente** (no del descendente).
 
-→ [[TLA -Análisis Sintáctico]], [[TLA -Análisis Ascendente]]
+→ [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md), [TLA -Análisis Ascendente](TLA%20-Análisis%20Ascendente.md)
 
 ---
 
@@ -189,7 +189,7 @@ $$\text{Primeros}(\alpha_i)\cap\text{Primeros}(\alpha_j)=\emptyset \quad\text{y 
 > [!example] Frase para el Ej 7 (relacionar)
 > "Cuando una DDS es **S-atribuida** (sus atributos son **sintetizados**), se puede construir un **esquema de traducción postfijo** en el que cada acción va al final de la producción y se ejecuta al realizar una **reducción** en el **análisis ascendente (LR)**."
 
-→ [[TLA -Análisis Semántico]]
+→ [TLA -Análisis Semántico](TLA%20-Análisis%20Semántico.md)
 
 ---
 
@@ -203,7 +203,7 @@ $$\text{Primeros}(\alpha_i)\cap\text{Primeros}(\alpha_j)=\emptyset \quad\text{y 
 > [!example] Frase para el Ej 7 (relacionar)
 > "Los **lenguajes recursivamente enumerables** son los aceptados por una **Máquina de Turing**; los **sensibles al contexto** son los aceptados por un **Autómata Linealmente Acotado**, que es una MT no determinista con cinta finita de longitud lineal en la entrada."
 
-→ [[TLA -Máquina de Turing]], [[TLA -Máquina de Turing (Parte 2)]]
+→ [TLA -Máquina de Turing](TLA%20-Máquina%20de%20Turing.md), [TLA -Máquina de Turing (Parte 2)](TLA%20-Máquina%20de%20Turing%20%28Parte%202%29.md)
 
 ---
 
@@ -362,11 +362,11 @@ Idea del algoritmo (longitudes $1,2,4,8,\dots$): en cada pasada **tachá una $a$
 
 **Misma materia (TLA)**
 
-- [[TLA -intro resumen]] — definiciones básicas
-- [[TLA -Lenguajes Regulares]] — lenguajes regulares
-- [[TLA -Autómatas de Pila]] — autómatas de pila
-- [[TLA -Análisis Sintáctico]] — análisis sintáctico
-- [[TLA -Máquina de Turing]] — máquinas de Turing
-- [[TLA -Guía Repaso Final (poco tiempo)]] — repaso express
+- [TLA -intro resumen](TLA%20-intro%20resumen.md) — definiciones básicas
+- [TLA -Lenguajes Regulares](TLA%20-Lenguajes%20Regulares.md) — lenguajes regulares
+- [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md) — autómatas de pila
+- [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md) — análisis sintáctico
+- [TLA -Máquina de Turing](TLA%20-Máquina%20de%20Turing.md) — máquinas de Turing
+- [TLA -Guía Repaso Final (poco tiempo)](TLA%20-Guía%20Repaso%20Final%20%28poco%20tiempo%29.md) — repaso express
 
 <!-- notas-relacionadas:fin -->

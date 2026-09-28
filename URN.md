@@ -17,7 +17,7 @@ Identifica recursos por su nombre
 
 **Misma materia (Protos)**
 
-- [[URL]] — identificación por ubicación vs por nombre
-- [[2. Protos - HTTP]] — clase donde se ven URI/URL/URN
+- [URL](URL.md) — identificación por ubicación vs por nombre
+- [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) — clase donde se ven URI/URL/URN
 
 <!-- notas-relacionadas:fin -->

@@ -12,7 +12,7 @@ temas:
 ---
 # Cambios de Estados
 
-![[Pasted image 20260327082415.png]]
+![](Attachments/Pasted%20image%2020260327082415.png)
 
 ## Fuerzas y cambios de estados
 mayor fuerza de atracción mas solido
@@ -31,38 +31,38 @@ $$
 P = \frac{RTn}{v}
 $$
 
-![[Pasted image 20260327083500.png|494]]
+![imagen|494](Attachments/Pasted%20image%2020260327083500.png)
 la presion de vapor depende solo de la temperatura, no depende del volumen del sistema
 solo depende de la temperatura ya que el resto son constantes
 ## Punto de ebullición normal
-![[Captura de pantalla 2026-03-27 a la(s) 08.39.09.png]]
+![](Attachments/Captura%20de%20pantalla%202026-03-27%20a%20la%28s%29%2008.39.09.png)
 la presión de vapor es igual a la presión del sistema
 esta a a 1atm
 
 ## Sustancias Volatiles
-![[Pasted image 20260327084045.png]]
+![](Attachments/Pasted%20image%2020260327084045.png)
 tienen bajas fuerzas de atracción. se le es facil pasar a la fase vapor 
 
 ## Curva liquido Vapor
-![[Pasted image 20260327084325.png]]
+![](Attachments/Pasted%20image%2020260327084325.png)
 
 ## Curva solido-vapor
-![[Pasted image 20260327085009.png]]
+![](Attachments/Pasted%20image%2020260327085009.png)
 
 ## Curva solido-liquido
-![[Pasted image 20260327085051.png]]
+![](Attachments/Pasted%20image%2020260327085051.png)
 
 ## diagrama e fases de una sustancia pura
-![[Pasted image 20260327085201.png]]
-![[Pasted image 20260327085323.png]]
+![](Attachments/Pasted%20image%2020260327085201.png)
+![](Attachments/Pasted%20image%2020260327085323.png)
 **Punto Critico** hay una zona en la cual no se observa la interfaze. no se sabe que es gaseoso y que es liquido
 **Punto Triple** es el sistema que puede contener las tres fases
-![[Pasted image 20260327085646.png]]
+![](Attachments/Pasted%20image%2020260327085646.png)
 
 # Solidos
-![[Pasted image 20260327090328.png]]
+![](Attachments/Pasted%20image%2020260327090328.png)
 ## Sólidos cristalino
-![[Pasted image 20260327090847.png|697]]
+![imagen|697](Attachments/Pasted%20image%2020260327090847.png)
 
 ---
 
@@ -72,8 +72,8 @@ tienen bajas fuerzas de atracción. se le es facil pasar a la fase vapor
 
 **Misma materia (Química)**
 
-- [[Solidos y Liquidos]] — estados de la materia
-- [[Uniones Químicas]] — fuerzas intermoleculares
-- [[Resumen Final Química]] — resumen integrador
+- [Solidos y Liquidos](Solidos%20y%20Liquidos.md) — estados de la materia
+- [Uniones Químicas](Uniones%20Químicas.md) — fuerzas intermoleculares
+- [Resumen Final Química](Resumen%20Final%20Química.md) — resumen integrador
 
 <!-- notas-relacionadas:fin -->

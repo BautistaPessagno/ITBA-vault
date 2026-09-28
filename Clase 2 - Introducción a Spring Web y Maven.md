@@ -22,10 +22,10 @@ tres grandes piezas:
 1. Controller: recibe el input del usuario, validarlo, interpretarlo. le pide al modelo que actualice el estado. 
 2. Modelo (Dominio): reglas de negocio, casos de uso, etc. se actualiza el estado
 3. Vistas: El controller elige una vista, acceso de lectura sobre el modelo. y con eso el usuario recibe una vista actualizada
-![[Pasted image 20260810192408.png|589]]
+![imagen|589](Attachments/Pasted%20image%2020260810192408.png)
 
 busca que los errores no se propaguen. muchos cambios se pueden resolver dentro de una y el resto no se tiene que enterar (Ej: cambiar el diseño de la pagina solo afecta vistas). la vista y el controller estan atados a donde esta armado (Mobile, desktop, web) mientras que el modelo que son las reglas del negocio es agnostico
-![[Pasted image 20260810192901.png|489]]
+![imagen|489](Attachments/Pasted%20image%2020260810192901.png)
 
 Servlet = Controller
 Vistas = JSP (Java Server Page)
@@ -34,7 +34,7 @@ Front Controller (Servlet)
 
 se para enfrente de los otros controllers
 
-![[Pasted image 20260810193353.png]]
+![](Attachments/Pasted%20image%2020260810193353.png)
 
 /* -> frontcontroller. sin importar la URL se lo manda al frontcontroller se lo manda al controller correcto 
 ya no hay que mapear a mano los controllers
@@ -44,11 +44,11 @@ herramienta que gestiona el ciclo de vida de un proyecto de software
 
 el proyecto va a estar subdividido
 
-![[Pasted image 20260810194759.png]]
+![](Attachments/Pasted%20image%2020260810194759.png)
 
 cualquier version que sea de desarrollo tiene que tener el -SNAPSHOT al final
 
-![[Pasted image 20260810195356.png]]
+![](Attachments/Pasted%20image%2020260810195356.png)
 
 
 ```bash
@@ -84,7 +84,7 @@ implementar:
 - persistencia de datos
 - reglas de negocio / casos de uso
 
-![[Pasted image 20260810212816.png]]
+![](Attachments/Pasted%20image%2020260810212816.png)
 
 en los niveles de abstraccion el use case esta mucho mas arriba
 hay un nivel mas alto que es el frontend (web app)

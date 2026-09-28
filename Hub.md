@@ -24,12 +24,12 @@ Un **hub** es un dispositivo de red **simple/tonto** que opera en la **capa 1 (F
 
 **Misma materia (Protos)**
 
-- [[8. Protos - Enlace]] — dominio de colisión en capa de enlace
-- [[Swicth]] — la versión inteligente de capa 2
-- [[Router]] — el de capa 3
+- [8. Protos - Enlace](8.%20Protos%20-%20Enlace.md) — dominio de colisión en capa de enlace
+- [Swicth](Swicth.md) — la versión inteligente de capa 2
+- [Router](Router.md) — el de capa 3
 
 **Otras materias**
 
-- **Arqui**  [[Clase 4 Intro transmisión Digital]] — el hub repite esta señal eléctrica sin interpretarla
+- **Arqui**  [Clase 4 Intro transmisión Digital](Clase%204%20Intro%20transmisión%20Digital.md) — el hub repite esta señal eléctrica sin interpretarla
 
 <!-- notas-relacionadas:fin -->

@@ -32,9 +32,9 @@ el /num es la mascara
 
 **Misma materia (Protos)**
 
-- [[6. Protos - Red]] — teoría de la capa de red
-- [[IP]] — IPs públicas vs privadas
-- [[Red Practica]] — práctica completa de red
-- [[Cheatsheet]] — cheatsheet de laboratorio IP
+- [6. Protos - Red](6.%20Protos%20-%20Red.md) — teoría de la capa de red
+- [IP](IP.md) — IPs públicas vs privadas
+- [Red Practica](Red%20Practica.md) — práctica completa de red
+- [Cheatsheet](Cheatsheet.md) — cheatsheet de laboratorio IP
 
 <!-- notas-relacionadas:fin -->

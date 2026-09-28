@@ -363,8 +363,8 @@ $$\pi_{c_1.\text{nombreCli},\; c_2.\text{nombreCli}}(\text{auxi})$$
 
 **Misma materia (BD)**
 
-- [[BD clase 4 mapeo EER a relacional]] — clase anterior
-- [[BD clase 6 calculo relacional]] — clase siguiente: equivalencia
-- [[BD clase 8 SQL consultas]] — cómo se escribe en SQL
+- [BD clase 4 mapeo EER a relacional](BD%20clase%204%20mapeo%20EER%20a%20relacional.md) — clase anterior
+- [BD clase 6 calculo relacional](BD%20clase%206%20calculo%20relacional.md) — clase siguiente: equivalencia
+- [BD clase 8 SQL consultas](BD%20clase%208%20SQL%20consultas.md) — cómo se escribe en SQL
 
 <!-- notas-relacionadas:fin -->

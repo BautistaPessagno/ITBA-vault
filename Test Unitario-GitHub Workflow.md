@@ -16,13 +16,13 @@ probar por separado todas las partes
 
 primero tests y despues el proyecto
 
-![[image 146.png]]
+![](Attachments/image%20146.png)
 
 no practico para esta materia
 
 ## Red, Green, Refractor# 
 
-![[image 147.png]]
+![](Attachments/image%20147.png)
 
 # Testing en C
 
@@ -38,13 +38,13 @@ si no pasa el assert aborta
 
 ## CuTest
 
-![[image 148.png]]
+![](Attachments/image%20148.png)
 
-![[image 149.png]]
+![](Attachments/image%20149.png)
 
 ### Como correr los CuTests
 
-![[image 150.png]]
+![](Attachments/image%20150.png)
 
 # Estructura
 
@@ -59,17 +59,17 @@ incluir toda la metodologia TDD a todo el proceso de desarrollo
 
 # Git
 
-![[image 151.png]]
+![](Attachments/image%20151.png)
 
 ## Jerarquias
 
-![[image 152.png]]
+![](Attachments/image%20152.png)
 
-![[image 153.png]]
+![](Attachments/image%20153.png)
 
 NO hacer el merge entre Feature 1 y Feature 2 !!!!
 
-![[image 154.png]]
+![](Attachments/image%20154.png)
 
 ---
 
@@ -79,10 +79,10 @@ NO hacer el merge entre Feature 1 y Feature 2 !!!!
 
 **Misma materia (SO)**
 
-- [[Entorno de desarrollo]] — herramientas de trabajo
+- [Entorno de desarrollo](Entorno%20de%20desarrollo.md) — herramientas de trabajo
 
 **Otras materias**
 
-- **POO**  [[POO - Introduccion a Java]] — los tests se escriben en Java
+- **POO**  [POO - Introduccion a Java](POO%20-%20Introduccion%20a%20Java.md) — los tests se escriben en Java
 
 <!-- notas-relacionadas:fin -->

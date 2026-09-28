@@ -258,8 +258,8 @@ El **chase** es la aplicacion iterativa de las reglas de transformacion hasta ll
 
 **Misma materia (BD)**
 
-- [[BD clase 11 normalizacion parte 1]] — parte 1
-- [[BD clase 13 SQL PSM]] — clase siguiente
-- [[BD clase 4 mapeo EER a relacional]] — el esquema que se normaliza
+- [BD clase 11 normalizacion parte 1](BD%20clase%2011%20normalizacion%20parte%201.md) — parte 1
+- [BD clase 13 SQL PSM](BD%20clase%2013%20SQL%20PSM.md) — clase siguiente
+- [BD clase 4 mapeo EER a relacional](BD%20clase%204%20mapeo%20EER%20a%20relacional.md) — el esquema que se normaliza
 
 <!-- notas-relacionadas:fin -->

@@ -211,8 +211,8 @@ Las gramáticas se clasifican según el formato de sus producciones. Si un lengu
 
 **Misma materia (TLA)**
 
-- [[Alfabeto]] — alfabetos y cadenas
-- [[TLA -Lenguajes Regulares]] — tema siguiente
-- [[TLA -Mega Resumen Final]] — resumen integrador
+- [Alfabeto](Alfabeto.md) — alfabetos y cadenas
+- [TLA -Lenguajes Regulares](TLA%20-Lenguajes%20Regulares.md) — tema siguiente
+- [TLA -Mega Resumen Final](TLA%20-Mega%20Resumen%20Final.md) — resumen integrador
 
 <!-- notas-relacionadas:fin -->

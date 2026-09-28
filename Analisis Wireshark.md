@@ -10,13 +10,13 @@ temas:
 # Analisis Wireshark
 
 ## Ejemplo DHCP
-![[Pasted image 20260527200227.png]]
-![[Pasted image 20260527200250.png]]
-![[Pasted image 20260527200303.png]]
-![[Pasted image 20260527200324.png]]
-![[Pasted image 20260527200341.png]]
-![[Pasted image 20260527200414.png]]
-![[Pasted image 20260527200424.png]]
+![](Attachments/Pasted%20image%2020260527200227.png)
+![](Attachments/Pasted%20image%2020260527200250.png)
+![](Attachments/Pasted%20image%2020260527200303.png)
+![](Attachments/Pasted%20image%2020260527200324.png)
+![](Attachments/Pasted%20image%2020260527200341.png)
+![](Attachments/Pasted%20image%2020260527200414.png)
+![](Attachments/Pasted%20image%2020260527200424.png)
 
 >[!warning]
 >Nota para el lector: ICMP empaqueta el datagrama que le llego, en otro datagrama y es por eso que ves dos ttls distintos. Tenes que ver el ttl que esta mas adentro o mas abajo del paquete.
@@ -29,9 +29,9 @@ temas:
 
 **Misma materia (Protos)**
 
-- [[6. Protos - Red]] — ICMP y encapsulamiento
-- [[DHCP Practica]] — el intercambio DHCP capturado
-- [[Red Practica]] — ARP en la práctica
-- [[Transporte Practica]] — capturas de transporte
+- [6. Protos - Red](6.%20Protos%20-%20Red.md) — ICMP y encapsulamiento
+- [DHCP Practica](DHCP%20Practica.md) — el intercambio DHCP capturado
+- [Red Practica](Red%20Practica.md) — ARP en la práctica
+- [Transporte Practica](Transporte%20Practica.md) — capturas de transporte
 
 <!-- notas-relacionadas:fin -->

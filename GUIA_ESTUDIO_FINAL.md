@@ -87,6 +87,6 @@ A·u^{n+1} = b   con A tridiagonal: diag (1+2r), fuera de diag (-r)
 
 **Misma materia (MNA)**
 
-- [[Resumen MNA]] — teoría completa de la materia
+- [Resumen MNA](Resumen%20MNA.md) — teoría completa de la materia
 
 <!-- notas-relacionadas:fin -->

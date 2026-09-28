@@ -16,7 +16,7 @@ Aprendizaje Automático (2C 2026). Cuatro módulos: fundamentos y supervisado cl
 clasificadores supervisados (KNN, SVM, árboles), teoría del aprendizaje y mejora de modelos
 (bias-variance, regularización, tuning), y no supervisado + feature engineering.
 
-→ [[ML Clase 1 - Machine Learning Intro]]
-→ [[ML TP1 - Insurance]] — TP1: regresión sobre el dataset Insurance (defensa 26/08/2026)
+→ [ML Clase 1 - Machine Learning Intro](ML%20Clase%201%20-%20Machine%20Learning%20Intro.md)
+→ [ML TP1 - Insurance](ML%20TP1%20-%20Insurance.md) — TP1: regresión sobre el dataset Insurance (defensa 26/08/2026)
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

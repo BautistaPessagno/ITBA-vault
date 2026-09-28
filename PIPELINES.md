@@ -19,11 +19,11 @@ en linux cada comando hace una cosa y se van juntando con pipelines
 
 ## Posix
 
-![[image 166.png]]
+![](Attachments/image%20166.png)
 
 en read devuelva la cantidad de bytes que leyo mientras que en write la cantidad de writes que escribió
 
-![[image 167.png]]
+![](Attachments/image%20167.png)
 
 son locales al proceso
 
@@ -31,9 +31,9 @@ son locales al proceso
 
 mecanismo de comunicacion unidireccional. el mas simple
 
-![[image 168.png]]
+![](Attachments/image%20168.png)
 
-![[Captura_de_pantalla_2025-08-12_a_la(s)_14.19.28.png]]
+![](Attachments/Captura_de_pantalla_2025-08-12_a_la%28s%29_14.19.28.png)
 
 ---
 
@@ -43,9 +43,9 @@ mecanismo de comunicacion unidireccional. el mas simple
 
 **Misma materia (SO)**
 
-- [[SysCall]] — read, write, close
-- [[IPC]] — pipes como mecanismo de comunicación
-- [[File System]] — todo es un archivo
-- [[Entorno de desarrollo]] — encadenar comandos en bash
+- [SysCall](SysCall.md) — read, write, close
+- [IPC](IPC.md) — pipes como mecanismo de comunicación
+- [File System](File%20System.md) — todo es un archivo
+- [Entorno de desarrollo](Entorno%20de%20desarrollo.md) — encadenar comandos en bash
 
 <!-- notas-relacionadas:fin -->

@@ -18,6 +18,6 @@ temas:
 
 Protocolos de Comunicación: modelo de capas de aplicación a enlace — HTTP, DNS, mail (SMTP/POP/IMAP), transporte (TCP/UDP/QUIC), red (IP, routing, NAT), enlace (switches/hubs), SSH/TLS y sockets. Incluye un TP de diseño e implementación de un protocolo propio.
 
-→ [[Resumen Protos]]
+→ [Resumen Protos](Resumen%20Protos.md)
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

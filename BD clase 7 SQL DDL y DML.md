@@ -475,9 +475,9 @@ CREATE DOMAIN colorTipo   CHAR(4)   DEFAULT 'rojo'
 
 **Misma materia (BD)**
 
-- [[BD clase 6 calculo relacional]] — clase anterior
-- [[BD clase 8 SQL consultas]] — clase siguiente
-- [[BD clase 3 modelo relacional]] — restricciones y claves
-- [[BD clase 14 triggers]] — restricciones activas
+- [BD clase 6 calculo relacional](BD%20clase%206%20calculo%20relacional.md) — clase anterior
+- [BD clase 8 SQL consultas](BD%20clase%208%20SQL%20consultas.md) — clase siguiente
+- [BD clase 3 modelo relacional](BD%20clase%203%20modelo%20relacional.md) — restricciones y claves
+- [BD clase 14 triggers](BD%20clase%2014%20triggers.md) — restricciones activas
 
 <!-- notas-relacionadas:fin -->

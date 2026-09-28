@@ -15,4 +15,4 @@ temas:
 
 Estructuras de Datos y Algoritmos: complejidad y Big-O, listas/pilas/colas, árboles (BST/AVL/B), grafos y Dijkstra, hashing, y tipos de algoritmos (greedy, backtracking, programación dinámica).
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

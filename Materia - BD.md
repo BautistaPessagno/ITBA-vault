@@ -16,4 +16,4 @@ temas:
 
 Bases de Datos: modelo E/R y relacional, álgebra y cálculo relacional, SQL (DDL/DML, consultas, PSM, triggers), normalización (1FN–5FN/BCNF), transacciones ACID y programación embebida.
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

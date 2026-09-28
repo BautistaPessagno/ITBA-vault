@@ -15,8 +15,8 @@ temas:
 
 **Misma materia (Protos)**
 
-- [[5. Protos - Transporte]] — clase de transporte
-- [[TCP]] — el transporte que reemplaza
-- [[2. Protos - HTTP]] — HTTP/3 corre sobre QUIC
+- [5. Protos - Transporte](5.%20Protos%20-%20Transporte.md) — clase de transporte
+- [TCP](TCP.md) — el transporte que reemplaza
+- [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) — HTTP/3 corre sobre QUIC
 
 <!-- notas-relacionadas:fin -->

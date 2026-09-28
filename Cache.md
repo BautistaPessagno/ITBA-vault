@@ -7,65 +7,65 @@ categories:
 ---
 ## Ejemplo comercial
 
-![[image 211.png]]
+![](Attachments/image%20211.png)
 
 dentro del procesador se encuentran 15mb de memoria
 
 no se puede programar la memoria cache, para el programador es transparente
 
-![[image 212.png]]
+![](Attachments/image%20212.png)
 
 es muy rapida
 
-![[image 213.png]]
+![](Attachments/image%20213.png)
 
 ## Memoria Cache- Causa
 
-![[image 214.png]]
+![](Attachments/image%20214.png)
 
 de esta forma no tiene que ir a buscar cada instruccion a la memoria
 
 ## Funcionamiento
 
-![[image 215.png]]
+![](Attachments/image%20215.png)
 
 el procesador le pido primero al cache, si esta se lo da, si no esta va al bus a buscarlo a la memoria
 
 ## Historia
 
-![[image 216.png]]
+![](Attachments/image%20216.png)
 
 # Memoria Cache
 
-![[image 217.png]]
+![](Attachments/image%20217.png)
 
 se divide en bloques
 
 ### Ejemplo
 
-![[image 218.png]]
+![](Attachments/image%20218.png)
 
-![[image 219.png]]
+![](Attachments/image%20219.png)
 
 etiquetas = punteros a cada bloque existente de la ram
 
-![[image 220.png]]
+![](Attachments/image%20220.png)
 
 el controlador se fija si tiene el bloque a puntero (la etiquieta), devuelve por los datos en y avisa que hubo un acierto sino un desacierto, entonces se va a buscarlo y lo trae por medio del bus
 
 ## Tipos de mapeo
 
-![[image 221.png]]
+![](Attachments/image%20221.png)
 
 hoy en dia se usa asociativo
 
 ## Politicas de restitución 
 
-![[image 222.png]]
+![](Attachments/image%20222.png)
 
 ## Actualización de RAM
 
-![[image 223.png]]
+![](Attachments/image%20223.png)
 
 hoy en día se hace escritura obligada, primero se edita la cache y después la misma se sincroniza con la ram
 
@@ -77,7 +77,7 @@ hoy en día se hace escritura obligada, primero se edita la cache y después la 
 
 **Misma materia (Arqui)**
 
-- [[Memoria Cache]] — desarrollo completo del tema
-- [[Clase 4 Intro transmisión Digital]] — DRAM vs SRAM y tiempos de acceso
+- [Memoria Cache](Memoria%20Cache.md) — desarrollo completo del tema
+- [Clase 4 Intro transmisión Digital](Clase%204%20Intro%20transmisión%20Digital.md) — DRAM vs SRAM y tiempos de acceso
 
 <!-- notas-relacionadas:fin -->

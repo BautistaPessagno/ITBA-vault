@@ -65,7 +65,7 @@ public class Caja<E extends Comparable<E>> { E valor; }
 - ¿Cuándo NO aplica el Teorema Maestro?
 - ¿Qué es la técnica de Erasure y qué limitaciones impone?
 
-[[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+[Data Structures and Algorithms](Categories/Data%20Structures%20and%20Algorithms.base)
 
 ---
 
@@ -75,12 +75,12 @@ public class Caja<E extends Comparable<E>> { E valor; }
 
 **Misma materia (EDA)**
 
-- [[EDA - Listas Lineales]] — estructuras lineales
-- [[EDA - Algoritmos y Complejidad]] — análisis de costo
+- [EDA - Listas Lineales](EDA%20-%20Listas%20Lineales.md) — estructuras lineales
+- [EDA - Algoritmos y Complejidad](EDA%20-%20Algoritmos%20y%20Complejidad.md) — análisis de costo
 
 **Otras materias**
 
-- **PI**  [[PI - Arreglos en C]] — arreglos y matrices en C
-- **POO**  [[POO - Interfaces y Generics]] — Comparable/Comparator para ordenar
+- **PI**  [PI - Arreglos en C](PI%20-%20Arreglos%20en%20C.md) — arreglos y matrices en C
+- **POO**  [POO - Interfaces y Generics](POO%20-%20Interfaces%20y%20Generics.md) — Comparable/Comparator para ordenar
 
 <!-- notas-relacionadas:fin -->

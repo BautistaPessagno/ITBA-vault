@@ -7,27 +7,27 @@ categories:
 ---
 No puede ir C y ASM en un mismo archivo, se tiuenen que compilar por separado y luego linkeditarlos juntos
 
-![[image 261.png]]
+![](Attachments/image%20261.png)
 
 las cosas se retornan por la pila y los registros
 
 ## Repaso de la pila
 
-![[image 262.png]]
+![](Attachments/image%20262.png)
 
 la pila crece hacia abajo, las direcciones mas bajas arriba
 
-![[image 263.png]]
+![](Attachments/image%20263.png)
 
 cuando se hace push se decrementa el valor del ESP (stack pointer) y termina apuntando a valor agregado
 
-![[image 264.png]]
+![](Attachments/image%20264.png)
 
 el pop es al reves y guardo el valor en el registrto asignado
 
 ## Instrucción RET
 
-![[image 265.png]]
+![](Attachments/image%20265.png)
 
 salta a la posición salta a la posición del stack pinter.
 
@@ -35,25 +35,25 @@ salta a la posición salta a la posición del stack pinter.
 
 el call pushea la dirección de la proxima instrucción después del call
 
-![[image 266.png]]
+![](Attachments/image%20266.png)
 
 # Analisis de C
 
-![[image 267.png]]
+![](Attachments/image%20267.png)
 
 ## Pasaje de Argumentos en C
 
-![[image 268.png]]
+![](Attachments/image%20268.png)
 
-![[image 269.png]]
+![](Attachments/image%20269.png)
 
-![[image 270.png]]
+![](Attachments/image%20270.png)
 
 ### Pasaje de argumentos por la pila
 
-![[image 271.png]]
+![](Attachments/image%20271.png)
 
-![[image 272.png]]
+![](Attachments/image%20272.png)
 
 # Armado/desarmado stack
 
@@ -69,7 +69,7 @@ el call pushea la dirección de la proxima instrucción después del call
 
 # Convenciones en C
 
-![[image 273.png]]
+![](Attachments/image%20273.png)
 
 se mandan en pila y el valor de retorno se devuelve en eax si es mayor a eax se retorna usando edx:eax
 
@@ -77,35 +77,35 @@ se mandan en pila y el valor de retorno se devuelve en eax si es mayor a eax se 
 
 hay que declararla como externa `extern` donde el linkeditador resuelve
 
-![[image 274.png]]
+![](Attachments/image%20274.png)
 
 ## Llamadas de C a ASM
 
-![[image 275.png]]
+![](Attachments/image%20275.png)
 
 ## Inline Assembler (No lo usamos)
 
-![[image 276.png]]
+![](Attachments/image%20276.png)
 
 ## Salidas en ASM
 
-![[image 277.png]]
+![](Attachments/image%20277.png)
 
 el -S lo compila y lo deja en ASM
 
 ### Ejemplo ASM 32 bits
 
-![[image 278.png]]
+![](Attachments/image%20278.png)
 
-![[image 279.png]]
+![](Attachments/image%20279.png)
 
 el `mov [ebp-4], 10`  es la asignación de la variable numero, **NO** la declaración, la declaración se hizo cuando se guardo el lugar en el stack (`sub esp, 8`)
 
-![[image 280.png]]
+![](Attachments/image%20280.png)
 
 ### Ejemplo ASM 64 bits
 
-![[image 281.png]]
+![](Attachments/image%20281.png)
 
 se cambio el ESP y EBP por RSP y RBP
 
@@ -123,14 +123,14 @@ el canary va entre la dirección de retorno y el EBP y antes de retornar llama a
 
 **Misma materia (Arqui)**
 
-- [[Clase 2 ASM intel]] — clase anterior
-- [[Clase 4 Intro transmisión Digital]] — clase siguiente
-- [[ASM y C]] — misma temática
-- [[Seguimiento de Pila en C]] — cómo se ve la pila desde ASM
+- [Clase 2 ASM intel](Clase%202%20ASM%20intel.md) — clase anterior
+- [Clase 4 Intro transmisión Digital](Clase%204%20Intro%20transmisión%20Digital.md) — clase siguiente
+- [ASM y C](ASM%20y%20C.md) — misma temática
+- [Seguimiento de Pila en C](Seguimiento%20de%20Pila%20en%20C.md) — cómo se ve la pila desde ASM
 
 **Otras materias**
 
-- **PI**  [[PI - Funciones en C]] — convención de llamada de funciones
-- **PI**  [[PI - Intro C]] — el C que se compila a ASM
+- **PI**  [PI - Funciones en C](PI%20-%20Funciones%20en%20C.md) — convención de llamada de funciones
+- **PI**  [PI - Intro C](PI%20-%20Intro%20C.md) — el C que se compila a ASM
 
 <!-- notas-relacionadas:fin -->

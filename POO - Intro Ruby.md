@@ -161,7 +161,7 @@ end
 - ¿Cuál es la diferencia entre `include`, `extend` y `prepend`?
 - ¿Cómo se simula una clase abstracta en Ruby?
 
-[[POO.base|POO]]
+[POO](Categories/POO.base)
 
 ---
 
@@ -171,8 +171,8 @@ end
 
 **Misma materia (POO)**
 
-- [[POO - Colecciones Ruby]] — tema siguiente
-- [[POO - Introducción a POO]] — clases y herencia
-- [[POO - Introduccion a Java]] — comparación entre lenguajes
+- [POO - Colecciones Ruby](POO%20-%20Colecciones%20Ruby.md) — tema siguiente
+- [POO - Introducción a POO](POO%20-%20Introducción%20a%20POO.md) — clases y herencia
+- [POO - Introduccion a Java](POO%20-%20Introduccion%20a%20Java.md) — comparación entre lenguajes
 
 <!-- notas-relacionadas:fin -->

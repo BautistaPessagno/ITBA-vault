@@ -539,7 +539,7 @@ El Congreso también posee **atribuciones económicas y financieras**.
 > Derechos Humanos; **Pacto de San José de Costa Rica**; PIDESC; PIDCP y su Protocolo
 > Facultativo; Convención sobre Genocidio; contra la Discriminación Racial; contra la
 > Discriminación de la Mujer; contra la Tortura; sobre los Derechos del Niño). Esto es lo que
-> engancha con la **pirámide de Kelsen** de [[Intro Derecho]]: la CN **y** estos tratados
+> engancha con la **pirámide de Kelsen** de [Intro Derecho](Intro%20Derecho.md): la CN **y** estos tratados
 > comparten el escalón más alto.
 
 ### Juicio político
@@ -824,7 +824,7 @@ gobierno** (uno de los principios de la forma **republicana** del art. 1):
 
 ---
 
-[[Derecho.base|Derecho]]
+[Derecho](Categories/Derecho.base)
 
 ---
 
@@ -834,26 +834,26 @@ gobierno** (uno de los principios de la forma **republicana** del art. 1):
 
 **Misma materia (Derecho)**
 
-- [[Intro Derecho]] — la **pirámide de Kelsen** que ubica a la CN y a los tratados del art. 75
+- [Intro Derecho](Intro%20Derecho.md) — la **pirámide de Kelsen** que ubica a la CN y a los tratados del art. 75
   inc. 22 en la cima; esta unidad es el desarrollo del escalón más alto de esa pirámide.
-- [[Intro Derecho]] — la distinción **derecho público / derecho privado**: el constitucional es
+- [Intro Derecho](Intro%20Derecho.md) — la distinción **derecho público / derecho privado**: el constitucional es
   la rama madre del **público**, mientras que la U3 trabaja el **privado**.
-- [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]] — la unidad siguiente; los
+- [Derecho - U3 Persona, Obligaciones y Responsabilidad Civil](Derecho%20-%20U3%20Persona,%20Obligaciones%20y%20Responsabilidad%20Civil.md) — la unidad siguiente; los
   **derechos individuales** que la CN reconoce (arts. 14 a 19) son los que el CCyCN reglamenta
   al definir persona, capacidad y responsabilidad.
-- [[Parcialito Derecho - Unidad 2 Constitucional]] — el repaso con las preguntas de los
+- [Parcialito Derecho - Unidad 2 Constitucional](Parcialito%20Derecho%20-%20Unidad%202%20Constitucional.md) — el repaso con las preguntas de los
   compilados, ordenadas por tema y con las respuestas verificadas.
-- [[Materia - Derecho]] — índice de la materia; ubica esta unidad dentro del programa.
-- [[Derecho - Resumen Primer Parcial]] — el repaso consolidado de las cinco unidades que
+- [Materia - Derecho](Materia%20-%20Derecho.md) — índice de la materia; ubica esta unidad dentro del programa.
+- [Derecho - Resumen Primer Parcial](Derecho%20-%20Resumen%20Primer%20Parcial.md) — el repaso consolidado de las cinco unidades que
   entran en el primer parcial, con la tabla de números, las trampas verificadas y el banco de
   preguntas.
 
 **Otras materias**
 
-- **Economia** — [[Economia Intro]] — el paso del Estado **pasivo** al **Estado Benefactor** es
+- **Economia** — [Economia Intro](Economia%20Intro.md) — el paso del Estado **pasivo** al **Estado Benefactor** es
   el mismo giro que en economía separa el laissez-faire de la intervención estatal; el
   constitucionalismo social es su traducción jurídica.
-- **HCI** — [[HCI - Lineamientos Web]] — el **gobierno digital** y la publicidad de los actos de
+- **HCI** — [HCI - Lineamientos Web](HCI%20-%20Lineamientos%20Web.md) — el **gobierno digital** y la publicidad de los actos de
   gobierno se apoyan en criterios de **accesibilidad y usabilidad**: un acto publicado en un sitio
   inusable no está realmente publicitado.
 

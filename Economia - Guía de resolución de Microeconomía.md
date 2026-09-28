@@ -23,7 +23,7 @@ temas:
 
 > Resumen operativo para resolver las GP1, GP2 y GP3. Reúne las fórmulas, los criterios de decisión y el orden de resolución que se repite en los ejercicios.
 
-[[Economia.base|Economia]]
+[Economia](Categories/Economia.base)
 
 > [!note] Alcance de las fuentes
 > La notación y los criterios económicos siguen las clases 001 a 005 y las tres guías prácticas. El ajuste por IPC, los subsidios, los aranceles y parte del comercio exterior aparecen como ejercicios, pero no están desarrollados en las filminas disponibles. En esos puntos se completa el procedimiento algebraico estándar.
@@ -110,7 +110,7 @@ Reglas de signo:
 
 Cuando cambian las dos curvas, el efecto común es seguro y el otro puede quedar indeterminado. Por ejemplo, si suben oferta y demanda, $Q^*$ aumenta, pero el efecto sobre $P^*$ depende de la magnitud de ambos desplazamientos.
 
-![[Economia - Equilibrio y controles de precios.svg]]
+![](Attachments/Economia%20-%20Equilibrio%20y%20controles%20de%20precios.svg)
 
 ### Complementarios y sustitutos
 
@@ -165,7 +165,7 @@ La cátedra suele clasificar con el valor absoluto $|\varepsilon_D|$:
 
 En una demanda lineal, la pendiente es constante pero la elasticidad cambia porque cambia $P/Q$.
 
-![[Economia - Elasticidad e ingreso total.svg]]
+![](Attachments/Economia%20-%20Elasticidad%20e%20ingreso%20total.svg)
 
 ### Elasticidad ingreso
 
@@ -617,7 +617,7 @@ $$
 
 Error típico: cerrar porque el precio está debajo del costo total medio. A corto plazo se produce con pérdida si todavía se cubren los costos variables.
 
-![[Economia - Costos y cierre competitivo.svg]]
+![](Attachments/Economia%20-%20Costos%20y%20cierre%20competitivo.svg)
 
 ### Beneficio
 
@@ -722,7 +722,7 @@ La demanda de trabajo que maximiza beneficio es $L^*=L(q_m)$.
 - Normalmente $Q_m<Q_c$ y $P_m>P_c$.
 - La pérdida social es el área entre demanda y costo marginal desde $Q_m$ hasta $Q_c$.
 
-![[Economia - Monopolio y pérdida social.svg]]
+![](Attachments/Economia%20-%20Monopolio%20y%20pérdida%20social.svg)
 
 ### Regulación
 
@@ -801,7 +801,7 @@ El segmento menos elástico paga el precio más alto.
 - `GP1_ePI_24.pdf`.
 - `GP2_ePI_2024.pdf`.
 - `GP3_ePI_2026.pdf`.
-- [[Economia Intro]] y [[Economia - Oferta, Demanda y Mercado]], que conservan la notación y el recorte de la cátedra dentro del vault.
+- [Economia Intro](Economia%20Intro.md) y [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md), que conservan la notación y el recorte de la cátedra dentro del vault.
 
 ---
 
@@ -811,8 +811,8 @@ El segmento menos elástico paga el precio más alto.
 
 **Misma materia (Economia)**
 
-- [[Economia - Oferta, Demanda y Mercado]] - desarrolla oferta, demanda, equilibrio, controles de precios, excedente del consumidor y elasticidades usados en GP1 y GP2
-- [[Economia Intro]] - aporta costo de oportunidad, análisis marginal y el mapa general que conecta consumidor, productor y mercados
-- [[Materia - Economia]] - nota índice de la materia y acceso al resto de los apuntes
+- [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) - desarrolla oferta, demanda, equilibrio, controles de precios, excedente del consumidor y elasticidades usados en GP1 y GP2
+- [Economia Intro](Economia%20Intro.md) - aporta costo de oportunidad, análisis marginal y el mapa general que conecta consumidor, productor y mercados
+- [Materia - Economia](Materia%20-%20Economia.md) - nota índice de la materia y acceso al resto de los apuntes
 
 <!-- notas-relacionadas:fin -->

@@ -11,44 +11,44 @@ temas:
 # Hidrólisis
 
 Las sales puede actuar como ácidos o bases
-![[Pasted image 20260501111339.png]]
+![](Attachments/Pasted%20image%2020260501111339.png)
 las sales estan formadas por un ion positivo que es el acido conjugado de una base y por el negativo que es la base conjugada
 la reaccion se llama **HIDROLISIS**
 
 ## Sales que no hidrolizan
-![[Pasted image 20260501111717.png]]
+![](Attachments/Pasted%20image%2020260501111717.png)
 
 los conjugados de los fuertes no puede volver para atras (no puede hacer hidrolisis) 
 ## Hidrolisis: reacción de aniones
-![[Pasted image 20260501112152.png]]
+![](Attachments/Pasted%20image%2020260501112152.png)
 las dos especies deben coexistir siempre que se pueda 
-![[Pasted image 20260501112400.png]]
+![](Attachments/Pasted%20image%2020260501112400.png)
 ## Constante de Hidrolisis basica $K_{h,b}$
-![[Pasted image 20260501112701.png]]
-![[Pasted image 20260501112850.png]]
-![[Pasted image 20260501112903.png]]
+![](Attachments/Pasted%20image%2020260501112701.png)
+![](Attachments/Pasted%20image%2020260501112850.png)
+![](Attachments/Pasted%20image%2020260501112903.png)
 Kw es la constante del agua
 
 ### Calculo de pH
-![[Pasted image 20260501112937.png]]
+![](Attachments/Pasted%20image%2020260501112937.png)
 un lado se resta e otro se suma
-![[Pasted image 20260501113016.png]]
-![[Pasted image 20260501113520.png]]
+![](Attachments/Pasted%20image%2020260501113016.png)
+![](Attachments/Pasted%20image%2020260501113520.png)
 tiene sentido que el pH > 7 ya que se esta hablando de una base
 
 ## Hidrolisis: reaccion de cationes
 
-![[Pasted image 20260501113635.png]]
-![[Pasted image 20260501113743.png]]
+![](Attachments/Pasted%20image%2020260501113635.png)
+![](Attachments/Pasted%20image%2020260501113743.png)
 ## constante de hidrolisis acida $K_{h,a}$
-![[Pasted image 20260501113852.png]]
+![](Attachments/Pasted%20image%2020260501113852.png)
 ### Calculo de pH
-![[Pasted image 20260501113936.png]]
-![[Pasted image 20260501113944.png]]
+![](Attachments/Pasted%20image%2020260501113936.png)
+![](Attachments/Pasted%20image%2020260501113944.png)
 
 ## ambos iones en simultaneo
-![[Pasted image 20260501114306.png]]
-![[Pasted image 20260501114329.png]]
+![](Attachments/Pasted%20image%2020260501114306.png)
+![](Attachments/Pasted%20image%2020260501114329.png)
 
 ---
 
@@ -58,9 +58,9 @@ tiene sentido que el pH > 7 ya que se esta hablando de una base
 
 **Misma materia (Química)**
 
-- [[Equilibrio Quimico]] — constante de equilibrio
-- [[Buffer]] — soluciones reguladoras
-- [[Curva de Titulacion]] — titulación ácido-base
-- [[Resumen Segundo Parcial Química]] — resumen del segundo parcial
+- [Equilibrio Quimico](Equilibrio%20Quimico.md) — constante de equilibrio
+- [Buffer](Buffer.md) — soluciones reguladoras
+- [Curva de Titulacion](Curva%20de%20Titulacion.md) — titulación ácido-base
+- [Resumen Segundo Parcial Química](Resumen%20Segundo%20Parcial%20Química.md) — resumen del segundo parcial
 
 <!-- notas-relacionadas:fin -->

@@ -5,11 +5,11 @@ Materia: "[[ arqui.base |Aqrui]]"
 categories:
   - "[[ITBA.base|ITBA]]"
 ---
-![[image 337.png]]
+![](Attachments/image%20337.png)
 
 ## Rutina de atención de interrupción
 
-![[image 338.png]]
+![](Attachments/image%20338.png)
 
 IRET = interrupt return. funciona igual que el ret, vuelve a la siguiente instrucción
 
@@ -17,7 +17,7 @@ IRET = interrupt return. funciona igual que el ret, vuelve a la siguiente instru
 
 estas las de hardware y las de software
 
-![[image 339.png]]
+![](Attachments/image%20339.png)
 
 la INTR se puede ignorar mientras que la NMI no (ej: bateria)
 
@@ -25,7 +25,7 @@ la INTR se puede ignorar mientras que la NMI no (ej: bateria)
 
 se habilitan y deshabilitan con sti y cli
 
-![[image 340.png]]
+![](Attachments/image%20340.png)
 
 ### PIC (controlador programable de interrupciones)
 
@@ -37,23 +37,23 @@ IDT = interrupt descriptor table. tabla con todas las interrupciones
 
 ## Interrupciones de software
 
-![[image 341.png]]
+![](Attachments/image%20341.png)
 
 el numero es la posicion en la tabla de interrupciones (en el syscall dispatcher)
 
 ### servicio de las Bios
 
-![[image 342.png]]
+![](Attachments/image%20342.png)
 
-![[image 343.png]]
+![](Attachments/image%20343.png)
 
 # Excepciones
 
-![[image 344.png]]
+![](Attachments/image%20344.png)
 
 igual que las interrupciones pero generadas por el procesador. el procesador se interrumpe a si mismo
 
-![[image 345.png]]
+![](Attachments/image%20345.png)
 
 las detecta el procesador porque cuando se esta corriendo una instruccion el sistema operativo no lo puede ver eso
 
@@ -65,8 +65,8 @@ las detecta el procesador porque cuando se esta corriendo una instruccion el sis
 
 **Misma materia (Arqui)**
 
-- [[Interrupciones]] — tema principal
-- [[Clase 4 Intro transmisión Digital]] — dispositivos que interrumpen
-- [[Resumen Arqui]] — resumen integrador
+- [Interrupciones](Interrupciones.md) — tema principal
+- [Clase 4 Intro transmisión Digital](Clase%204%20Intro%20transmisión%20Digital.md) — dispositivos que interrumpen
+- [Resumen Arqui](Resumen%20Arqui.md) — resumen integrador
 
 <!-- notas-relacionadas:fin -->

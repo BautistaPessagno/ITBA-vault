@@ -28,7 +28,7 @@ La shell es un proceso como cualquier otro, no es un proceso especial del kernel
 
 ## Maquina Extendida
 
-![[image 169.png]]
+![](Attachments/image%20169.png)
 
 Oculta el hardware y ofrecer una interfaz limpia, elegante y consistente al programador
 
@@ -49,26 +49,26 @@ administrar un recurso incluye **multiplexar** estos recursos:
 
 # Revision Hardware
 
-![[Captura_de_pantalla_2025-08-07_a_la(s)_14.48.26.png]]
+![](Attachments/Captura_de_pantalla_2025-08-07_a_la%28s%29_14.48.26.png)
 
 ## Procesador
 
-![[image 170.png]]
+![](Attachments/image%20170.png)
 
-![[image 171.png]]
+![](Attachments/image%20171.png)
 
-![[image 172.png]]
+![](Attachments/image%20172.png)
 
 - Multithreding: Mantener el estado de 2 threads e intercambia entre ellos rapidamente cuando sea necesario
 - Multicore: replicar los nucleos independientes. pueden soportar multiples threads
 
-![[image 173.png]]
+![](Attachments/image%20173.png)
 
 ## Memoria
 
 jerarquia de memorias
 
-![[image 174.png]]
+![](Attachments/image%20174.png)
 
 ## Dispositivos I/O
 
@@ -78,39 +78,39 @@ jerarquia de memorias
 - **Interruption:** Una vez que tiene los datos interrumpe
 - **DMA:** El una vez que tiene el dato lo guarda en un espacio en memoria
 
-![[image 175.png]]
+![](Attachments/image%20175.png)
 
 ## Booteo
 
-![[image 176.png]]
+![](Attachments/image%20176.png)
 
 ## Sistemas operativos
 
-![[Captura_de_pantalla_2025-08-07_a_la(s)_15.24.02.png]]
+![](Attachments/Captura_de_pantalla_2025-08-07_a_la%28s%29_15.24.02.png)
 
-![[image 177.png]]
+![](Attachments/image%20177.png)
 
 # System Calls
 
-![[Captura_de_pantalla_2025-08-07_a_la(s)_15.33.02.png]]
+![](Attachments/Captura_de_pantalla_2025-08-07_a_la%28s%29_15.33.02.png)
 
 es una llamada a funcion. en punto de vista del programador es lo mismo llamar a la funcion y al syscall
 
 se usa memoria dinamica solo cuando no se sabe el tamaño de la memoria que se va a necesitar
 
-![[image 178.png]]
+![](Attachments/image%20178.png)
 
 ### Posix
 
-![[image 179.png]]
+![](Attachments/image%20179.png)
 
-![[image 180.png]]
+![](Attachments/image%20180.png)
 
 ### Usos desde la shell - pseudocódigo
 
-![[image 181.png]]
+![](Attachments/image%20181.png)
 
-continuación en [[SysCall]]…
+continuación en [SysCall](SysCall.md)…
 
 ---
 
@@ -120,8 +120,8 @@ continuación en [[SysCall]]…
 
 **Misma materia (SO)**
 
-- [[Estructura de un Sistema Operativo]] — tema siguiente
-- [[Procesos]] — la abstracción central del SO
-- [[Resumen SO]] — resumen integrador
+- [Estructura de un Sistema Operativo](Estructura%20de%20un%20Sistema%20Operativo.md) — tema siguiente
+- [Procesos](Procesos.md) — la abstracción central del SO
+- [Resumen SO](Resumen%20SO.md) — resumen integrador
 
 <!-- notas-relacionadas:fin -->

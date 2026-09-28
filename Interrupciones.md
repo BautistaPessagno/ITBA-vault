@@ -23,7 +23,7 @@ se le otorga un sector de memoria al dispositivo
 
 # Interrupciones
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_09.13.27.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_09.13.27.png)
 
 corre el programa principal → interrupción de teclado(deja de correr el programa principal)→ corre el programa principal → interrupción de mouse(deja de correr el programa principal) → corre el programa → interrupción X → corre el programa
 
@@ -37,7 +37,7 @@ habla con el mosue para interpretar las instrucciones que le da
 
 ## Rutina de atención de interrupción
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_09.21.01.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_09.21.01.png)
 
 despues de la instruccion n se llama a la inerrupcion y  la siguiente instruccion a ejecutar se guarda en la pila
 
@@ -75,7 +75,7 @@ las interrupciones que ingresan por la patita NMI no se pueden enmascarar. Y sie
 
 # PIC ( controlador programable de interrupciones )
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_09.38.24.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_09.38.24.png)
 
 los fabricantes de PC agregaron el PIC el cual funiona como gestor de interrupciones
 
@@ -90,15 +90,15 @@ funciona de la siguiente manera:
 
 de ahi va al IDT (interrupt descriptor table) la cual tiene todos los punteros a funcion con la rutina a interrupcion
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_09.49.53.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_09.49.53.png)
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_09.51.15.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_09.51.15.png)
 
 el pic se cambian en el 20h y 21h 
 
 ## PIC en cascada
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_09.52.39.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_09.52.39.png)
 
 colocando 2 PICs en cascada se amplia la cantidad de interrupciones de hardware en la PC
 
@@ -106,17 +106,17 @@ En la PC, se utiliza el IRQ2 del master para conectar el Save
 
 # [Interrupciones de Software](/1e4f5e1c86fe80a1b489d9fe1c4d2d59#1e4f5e1c86fe80bbb335cd927ca700ba)
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_09.54.03.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_09.54.03.png)
 
 # Servicio de BIOS
 
 en el BIOS al iniciar la PC guarda en memoria de rutinas basicas para poder empezar a operar
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_09.54.53.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_09.54.53.png)
 
 # Interrupciones de Hardware por Default
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_09.59.06.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_09.59.06.png)
 
 # Excepciones
 
@@ -132,7 +132,7 @@ Existen 3 tipos de excepciones:
 
 ## Excepciones
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_10.03.42.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_10.03.42.png)
 
 es el procesador el que encuentra los errores en la programación
 
@@ -142,13 +142,13 @@ al cerrar programas por mal funcionamiento lo que se hace es proteger al sistema
 
 ## Conmutación de tareas
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_10.17.24.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_10.17.24.png)
 
 Todas las aplicaciones corren pero un ratito, pero va tan rapido que parece que va todo al tiempo
 
 se usa el **Timer Tick** que es un integrado que esta en la pc que interrumpe al procesador cada cierta cantidad de tiempo
 
-![[Captura_de_pantalla_2025-05-21_a_la(s)_20.49.44.png]]
+![](Attachments/Captura_de_pantalla_2025-05-21_a_la%28s%29_20.49.44.png)
 
 el SO es un tarea mas que se lo llama en los errores/interrupciones/etc
 
@@ -156,19 +156,19 @@ no tienen las mismas reglas que las otras tareas sino que tiene mas control
 
 ## Modo Protegido- Proteccion de Tareas
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_10.44.27.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_10.44.27.png)
 
 ### Memory management Unit (MMU)
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_10.44.16.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_10.44.16.png)
 
 - La unidad de segmentacion NO se puede deshabilitar
 - La unidad de paginacion SI se puede deshabilitar
-![[Captura_de_pantalla_2025-04-29_a_la(s)_10.59.18.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_10.59.18.png)
 
 ### GDT y LDT
 
-![[Captura_de_pantalla_2025-04-29_a_la(s)_11.01.05.png]]
+![](Attachments/Captura_de_pantalla_2025-04-29_a_la%28s%29_11.01.05.png)
 
 tiene que haber un puntero por cada espacio de memoria
 
@@ -184,13 +184,13 @@ esta tabla es importante ya que antes de hacer un acceso a me memoria se fija en
 
 **Misma materia (Arqui)**
 
-- [[Interrupciones 1]] — continuación del tema
-- [[Clase 4 Intro transmisión Digital]] — E/S por interrupciones vs polling
-- [[Modo protegido]] — cambio de contexto y privilegio
+- [Interrupciones 1](Interrupciones%201.md) — continuación del tema
+- [Clase 4 Intro transmisión Digital](Clase%204%20Intro%20transmisión%20Digital.md) — E/S por interrupciones vs polling
+- [Modo protegido](Modo%20protegido.md) — cambio de contexto y privilegio
 
 **Otras materias**
 
-- **SO**  [[Scheduling]] — el timer que dispara el cambio de proceso
-- **SO**  [[SysCall]] — la interrupción de software que entra al kernel
+- **SO**  [Scheduling](Scheduling.md) — el timer que dispara el cambio de proceso
+- **SO**  [SysCall](SysCall.md) — la interrupción de software que entra al kernel
 
 <!-- notas-relacionadas:fin -->

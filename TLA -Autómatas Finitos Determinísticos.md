@@ -359,13 +359,13 @@ $$pE_{n+1}q \iff \forall a \in \Sigma: \delta(p, a) E_n \delta(q, a)$$
 
 **Misma materia (TLA)**
 
-- [[TLA -Autómatas Finitos No Determinísticos]] — tema siguiente
-- [[TLA -Expresiones Regulares]] — equivalencia ER-AF
-- [[TLA -Lenguajes Regulares]] — qué reconocen
+- [TLA -Autómatas Finitos No Determinísticos](TLA%20-Autómatas%20Finitos%20No%20Determinísticos.md) — tema siguiente
+- [TLA -Expresiones Regulares](TLA%20-Expresiones%20Regulares.md) — equivalencia ER-AF
+- [TLA -Lenguajes Regulares](TLA%20-Lenguajes%20Regulares.md) — qué reconocen
 
 **Otras materias**
 
-- **Arqui**  [[Integrados Compuertas y decodificadores]] — circuito secuencial = AFD en hardware
-- **Protos**  [[5. Protos - Transporte]] — TCP se especifica como máquina de estados
+- **Arqui**  [Integrados Compuertas y decodificadores](Integrados%20Compuertas%20y%20decodificadores.md) — circuito secuencial = AFD en hardware
+- **Protos**  [5. Protos - Transporte](5.%20Protos%20-%20Transporte.md) — TCP se especifica como máquina de estados
 
 <!-- notas-relacionadas:fin -->

@@ -387,12 +387,12 @@ Cuando un esquema tiene **redundancia de datos**, surgen tres tipos de anomalía
 
 **Misma materia (BD)**
 
-- [[BD clase 9 SQL avanzado consultas]] — clase anterior
-- [[BD clase 12 normalizacion parte 2]] — continuación
-- [[BD clase 3 modelo relacional]] — claves y restricciones
+- [BD clase 9 SQL avanzado consultas](BD%20clase%209%20SQL%20avanzado%20consultas.md) — clase anterior
+- [BD clase 12 normalizacion parte 2](BD%20clase%2012%20normalizacion%20parte%202.md) — continuación
+- [BD clase 3 modelo relacional](BD%20clase%203%20modelo%20relacional.md) — claves y restricciones
 
 **Otras materias**
 
-- **EDA**  [[EDA - Algoritmos y Complejidad]] — el cierre de atributos es lineal en |F|, mientras que calcular F⁺ es exponencial en la cantidad de atributos
+- **EDA**  [EDA - Algoritmos y Complejidad](EDA%20-%20Algoritmos%20y%20Complejidad.md) — el cierre de atributos es lineal en |F|, mientras que calcular F⁺ es exponencial en la cantidad de atributos
 
 <!-- notas-relacionadas:fin -->

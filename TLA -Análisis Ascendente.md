@@ -526,9 +526,9 @@ y los lookaheads $c/d$ y $\$$ se combinan como $c/d/\$$.
 
 **Misma materia (TLA)**
 
-- [[TLA -Análisis Sintáctico]] — tema anterior
-- [[TLA -Análisis Semántico]] — tema siguiente
-- [[TLA -Autómatas de Pila]] — el autómata LR(0)
-- [[frontend]] — Bison genera un parser LALR
+- [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md) — tema anterior
+- [TLA -Análisis Semántico](TLA%20-Análisis%20Semántico.md) — tema siguiente
+- [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md) — el autómata LR(0)
+- [frontend](frontend.md) — Bison genera un parser LALR
 
 <!-- notas-relacionadas:fin -->

@@ -166,7 +166,7 @@ Acciones ante violación: rechazar la inserción o informar error e intentar rep
 - Si una clave candidata se define semánticamente antes de poblar, ¿cómo se maneja el caso de descubrir que una clave elegida no es realmente minimal tras insertar datos?
 
 # Guia
-[[Mapeo del diagrama MER al modelo relacional]]
+[Mapeo del diagrama MER al modelo relacional](Mapeo%20del%20diagrama%20MER%20al%20modelo%20relacional.md)
 
 ---
 
@@ -176,12 +176,12 @@ Acciones ante violación: rechazar la inserción o informar error e intentar rep
 
 **Misma materia (BD)**
 
-- [[BD clase 2 modelo entidad relacion]] — clase anterior
-- [[BD clase 4 mapeo EER a relacional]] — clase siguiente
-- [[BD clase 5 algebra relacional]] — operaciones sobre el modelo
+- [BD clase 2 modelo entidad relacion](BD%20clase%202%20modelo%20entidad%20relacion.md) — clase anterior
+- [BD clase 4 mapeo EER a relacional](BD%20clase%204%20mapeo%20EER%20a%20relacional.md) — clase siguiente
+- [BD clase 5 algebra relacional](BD%20clase%205%20algebra%20relacional.md) — operaciones sobre el modelo
 
 **Otras materias**
 
-- **PI**  [[PI - TAD en C]] — esquema como tipo abstracto de datos
+- **PI**  [PI - TAD en C](PI%20-%20TAD%20en%20C.md) — esquema como tipo abstracto de datos
 
 <!-- notas-relacionadas:fin -->

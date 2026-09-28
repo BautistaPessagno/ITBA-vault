@@ -7,7 +7,7 @@ temas:
   - Cadenas
   - Lenguajes
 ---
-def en [[TLA intro#Alfabeto]]
+def en la intro de TLA
 
 ---
 
@@ -17,7 +17,7 @@ def en [[TLA intro#Alfabeto]]
 
 **Misma materia (TLA)**
 
-- [[TLA -intro resumen]] — definición de alfabeto y cadenas
-- [[TLA -Lenguajes Regulares]] — lenguajes sobre un alfabeto
+- [TLA -intro resumen](TLA%20-intro%20resumen.md) — definición de alfabeto y cadenas
+- [TLA -Lenguajes Regulares](TLA%20-Lenguajes%20Regulares.md) — lenguajes sobre un alfabeto
 
 <!-- notas-relacionadas:fin -->

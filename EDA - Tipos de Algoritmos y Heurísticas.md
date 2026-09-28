@@ -68,7 +68,7 @@ Almacena subresultados ya calculados para reutilizarlos en lugar de recalcularlo
 - ¿Cuándo Greedy no da el óptimo global?
 - ¿Por qué Fibonacci se beneficia de programación dinámica?
 
-[[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+[Data Structures and Algorithms](Categories/Data%20Structures%20and%20Algorithms.base)
 
 ---
 
@@ -78,12 +78,12 @@ Almacena subresultados ya calculados para reutilizarlos en lugar de recalcularlo
 
 **Misma materia (EDA)**
 
-- [[EDA - Algoritmos y Complejidad]] — por qué hacen falta heurísticas
-- [[EDA - Grafos]] — greedy y backtracking sobre grafos
+- [EDA - Algoritmos y Complejidad](EDA%20-%20Algoritmos%20y%20Complejidad.md) — por qué hacen falta heurísticas
+- [EDA - Grafos](EDA%20-%20Grafos.md) — greedy y backtracking sobre grafos
 
 **Otras materias**
 
-- **Discrete Math**  [[Discrete Math - Coloreo]] — coloreo greedy y backtracking
-- **PI**  [[PI - Recursividad en C]] — backtracking y divide y conquista
+- **Discrete Math**  [Discrete Math - Coloreo](Discrete%20Math%20-%20Coloreo.md) — coloreo greedy y backtracking
+- **PI**  [PI - Recursividad en C](PI%20-%20Recursividad%20en%20C.md) — backtracking y divide y conquista
 
 <!-- notas-relacionadas:fin -->

@@ -74,7 +74,7 @@ public int hashCode() {
 - ¿Qué pasa si no se implementa `hashCode` al sobreescribir `equals`?
 - ¿Cuándo se rehashea y qué costo tiene?
 
-[[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+[Data Structures and Algorithms](Categories/Data%20Structures%20and%20Algorithms.base)
 
 ---
 
@@ -84,12 +84,12 @@ public int hashCode() {
 
 **Misma materia (EDA)**
 
-- [[EDA - Listas Lineales]] — encadenamiento para colisiones
+- [EDA - Listas Lineales](EDA%20-%20Listas%20Lineales.md) — encadenamiento para colisiones
 
 **Otras materias**
 
-- **BD**  [[BD clase 16 programacion embebida]] — índices hash
-- **POO**  [[POO - Colecciones Java]] — HashMap y HashSet
-- **POO**  [[POO - Colecciones Ruby]] — Hash en Ruby
+- **BD**  [BD clase 16 programacion embebida](BD%20clase%2016%20programacion%20embebida.md) — índices hash
+- **POO**  [POO - Colecciones Java](POO%20-%20Colecciones%20Java.md) — HashMap y HashSet
+- **POO**  [POO - Colecciones Ruby](POO%20-%20Colecciones%20Ruby.md) — Hash en Ruby
 
 <!-- notas-relacionadas:fin -->

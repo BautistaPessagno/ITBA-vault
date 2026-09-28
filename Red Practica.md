@@ -14,7 +14,7 @@ Materia: "[[protos.base|protos]]"
 
 hacer `ping` es un paquete ICMP
 
-![[Pasted image 20260427105606.png]]
+![](Attachments/Pasted%20image%2020260427105606.png)
 
 esta el TTL el cual es el time to live y despues se tira
 
@@ -110,7 +110,7 @@ lo prendemos
 sudo sysctl net.ipv4.ip_forward=1
 ```
 
-usamos [[6. Protos Red -resumen claude#10. NAT - SNAT (Source NAT) |NAT]] en R
+usamos [NAT](_Claude/Output/6.%20Protos%20Red%20-resumen%20claude.md#10.%20NAT%20-%20SNAT%20%28Source%20NAT%29) en R
 ```shell
 sudo -i
 iptables -t nat -L
@@ -235,10 +235,10 @@ H ──(default via 192.168.101.1)──► R ──(MASQUERADE en enp0s8)─�
 
 **Misma materia (Protos)**
 
-- [[6. Protos - Red]] — teoría de esta práctica
-- [[IP practica]] — direccionamiento IP
-- [[DHCP Practica]] — DHCP
-- [[Routing Practica]] — tablas de ruteo
-- [[Analisis Wireshark]] — capturas de ARP e ICMP
+- [6. Protos - Red](6.%20Protos%20-%20Red.md) — teoría de esta práctica
+- [IP practica](IP%20practica.md) — direccionamiento IP
+- [DHCP Practica](DHCP%20Practica.md) — DHCP
+- [Routing Practica](Routing%20Practica.md) — tablas de ruteo
+- [Analisis Wireshark](Analisis%20Wireshark.md) — capturas de ARP e ICMP
 
 <!-- notas-relacionadas:fin -->

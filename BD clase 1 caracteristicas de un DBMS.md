@@ -120,10 +120,10 @@ El DBMS garantiza que todos los estados sean válidos respecto al esquema.
 
 **Misma materia (BD)**
 
-- [[BD clase 2 modelo entidad relacion]] — clase siguiente
+- [BD clase 2 modelo entidad relacion](BD%20clase%202%20modelo%20entidad%20relacion.md) — clase siguiente
 
 **Otras materias**
 
-- **SO**  [[File System]] — por qué un DBMS y no archivos planos
+- **SO**  [File System](File%20System.md) — por qué un DBMS y no archivos planos
 
 <!-- notas-relacionadas:fin -->

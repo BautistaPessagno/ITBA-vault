@@ -27,7 +27,7 @@ temas:
 > **Dataset elegido:** Insurance Charges (Kaggle) — predecir `charges`, el costo médico anual
 > **Código:** `ML TP1/TP1_insurance.ipynb` (notebook ejecutado, junto a `insurance.csv`)
 
-Preguntas anticipadas y sus respuestas → [[ML TP1 - Preguntas de defensa]]
+Preguntas anticipadas y sus respuestas → [ML TP1 - Preguntas de defensa](ML%20TP1%20-%20Preguntas%20de%20defensa.md)
 
 ## Checklist de la consigna
 
@@ -60,7 +60,7 @@ Los tres conjuntos tienen **roles distintos**, y confundirlos es el error clási
 **Por qué hacen falta los tres:** el error de train no mide generalización — un modelo con suficiente complejidad memoriza el training set y tiene error casi nulo mientras falla en datos nuevos. Por eso hace falta un conjunto que el modelo nunca vio. Y hacen falta **dos** conjuntos separados porque *cada vez que usamos un conjunto para decidir algo, lo contaminamos*: si elegimos el grado del polinomio mirando el test, el test deja de ser una estimación honesta.
 
 > [!tip] La frase que resume todo
-> **El dev elige, el test estima.** Ver [[ML Clase 2 - Datos, variables, overfitting y métricas#6.3 Train vs Dev vs Test|Clase 2 §6.3]].
+> **El dev elige, el test estima.** Ver [Clase 2 §6.3](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md#6.3%20Train%20vs%20Dev%20vs%20Test).
 
 **Cross-validation (k-fold):** en vez de partir el train en un único train/dev — que desperdicia datos y depende de la suerte de esa partición — lo partimos en $k$ folds y rotamos: entrenamos con $k-1$ y validamos con el restante, $k$ veces. El error de validación es el promedio de los $k$, y la **dispersión entre folds** nos dice cuán confiable es esa estimación. Es lo indicado con datasets chicos como éste.
 
@@ -119,7 +119,7 @@ Sí aparece **1 fila exactamente duplicada**, que eliminamos: una fila repetida 
 
 ### 1.4 Características y escalado
 
-**Features incluidas: todas.** Son sólo 6 variables — no hay problema de dimensionalidad y ninguna es redundante. Además, la regularización L1 del punto 3.3 poda automáticamente lo que no sirva, así que dejamos que el modelo decida en vez de descartar a mano. (Ver [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas#Selección de características|Clase 3 — feature selection]].)
+**Features incluidas: todas.** Son sólo 6 variables — no hay problema de dimensionalidad y ninguna es redundante. Además, la regularización L1 del punto 3.3 poda automáticamente lo que no sirva, así que dejamos que el modelo decida en vez de descartar a mano. (Ver [Clase 3 — feature selection](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md#Selección%20de%20características).)
 
 **Escalado: `StandardScaler` (z-score), dentro del pipeline.**
 
@@ -132,7 +132,7 @@ Sí aparece **1 fila exactamente duplicada**, que eliminamos: una fila repetida 
 
 ### El hallazgo del EDA
 
-![[ML-TP1-eda.png]]
+![](Attachments/ML-TP1-eda.png)
 
 - En **`age vs charges`** se ven **tres bandas paralelas** → hay estructura que un lineal simple no captura del todo.
 - En **`bmi vs charges`** el efecto del BMI se dispara **sólo en fumadores**, y a partir de BMI ≈ 30. Eso es una **interacción `bmi × smoker`**: justo el tipo de término que la transformación polinómica del punto 3 puede representar y el modelo aditivo lineal no. **Ésta es la razón por la que el grado 2 gana.**
@@ -211,7 +211,7 @@ El grado 3 tiene el **menor error de train de todos** y el peor de validación e
 
 $$J(w) = \underbrace{\frac{1}{2n}\sum(y_i-\hat{y}_i)^2}_{\text{error}} + \underbrace{\lambda\sum_j |w_j|}_{\text{penalización L1}}$$
 
-Con L1 la penalización es sobre el **valor absoluto** de los pesos, lo que empuja varios coeficientes exactamente a **cero** → hace *feature selection* automática. Útil justo acá, donde el grado 3 genera 164 features de las que muchas son ruido. (Detalle en [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas#L1 (Lasso)|Clase 3 — L1]].)
+Con L1 la penalización es sobre el **valor absoluto** de los pesos, lo que empuja varios coeficientes exactamente a **cero** → hace *feature selection* automática. Útil justo acá, donde el grado 3 genera 164 features de las que muchas son ruido. (Detalle en [Clase 3 — L1](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md#L1%20%28Lasso%29).)
 
 ---
 
@@ -229,7 +229,7 @@ RMSE de validación (5-fold CV sobre train), por grado y λ:
 
 **Mejor configuración: grado 2 con Lasso λ = 10** → RMSE validación **5.021** (± 647), RMSE train 4.914, gap 107.
 
-![[ML-TP1-curvas.png]]
+![](Attachments/ML-TP1-curvas.png)
 
 **Lectura de los gráficos:**
 
@@ -252,7 +252,7 @@ Recién con el modelo **ya elegido** por CV se toca el test, una sola vez.
 | RMSE validación (CV) | 5.021 |
 | Baseline (predecir la media) | 12.013 → el modelo reduce el error un **68 %** |
 
-![[ML-TP1-test.png]]
+![](Attachments/ML-TP1-test.png)
 
 ### 1. ¿Qué modelo obtuvo menor error?
 
@@ -291,7 +291,7 @@ Con sólo 268 muestras de test, un único número es **ruido de muestreo**: nos 
 
 - El error **no es uniforme**: el modelo es bastante preciso en no fumadores y mucho menos en fumadores, donde los costos son más altos y dispersos (se ve en el gráfico de residuos).
 - Sólo vale para poblaciones **similares a la de entrenamiento** (EE.UU., 18–64 años). Fuera de ese rango el modelo extrapola, y un polinomio extrapola mal.
-- Faltan variables de peso (historia clínica, patologías previas): parte del error es **ruido irreducible por información faltante** — no se arregla con más datos del mismo tipo. Ver [[ML Clase 2 - Datos, variables, overfitting y métricas#7.2 Tres tipos/fuentes de ruido|Clase 2 §7.2]].
+- Faltan variables de peso (historia clínica, patologías previas): parte del error es **ruido irreducible por información faltante** — no se arregla con más datos del mismo tipo. Ver [Clase 2 §7.2](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md#7.2%20Tres%20tipos/fuentes%20de%20ruido).
 
 ---
 
@@ -310,14 +310,14 @@ Con sólo 268 muestras de test, un único número es **ruido de muestreo**: nos 
 
 **Misma materia (Machine Learning)**
 
-- [[ML TP1 - Preguntas de defensa]] — preguntas anticipadas de la defensa con sus respuestas
-- [[ML Clase 2 - Datos, variables, overfitting y métricas]] — de acá salen los data splits, el k-fold, el criterio de outliers y el generalization gap que el TP aplica
-- [[ML Clase 3 - EDA, Feature selection, Regularización y Métricas]] — el EDA, el escalado z-score y la regularización L1 del punto 3.3 son literalmente esta clase puesta en código
-- [[Terminologia ML]] — el grado del polinomio y λ son **hiperparámetros** (se eligen en validación), los pesos $w$ son **parámetros** (se aprenden en train)
-- [[Materia - Machine Learning]] — índice de la materia
+- [ML TP1 - Preguntas de defensa](ML%20TP1%20-%20Preguntas%20de%20defensa.md) — preguntas anticipadas de la defensa con sus respuestas
+- [ML Clase 2 - Datos, variables, overfitting y métricas](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md) — de acá salen los data splits, el k-fold, el criterio de outliers y el generalization gap que el TP aplica
+- [ML Clase 3 - EDA, Feature selection, Regularización y Métricas](ML%20Clase%203%20-%20EDA,%20Feature%20selection,%20Regularización%20y%20Métricas.md) — el EDA, el escalado z-score y la regularización L1 del punto 3.3 son literalmente esta clase puesta en código
+- [Terminologia ML](Terminologia%20ML.md) — el grado del polinomio y λ son **hiperparámetros** (se eligen en validación), los pesos $w$ son **parámetros** (se aprenden en train)
+- [Materia - Machine Learning](Materia%20-%20Machine%20Learning.md) — índice de la materia
 
 **Otras materias**
 
-- **MNA** — [[Resumen MNA]] — cuadrados mínimos y ecuaciones normales $A^\top A x = A^\top b$: la regresión lineal de este TP es exactamente ese sistema, y Ridge (L2) es el mismo con $\lambda I$ sumado para estabilizarlo
+- **MNA** — [Resumen MNA](Resumen%20MNA.md) — cuadrados mínimos y ecuaciones normales $A^\top A x = A^\top b$: la regresión lineal de este TP es exactamente ese sistema, y Ridge (L2) es el mismo con $\lambda I$ sumado para estabilizarlo
 
 <!-- notas-relacionadas:fin -->

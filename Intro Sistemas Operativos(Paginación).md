@@ -24,7 +24,7 @@ Interposición (interceptar acciones)
 
 # Memoria Virtual
 
-![[Captura_de_pantalla_2025-05-20_a_la(s)_10.45.04.png]]
+![](Attachments/Captura_de_pantalla_2025-05-20_a_la%28s%29_10.45.04.png)
 
 muchas direcciones virtuales y pocas fisica (mucho para dar y poco para recibir)
 
@@ -32,9 +32,9 @@ se le agrego la [MMU](/1f2f5e1c86fe80598e5ac5e320b0c1ab#1f2f5e1c86fe805a8e12e649
 
 ## Direccionamiento Fisico
 
-![[Captura_de_pantalla_2025-05-20_a_la(s)_10.48.21.png]]
+![](Attachments/Captura_de_pantalla_2025-05-20_a_la%28s%29_10.48.21.png)
 
-![[Captura_de_pantalla_2025-05-20_a_la(s)_11.41.46.png]]
+![](Attachments/Captura_de_pantalla_2025-05-20_a_la%28s%29_11.41.46.png)
 
 ## MMU - Unidad de Maneja de memoria
 
@@ -46,9 +46,9 @@ Permite:
 
 ## Direccionamiento virtual
 
-![[Captura_de_pantalla_2025-05-20_a_la(s)_11.42.31.png]]
+![](Attachments/Captura_de_pantalla_2025-05-20_a_la%28s%29_11.42.31.png)
 
-![[Captura_de_pantalla_2025-05-20_a_la(s)_11.42.41.png]]
+![](Attachments/Captura_de_pantalla_2025-05-20_a_la%28s%29_11.42.41.png)
 
 proceso de mapeo para guardar todo en paginas de tamaño predefinido
 
@@ -61,11 +61,11 @@ proceso de mapeo para guardar todo en paginas de tamaño predefinido
 
 podes tenes bastantes mapas que no se van a guardar una a continuacion de la otra
 
-![[Captura_de_pantalla_2025-05-20_a_la(s)_11.44.28.png]]
+![](Attachments/Captura_de_pantalla_2025-05-20_a_la%28s%29_11.44.28.png)
 
 ## Ejercicio ejemplo 
 
-![[Captura_de_pantalla_2025-05-20_a_la(s)_11.51.19.png]]
+![](Attachments/Captura_de_pantalla_2025-05-20_a_la%28s%29_11.51.19.png)
 
 1. Se puede pensar un promedio del largo de los procesos
 o se puede crear la pagina pensando en el proceso mas chico y luego los procesos mas grandes usan mas paginas
@@ -73,25 +73,25 @@ se busca un intermedio entre tamaño pagina y cantidad paginas
 2. si uso un tamaño de pagina de 4k entonces la cantidad de paginas es 4GB/4k
 3. se reparten las paginas que necesitan los procesos y en el momento del proceso se fija si el espacio es suficiente 
 4. Ejemplo Valles
-![[Captura_de_pantalla_2025-06-05_a_la(s)_11.00.27.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_11.00.27.png)
 
 ## Elección de Intel para 32 bits
 
-![[Captura_de_pantalla_2025-05-20_a_la(s)_12.02.05.png]]
+![](Attachments/Captura_de_pantalla_2025-05-20_a_la%28s%29_12.02.05.png)
 
 el directorio hace de indice agrupando paginas por los n indices significativos
 
 se tienen dos indices 
 
-![[Captura_de_pantalla_2025-05-20_a_la(s)_12.04.39.png]]
+![](Attachments/Captura_de_pantalla_2025-05-20_a_la%28s%29_12.04.39.png)
 
-![[Captura_de_pantalla_2025-05-20_a_la(s)_12.05.22.png]]
+![](Attachments/Captura_de_pantalla_2025-05-20_a_la%28s%29_12.05.22.png)
 
-![[Captura_de_pantalla_2025-05-20_a_la(s)_12.16.59.png]]
+![](Attachments/Captura_de_pantalla_2025-05-20_a_la%28s%29_12.16.59.png)
 
 ## Ejemplo Valles
 
-![[Captura_de_pantalla_2025-06-05_a_la(s)_11.11.47.png]]
+![](Attachments/Captura_de_pantalla_2025-06-05_a_la%28s%29_11.11.47.png)
 
 # OBS FINAL 2025 VALLES
 
@@ -119,13 +119,13 @@ ej2025: al tener **un solo nivel de indexación**, solo tiene un directorio(sin 
 
 **Misma materia (Arqui)**
 
-- [[Modo protegido]] — protección y segmentación
-- [[Memoria Cache]] — TLB como caché de traducciones
+- [Modo protegido](Modo%20protegido.md) — protección y segmentación
+- [Memoria Cache](Memoria%20Cache.md) — TLB como caché de traducciones
 
 **Otras materias**
 
-- **SO**  [[Memoria]] — gestión de memoria en el SO
-- **SO**  [[Memory Management]] — algoritmos de reemplazo
-- **SO**  [[Procesos]] — espacio de direcciones por proceso
+- **SO**  [Memoria](Memoria.md) — gestión de memoria en el SO
+- **SO**  [Memory Management](Memory%20Management.md) — algoritmos de reemplazo
+- **SO**  [Procesos](Procesos.md) — espacio de direcciones por proceso
 
 <!-- notas-relacionadas:fin -->

@@ -7,9 +7,9 @@ categories:
 ---
 al principio no existia el de 64 bits sino que eran alrgues del de 32
 
-![[image 184.png]]
+![](Attachments/image%20184.png)
 
-![[image 185.png]]
+![](Attachments/image%20185.png)
 
 una arquitectura es la misma cuando compartes las instrucciones
 
@@ -19,77 +19,77 @@ micro arquitectura= implementación de la arquitectura
 
 define donde va a terminar el procesador (mobil, computadora, heladera, etc)
 
-![[image 186.png]]
+![](Attachments/image%20186.png)
 
-![[image 187.png]]
+![](Attachments/image%20187.png)
 
 ## Pentium
 
-![[image 188.png]]
+![](Attachments/image%20188.png)
 
 al pentium le metieron paginación
 
-![[image 189.png]]
+![](Attachments/image%20189.png)
 
-![[image 190.png]]
+![](Attachments/image%20190.png)
 
-![[image 191.png]]
+![](Attachments/image%20191.png)
 
-![[image 192.png]]
+![](Attachments/image%20192.png)
 
 # ARM
 
-![[image 193.png]]
+![](Attachments/image%20193.png)
 
-![[image 194.png]]
+![](Attachments/image%20194.png)
 
 arm no crea procesadores, los diseña
 
 poco consumo y muchas instrucciones por segundo
 
-![[image 195.png]]
+![](Attachments/image%20195.png)
 
-![[image 196.png]]
+![](Attachments/image%20196.png)
 
 ## Crecimiento
 
-![[image 197.png]]
+![](Attachments/image%20197.png)
 
 SOC (sistem on a chip
 
 ## SOC (Sistem on a Chip)
 
-![[image 198.png]]
+![](Attachments/image%20198.png)
 
 esta todo integrado y es directamente una computadora en un chip, pero no se puede hacer un upgrade del sistema (ya esta todo integrado)
 
-![[image 199.png]]
+![](Attachments/image%20199.png)
 
-![[image 200.png]]
+![](Attachments/image%20200.png)
 
 ## Modos del procesador
 
-![[image 201.png]]
+![](Attachments/image%20201.png)
 
 esta el user space y el kernel space, pero hay mas detalles en cuanto al modo en el que trabaja el procesador
 
 ## Registros 
 
-![[image 202.png]]
+![](Attachments/image%20202.png)
 
 arm tiene 27 registros
 
-![[image 203.png]]
+![](Attachments/image%20203.png)
 
 ## Flags
 
-![[image 204.png]]
+![](Attachments/image%20204.png)
 
 ## Caracteristicas generales
 
 RISC
 
-![[image 205.png]]
+![](Attachments/image%20205.png)
 
 ### RISC y CISC
 
@@ -107,7 +107,7 @@ tamaño fijo de instrucciones
 
 ## Mapa de memoria ARM
 
-![[image 206.png]]
+![](Attachments/image%20206.png)
 
 las primneras estan para la ROM luego la RAM y luego los perifericos ya estan mapeados arriba, no hay mapa de ES
 
@@ -115,7 +115,7 @@ las primneras estan para la ROM luego la RAM y luego los perifericos ya estan ma
 
 no es un concepto solo de ARM, esta en todos los procesadores (Intel, amd, TODOS)
 
-![[image 207.png]]
+![](Attachments/image%20207.png)
 
 tres etapas:
 
@@ -135,13 +135,13 @@ si hay jump condicional pasa la instrucción a una sandbox para correr el códig
 
 ARM creo instrucciones condicionales
 
-![[image 208.png]]
+![](Attachments/image%20208.png)
 
-![[image 209.png]]
+![](Attachments/image%20209.png)
 
 ### Condiciones
 
-![[image 210.png]]
+![](Attachments/image%20210.png)
 
 ---
 
@@ -151,8 +151,8 @@ ARM creo instrucciones condicionales
 
 **Misma materia (Arqui)**
 
-- [[Procesadores de 64 bits]] — arquitecturas de 64 bits
-- [[ARM y GPU]] — ARM y cómputo paralelo
-- [[Assembler de Intel]] — comparación con x86
+- [Procesadores de 64 bits](Procesadores%20de%2064%20bits.md) — arquitecturas de 64 bits
+- [ARM y GPU](ARM%20y%20GPU.md) — ARM y cómputo paralelo
+- [Assembler de Intel](Assembler%20de%20Intel.md) — comparación con x86
 
 <!-- notas-relacionadas:fin -->

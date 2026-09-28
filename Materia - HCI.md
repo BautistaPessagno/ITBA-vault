@@ -14,4 +14,4 @@ temas:
 
 Interacción Humano-Computadora: fundamentos de HCI, ciencia cognitiva, diseño centrado en el usuario, usabilidad y evaluación heurística, lineamientos web.
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

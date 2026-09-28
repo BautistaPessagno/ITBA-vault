@@ -9,94 +9,94 @@ categories:
 
 para poder aplicar threads lo que se hace es aplicar computacion pararelala para poder dividir en multiples tareas al mismo tiempo
 
-![[image 301.png]]
+![](Attachments/image%20301.png)
 
 ## Que es un hilo/thread?
 
-![[image 302.png]]
+![](Attachments/image%20302.png)
 
-![[image 303.png]]
+![](Attachments/image%20303.png)
 
-![[image 304.png]]
+![](Attachments/image%20304.png)
 
 ### Ejemplo intel
 
-![[image 305.png]]
+![](Attachments/image%20305.png)
 
 # GPU
 
 en una comparación 1vs1 threads gana el CPU sobre el GPU, en un caso de 1000vs1000 gana el GPU
 
-![[image 306.png]]
+![](Attachments/image%20306.png)
 
-![[image 307.png]]
+![](Attachments/image%20307.png)
 
-![[image 308.png]]
+![](Attachments/image%20308.png)
 
 > [!note]+ ### Fabricantes de GPUs
-> ![[image 309.png]]
+> ![](Attachments/image%20309.png)
 
 ## NVIDIA- CUDA
 
-![[image 310.png]]
+![](Attachments/image%20310.png)
 
-![[image 311.png]]
+![](Attachments/image%20311.png)
 
 # Paralelización
 
 con el gpu se puede agilizar tareas que en el CPU se realizarán de manera secuencial
 
-![[image 312.png]]
+![](Attachments/image%20312.png)
 
-![[image 313.png]]
+![](Attachments/image%20313.png)
 
-![[image 314.png]]
+![](Attachments/image%20314.png)
 
 ## Ejecutar codigo cuda
 
-![[image 315.png]]
+![](Attachments/image%20315.png)
 
-![[image 316.png]]
+![](Attachments/image%20316.png)
 
-![[image 317.png]]
+![](Attachments/image%20317.png)
 
 ## Grids vs Blocks
 
-![[image 318.png]]
+![](Attachments/image%20318.png)
 
-![[image 319.png]]
+![](Attachments/image%20319.png)
 
 # Ejemplo
 
-![[image 320.png]]
+![](Attachments/image%20320.png)
 
-![[image 321.png]]
+![](Attachments/image%20321.png)
 
 # Practica
 
-![[image 322.png]]
+![](Attachments/image%20322.png)
 
 # Usos de GPU
 
-![[image 323.png]]
+![](Attachments/image%20323.png)
 
 ## Machine Learning
 
-![[image 324.png]]
+![](Attachments/image%20324.png)
 
 ## Ejemplo Titan XP
 
-![[image 325.png]]
+![](Attachments/image%20325.png)
 
 ## Hash rate
 
-![[image 326.png]]
+![](Attachments/image%20326.png)
 
-![[image 327.png]]
+![](Attachments/image%20327.png)
 
-![[image 328.png]]
+![](Attachments/image%20328.png)
 
-![[image 329.png]]
+![](Attachments/image%20329.png)
 
 ---
 
@@ -106,6 +106,6 @@ con el gpu se puede agilizar tareas que en el CPU se realizarán de manera secue
 
 **Misma materia (Arqui)**
 
-- [[ARM y GPU]] — ARM y GPU
+- [ARM y GPU](ARM%20y%20GPU.md) — ARM y GPU
 
 <!-- notas-relacionadas:fin -->

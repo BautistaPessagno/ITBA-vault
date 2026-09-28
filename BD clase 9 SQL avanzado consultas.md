@@ -248,13 +248,13 @@ Esto marca un limite claro: el punto fijo expande significativamente el poder ex
 
 **Misma materia (BD)**
 
-- [[BD clase 8 SQL consultas]] — clase anterior
-- [[BD clase 11 normalizacion parte 1]] — clase siguiente
+- [BD clase 8 SQL consultas](BD%20clase%208%20SQL%20consultas.md) — clase anterior
+- [BD clase 11 normalizacion parte 1](BD%20clase%2011%20normalizacion%20parte%201.md) — clase siguiente
 
 **Otras materias**
 
-- **Discrete Math**  [[Discrete Math - Caminos y Conexidad]] — clausura transitiva = alcanzabilidad en un grafo
-- **EDA**  [[EDA - Grafos]] — recorrer un grafo con WITH RECURSIVE
-- **PI**  [[PI - Recursividad en C]] — recursión y caso base
+- **Discrete Math**  [Discrete Math - Caminos y Conexidad](Discrete%20Math%20-%20Caminos%20y%20Conexidad.md) — clausura transitiva = alcanzabilidad en un grafo
+- **EDA**  [EDA - Grafos](EDA%20-%20Grafos.md) — recorrer un grafo con WITH RECURSIVE
+- **PI**  [PI - Recursividad en C](PI%20-%20Recursividad%20en%20C.md) — recursión y caso base
 
 <!-- notas-relacionadas:fin -->

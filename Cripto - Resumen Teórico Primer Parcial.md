@@ -70,7 +70,7 @@ temas:
 > [!abstract] Qué es esto
 > La **teoría** que entra en el primer parcial (jueves 24/09: teóricas 1 a 5, Guías 1 a 4), condensada y ordenada por clase: definiciones formales, experimentos de seguridad, teoremas con la idea de la prueba y tablas comparativas.
 >
-> Es el complemento de [[Cripto - Resumen Primer Parcial]]: aquella tiene las **recetas** para los ejercicios que se repiten; esta tiene el **por qué**. El desarrollo completo sigue en cada nota de clase, linkeada al principio de cada sección.
+> Es el complemento de [Cripto - Resumen Primer Parcial](Cripto%20-%20Resumen%20Primer%20Parcial.md): aquella tiene las **recetas** para los ejercicios que se repiten; esta tiene el **por qué**. El desarrollo completo sigue en cada nota de clase, linkeada al principio de cada sección.
 >
 > Armada desde las notas de las Clases 1 a 5, los PDFs de las teóricas y las Guías 1 a 4 con sus soluciones. Los errores de las slides ya verificados en las notas de clase van como `[!bug]`, y las cuentas nuevas de esta nota se verificaron con Python.
 
@@ -106,7 +106,7 @@ Cada clase resuelve un problema y deja abierto un supuesto, que es lo que ataca 
 
 ## 1. Clase 1 — Fundamentos y criptografía clásica
 
-Detalle: [[Criptografia y seguridad intro]] · ejercicios: [[Guia 1 - criptografia y seguridad]]
+Detalle: [Criptografia y seguridad intro](Criptografia%20y%20seguridad%20intro.md) · ejercicios: [Guia 1 - criptografia y seguridad](Guia%201%20-%20criptografia%20y%20seguridad.md)
 
 ### 1.1 Criptosistema
 
@@ -178,7 +178,7 @@ Un cifrado lineal cae con pocos pares (plano, cifrado): se plantea el sistema y 
 ---
 ## 2. Clase 2 — Secreto perfecto, seguridad computacional y cifrado simétrico
 
-Detalle: [[Criptografia y seguridad Clase 2 - Cifrado]] · Katz & Lindell, caps. 2 y 3
+Detalle: [Criptografia y seguridad Clase 2 - Cifrado](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md) · Katz & Lindell, caps. 2 y 3
 
 ### 2.1 Secreto perfecto
 
@@ -320,7 +320,7 @@ $$E: \{0,1\}^{\lvert k\rvert} \times \{0,1\}^b \rightarrow \{0,1\}^b$$
 - **Pérdida o inserción de un bloque**: ECB, CBC y CFB se resincronizan solos; OFB y CTR se desincronizan.
 - ECB conserva los **patrones** del plano (bloques iguales → cifrados iguales): corrección no implica seguridad.
 
-![[Clase 2 - Encadenamiento CBC.png|480]]
+![imagen|480](Attachments/Clase%202%20-%20Encadenamiento%20CBC.png)
 
 ### 2.9 DES, 3DES y AES
 
@@ -339,7 +339,7 @@ $$E: \{0,1\}^{\lvert k\rvert} \times \{0,1\}^b \rightarrow \{0,1\}^b$$
 - **AES**, cada ronda: **SubBytes** (S-box no lineal: **confusión**), **ShiftRows** (corre los **bytes** de cada fila) y **MixColumns** (mezcla lineal invertible de cada columna): **difusión**; **AddRoundKey** (XOR con la subclave: el **único** paso que usa la clave). Antes de las rondas hay un AddRoundKey inicial y la última ronda no tiene MixColumns. La expansión de clave **no agrega entropía**.
 
 > [!bug] "ShiftRows: permutación de bits"
-> Así lo resume la slide; son desplazamientos cíclicos de **bytes** dentro de cada fila. Ya anotado en [[Criptografia y seguridad Clase 2 - Cifrado#AES — Advanced Encryption Standard|la nota de la Clase 2]].
+> Así lo resume la slide; son desplazamientos cíclicos de **bytes** dentro de cada fila. Ya anotado en [la nota de la Clase 2](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md#AES%20—%20Advanced%20Encryption%20Standard).
 
 ### 2.10 Estado de un criptosistema
 
@@ -352,7 +352,7 @@ Un criptosistema puede ser **seguro y estar quebrado al mismo tiempo**, bajo pru
 ---
 ## 3. Clase 3 — Integridad: MACs, hash y cifrado autenticado
 
-Detalle: [[Clase 3 - Criptografia - MACs y modo autenticado]] · Katz & Lindell, cap. 4
+Detalle: [Clase 3 - Criptografia - MACs y modo autenticado](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md) · Katz & Lindell, cap. 4
 
 ### 3.1 Maleabilidad: por qué CPA no alcanza
 
@@ -450,7 +450,7 @@ $$t_0 = 0^n \qquad t_i = F_k(t_{i-1} \oplus m_i) \qquad Mac_k(m) = t_\ell$$
 | SHA-2 | 224–512 | Merkle-Damgård | vigente |
 | SHA-3 | 224–512 | **esponja** (Keccak) | vigente, FIPS 202 (2015) |
 
-![[Clase 3 - Modelo iterativo Merkle.png|420]]
+![imagen|420](Attachments/Clase%203%20-%20Modelo%20iterativo%20Merkle.png)
 
 ### 3.6 HMAC
 
@@ -460,7 +460,7 @@ $$t = H\big((k \oplus opad) \,\|\, H((k \oplus ipad) \,\|\, m)\big) \qquad ipad 
 - Su seguridad real pide que la compresión se comporte como una **PRF**, no que $H$ sea resistente a colisiones. Por eso HMAC-MD5 no está roto en la práctica aunque MD5 sí. Para diseño nuevo: HMAC-SHA-256.
 
 > [!bug] ipad y opad intercambiados en las slides
-> La teórica de la Clase 3 (y la práctica de la Clase 4) dicen $opad = \texttt{0x36}$ e $ipad = \texttt{0x5C}$. El RFC 2104 dice **$ipad = \texttt{0x36}$** (hash interno) y **$opad = \texttt{0x5C}$** (externo). La fórmula anidada está bien. Ver [[Clase 3 - Criptografia - MACs y modo autenticado|Clase 3]].
+> La teórica de la Clase 3 (y la práctica de la Clase 4) dicen $opad = \texttt{0x36}$ e $ipad = \texttt{0x5C}$. El RFC 2104 dice **$ipad = \texttt{0x36}$** (hash interno) y **$opad = \texttt{0x5C}$** (externo). La fórmula anidada está bien. Ver [Clase 3](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md).
 
 ### 3.7 Confidencialidad + integridad: cómo combinar
 
@@ -499,7 +499,7 @@ Condición que no se negocia en los dos: **el nonce no se repite nunca con la mi
 ---
 ## 4. Clase 4 — Distribución de claves, criptografía asimétrica y firma digital
 
-Detalle: [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital]] · Katz & Lindell, caps. 9 a 12
+Detalle: [Clase 4 - Criptografía - Cifrado asimétrico y Firma digital](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md) · Katz & Lindell, caps. 9 a 12
 
 ### 4.1 El problema de distribuir claves
 
@@ -539,7 +539,7 @@ El KDC genera una clave de **sesión** $k_S$ y la manda cifrada con la clave lar
 - **$\varphi$ de Euler**: $\varphi(p) = p-1$; $\varphi(p^a) = p^{a-1}(p-1)$; multiplicativa para coprimos. Para RSA: $\varphi(pq) = (p-1)(q-1)$.
 - **Teorema de Euler**: si $\gcd(a,n)=1$, $a^{\varphi(n)} \equiv 1 \pmod n$. **Fermat**: $a^{p-1} \equiv 1 \pmod p$ para $p$ primo y $p \nmid a$.
 
-> [!bug] Tres errores del repaso de álgebra (ya anotados en la [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital|Clase 4]])
+> [!bug] Tres errores del repaso de álgebra (ya anotados en la [Clase 4](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md))
 > - $\mathbb{Z}_n$ escrito como $\{1, \dots, n-1\}$: sin el 0 no hay neutro y no es grupo.
 > - "Campo canónico" de tamaño $p-1$: eso es $\mathbb{Z}_p^*$, un **grupo** multiplicativo. El cuerpo es $\mathbb{Z}_p$ entero, de tamaño $p$.
 > - Teorema de Euler sin la hipótesis $\gcd(a,n) = 1$: $2^{\varphi(4)} = 4 \equiv 0 \pmod 4$.
@@ -676,7 +676,7 @@ $$Gen: () \rightarrow PK\times SK \qquad Sign: SK \times P \rightarrow S \qquad 
 ---
 ## 5. Clase 5 — Protocolos: PKI, Needham-Schroeder, TLS y Shamir
 
-Detalle: [[Protocolos]] · Bishop, *Computer Security*, cap. 11 · RFC 8446
+Detalle: [Protocolos](Protocolos.md) · Bishop, *Computer Security*, cap. 11 · RFC 8446
 
 Un **protocolo criptográfico** combina las primitivas de una forma concreta para obtener servicios que ninguna da sola. Lo que importa para el parcial no es memorizar mensajes sino poder decir, de cada pieza, **qué garantiza y contra qué**.
 
@@ -812,7 +812,7 @@ Estos tres renglones son el V/F que se repite en 1C-2018 y 1C-2023.
 
 **Alert**: *fatal* (MAC incorrecto, mensaje inesperado: se corta) o *advertencia* (problemas de certificado: decide el receptor, por eso el navegador pregunta). **CloseNotify** evita que un corte del atacante haga pasar un mensaje **truncado** por completo.
 
-> [!bug] Lo que las slides de TLS tienen mal (detalle en [[Protocolos]])
+> [!bug] Lo que las slides de TLS tienen mal (detalle en [Protocolos](Protocolos.md))
 > - El ServerKeyExchange lleva una **firma** con la privada del servidor, no un MAC (todavía no hay clave compartida), y en TLS 1.2 **no cubre** la versión ni la suite (de ahí Logjam).
 > - El ClientKeyExchange aparece "cifrado con $K_s$", que la slide define como la **privada** del servidor: con RSA es con la **pública**; con DH, $g^b$ va en claro.
 > - La fórmula del master (`'A'`, `'BB'`, `'CCC'`) y el Finished con `ipad`/`opad` son de **SSL 3.0**; TLS 1.2 usa una PRF con HMAC-SHA256 y TLS 1.3, HKDF.
@@ -830,7 +830,7 @@ $$s = \sum_{a=1}^{t} y_a \prod_{b \neq a} \frac{-x_b}{x_a - x_b} \pmod p ,$$
 donde dividir es multiplicar por el inverso módulo $p$ (por eso $p$ tiene que ser primo: $\mathbb{Z}_p$ es cuerpo).
 
 > [!success] Por qué es seguro: secreto perfecto
-> Con $t-1$ sombras, para **cada** valor posible $s' \in \mathbb{Z}_p$ existe **exactamente un** polinomio de grado $t-1$ que pasa por esas sombras y vale $s'$ en 0. Todos los secretos siguen igual de probables: seguridad **incondicional**, como el OTP, sin depender de ningún problema difícil. (Verificado en [[Protocolos]] para el ejemplo $(3,5)$ mod 11.)
+> Con $t-1$ sombras, para **cada** valor posible $s' \in \mathbb{Z}_p$ existe **exactamente un** polinomio de grado $t-1$ que pasa por esas sombras y vale $s'$ en 0. Todos los secretos siguen igual de probables: seguridad **incondicional**, como el OTP, sin depender de ningún problema difícil. (Verificado en [Protocolos](Protocolos.md) para el ejemplo $(3,5)$ mod 11.)
 
 > [!bug] Dos errores de la slide
 > - "Un polinomio de grado $t$ se especifica con $t$ puntos" → hacen falta $t+1$; y para umbral $t$ el grado es $t-1$ (el propio ejemplo $(3,5)$ usa grado 2).
@@ -1046,21 +1046,21 @@ Todos verificados en las notas de clase; acá solo la versión corta.
 
 **Misma materia (Criptografía y Seguridad)**
 
-- [[Cripto - Resumen Primer Parcial]] — la contraparte práctica: recetas paso a paso, parciales resueltos y el banco de V/F; esta nota es la teoría que las justifica
-- [[Criptografia y seguridad intro]] — Clase 1: criptosistema, Kerckhoffs y los clásicos, desarrollados en §1
-- [[Criptografia y seguridad Clase 2 - Cifrado]] — Clase 2: secreto perfecto, OTP, PRG, EAV/CPA y modos de bloque, condensados en §2
-- [[Clase 3 - Criptografia - MACs y modo autenticado]] — Clase 3: CCA, MACs, CBC-MAC, hash, HMAC y AEAD, con los ataques implementados; base de §3
-- [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital]] — Clase 4: álgebra, DH, RSA, ElGamal, firmas y el mini-resumen de la Guía 4; base de §4
-- [[Protocolos]] — Clase 5: PKI, Needham-Schroeder, TLS y Shamir en detalle; base de §5
-- [[Guia 1 - criptografia y seguridad]] — ejercicios de clásicos, la práctica de §1.2
-- [[Materia - Criptografía y Seguridad]] — índice de la materia
+- [Cripto - Resumen Primer Parcial](Cripto%20-%20Resumen%20Primer%20Parcial.md) — la contraparte práctica: recetas paso a paso, parciales resueltos y el banco de V/F; esta nota es la teoría que las justifica
+- [Criptografia y seguridad intro](Criptografia%20y%20seguridad%20intro.md) — Clase 1: criptosistema, Kerckhoffs y los clásicos, desarrollados en §1
+- [Criptografia y seguridad Clase 2 - Cifrado](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md) — Clase 2: secreto perfecto, OTP, PRG, EAV/CPA y modos de bloque, condensados en §2
+- [Clase 3 - Criptografia - MACs y modo autenticado](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md) — Clase 3: CCA, MACs, CBC-MAC, hash, HMAC y AEAD, con los ataques implementados; base de §3
+- [Clase 4 - Criptografía - Cifrado asimétrico y Firma digital](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md) — Clase 4: álgebra, DH, RSA, ElGamal, firmas y el mini-resumen de la Guía 4; base de §4
+- [Protocolos](Protocolos.md) — Clase 5: PKI, Needham-Schroeder, TLS y Shamir en detalle; base de §5
+- [Guia 1 - criptografia y seguridad](Guia%201%20-%20criptografia%20y%20seguridad.md) — ejercicios de clásicos, la práctica de §1.2
+- [Materia - Criptografía y Seguridad](Materia%20-%20Criptografía%20y%20Seguridad.md) — índice de la materia
 
 **Otras materias**
 
-- **Machine Learning** — [[ML Clase 6 - GDA y Naive Bayes]] — el mismo teorema de Bayes con prior y posterior: el secreto perfecto es exactamente pedir que la posterior $\Pr[M \mid C]$ sea igual al prior $\Pr[M]$
-- **EDA** — [[EDA - Hashing]] — misma palabra, otra exigencia: al hash de una tabla le alcanza con repartir uniforme; al criptográfico se le pide que encontrar colisiones sea inviable (§3.5)
-- **Protos** — [[2. Protos - HTTP]] — HTTPS es TLS: certificados, (EC)DHE, Finished y AEAD de §5.4 funcionando juntos
-- **Protos** — [[9. Protos - SSH]] — SSH hace el DH autenticado de §4.3 (firma del intercambio con la host key) sin PKI jerárquica
-- **Discrete Math** — [[Discrete Math - Caminos y Conexidad]] — las $\frac{N(N-1)}{2}$ claves de a pares de §4.1 son las aristas del grafo completo $K_N$
+- **Machine Learning** — [ML Clase 6 - GDA y Naive Bayes](ML%20Clase%206%20-%20GDA%20y%20Naive%20Bayes.md) — el mismo teorema de Bayes con prior y posterior: el secreto perfecto es exactamente pedir que la posterior $\Pr[M \mid C]$ sea igual al prior $\Pr[M]$
+- **EDA** — [EDA - Hashing](EDA%20-%20Hashing.md) — misma palabra, otra exigencia: al hash de una tabla le alcanza con repartir uniforme; al criptográfico se le pide que encontrar colisiones sea inviable (§3.5)
+- **Protos** — [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) — HTTPS es TLS: certificados, (EC)DHE, Finished y AEAD de §5.4 funcionando juntos
+- **Protos** — [9. Protos - SSH](9.%20Protos%20-%20SSH.md) — SSH hace el DH autenticado de §4.3 (firma del intercambio con la host key) sin PKI jerárquica
+- **Discrete Math** — [Discrete Math - Caminos y Conexidad](Discrete%20Math%20-%20Caminos%20y%20Conexidad.md) — las $\frac{N(N-1)}{2}$ claves de a pares de §4.1 son las aristas del grafo completo $K_N$
 
 <!-- notas-relacionadas:fin -->

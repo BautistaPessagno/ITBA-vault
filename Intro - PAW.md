@@ -30,13 +30,13 @@ temas:
 
 ## Cliente - Servidor HTTP
 
-![[Pasted image 20260803194318.png]]
+![](Attachments/Pasted%20image%2020260803194318.png)
 
 El browser (cliente) y el HTTP server hablan HTTP; el body viaja en HTML. Puerto **80** por default.
 
 ## El Application Container usa Reflection
 
-![[Pasted image 20260803204815.png]]
+![](Attachments/Pasted%20image%2020260803204815.png)
 
 El contenedor no conoce mi servlet en compile-time: lo instancia por **reflection**, a partir del nombre de clase que yo declaro como texto en `web.xml`. Es el mismo mecanismo que cargar un driver JDBC:
 
@@ -82,7 +82,7 @@ Reflection + el contrato de `web.xml` permiten que la aplicación sea **autocont
 
 ## JAR (Java ARchive)
 
-![[Pasted image 20260803205932.png]]
+![](Attachments/Pasted%20image%2020260803205932.png)
 
 Empaqueta clases compiladas respetando la estructura de paquetes:
 
@@ -100,7 +100,7 @@ java -jar myprogram.jar
 
 ## WAR (Web ARchive)
 
-![[Pasted image 20260803210301.png]]
+![](Attachments/Pasted%20image%2020260803210301.png)
 
 ```
 miapp.war
@@ -132,19 +132,19 @@ miapp.war
 
 ## Frameworks
 
-![[Pasted image 20260803212557.png]]
+![](Attachments/Pasted%20image%2020260803212557.png)
 
 Ediciones de Java: SE (Standard), ME (Mobile), EE (Enterprise) — EE es la que trae las specs de servlets/web. Frameworks web más viejos como **Struts** o **Tapestry** pedían que tus clases heredaran de clases del framework o implementaran sus interfaces. La idea de **Convention over Configuration** (menos XML, más defaults razonables) es lo que después empuja a Spring y a Spring Boot.
 
 Hoy el estándar de facto es **Spring Framework**. Es modular: yo elijo qué partes uso (Spring MVC, Spring Data, Spring Security, etc.), no es todo o nada.
 
-![[Pasted image 20260803213246.png]]
+![](Attachments/Pasted%20image%2020260803213246.png)
 
 Spring es, en el fondo, un motor de **Dependency Injection (DI)** que implementa **Inversion of Control (IoC)**.
 
 ### DI manual con Factories (antes de un contenedor de IoC)
 
-![[Pasted image 20260803214135.png]]
+![](Attachments/Pasted%20image%2020260803214135.png)
 
 ```java
 class Car {
@@ -215,11 +215,11 @@ Esto es justo lo que el approach viejo no permitía: si `Car` llamara `new ICEng
 
 ### Notas
 - Esto es lo que habilita usar frameworks de mocking (Mockito, etc.) sin arrancar la `ApplicationContext`: los tests unitarios quedan rápidos porque no dependen del contenedor, solo de la clase bajo test y sus mocks.
-- Mismo principio que la nota de [[#Servlets: sin estado compartido]]: en ambos casos, que el framework sea quien controla la construcción/ciclo de vida del objeto obliga a diseñar clases desacopladas de sus dependencias concretas — eso es lo que después se aprovecha tanto para inyectar mocks en tests como para cambiar implementaciones en producción sin tocar código.
+- Mismo principio que la nota de [Servlets: sin estado compartido](#Servlets:%20sin%20estado%20compartido): en ambos casos, que el framework sea quien controla la construcción/ciclo de vida del objeto obliga a diseñar clases desacopladas de sus dependencias concretas — eso es lo que después se aprovecha tanto para inyectar mocks en tests como para cambiar implementaciones en producción sin tocar código.
 
 ## Programar contra Interfaces
 
-![[Pasted image 20260803215330.png]]
+![](Attachments/Pasted%20image%2020260803215330.png)
 
 ```java
 public int sum(ArrayList<Integer> l) {
@@ -270,11 +270,11 @@ Es el mismo principio que venimos viendo con Spring, aplicado a un caso más chi
 
 **Misma materia (PAW)**
 
-[[Clase 2 - Introducción a Spring Web y Maven]] — Siguiente clase
+[Clase 2 - Introducción a Spring Web y Maven](Clase%202%20-%20Introducción%20a%20Spring%20Web%20y%20Maven.md) — Siguiente clase
 
 **Otras materias**
 
-- **Protos**  [[2. Protos - HTTP]] — protocolo HTTP que corre entre el browser y el application container
-- **POO**  [[POO - Introduccion a Java]] — compilación a `.class` (`javac`/`java`), base de lo que empaqueta un JAR/WAR
+- **Protos**  [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) — protocolo HTTP que corre entre el browser y el application container
+- **POO**  [POO - Introduccion a Java](POO%20-%20Introduccion%20a%20Java.md) — compilación a `.class` (`javac`/`java`), base de lo que empaqueta un JAR/WAR
 
 <!-- notas-relacionadas:fin -->

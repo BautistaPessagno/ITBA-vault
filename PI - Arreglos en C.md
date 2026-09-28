@@ -72,7 +72,7 @@ void inicializar(int v[], int n) {
 - ¿Cómo obtener la cantidad de elementos de un arreglo con `sizeof`?
 - ¿Qué ocurre cuando se pasa un arreglo a una función sin especificar tamaño?
 
-[[PI.base|PI]]
+[PI](Categories/PI.base)
 
 ---
 
@@ -82,12 +82,12 @@ void inicializar(int v[], int n) {
 
 **Misma materia (PI)**
 
-- [[PI - Punteros en C]] — arreglos y punteros
-- [[PI - Intro C]] — tipos de datos
+- [PI - Punteros en C](PI%20-%20Punteros%20en%20C.md) — arreglos y punteros
+- [PI - Intro C](PI%20-%20Intro%20C.md) — tipos de datos
 
 **Otras materias**
 
-- **EDA**  [[EDA - Estructuras Lineales y Ordenación]] — arreglos como estructura lineal
-- **POO**  [[POO - Introduccion a Java]] — arrays en Java
+- **EDA**  [EDA - Estructuras Lineales y Ordenación](EDA%20-%20Estructuras%20Lineales%20y%20Ordenación.md) — arreglos como estructura lineal
+- **POO**  [POO - Introduccion a Java](POO%20-%20Introduccion%20a%20Java.md) — arrays en Java
 
 <!-- notas-relacionadas:fin -->

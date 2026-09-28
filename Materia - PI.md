@@ -15,4 +15,4 @@ temas:
 
 Programación Imperativa: introducción a C, arreglos, funciones, punteros, listas enlazadas, recursividad, structs/unions y tipos abstractos de datos en C.
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

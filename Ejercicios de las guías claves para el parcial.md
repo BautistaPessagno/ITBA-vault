@@ -12,13 +12,13 @@ temas:
 ---
 
 - Crear un servidor nginx    
-![[Pasted image 20260520184428.png]]
+![](Attachments/Pasted%20image%2020260520184428.png)
 Los archivos de configuracion de nginx estan en /etc/nginx. Vamos a esa carpeta:
 ```bash
 cd /etc/nginx
 ```
 Si dentro de esta carpeta hacemos un ls, vemos lo siguiente
-![[Pasted image 20260520184528.png]]
+![](Attachments/Pasted%20image%2020260520184528.png)
 - En el directorio sites-available, vamos a agregar nuestros sitios
 - En el directorio sites-enabelde, vamos a tener un link simbolico a los sitios que queremos mostrar
 Para poder configurar correctamente los sitios vamos a tener que seguir los siguientes pasos:    
@@ -40,7 +40,7 @@ Y agregamos el contenido. Lo mismo para bar
 ```bash
 cd /etc/nginx/sites-available/
 ```
-![[Pasted image 20260520184710.png]]
+![](Attachments/Pasted%20image%2020260520184710.png)
 
 Si queremos crear un nuevo sitio, creamos una copia de un archivo preexistente para no arrancar de 0
 
@@ -80,7 +80,7 @@ ln -s ../sites-available/bar .
 ### Acceder a local host al ir a foo y bar
 
 Modificar el archivo /etc/hosts y agregar que foo y bar se resuelven a 127.0.0.1
-![[Pasted image 20260520184847.png]]
+![](Attachments/Pasted%20image%2020260520184847.png)
 
 ### Reseterar el servidor para que se vean los cambios
 
@@ -88,17 +88,17 @@ service nginx restart
 
 ### Chequear resultados
 
-![[Pasted image 20260520184915.png]]
-  ![[Pasted image 20260520184948.png]]
+![](Attachments/Pasted%20image%2020260520184915.png)
+  ![](Attachments/Pasted%20image%2020260520184948.png)
   
 
 Con curl
 
-![[Pasted image 20260520185002.png]]
+![](Attachments/Pasted%20image%2020260520185002.png)
 
 - Crear un proxy
 
-![[Pasted image 20260520185056.png]]
+![](Attachments/Pasted%20image%2020260520185056.png)
 
  rta
 	[https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)
@@ -116,7 +116,7 @@ Camibar a <VirtualHost *:8080>
 
 y en /etc/apache2/ports.conf
 
-![[Pasted image 20260520185407.png]]
+![](Attachments/Pasted%20image%2020260520185407.png)
 
 reiniciar apache
 
@@ -147,7 +147,7 @@ server {
 }
 ```
 
-![[Pasted image 20260520185502.png]]
+![](Attachments/Pasted%20image%2020260520185502.png)
 
 - rta
 	No podemos directamente modificar el archivo /etc/hosts y hacer que foo.pdc.lab apunte a la ip de [foo.leak.com.ar](http://foo.leak.com.ar) porque eso no va a modificar el header host que envia el browser.
@@ -157,10 +157,10 @@ server {
 	1. Creamos una pagina en nginx con el nombre foo.pdc.lab
     
 	Creamos la pag en sites-available y creamos el link simbolico en sites-enabled, configurando correctamente los logs y un proxy_pass a http:/foo.leak.com.ar/
-      ![[Pasted image 20260520185558.png]]
+      ![](Attachments/Pasted%20image%2020260520185558.png)
     2. En etc/hosts hacemos que foo.pdc.lab apuntea localhost
     3. Verificamos que anda
-     ![[Pasted image 20260520185620.png]]
+     ![](Attachments/Pasted%20image%2020260520185620.png)
 - Hace un get con headers específicos
 	- Conectarse por netcat
 	```bash
@@ -189,7 +189,7 @@ server {
 ---
 
 - Crear un servidor dns
-    ![[Pasted image 20260520185817.png]]
+    ![](Attachments/Pasted%20image%2020260520185817.png)
     
     - rta
         
@@ -200,13 +200,13 @@ server {
         Voy a cambiarle el nombre a practica.dns.bind
         
         1. Agregar la zona en el archivo /etc/bind/named.conf
-            ![[Pasted image 20260520185841.png]]
+            ![](Attachments/Pasted%20image%2020260520185841.png)
             
         2. Creamos el archivo bind.local en /etc/bind
-	        ![[Pasted image 20260520185853.png]]
+	        ![](Attachments/Pasted%20image%2020260520185853.png)
             
         3. Verificamos que este funcionando correctamente.
-            ![[Pasted image 20260520185901.png]]
+            ![](Attachments/Pasted%20image%2020260520185901.png)
             
             Haciendo @127.0.0.1 hacemos que consulte a nuestro servidor dns local.
 
@@ -354,7 +354,7 @@ server {
         
         - `sS` manda un TCP SYN
         
-	    ![[Pasted image 20260520190048.png]]
+	    ![](Attachments/Pasted%20image%2020260520190048.png)
         
         - `sT` intenta un Connect() TCP# Untitled 4
 
@@ -371,29 +371,29 @@ server {
 -
 
 
-        ![[Pasted image 20260520190059.png]]
+        ![](Attachments/Pasted%20image%2020260520190059.png)
         
         - `sA` manda un ACK
         
-        ![[Pasted image 20260520190107.png]]
+        ![](Attachments/Pasted%20image%2020260520190107.png)
         
         - `sW` window (?)
         
-        ![[Pasted image 20260520190123.png]]
+        ![](Attachments/Pasted%20image%2020260520190123.png)
         
         - `sM` maimon scans (?)
         
-        ![[Pasted image 20260520190130.png]]
+        ![](Attachments/Pasted%20image%2020260520190130.png)
         
         - `sU` escanea con UDP (ufff ta tardando)
         
-        ![[Pasted image 20260520190141.png]]
+        ![](Attachments/Pasted%20image%2020260520190141.png)
         
         Voy a asumir que se quedó esperando indefinidamente, pero no hay nada abierto.
         
         - `sF` manda TCP con flag de FIN
         
-        ![[Pasted image 20260520190149.png]]
+        ![](Attachments/Pasted%20image%2020260520190149.png)
         
         Algunos datos interesantes:
         
@@ -563,8 +563,8 @@ Imposible que toman algo con esto sin labo de info. Pueden darte una captura de 
 
 **Misma materia (Protos)**
 
-- [[Resumen Protos]] — teoría de respaldo
-- [[Guias Practicas Protos]] — guías prácticas en PDF
-- [[Link Notion]] — exámenes resueltos de años anteriores
+- [Resumen Protos](Resumen%20Protos.md) — teoría de respaldo
+- [Guias Practicas Protos](Guias%20Practicas%20Protos.md) — guías prácticas en PDF
+- [Link Notion](Link%20Notion.md) — exámenes resueltos de años anteriores
 
 <!-- notas-relacionadas:fin -->

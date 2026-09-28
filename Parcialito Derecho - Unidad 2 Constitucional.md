@@ -27,12 +27,12 @@ temas:
 >
 > Acá están **agrupadas por tema** (no en el orden random del compilado), con las respuestas
 > **chequeadas contra el apunte de cátedra y contra el texto oficial de la CN**. Teoría completa
-> en [[El Derecho constitucional]].
+> en [El Derecho constitucional](El%20Derecho%20constitucional.md).
 
 > [!tip] Cómo estudiarlo
 > El parcialito es **multiple choice**. El banco se repite casi textual año a año, así que el
 > retorno está en **reconocer la pregunta**, no en razonarla. Leé la columna de preguntas tapando
-> las respuestas; lo que falles, buscalo en [[El Derecho constitucional]].
+> las respuestas; lo que falles, buscalo en [El Derecho constitucional](El%20Derecho%20constitucional.md).
 
 ---
 
@@ -379,7 +379,7 @@ estudiabas del apunte manual, estudiabas mal:
 
 ---
 
-[[Derecho.base|Derecho]]
+[Derecho](Categories/Derecho.base)
 
 ---
 
@@ -389,14 +389,14 @@ estudiabas del apunte manual, estudiabas mal:
 
 **Misma materia (Derecho)**
 
-- [[El Derecho constitucional]] — la teoría completa de la Unidad 2; toda respuesta de acá se
+- [El Derecho constitucional](El%20Derecho%20constitucional.md) — la teoría completa de la Unidad 2; toda respuesta de acá se
   justifica ahí, con el artículo de la CN correspondiente.
-- [[Intro Derecho]] — la **pirámide de Kelsen** y las **fuentes del derecho**; explica *por qué*
+- [Intro Derecho](Intro%20Derecho.md) — la **pirámide de Kelsen** y las **fuentes del derecho**; explica *por qué*
   la CN está en la cima, que es el fundamento de la supremacía constitucional.
-- [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]] — mismo formato de repaso para
+- [Derecho - U3 Persona, Obligaciones y Responsabilidad Civil](Derecho%20-%20U3%20Persona,%20Obligaciones%20y%20Responsabilidad%20Civil.md) — mismo formato de repaso para
   la unidad siguiente, también armado sobre compilados.
-- [[Materia - Derecho]] — índice de la materia.
-- [[Derecho - Resumen Primer Parcial]] — el repaso consolidado de las cinco unidades que
+- [Materia - Derecho](Materia%20-%20Derecho.md) — índice de la materia.
+- [Derecho - Resumen Primer Parcial](Derecho%20-%20Resumen%20Primer%20Parcial.md) — el repaso consolidado de las cinco unidades que
   entran en el primer parcial, con la tabla de números, las trampas verificadas y el banco de
   preguntas.
 

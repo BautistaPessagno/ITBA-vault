@@ -265,10 +265,10 @@ curl -x socks5h://localhost:8080 ifconfig.me
 
 **Misma materia (Protos)**
 
-- [[9. Protos - SSH]] — teoría de esta práctica
+- [9. Protos - SSH](9.%20Protos%20-%20SSH.md) — teoría de esta práctica
 
 **Otras materias**
 
-- **SO**  [[Entorno de desarrollo]] — trabajo en consola remota
+- **SO**  [Entorno de desarrollo](Entorno%20de%20desarrollo.md) — trabajo en consola remota
 
 <!-- notas-relacionadas:fin -->

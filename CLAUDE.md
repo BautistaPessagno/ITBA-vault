@@ -54,10 +54,10 @@ temas:
 
 Resumen MUY breve (2-3 líneas) de los temas de la materia.
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)
 ```
 
-El link a `[[Materias.base]]` en el cuerpo es lo que hace que la nota entre en ese índice
+El link a `Materias.base` en el cuerpo es lo que hace que la nota entre en ese índice
 (mismo mecanismo que cualquier otro `.base`). `Materias.base` agrupa por una fórmula
 `Año + " - " + Cuatrimestre` — **el año va primero** para que el orden alfabético
 coincida con el orden cronológico (si se agrupara por `Cuatrimestre + Año`, "2C 2024"
@@ -110,6 +110,18 @@ temas:
 - `temas` alimenta la búsqueda y el repaso. Vale la pena que sea generoso.
 - Campos opcionales que aparecen en notas existentes: `Tags`, `Created`, `Cuatri`.
 
+## Links
+
+- **En el cuerpo de la nota, links Markdown** con path relativo a la nota y los espacios
+  como `%20`: `[DNS](3.%20Protos%20-%20DNS.md)`, `[alias](Nota.md#Un%20heading)`,
+  `![](Attachments/Pasted%20image%2020260305194701.png)`, `![imagen|300](Attachments/x.png)`
+  para fijar el ancho. Así los links funcionan igual en Obsidian y en GitHub.
+- **En el frontmatter, wikilinks** (`"[[ITBA.base|ITBA]]"`). Es la única excepción:
+  Obsidian solo reconoce wikilinks dentro de propiedades, y los `.base` filtran por esos
+  links. Pasarlos a Markdown vacía todas las vistas.
+- No uses `[[...]]` en el cuerpo. Obsidian ya está configurado para generar links Markdown
+  relativos (`useMarkdownLinks` y `newLinkFormat: relative` en `.obsidian/app.json`).
+
 ## Crear notas
 
 1. Ubicarla en la **raíz**.
@@ -132,11 +144,11 @@ Cada nota de contenido termina con un bloque delimitado por marcadores:
 
 **Misma materia (<Materia>)**
 
-- [[Nota vecina]] — razón corta
+- [Nota vecina](Nota%20vecina.md) — razón corta
 
 **Otras materias**
 
-- **<Materia>**  [[Nota de otra materia]] — qué concepto comparten
+- **<Materia>**  [Nota de otra materia](Nota%20de%20otra%20materia.md) — qué concepto comparten
 
 <!-- notas-relacionadas:fin -->
 ```

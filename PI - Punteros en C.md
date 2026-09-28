@@ -79,7 +79,7 @@ Se pueden comparar punteros del mismo tipo con `==`, `!=`, `<`, `>`.
 - ¿Por qué `swap(a, b)` no funciona sin punteros?
 - ¿Qué significa `NULL` y por qué es importante inicializar punteros a NULL?
 
-[[PI.base|PI]]
+[PI](Categories/PI.base)
 
 ---
 
@@ -89,14 +89,14 @@ Se pueden comparar punteros del mismo tipo con `==`, `!=`, `<`, `>`.
 
 **Misma materia (PI)**
 
-- [[PI - Arreglos en C]] — aritmética de punteros
-- [[PI - Listas en C]] — estructuras encadenadas
+- [PI - Arreglos en C](PI%20-%20Arreglos%20en%20C.md) — aritmética de punteros
+- [PI - Listas en C](PI%20-%20Listas%20en%20C.md) — estructuras encadenadas
 
 **Otras materias**
 
-- **Arqui**  [[Seguimiento de Pila en C]] — punteros a variables locales
-- **Protos**  [[10. Protos - Sockets]] — buffers en la API de C
-- **SO**  [[Memoria]] — qué es una dirección para el SO
-- **SO**  [[Memory Management]] — malloc/free y el heap
+- **Arqui**  [Seguimiento de Pila en C](Seguimiento%20de%20Pila%20en%20C.md) — punteros a variables locales
+- **Protos**  [10. Protos - Sockets](10.%20Protos%20-%20Sockets.md) — buffers en la API de C
+- **SO**  [Memoria](Memoria.md) — qué es una dirección para el SO
+- **SO**  [Memory Management](Memory%20Management.md) — malloc/free y el heap
 
 <!-- notas-relacionadas:fin -->

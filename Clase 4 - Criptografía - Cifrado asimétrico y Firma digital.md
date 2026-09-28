@@ -37,7 +37,7 @@ temas:
 # Clase 4 - Criptografía - Cifrado asimétrico y Firma digital
 
 > [!abstract] De qué va la clase
-> Toda la [[Clase 3 - Criptografia - MACs y modo autenticado|clase anterior]] asumía que las dos partes **ya** compartían una clave. Esta clase ataca justamente ese supuesto, en tres pasos:
+> Toda la [clase anterior](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md) asumía que las dos partes **ya** compartían una clave. Esta clase ataca justamente ese supuesto, en tres pasos:
 > 1. **Cómo acordar la clave** — KDC (solución centralizada) y Diffie-Hellman (solución criptográfica).
 > 2. **Cómo cifrar con dos claves distintas** — criptosistemas asimétricos: RSA y ElGamal.
 > 3. **Cómo firmar de manera públicamente verificable** — RSA-Signature, Hashed RSA y DSS.
@@ -46,14 +46,14 @@ temas:
 
 ## Distribucion de claves
 
-![[Pasted image 20260913180500.png]]
+![](Attachments/Pasted%20image%2020260913180500.png)
 
 si quiero comunicar de manera segura necesito que tanto emisor como receptor tengan la misma clave
 
 Lo unico en lo cual puede descansar una prueba de seguridad es en el atacante no conoce la clave
 
 no podemos mandar la clave por el canal
-se necesitan $\frac{N(N-1)}{2}$ ([[Discrete Math - Caminos y Conexidad]]) de claves para N clientes en un caso de multiples puntos
+se necesitan $\frac{N(N-1)}{2}$ ([Discrete Math - Caminos y Conexidad](Discrete%20Math%20-%20Caminos%20y%20Conexidad.md)) de claves para N clientes en un caso de multiples puntos
 
 > [!warning] Corregido respecto de lo que estaba anotado
 > Estaba escrito $\frac{N-1}{2}$. El número correcto es $\frac{N(N-1)}{2}$, que es la cantidad de aristas del grafo completo $K_N$: cada **par** de entidades necesita su propia clave.
@@ -130,7 +130,7 @@ $$\Pi: (n) \rightarrow \textit{Trans},\; k_a,\; k_b$$
 
 ## Seguridad frente a ataques pasivos
 
-![[Pasted image 20260913183226.png]]
+![](Attachments/Pasted%20image%2020260913183226.png)
 
 El experimento $KE_{A,\Pi}$ sigue el mismo molde que todos los de la materia (comparar lo real contra lo aleatorio):
 
@@ -146,11 +146,11 @@ $KE_{A,\Pi}=1$ si $b=b'$. El protocolo es seguro si $\Pr[KE_{A,\Pi}=1] < \tfrac1
 > Ojo también con el alcance: este experimento modela un adversario **pasivo** (solo escucha). Un adversario activo queda afuera, y de ahí sale el problema de la sección "Diffie-Hellman en la práctica".
 
 ## Intercambio Diffie-Hellman
-![[Pasted image 20260913183414.png]]
+![](Attachments/Pasted%20image%2020260913183414.png)
 
 ## Repaso de Algebra
 
-![[Pasted image 20260913183638.png]]
+![](Attachments/Pasted%20image%2020260913183638.png)
 
 El **grupo algebraico G,+**: conjunto de elementos y operacion
 cumple 4 propiedades:
@@ -178,13 +178,13 @@ cumple 4 propiedades:
 **Campo de Galois** (campo finito): todo campo finito tiene tamaño $p^n$ con $p$ primo y $n$ entero, y dos campos del mismo tamaño son isomorfos. Los dos casos que importan en esta materia:
 
 - $\mathbb{Z}_p$ con $p$ primo — la base de RSA, Diffie-Hellman y ElGamal.
-- $GF(2^n)$, las **potencias de 2** — es el campo sobre el que trabaja AES (la MixColumns de [[Criptografia y seguridad Clase 2 - Cifrado]] son cuentas en $GF(2^8)$).
+- $GF(2^n)$, las **potencias de 2** — es el campo sobre el que trabaja AES (la MixColumns de [Criptografia y seguridad Clase 2 - Cifrado](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md) son cuentas en $GF(2^8)$).
 
 En los grupos finitos cíclicos hay $\phi(n)$ generadores, $\operatorname{ord}(g)$ es la cantidad de elementos del subgrupo cíclico que genera $g$, y $g$ es **elemento primitivo** si $\operatorname{ord}(g) = n$.
 
-![[Clase 4 - Grupos finitos ciclicos.png|580]]
+![imagen|580](Attachments/Clase%204%20-%20Grupos%20finitos%20ciclicos.png)
 
-![[Clase 4 - Campo de Galois.png|580]]
+![imagen|580](Attachments/Clase%204%20-%20Campo%20de%20Galois.png)
 
 > [!bug] Dos errores en las slides del repaso de álgebra
 > **1. El grupo canónico $\mathbb{Z}_n$.** La slide lo escribe $\mathbb{Z}_n = (\{1, 2, 3, \dots, n-1\}, +)$. Falta el $0$: sin él no hay neutro para $+$, así que ni siquiera sería un grupo. Es $\mathbb{Z}_n = \{0, 1, \dots, n-1\}$, y de hecho la propia slide de Diffie-Hellman lo escribe bien ($Z_q = \{0, 1, \dots, q-1\}$).
@@ -207,7 +207,7 @@ $$a^{\phi(n)} \equiv 1 \pmod n \quad \text{con } \phi(n) = \lvert \mathbb{Z}_n^{
 
 y el caso particular (pequeño teorema de Fermat) $a^{p-1} \equiv 1 \pmod p$ para $p$ primo.
 
-![[Clase 4 - Teorema de Euler y phi.png|580]]
+![imagen|580](Attachments/Clase%204%20-%20Teorema%20de%20Euler%20y%20phi.png)
 
 > [!warning] Condición que la slide omite
 > El teorema de Euler pide $\gcd(a,n)=1$. Sin esa hipótesis es falso: $2^{\phi(4)} = 2^2 = 4 \equiv 0 \pmod 4$, no $1$.
@@ -252,7 +252,7 @@ Esas son exactamente las dos conjeturas, una más fuerte que la otra:
 
 La clase remarcó que DL es necesaria pero **no suficiente**: si el atacante pudiera sacar aunque sea un bit de $g^{xy}$ (por ejemplo su paridad), ya rompería el experimento $KE_{A,\Pi}$ sin haber calculado nunca $x$ ni $y$. Por eso la definición correcta es DDH. Un dato lindo de la clase: DDH se formuló **muchos años después** de que se publicara el algoritmo — primero se usó, después se entendió por qué funcionaba.
 
-![[Clase 4 - La seguridad de DH.png|580]]
+![imagen|580](Attachments/Clase%204%20-%20La%20seguridad%20de%20DH.png)
 
 > [!bug] "Hoy se sabe que es un problema NP-Hard" — es falso
 > La slide de *La seguridad de DH* (y el repaso de la clase) afirma que el problema del logaritmo discreto / la conjetura DDH es **NP-Hard**. No es así, y es un error que conviene tener claro:
@@ -290,7 +290,7 @@ $M$ queda en el medio con **dos** claves distintas, descifra todo lo que pasa y 
 > DH necesita un canal **autenticado**, no secreto. Todo el intercambio puede ser público — lo que hace falta es que $B$ pueda verificar que $g^x$ vino realmente de $A$. Por eso se complementa con MACs o firmas digitales, y por eso el ejercicio 7 de la guía firma $(g^x, g^y)$.
 
 # Criptosistema Asimetrico
-![[Pasted image 20260913191037.png]]
+![](Attachments/Pasted%20image%2020260913191037.png)
 
 se generan dos claves (una publica y otra secreta)
 
@@ -299,7 +299,7 @@ se encripta con la clave publica pero se decifra con la clave secreta,
 >[!bug] importante
 >Las claves no son intercambiables
 
-Es una **terna de algoritmos**, igual que el criptosistema simétrico de [[Criptografia y seguridad intro]] pero con las claves separadas:
+Es una **terna de algoritmos**, igual que el criptosistema simétrico de [Criptografia y seguridad intro](Criptografia%20y%20seguridad%20intro.md) pero con las claves separadas:
 
 $$\text{Gen}: () \rightarrow PK \times SK \qquad \text{Enc}: PK \times P \rightarrow C \qquad \text{Dec}: SK \times C \rightarrow P$$
 
@@ -326,7 +326,7 @@ $Eav_{A,\Pi}=1$ si $b=b'$; $\Pi$ es indistinguible si $\Pr[Eav_{A,\Pi}=1] < \tfr
 ### Consecuencias
 todo criptosistema asimetrico tiene que ser **no** deterministico, si pasa la prueba de indistinguibilidad entonces tambien es CPA-secure
 
-![[Clase 4 - Consecuencias CPA-Secure.png|580]]
+![imagen|580](Attachments/Clase%204%20-%20Consecuencias%20CPA-Secure.png)
 
 > [!bug] Corregido respecto de lo que estaba anotado
 > Estaba escrito "tiene que ser determinístico". Es exactamente **al revés**: la slide dice *"CPA-Secure REQUIERE cifrado no determinístico"*, y este es el error que más caro sale en un parcial.
@@ -337,7 +337,7 @@ La otra consecuencia, y es una diferencia real con el mundo simétrico: en asim�
 
 ## "Textbook" RSA
 
-![[Pasted image 20260913191418.png]]
+![](Attachments/Pasted%20image%2020260913191418.png)
 
 **Generación de claves:**
 
@@ -353,12 +353,12 @@ Funciona por el teorema de Euler: $c^d = m^{ed} = m^{1 + k\phi(n)} = m \cdot (m^
 La seguridad se apoya en que **factorizar $n$ es difícil**: quien pueda factorizar obtiene $\phi(n)=(p-1)(q-1)$ y de ahí $d$ invirtiendo $e$.
 
 ### Problemas 
-![[Pasted image 20260913192235.png]]
+![](Attachments/Pasted%20image%2020260913192235.png)
 
 1. **Es determinístico** → por lo de arriba, no puede ser CPA-Secure. Cifrar dos veces el mismo mensaje da el mismo ciphertext.
 2. **$e$ y $m$ chicos.** Si $m^e < n$ la reducción modular nunca ocurre y $c = m^e$ en los enteros: se recupera $m$ tomando la raíz $e$-ésima, sin factorizar nada. Durante mucho tiempo se usó $e=3$ para que el cifrado fuera rápido.
 3. **Módulo compartido.** Si dos pares de claves usan el mismo $n$ con distinto $e$, cada uno de los dos dueños puede obtener la clave privada del otro (y un tercero que vea el mismo $m$ cifrado con $e_1$ y $e_2$ coprimos lo recupera con Bézout).
-4. Es **maleable**: $\operatorname{Enc}(m_1)\cdot\operatorname{Enc}(m_2) = \operatorname{Enc}(m_1 m_2)$. Es lo mismo que la maleabilidad de [[Clase 3 - Criptografia - MACs y modo autenticado]] y es literalmente el **ejercicio 17** de la guía.
+4. Es **maleable**: $\operatorname{Enc}(m_1)\cdot\operatorname{Enc}(m_2) = \operatorname{Enc}(m_1 m_2)$. Es lo mismo que la maleabilidad de [Clase 3 - Criptografia - MACs y modo autenticado](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md) y es literalmente el **ejercicio 17** de la guía.
 
 > [!bug] Dos imprecisiones en la slide *Problemas*
 > - Dice *"se puede calcular el **logaritmo**"*. No: lo que se calcula es la **raíz $e$-ésima** de $c$ sobre los enteros. El logaritmo discreto es el problema de ElGamal, no el de RSA — mezclarlos es un error clásico.
@@ -381,7 +381,7 @@ $$d(m') = 3\,650\,502^{\,422\,191} \bmod 6\,012\,707 = 5\,234\,673$$
 > Chequeado con Python: $p$ y $q$ son primos, $n$ y $\phi(n)$ dan, $\gcd(e,\phi(n))=1$, $e\cdot d \equiv 1 \pmod{\phi(n)}$ y las dos exponenciaciones dan exactamente los valores de la slide. **La slide está bien.**
 
 ## PKCS 1 v1.5
-![[Pasted image 20260913192530.png]]
+![](Attachments/Pasted%20image%2020260913192530.png)
 
 es parecido a agregarle im IV a algo no deterministico para hacerlo deterministico
 
@@ -403,7 +403,7 @@ donde $r$ son $k - D - 3$ bytes aleatorios **distintos de cero** (esa condición
 
 ## Elgamal (basado en DH)
 
-![[Clase 4 - Elgamal.png|600]]
+![imagen|600](Attachments/Clase%204%20-%20Elgamal.png)
 
 Es Diffie-Hellman convertido en criptosistema: en lugar de acordar $g^{xy}$ interactivamente, el receptor publica $h=g^x$ de una vez y el emisor hace su mitad del DH en cada mensaje.
 
@@ -442,7 +442,7 @@ Los dos puntos que remarcó la clase:
 
 ### Ejemplo El Gamal
 
-![[Clase 4 - Ejemplo El Gamal.png|600]]
+![imagen|600](Attachments/Clase%204%20-%20Ejemplo%20El%20Gamal.png)
 
 Con $G = \mathbb{Z}_q^{*}$, $q = 2357$, $g = 2$, $x = 1751$:
 
@@ -476,7 +476,7 @@ El ejemplo de la slide *Tamaño de claves* es el módulo del desafío **RSA-2048
 
 # Firma digital
 
-![[Clase 4 - Firma digital terna.png|620]]
+![imagen|620](Attachments/Clase%204%20-%20Firma%20digital%20terna.png)
 
 Es una **terna de algoritmos**, el espejo asimétrico del MAC:
 
@@ -494,7 +494,7 @@ Ojo con la dirección de las claves, que es la **opuesta** a la del cifrado:
 
 ## Seguridad de una firma digital
 
-![[Clase 4 - Seguridad de una firma digital.png|600]]
+![imagen|600](Attachments/Clase%204%20-%20Seguridad%20de%20una%20firma%20digital.png)
 
 El experimento $\textit{Sig-forge}_{A,\Pi}$ es el mismo molde que $\textit{Mac-forge}$:
 
@@ -523,7 +523,7 @@ El **no repudio** es la propiedad clave y sale de una asimetría concreta: con u
 
 ## RSA-Signature
 
-![[Clase 4 - RSA-Signature.png|600]]
+![imagen|600](Attachments/Clase%204%20-%20RSA-Signature.png)
 
 Idéntico a RSA-Encryption pero invirtiendo los papeles de las claves:
 
@@ -537,7 +537,7 @@ $$\operatorname{Sign}_{sk}(m) \equiv m^{d} \bmod n \qquad \operatorname{Vrfy}_{p
 
 ### Problemas de RSA-Signature
 
-![[Clase 4 - Problemas de RSA-Signature.png|600]]
+![imagen|600](Attachments/Clase%204%20-%20Problemas%20de%20RSA-Signature.png)
 
 **Ataque 1 — falsificación sin mensaje (*no-message attack*).** Es el **ejercicio 16.1** de la guía:
 
@@ -558,7 +558,7 @@ Sale de la misma **homomorfía multiplicativa** de RSA que rompe el cifrado en e
 
 ## Hashed RSA
 
-![[Clase 4 - Hashed RSA.png|600]]
+![imagen|600](Attachments/Clase%204%20-%20Hashed%20RSA.png)
 
 Busca solucionar los problemas anteriores introduciendo una función de hash **libre de colisiones**:
 
@@ -567,14 +567,14 @@ $$\operatorname{Sign}_{sk}(m) \equiv H(m)^{d} \bmod n \qquad \operatorname{Vrfy}
 Resuelve **tres** cosas a la vez:
 
 1. **Tamaño.** $H(m)$ tiene tamaño fijo y chico, así que se pueden firmar mensajes arbitrariamente largos sin partirlos.
-2. **Ataque sin mensaje.** Ahora el atacante que elige $s$ y calcula $x = s^e$ necesita encontrar un $m$ con $H(m) = x$ — o sea, romper **resistencia a preimágenes** ([[Clase 3 - Criptografia - MACs y modo autenticado]]). Inviable.
+2. **Ataque sin mensaje.** Ahora el atacante que elige $s$ y calcula $x = s^e$ necesita encontrar un $m$ con $H(m) = x$ — o sea, romper **resistencia a preimágenes** ([Clase 3 - Criptografia - MACs y modo autenticado](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md)). Inviable.
 3. **Ataque multiplicativo.** $H(m_1)\cdot H(m_2)$ casi con seguridad no es $H(m_1 m_2)$, así que la estructura algebraica que hacía funcionar el ataque se rompe.
 
 Contra: **no tiene prueba de seguridad** salvo que se asuma un modelo ideal de $H$ (random oracle model). Funciona en la práctica, pero la garantía es más débil que la de ElGamal.
 
 ## Digital Signature Standard (DSS/DSA)
 
-![[Clase 4 - DSS generacion de claves.png|600]]
+![imagen|600](Attachments/Clase%204%20-%20DSS%20generacion%20de%20claves.png)
 
 **Generación de claves:**
 
@@ -596,12 +596,12 @@ $$\operatorname{Sign}_{sk}(m) = (r,s)$$
 $$u_1 = H(m)\cdot s^{-1} \bmod q \qquad u_2 = r \cdot s^{-1} \bmod q$$
 $$\text{¿}\; r = \left(g^{u_1} y^{u_2} \bmod p\right) \bmod q \;\text{?}$$
 
-![[Clase 4 - DSS firma y verificacion.png|600]]
+![imagen|600](Attachments/Clase%204%20-%20DSS%20firma%20y%20verificacion.png)
 
 > [!bug] Tres cosas mal en las slides de DSS
 > 1. **$v_1, v_2$ vs $u_1, u_2$.** La slide define $v_1$ y $v_2$ y después verifica con $g^{u_1} y^{u_2}$, que nunca definió. Son el mismo valor, con dos nombres. Arriba lo dejé unificado como $u_1, u_2$.
 > 2. **"$p \leftarrow$ primo de tamaño $P$"** — es de tamaño **$L$**; $P$ no está definido en ningún lado.
-> 3. **SHA-1 como opción vigente.** NIST lo prohibió para *generar* firmas desde 2013; está roto en colisiones (SHAttered 2017). Es el mismo punto que ya quedó anotado en la [[Clase 3 - Criptografia - MACs y modo autenticado|Clase 3]].
+> 3. **SHA-1 como opción vigente.** NIST lo prohibió para *generar* firmas desde 2013; está roto en colisiones (SHAttered 2017). Es el mismo punto que ya quedó anotado en la [Clase 3](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md).
 
 > [!danger] DSA ya no es el estándar vigente
 > La clase dijo que "DSS es el estándar actual". Ya no lo es en esa forma: **FIPS 186-5** (3 de febrero de 2023) **sacó a DSA** como método aprobado para *generar* firmas — queda únicamente para *verificar* firmas viejas. Los motivos que dio NIST: poco uso en la industria y vulnerabilidades cuando los parámetros de dominio no se generan bien.
@@ -697,7 +697,7 @@ Los cuatro ataques del ejercicio 1 son el vocabulario de todo el bloque:
 **Ej. 15 — CCA sobre un esquema CPA-seguro.** El esquema es $\operatorname{Enc}_k(m) = r \,\|\, (f_k(r) \oplus m)$ con $\lvert r \rvert = \lvert m \rvert = n$.
 
 - (a) $\operatorname{Dec}_k(c)$: partir $c$ en $r \,\|\, c_2$ y devolver $f_k(r) \oplus c_2$.
-- (b) El esquema es **maleable**: XOR-eando el segundo bloque con un $\Delta$ se XOR-ea el plaintext con $\Delta$, sin tocar $r$. Con $m_0 = 00000001$ y $m_1 = 11111110$ (que son complementos), tomar el desafío $c = r\,\|\,c_2$, pedirle al oráculo que descifre $c' = r \,\|\, (c_2 \oplus \texttt{11111111})$ y ver si sale $m_0$ o $m_1$. Es el mismo ataque de maleabilidad de [[Clase 3 - Criptografia - MACs y modo autenticado]].
+- (b) El esquema es **maleable**: XOR-eando el segundo bloque con un $\Delta$ se XOR-ea el plaintext con $\Delta$, sin tocar $r$. Con $m_0 = 00000001$ y $m_1 = 11111110$ (que son complementos), tomar el desafío $c = r\,\|\,c_2$, pedirle al oráculo que descifre $c' = r \,\|\, (c_2 \oplus \texttt{11111111})$ y ver si sale $m_0$ o $m_1$. Es el mismo ataque de maleabilidad de [Clase 3 - Criptografia - MACs y modo autenticado](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md).
 
 **Ej. 16 — Textbook RSA para firma.** Es el *no-message attack* de la sección *Problemas de RSA-Signature*: elegir $\sigma$ al azar, calcular $m = \sigma^{e} \bmod N$, emitir $(m,\sigma)$. Para la parte 2, Hashed RSA lo frena porque falsificar requeriría hallar una **preimagen** de $\sigma^e$ bajo $H$.
 
@@ -713,8 +713,8 @@ Los cuatro ataques del ejercicio 1 son el vocabulario de todo el bloque:
 
 ## D. TLS (ejercicio 18)
 
-- **Dos fases**: **handshake** (negocia versión y cipher suite, autentica al servidor con su certificado y establece las claves con DH efímero) y **record** (protege los datos de aplicación con la clave derivada). Ver también [[2. Protos - HTTP]] y [[9. Protos - SSH]].
-- **AEAD** — *Authenticated Encryption with Associated Data*. Confidencialidad + integridad en una sola primitiva, más integridad (sin cifrado) para los datos asociados como las cabeceras. Es el cifrado autenticado de [[Clase 3 - Criptografia - MACs y modo autenticado]]. TLS 1.3 **solo** admite AEAD.
+- **Dos fases**: **handshake** (negocia versión y cipher suite, autentica al servidor con su certificado y establece las claves con DH efímero) y **record** (protege los datos de aplicación con la clave derivada). Ver también [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) y [9. Protos - SSH](9.%20Protos%20-%20SSH.md).
+- **AEAD** — *Authenticated Encryption with Associated Data*. Confidencialidad + integridad en una sola primitiva, más integridad (sin cifrado) para los datos asociados como las cabeceras. Es el cifrado autenticado de [Clase 3 - Criptografia - MACs y modo autenticado](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md). TLS 1.3 **solo** admite AEAD.
 - **HKDF** — *HMAC-based Key Derivation Function* (RFC 5869). Dos pasos: **extract** (concentra la entropía del secreto DH en una pseudorandom key) y **expand** (deriva de ahí todas las claves que hacen falta, cada una con su etiqueta). Sirve para que un mismo secreto maestro produzca claves independientes por dirección y por propósito.
 
 **Verdadero o falso:**
@@ -734,18 +734,18 @@ Los cuatro ataques del ejercicio 1 son el vocabulario de todo el bloque:
 
 **Misma materia (Criptografía y Seguridad)**
 
-- [[Clase 3 - Criptografia - MACs y modo autenticado]] — clase anterior: define Mac-forge (molde de Sig-forge), la maleabilidad que reaparece en RSA, y las funciones de hash que hacen falta para Hashed RSA y DSS
-- [[Criptografia y seguridad Clase 2 - Cifrado]] — define CPA y el rol del IV, que es lo que el padding de PKCS#1 y el $y$ de ElGamal replican en el mundo asimétrico; además $GF(2^8)$ de AES es el campo de Galois del repaso
-- [[Criptografia y seguridad intro]] — define criptosistema como terna de algoritmos; acá la terna se repite dos veces, con claves separadas (Gen/Enc/Dec) y para firma (Gen/Sign/Vrfy)
-- [[Materia - Criptografía y Seguridad]] — índice de la materia
-- [[Practica 1 - criptografia y seguridad]] — práctica asociada
+- [Clase 3 - Criptografia - MACs y modo autenticado](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md) — clase anterior: define Mac-forge (molde de Sig-forge), la maleabilidad que reaparece en RSA, y las funciones de hash que hacen falta para Hashed RSA y DSS
+- [Criptografia y seguridad Clase 2 - Cifrado](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md) — define CPA y el rol del IV, que es lo que el padding de PKCS#1 y el $y$ de ElGamal replican en el mundo asimétrico; además $GF(2^8)$ de AES es el campo de Galois del repaso
+- [Criptografia y seguridad intro](Criptografia%20y%20seguridad%20intro.md) — define criptosistema como terna de algoritmos; acá la terna se repite dos veces, con claves separadas (Gen/Enc/Dec) y para firma (Gen/Sign/Vrfy)
+- [Materia - Criptografía y Seguridad](Materia%20-%20Criptografía%20y%20Seguridad.md) — índice de la materia
+- [Practica 1 - criptografia y seguridad](Practica%201%20-%20criptografia%20y%20seguridad.md) — práctica asociada
 
 **Otras materias**
 
-- **Discrete Math** — [[Discrete Math - Caminos y Conexidad]] — el $\frac{N(N-1)}{2}$ del problema de distribución de claves son las aristas del grafo completo $K_N$
-- **Protos** — [[9. Protos - SSH]] — SSH hace exactamente el DH autenticado de esta clase: intercambio DH efímero + firma del servidor con su host key, y el cliente verifica contra `known_hosts` en lugar de una CA
-- **Protos** — [[2. Protos - HTTP]] — HTTPS/TLS es donde se usan todas las piezas juntas: certificados X.509, (EC)DHE y AEAD
-- **Protos** — [[4. Protos - MAIL]] — DKIM firma los mails con RSA y publica la clave pública en un registro DNS: firma digital sin PKI jerárquica
-- **Derecho** — [[Derecho - U5 Propiedad Intelectual, Marcas y Patentes]] — misma lógica que la Ley 25.506: un instrumento técnico al que la ley le asigna efectos jurídicos, con un registro público como tercero de confianza
+- **Discrete Math** — [Discrete Math - Caminos y Conexidad](Discrete%20Math%20-%20Caminos%20y%20Conexidad.md) — el $\frac{N(N-1)}{2}$ del problema de distribución de claves son las aristas del grafo completo $K_N$
+- **Protos** — [9. Protos - SSH](9.%20Protos%20-%20SSH.md) — SSH hace exactamente el DH autenticado de esta clase: intercambio DH efímero + firma del servidor con su host key, y el cliente verifica contra `known_hosts` en lugar de una CA
+- **Protos** — [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) — HTTPS/TLS es donde se usan todas las piezas juntas: certificados X.509, (EC)DHE y AEAD
+- **Protos** — [4. Protos - MAIL](4.%20Protos%20-%20MAIL.md) — DKIM firma los mails con RSA y publica la clave pública en un registro DNS: firma digital sin PKI jerárquica
+- **Derecho** — [Derecho - U5 Propiedad Intelectual, Marcas y Patentes](Derecho%20-%20U5%20Propiedad%20Intelectual,%20Marcas%20y%20Patentes.md) — misma lógica que la Ley 25.506: un instrumento técnico al que la ley le asigna efectos jurídicos, con un registro público como tercero de confianza
 
 <!-- notas-relacionadas:fin -->

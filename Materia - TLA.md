@@ -16,6 +16,6 @@ temas:
 
 Teoría de Lenguajes y Autómatas: autómatas finitos (AFD/AFND), expresiones y lenguajes regulares, autómatas de pila y gramáticas libres de contexto, análisis sintáctico (LL/LR) y semántico, máquinas de Turing y decidibilidad.
 
-→ [[TLA -Mega Resumen Final]]
+→ [TLA -Mega Resumen Final](TLA%20-Mega%20Resumen%20Final.md)
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

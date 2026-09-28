@@ -15,6 +15,6 @@ temas:
 
 Química General: uniones químicas y polaridad, estados de la materia, cinética y equilibrio químico, hidrólisis y buffers, titulación, equilibrio de precipitación, electroquímica.
 
-→ [[Resumen Final Química]]
+→ [Resumen Final Química](Resumen%20Final%20Química.md)
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

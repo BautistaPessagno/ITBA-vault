@@ -561,6 +561,6 @@ $T: V \to W$, $B_V = \{v_1,\ldots,v_n\}$, $B_W = \{w_1,\ldots,w_m\}$:
 
 **Misma materia (MNA)**
 
-- [[GUIA_ESTUDIO_FINAL]] — guía de estudio del final
+- [GUIA_ESTUDIO_FINAL](GUIA_ESTUDIO_FINAL.md) — guía de estudio del final
 
 <!-- notas-relacionadas:fin -->

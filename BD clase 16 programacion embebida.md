@@ -436,16 +436,16 @@ System.out.println(cstmt.getDouble(3));
 
 **Misma materia (BD)**
 
-- [[BD clase 14 triggers]] — clase anterior
-- [[BD clase 8 SQL consultas]] — las consultas que se embeben
+- [BD clase 14 triggers](BD%20clase%2014%20triggers.md) — clase anterior
+- [BD clase 8 SQL consultas](BD%20clase%208%20SQL%20consultas.md) — las consultas que se embeben
 
 **Otras materias**
 
-- **EDA**  [[EDA - Hashing]] — índices hash
-- **EDA**  [[EDA - Árboles]] — índices B-tree en el diseño físico
-- **PI**  [[PI - Intro C]] — SQL embebido en C
-- **PI**  [[PI - Struct y Union en C]] — structs y variables host en C
-- **POO**  [[POO - Introduccion a Java]] — JDBC desde Java
-- **SO**  [[Threads]] — concurrencia y niveles de aislamiento
+- **EDA**  [EDA - Hashing](EDA%20-%20Hashing.md) — índices hash
+- **EDA**  [EDA - Árboles](EDA%20-%20Árboles.md) — índices B-tree en el diseño físico
+- **PI**  [PI - Intro C](PI%20-%20Intro%20C.md) — SQL embebido en C
+- **PI**  [PI - Struct y Union en C](PI%20-%20Struct%20y%20Union%20en%20C.md) — structs y variables host en C
+- **POO**  [POO - Introduccion a Java](POO%20-%20Introduccion%20a%20Java.md) — JDBC desde Java
+- **SO**  [Threads](Threads.md) — concurrencia y niveles de aislamiento
 
 <!-- notas-relacionadas:fin -->

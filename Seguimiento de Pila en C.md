@@ -20,7 +20,7 @@ denomina CANARY
 - Antes de retornar verifica que el CANARY no haya sido
 modificado
 - Si lo fue termina la ejecución
-![[Captura_de_pantalla_2025-04-01_a_la(s)_12.31.59.png]]
+![](Attachments/Captura_de_pantalla_2025-04-01_a_la%28s%29_12.31.59.png)
 
 ---
 
@@ -30,15 +30,15 @@ modificado
 
 **Misma materia (Arqui)**
 
-- [[Assembler de Intel]] — push/pop y registros EBP/ESP
-- [[Clase 3 ASM y C]] — clase de ASM y C
+- [Assembler de Intel](Assembler%20de%20Intel.md) — push/pop y registros EBP/ESP
+- [Clase 3 ASM y C](Clase%203%20ASM%20y%20C.md) — clase de ASM y C
 
 **Otras materias**
 
-- **EDA**  [[EDA - Stack]] — la pila como estructura de datos
-- **PI**  [[PI - Funciones en C]] — convención de llamada
-- **PI**  [[PI - Punteros en C]] — punteros a variables locales
-- **PI**  [[PI - Recursividad en C]] — cada llamada recursiva es un stack frame
-- **SO**  [[Procesos]] — el stack dentro del espacio de direcciones del proceso
+- **EDA**  [EDA - Stack](EDA%20-%20Stack.md) — la pila como estructura de datos
+- **PI**  [PI - Funciones en C](PI%20-%20Funciones%20en%20C.md) — convención de llamada
+- **PI**  [PI - Punteros en C](PI%20-%20Punteros%20en%20C.md) — punteros a variables locales
+- **PI**  [PI - Recursividad en C](PI%20-%20Recursividad%20en%20C.md) — cada llamada recursiva es un stack frame
+- **SO**  [Procesos](Procesos.md) — el stack dentro del espacio de direcciones del proceso
 
 <!-- notas-relacionadas:fin -->

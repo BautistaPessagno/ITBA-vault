@@ -95,7 +95,7 @@ Comentarios deben describir **qué** hace el código, no **cómo**.
 - ¿Qué significa el código de retorno de `main`?
 - ¿Por qué el flag `-c` es útil para diagnosticar errores?
 
-[[PI.base|PI]]
+[PI](Categories/PI.base)
 
 ---
 
@@ -105,12 +105,12 @@ Comentarios deben describir **qué** hace el código, no **cómo**.
 
 **Misma materia (PI)**
 
-- [[PI - Funciones en C]] — tema siguiente
-- [[PI - Arreglos en C]] — tipos y arreglos
+- [PI - Funciones en C](PI%20-%20Funciones%20en%20C.md) — tema siguiente
+- [PI - Arreglos en C](PI%20-%20Arreglos%20en%20C.md) — tipos y arreglos
 
 **Otras materias**
 
-- **Arqui**  [[Clase 3 ASM y C]] — a qué compila el C
-- **TLA**  [[frontend]] — un proyecto real en C
+- **Arqui**  [Clase 3 ASM y C](Clase%203%20ASM%20y%20C.md) — a qué compila el C
+- **TLA**  [frontend](frontend.md) — un proyecto real en C
 
 <!-- notas-relacionadas:fin -->

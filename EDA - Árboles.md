@@ -59,7 +59,7 @@ Variante de BST balanceado con reglas de coloración (rojo/negro). Java `TreeMap
 - ¿Cuándo conviene un Árbol B sobre un AVL?
 - ¿Cuál es la complejidad de búsqueda en un Árbol B?
 
-[[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+[Data Structures and Algorithms](Categories/Data%20Structures%20and%20Algorithms.base)
 
 ---
 
@@ -69,14 +69,14 @@ Variante de BST balanceado con reglas de coloración (rojo/negro). Java `TreeMap
 
 **Misma materia (EDA)**
 
-- [[EDA - Grafos]] — un árbol es un grafo acíclico conexo
+- [EDA - Grafos](EDA%20-%20Grafos.md) — un árbol es un grafo acíclico conexo
 
 **Otras materias**
 
-- **BD**  [[BD clase 16 programacion embebida]] — índices B-tree
-- **Discrete Math**  [[Discrete Math - Árboles y Recorridos]] — la teoría de árboles
-- **Protos**  [[3. Protos - DNS]] — el espacio de nombres es jerárquico
-- **SO**  [[File System]] — el FS como árbol de directorios
-- **TLA**  [[TLA -Análisis Sintáctico]] — árbol de derivación
+- **BD**  [BD clase 16 programacion embebida](BD%20clase%2016%20programacion%20embebida.md) — índices B-tree
+- **Discrete Math**  [Discrete Math - Árboles y Recorridos](Discrete%20Math%20-%20Árboles%20y%20Recorridos.md) — la teoría de árboles
+- **Protos**  [3. Protos - DNS](3.%20Protos%20-%20DNS.md) — el espacio de nombres es jerárquico
+- **SO**  [File System](File%20System.md) — el FS como árbol de directorios
+- **TLA**  [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md) — árbol de derivación
 
 <!-- notas-relacionadas:fin -->

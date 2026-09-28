@@ -78,7 +78,7 @@ gcc modulo1.o modulo2.o -o programa   # linkedición
 - ¿Cómo se logra que una función modifique una variable del llamador?
 - ¿Cuándo conviene usar Top-Down vs Bottom-Up?
 
-[[PI.base|PI]]
+[PI](Categories/PI.base)
 
 ---
 
@@ -88,13 +88,13 @@ gcc modulo1.o modulo2.o -o programa   # linkedición
 
 **Misma materia (PI)**
 
-- [[PI - Intro C]] — tema anterior
-- [[PI - Recursividad en C]] — tema siguiente
+- [PI - Intro C](PI%20-%20Intro%20C.md) — tema anterior
+- [PI - Recursividad en C](PI%20-%20Recursividad%20en%20C.md) — tema siguiente
 
 **Otras materias**
 
-- **Arqui**  [[ASM y C]] — convención de llamada
-- **Arqui**  [[Seguimiento de Pila en C]] — cómo se ve una llamada en la pila
-- **BD**  [[BD clase 13 SQL PSM]] — funciones y procedimientos en SQL
+- **Arqui**  [ASM y C](ASM%20y%20C.md) — convención de llamada
+- **Arqui**  [Seguimiento de Pila en C](Seguimiento%20de%20Pila%20en%20C.md) — cómo se ve una llamada en la pila
+- **BD**  [BD clase 13 SQL PSM](BD%20clase%2013%20SQL%20PSM.md) — funciones y procedimientos en SQL
 
 <!-- notas-relacionadas:fin -->

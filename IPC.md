@@ -8,15 +8,15 @@ temas:
 ---
 # IPC
 
-![[image 99.png]]
+![](Attachments/image%2099.png)
 
 # Memoria compartida y pasaje de mensajes
 
-![[image 100.png]]
+![](Attachments/image%20100.png)
 
 ## Memoria Compartida
 
-![[image 101.png]]
+![](Attachments/image%20101.png)
 
 para crearla hay que armar un syscall
 
@@ -26,35 +26,35 @@ no se garantiza sincronizacion
 
 ## Pasaje de Mensajes
 
-![[image 102.png]]
+![](Attachments/image%20102.png)
 
 me puedo “olvidar” de la información que paso
 
 ### Buffering
 
-![[image 103.png]]
+![](Attachments/image%20103.png)
 
 # Pipes
 
-![[image 104.png]]
+![](Attachments/image%20104.png)
 
-![[image 105.png]]
+![](Attachments/image%20105.png)
 
 simplifica y util para los esquemas productor consumidor
 
 ## Anonimo / ordinarios
 
-![[image 106.png]]
+![](Attachments/image%20106.png)
 
 no tiene un nombre asociado
 
-![[image 107.png]]
+![](Attachments/image%20107.png)
 
 # Files vs Pipes
 
 # Shared Memory
 
-![[image 108.png]]
+![](Attachments/image%20108.png)
 
 una vez que creo un array retornan un puntero. una vez que tengo el puntero puedo escribir en memoria sin necesidad del kernel
 
@@ -64,37 +64,37 @@ un dato puede ser accedido por multiples personas
 
 ejemplo: homebanking, puede ser accedido desde multiples instancias
 
-![[image 109.png]]
+![](Attachments/image%20109.png)
 
-![[image 110.png]]
+![](Attachments/image%20110.png)
 
-![[image 111.png]]
+![](Attachments/image%20111.png)
 
 ## exclusion mutua
 
-![[image 112.png]]
+![](Attachments/image%20112.png)
 
 ## Region Critica
 
-![[image 113.png]]
+![](Attachments/image%20113.png)
 
-![[image 114.png]]
+![](Attachments/image%20114.png)
 
 # Mecanismo de Sincronización
 
 ## Semaforo
 
-![[image 115.png]]
+![](Attachments/image%20115.png)
 
 up = post
 
 down = wait
 
-![[image 116.png]]
+![](Attachments/image%20116.png)
 
-![[image 117.png]]
+![](Attachments/image%20117.png)
 
-![[image 118.png]]
+![](Attachments/image%20118.png)
 
 no olvidarse de inicializar los semaforos
 
@@ -106,19 +106,19 @@ empty y full se encargan de asegurarse que existan espacios libres
 
 los dos estan esperando a otro
 
-![[Captura_de_pantalla_2025-09-03_a_la(s)_10.12.20.png]]
+![](Attachments/Captura_de_pantalla_2025-09-03_a_la%28s%29_10.12.20.png)
 
 en la imagen todas las filas estan esperando a la otra fila
 
-![[image 119.png]]
+![](Attachments/image%20119.png)
 
 foo se esta esperando asi mismo
 
-![[image 120.png]]
+![](Attachments/image%20120.png)
 
 <u>OBS:</u> siempre que hay casos donde se hace up y down de un mismo semaforo al mismo tiempo en distintos lugares es una invitación al deadlock 
 
-![[image 121.png]]
+![](Attachments/image%20121.png)
 
 en este caso siguiendo el orden, se hace un wait en men, luego se hace el wait en women. luego ambos codigos van a entrar al iff y se van a quedar eternamente en el if
 
@@ -130,12 +130,12 @@ en este caso siguiendo el orden, se hace un wait en men, luego se hace el wait e
 
 **Misma materia (SO)**
 
-- [[Threads]] — sincronización entre hilos
-- [[PIPELINES]] — pipes como IPC
-- [[Procesos]] — comunicación entre procesos
+- [Threads](Threads.md) — sincronización entre hilos
+- [PIPELINES](PIPELINES.md) — pipes como IPC
+- [Procesos](Procesos.md) — comunicación entre procesos
 
 **Otras materias**
 
-- **Protos**  [[10. Protos - Sockets]] — sockets como IPC en red
+- **Protos**  [10. Protos - Sockets](10.%20Protos%20-%20Sockets.md) — sockets como IPC en red
 
 <!-- notas-relacionadas:fin -->

@@ -66,7 +66,7 @@ $$G \text{ es plano} \iff G \text{ no contiene ningún subgrafo homeomorfo a } K
 - ¿Cómo se usa la fórmula de Euler para demostrar que un grafo no es plano?
 - ¿Qué es un vértice de corte?
 
-[[Discrete Math.base|Discrete Math]]
+[Discrete Math](Categories/Discrete%20Math.base)
 
 ---
 
@@ -76,11 +76,11 @@ $$G \text{ es plano} \iff G \text{ no contiene ningún subgrafo homeomorfo a } K
 
 **Misma materia (Discrete Math)**
 
-- [[Discrete Math - Grafos Fundamentos]] — definiciones de grafo
-- [[Discrete Math - Coloreo]] — planaridad y número cromático
+- [Discrete Math - Grafos Fundamentos](Discrete%20Math%20-%20Grafos%20Fundamentos.md) — definiciones de grafo
+- [Discrete Math - Coloreo](Discrete%20Math%20-%20Coloreo.md) — planaridad y número cromático
 
 **Otras materias**
 
-- **EDA**  [[EDA - Grafos]] — representación de grafos
+- **EDA**  [EDA - Grafos](EDA%20-%20Grafos.md) — representación de grafos
 
 <!-- notas-relacionadas:fin -->

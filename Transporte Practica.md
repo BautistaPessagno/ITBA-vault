@@ -30,7 +30,7 @@ El hipervisor implementa un router virtual con NAT/NAPT (igual al router hogare�
 >[!tip]
 > Es el modo por default. Sirve cuando la VM sólo necesita salir (updates, navegación, clonar repos) y no se quiere exponerla.
 
-Ver [[5. Protos - Transporte#NAPT (aka NAT)|NAPT]] y [[5. Protos - Transporte#DNAT (port forwarding)|DNAT]].
+Ver [NAPT](5.%20Protos%20-%20Transporte.md#NAPT%20%28aka%20NAT%29) y [DNAT](5.%20Protos%20-%20Transporte.md#DNAT%20%28port%20forwarding%29).
 
 ### Host-only
 
@@ -96,7 +96,7 @@ no se usa mas porque no esta encriptado
 
 
 # tamaño de ventana
-![[Pasted image 20260414182249.png]]
+![](Attachments/Pasted%20image%2020260414182249.png)
 se tienen que pasar el tamaño de ventana para saber de cuanto va a ser el cuello de botella
 
 
@@ -149,8 +149,8 @@ sudo nmap -sU -A 192.168.0.0/24 #habilita deteccino de servicio y script scannin
 
 **Misma materia (Protos)**
 
-- [[5. Protos - Transporte]] — teoría de esta práctica
-- [[Analisis Wireshark]] — capturas de tráfico
-- [[Red Practica]] — práctica de la capa de abajo
+- [5. Protos - Transporte](5.%20Protos%20-%20Transporte.md) — teoría de esta práctica
+- [Analisis Wireshark](Analisis%20Wireshark.md) — capturas de tráfico
+- [Red Practica](Red%20Practica.md) — práctica de la capa de abajo
 
 <!-- notas-relacionadas:fin -->

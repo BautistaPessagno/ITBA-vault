@@ -59,7 +59,7 @@ Los diseñadores deben:
 - ¿Cómo se mide la eficacia en términos de usabilidad?
 - ¿Por qué el modelo mental del usuario puede diferir del modelo real del sistema?
 
-[[HCI.base|HCI]]
+[HCI](Categories/HCI.base)
 
 ---
 
@@ -69,8 +69,8 @@ Los diseñadores deben:
 
 **Misma materia (HCI)**
 
-- [[HCI - Ciencia Cognitiva]] — tema siguiente
-- [[HCI - Usabilidad y Evaluación]] — usabilidad en detalle
-- [[HCI - Diseño Centrado en el Usuario]] — el proceso de diseño
+- [HCI - Ciencia Cognitiva](HCI%20-%20Ciencia%20Cognitiva.md) — tema siguiente
+- [HCI - Usabilidad y Evaluación](HCI%20-%20Usabilidad%20y%20Evaluación.md) — usabilidad en detalle
+- [HCI - Diseño Centrado en el Usuario](HCI%20-%20Diseño%20Centrado%20en%20el%20Usuario.md) — el proceso de diseño
 
 <!-- notas-relacionadas:fin -->

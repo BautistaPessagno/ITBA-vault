@@ -23,7 +23,7 @@ temas:
 > 4. Regularización
 > 5. Métricas
 >
-> Viene de [[ML Clase 2 - Datos, variables, overfitting y métricas|Clase 2]]: tipos de variables, limpieza de datos, primer supervisado (regresión) y data splits.
+> Viene de [Clase 2](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md): tipos de variables, limpieza de datos, primer supervisado (regresión) y data splits.
 
 ## ¿Qué estamos estimando en realidad?
 
@@ -32,7 +32,7 @@ temas:
 >[!ruido]
 >Ese ruido proviene de varias fuentes, la principal es que los datos de validación son un subconjunto finito de los datos (también las características son sólo una parte de toda la información disponible para resolver el problema)
 
-![[Pasted image 20260819162419.png]]
+![](Attachments/Pasted%20image%2020260819162419.png)
 
  el cross validation busca atenuar el ruido
 
@@ -58,9 +58,9 @@ Si probamos muchos modelos y elegimos el que obtiene el mejor resultado en valid
 >
 > Con los mismos 5 modelos, cambiando sólo el conjunto de validación, **gana un modelo distinto cada vez**. Ese es exactamente el "validation noise". Los 5 modelos están dentro del ruido entre sí → elegir "el mejor" es en buena parte elegir al más afortunado.
 
-## Recap ([[ML Clase 2 - Datos, variables, overfitting y métricas| Clase 2]])
+## Recap ([Clase 2](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md))
 
-![[Pasted image 20260819163405.png]]
+![](Attachments/Pasted%20image%2020260819163405.png)
 
 | Split | Para qué | Qué se decide ahí |
 |---|---|---|
@@ -72,7 +72,7 @@ Si probamos muchos modelos y elegimos el que obtiene el mejor resultado en valid
 > **El modelo aprende del train. Nosotros aprendemos del validation.**
 > Cada decisión que tomamos mirando el dev es una forma de "entrenar" sobre el dev.
 
-[[ML Clase 2 - Datos, variables, overfitting y métricas#6.5 Cross Validation (k-fold)|K-fold cross validation]]
+[K-fold cross validation](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md#6.5%20Cross%20Validation%20%28k-fold%29)
 
 - Usa los datos de forma más eficiente: **cada observación se usa una vez para validación** y el resto de las veces para entrenar.
 - Da una **estimación más estable**: en vez de depender de una única partición, promediamos sobre varios splits.
@@ -81,14 +81,14 @@ Si probamos muchos modelos y elegimos el que obtiene el mejor resultado en valid
 
 # Proyecto de ML
 ## pipeline clasico de un proyecto 
-![[Pasted image 20260819163845.png]]
+![](Attachments/Pasted%20image%2020260819163845.png)
 
 clase de hoy -> EDA
 
 > [!note] Los 11 pasos del diagrama
 > 1. Definición del problema → 2. Recolección de datos → 3. **Data splitting** → 4. Limpieza de datos → 5. **EDA** → 6. **Feature engineering / selection** → 7. Modelado → 8. **Regularización** → 9. Evaluación (en Dev) → 10. Iteración/mejora → 11. Selección del modelo y evaluación final en Test.
 >
-> Los pasos 1-4 fueron la [[ML Clase 2 - Datos, variables, overfitting y métricas|clase anterior]]. Hoy: 5, 6, 8, 9. El **modelado (7)** es el módulo siguiente.
+> Los pasos 1-4 fueron la [clase anterior](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md). Hoy: 5, 6, 8, 9. El **modelado (7)** es el módulo siguiente.
 > Ojo con el orden: **el split (3) va ANTES de la limpieza y del EDA** → si no, hay data leakage.
 
 ## Visión del proyecto
@@ -104,7 +104,7 @@ Estas preguntas ya definen:
 - **Métricas** a evaluar (precisión y *cuál* métrica, tiempo de cómputo, complejidad del sistema)
 - Cuánto esfuerzo poner y **qué aspectos optimizar**
 
-![[ML-C3-vision-proyecto-ejemplo.png]]
+![](Attachments/ML-C3-vision-proyecto-ejemplo.png)
 
 > [!example] Ejemplo de la clase (Breast Cancer Wisconsin - Kaggle/UCI)
 > - **Objetivo**: herramienta automática de diagnóstico de cáncer de mama a partir de imágenes.
@@ -133,7 +133,7 @@ Además:
 >
 > De ahí salen las 9 mediciones del dataset: radio, textura, perímetro, área, suavidad, compacidad, concavidad, puntos cóncavos y simetría (cada una con *mean*, *se* y *worst*).
 
-![[ML-C3-features-breast-cancer.png]]
+![](Attachments/ML-C3-features-breast-cancer.png)
 
 > [!tip] Observación
 > Preguntarle al experto **cómo lo resuelve a mano** es literalmente feature engineering gratis. Las features del dataset no aparecieron solas: son la formalización del criterio del patólogo.
@@ -145,7 +145,7 @@ EDA es el proceso siguiente y consiste en explorar y resumir un dataset
 En la clase anterior vimos cómo transformar variables a valores numéricos y cómo limpiar datos erróneos o anómalos. Aunque hayamos participado en la creación del dataset, todavía necesitamos entender mejor su **estructura, patrones y posibles problemas**.
 
 ## Objetivos
-![[Pasted image 20260819165842.png]]
+![](Attachments/Pasted%20image%2020260819165842.png)
 
 El EDA consiste en **examinar y visualizar** los datos para comprender su estructura y patrones antes de entrenar modelos:
 
@@ -154,13 +154,13 @@ El EDA consiste en **examinar y visualizar** los datos para comprender su estruc
 3. **Descubrir relaciones** entre variables
 
 ## Distribución de las variables/características
-![[Pasted image 20260819165902.png]] 
+![](Attachments/Pasted%20image%2020260819165902.png) 
 
 - **Estadísticas descriptivas** (media, mediana, desvío, mín, máx) → primera comprensión.
 - **Histogramas y boxplots** → entender la forma de la distribución y detectar outliers y valores erróneos.
 
 ejemplo
-![[Pasted image 20260819165922.png]]
+![](Attachments/Pasted%20image%2020260819165922.png)
 esto no es continua sino discreta
 
 > [!example] Ejemplo 1 — variable "peso" en un sistema de envío
@@ -168,7 +168,7 @@ esto no es continua sino discreta
 > **Solución**: tratarla como numérica discreta → *one-hot encoding*, o crear una feature binaria (ej. `>15 kg`).
 
 ejemplo 2
-![[Pasted image 20260819170305.png]]
+![](Attachments/Pasted%20image%2020260819170305.png)
 
 > [!example] Ejemplo 2 — visitas a una web por día
 > Un pico enorme cerca de 0-10 y **otro pico en torno a 120/día** → probablemente **bots**: son **dos poblaciones distintas**.
@@ -190,7 +190,7 @@ ejemplo 2
 ## Escalado de variables
 
 ### Relevancia
-![[Pasted image 20260819170752.png]] ![[Pasted image 20260819170801.png]] 
+![](Attachments/Pasted%20image%2020260819170752.png) ![](Attachments/Pasted%20image%2020260819170801.png) 
 
 Las variables numéricas pueden tener escalas muy diferentes:
 - edad → 0-100
@@ -203,7 +203,7 @@ El error de regresión será mucho mayor en las variables de mayor rango, y por 
 > Antes de comparar características o entrenar cualquier clasificador, es recomendable **siempre escalar las variables** para que todas estén en el mismo rango.
 
 ### min-max scaling
-![[Pasted image 20260819170816.png]]
+![](Attachments/Pasted%20image%2020260819170816.png)
 se acotan los valores en un rango fijo que hace que esten entre \[0, 1] para que tenga sentido
 
 $$x' = \frac{x - x_{min}}{x_{max} - x_{min}}$$
@@ -215,7 +215,7 @@ Recomendado cuando:
 **Contra: muy sensible a outliers** (un solo valor extremo aplasta todo el resto contra 0).
 
 ### z-score normalization
-![[Pasted image 20260819170915.png]]
+![](Attachments/Pasted%20image%2020260819170915.png)
 restamos la media y dividimos por el desvio
 
 $$x' = \frac{x - \mu}{\sigma}$$
@@ -225,7 +225,7 @@ $$x' = \frac{x - \mu}{\sigma}$$
 - Si la variable es gaussiana: el 68, 95 y 99 % de los datos tendrán $z < 1, 2$ y $3$ respectivamente.
 
 > [!warning] Data leakage al escalar
-> $\mu$, $\sigma$, $x_{min}$ y $x_{max}$ se calculan **sólo sobre el train** y se aplican al dev/test. Si se calculan sobre todo el dataset, estás filtrando información del test al entrenamiento (ver [[ML Clase 2 - Datos, variables, overfitting y métricas#9. Pipeline completo y data leakage|data leakage, Clase 2]]).
+> $\mu$, $\sigma$, $x_{min}$ y $x_{max}$ se calculan **sólo sobre el train** y se aplican al dev/test. Si se calculan sobre todo el dataset, estás filtrando información del test al entrenamiento (ver [data leakage, Clase 2](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md#9.%20Pipeline%20completo%20y%20data%20leakage)).
 
 > [!note] Modelos que NO necesitan escalado
 > Árboles de decisión y Random Forest: cortan por umbrales sobre cada variable por separado, así que la escala les da igual. Sí lo necesitan: KNN, SVM, regresión con regularización, redes neuronales, PCA — todo lo que use **distancias** o **penalice coeficientes**.
@@ -251,14 +251,14 @@ Más dimensionalidad → mayor riesgo de overfitting.
 3. *(Opcional)* Buscar **combinaciones** de variables que puedan ser útiles → feature engineering / projection
 
 ## Relación con la variable objetivo (y)
-![[Pasted image 20260819171859.png|700]]
+![imagen|700](Attachments/Pasted%20image%2020260819171859.png)
 Esta manera ayuda a saber que informacion es buena para dejar/sacar variables
 
 - En **regresión** → correlación de cada variable con `y`.
 - En **clasificación** → boxplot/histograma de cada variable separado por clase. Si las cajas de las dos clases están **desplazadas entre sí**, esa variable discrimina; si se superponen del todo, no aporta.
 
 ## Relación entre variables (x)
-![[Pasted image 20260819172026.png]]
+![](Attachments/Pasted%20image%2020260819172026.png)
 
 se hace la correlacion entre dos variables
 
@@ -280,7 +280,7 @@ la relacion de Pearson mira relaciones lineales, no siempre es relacion lineal
 > Un r altísimo con un p-value bajísimo **no dice nada** sobre causalidad. Para *predecir* alcanza con la correlación; para *intervenir* hace falta causalidad.
 
 ### Matriz de correlación
-![[Pasted image 20260819172406.png]]
+![](Attachments/Pasted%20image%2020260819172406.png)
 correlaciones muy altas indica que dos variables pueden tener alta relacion
 ej: no aporta informacion agregar el radio y el parametro. con uno estamos
 
@@ -288,7 +288,7 @@ ej: no aporta informacion agregar el radio y el parametro. con uno estamos
 > `radius_worst`, `perimeter_worst` y `area_worst` tienen correlaciones de **0.94-0.97** entre sí. Tiene sentido: el perímetro y el área de un círculo son funciones del radio. Con una de las tres alcanza — las otras dos son redundantes.
 
 ## So far...
-![[Pasted image 20260819172853.png]]
+![](Attachments/Pasted%20image%2020260819172853.png)
 
 Hasta acá analizamos:
 - La distribución de las variables
@@ -311,9 +311,9 @@ Tener un número elevado de variables (alta dimensionalidad) tiene efectos negat
 
 ## La maldición de la dimensionalidad
 cuantas mas dimenciones mas se complican las cosas, se esparcen mas
-![[Pasted image 20260819174833.png]]
+![](Attachments/Pasted%20image%2020260819174833.png)
 cuanto menor mejor
-![[Pasted image 20260819174945.png]]
+![](Attachments/Pasted%20image%2020260819174945.png)
 
 - A medida que aumenta el número de dimensiones, los datos se vuelven **más dispersos** (*sparse*).
 - Cada región del espacio contiene **menos ejemplos**.
@@ -333,7 +333,7 @@ Crear nuevas variables
 	Busca reducir dimensionalidad preservando la mayor cantidad posible de información relevante. Aims to reduce dimensionality while preserving as much relevant information as possible.
 
 ## Selección características - Métodos
-![[Pasted image 20260819175409.png]]
+![](Attachments/Pasted%20image%2020260819175409.png)
 
 | Método | Cómo funciona | Ejemplos |
 |---|---|---|
@@ -343,7 +343,7 @@ Crear nuevas variables
 
 ## Filtros de características
 ### Correlación de Pearson
-![[Pasted image 20260819175621.png]]
+![](Attachments/Pasted%20image%2020260819175621.png)
 cuanto mas cercano a 1 mejor
 Tener en cuenta que ¡únicamente capta relaciones lineales!
 
@@ -355,7 +355,7 @@ Dos aplicaciones distintas en selección de features:
 > Son criterios opuestos y hay que aplicar los dos: **alta correlación con y = bueno**, **alta correlación entre x = redundante**. Si sólo mirás el ranking contra `y`, te quedás con 5 variables que son básicamente la misma.
 
 ### Información Mutua - Mutual Information (MI)
-![[Pasted image 20260819180506.png]]
+![](Attachments/Pasted%20image%2020260819180506.png)
 
 Mide **cuánta información aporta un feature sobre la variable objetivo**: cuánta incertidumbre sobre `Y` reducimos por conocer `X`.
 
@@ -369,7 +369,7 @@ $$I(X;Y) = \sum_{y \in \mathcal{Y}} \sum_{x \in \mathcal{X}} P_{(X,Y)}(x,y) \, \
 > $I(X;Y) = 0$ ⟺ X e Y son independientes. No está acotada a [0,1] como Pearson, así que se usa para **rankear** features, no como valor absoluto.
 
 ### ANOVA F-test
-![[Pasted image 20260819180604.png]]
+![](Attachments/Pasted%20image%2020260819180604.png)
 
 Compara la **varianza entre clases vs. la varianza dentro de cada clase**.
 
@@ -381,7 +381,7 @@ Compara la **varianza entre clases vs. la varianza dentro de cada clase**.
 
 ### Chi² (Chi-cuadrado)
 como la ANOVA pero sobre variables categoricas
-![[Pasted image 20260819180621.png]]
+![](Attachments/Pasted%20image%2020260819180621.png)
 
 Mide la **dependencia entre dos variables categóricas** (feature vs. target). Si hay alta dependencia, el feature es informativo.
 
@@ -397,14 +397,14 @@ Mide la **dependencia entre dos variables categóricas** (feature vs. target). S
 > | **Mutual Information** | cualquiera | cualquiera | ✓ |
 
 ## Selección características - Métodos
-![[Pasted image 20260819180806.png]]
+![](Attachments/Pasted%20image%2020260819180806.png)
 el foward selection es mas barata porque partimos de 0 (mas rapido)
 si al agregar una caracteristica no mejora corto ahi
 
 ## Wrappers
 ### RFE (Recursive Feature Elimination)
 la importancia de cada feature se puede medir con la performance
-![[Pasted image 20260819180947.png]]
+![](Attachments/Pasted%20image%2020260819180947.png)
 
 **Entrenar el modelo sucesivamente eliminando cada vez la feature menos importante** y evaluar el impacto en la clasificación. *(También se puede al revés, añadiendo de a una — Forward Selection.)*
 
@@ -419,16 +419,16 @@ Pasos:
 En scikit-learn: `RFE` o `RFECV` (con validación cruzada para elegir el número óptimo de features).
 
 ## Embedded
-![[Pasted image 20260819181114.png]]
+![](Attachments/Pasted%20image%2020260819181114.png)
 
 Selección automática de variables **dentro del entrenamiento** del modelo:
 - **Random Forest** → feature importance (reducción de impureza)
-- **Lasso (L1)** → lleva coeficientes exactamente a 0 (ver [[#L1 (Lasso)]] abajo)
+- **Lasso (L1)** → lleva coeficientes exactamente a 0 (ver [L1 (Lasso)](#L1%20%28Lasso%29) abajo)
 - **Elastic Net**
 
 ## Wrappers vs Filtros
-![[Pasted image 20260819181256.png]]
-![[Pasted image 20260819181308.png]]en 8 podriamos dejar de agregar variables. 
+![](Attachments/Pasted%20image%2020260819181256.png)
+![](Attachments/Pasted%20image%2020260819181308.png)en 8 podriamos dejar de agregar variables. 
 se mezclan los dos metodos
 
 > [!note] Lo que muestra el gráfico
@@ -440,7 +440,7 @@ se mezclan los dos metodos
 > **Filtro para prefiltrar barato → wrapper para afinar sobre lo que quedó.** Correr un wrapper sobre 30 variables desde cero es carísimo; sobre las 15 que sobrevivieron al filtro, es viable.
 
 ## ¿y si todas las variables son relevantes?
-![[Pasted image 20260819181459.png]]
+![](Attachments/Pasted%20image%2020260819181459.png)
 
 Feature Selection nos quedamos con las variables originales más útiles (de 20 tests médicos, elegir los 5 más predictivos).
 
@@ -451,7 +451,7 @@ En vez de elegir, hay que **transformar y combinar** las variables para generar 
 → Esto es **Feature Projection (Dimensionality Reduction)**. Se ve en el **Módulo 4** (PCA, etc.).
 
 ## Selección de características - Resumen
-![[Pasted image 20260819181650.png]]
+![](Attachments/Pasted%20image%2020260819181650.png)
 
 | Método | Cómo funciona | Ventajas | Desventajas | Ejemplos |
 |---|---|---|---|---|
@@ -464,8 +464,8 @@ En vez de elegir, hay que **transformar y combinar** las variables para generar 
 
 # Regularización
 ## Complejidad del modelo
-![[Pasted image 20260819182611.png]]
-![[Pasted image 20260819182623.png]]
+![](Attachments/Pasted%20image%2020260819182611.png)
+![](Attachments/Pasted%20image%2020260819182623.png)
 
 Los modelos complejos pueden ajustarse demasiado a los datos de entrenamiento y **generalizar mal a datos nuevos**.
 
@@ -478,7 +478,7 @@ Los modelos complejos pueden ajustarse demasiado a los datos de entrenamiento y 
 **Objetivo: controlar la complejidad del modelo para que generalice mejor.**
 
 ## idea principal
-![[Pasted image 20260819182641.png]]
+![](Attachments/Pasted%20image%2020260819182641.png)
 
 En modelos lineales:
 
@@ -554,7 +554,7 @@ Modelos a probar:
 - regresión polinómica (grado 2) + L1, λ = 0.1
 - regresión polinómica (grado 2) + L1, λ = 1
 
-![[ML-C3-regularizacion-rmse-modelos.png]]
+![](Attachments/ML-C3-regularizacion-rmse-modelos.png)
 
 **¿Cuál elegimos?** El modelo con menor error en Dev/Validation → **la regresión lineal**.
 **Validation RMSE (Linear): 53.853**
@@ -562,9 +562,9 @@ Modelos a probar:
 > [!question] ¿Cuál esperaría que tuviese más diferencia entre train y dev error?
 > Las de **λ bajo** — casi no están regularizadas, así que ajustan mucho el train.
 
-![[ML-C3-generalization-gap.png]]
+![](Attachments/ML-C3-generalization-gap.png)
 
-Al comparar train y dev vemos que, como esperábamos, hay **más overfitting para lambdas bajas**. Esa diferencia es lo que se llama [[ML Clase 2 - Datos, variables, overfitting y métricas#7.4 Generalization gap|generalization gap]].
+Al comparar train y dev vemos que, como esperábamos, hay **más overfitting para lambdas bajas**. Esa diferencia es lo que se llama [generalization gap](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md#7.4%20Generalization%20gap).
 
 > [!tip] Observación
 > A medida que λ crece, el error de train **sube** (el modelo ajusta peor a propósito) y el gap con dev **se achica**. Regularizar es literalmente cambiar ajuste por generalización.
@@ -652,14 +652,14 @@ Cubrimos los pasos **5 (EDA)**, **6 (Feature selection)**, **8 (Regularización)
 
 **Misma materia (Machine Learning)**
 
-- [[ML Clase 4 - Regresión Logística y Métricas de Evaluación]] — clase siguiente: arranca el paso de Modelado con el primer clasificador, y cambia de métricas de regresión (RMSE, R²) a métricas de clasificación
-- [[ML TP1 - Insurance]] — el TP1 aplica esta clase en código: el EDA, el escalado z-score y la regularización L1 salen de acá
-- [[ML Clase 2 - Datos, variables, overfitting y métricas]] — clase anterior: de ahí vienen los data splits, el k-fold, el generalization gap y la limpieza de datos que el EDA continúa
-- [[ML Clase 1 - Machine Learning Intro]] — el encuadre general de supervisado/no supervisado que define qué métricas aplican
-- [[Terminologia ML]] — parámetros vs. hiperparámetros y qué es el pipeline: λ y k de feature selection son hiperparámetros, se eligen en validación
-- [[Materia - Machine Learning]] — índice de la materia; Feature Projection (PCA) queda para el Módulo 4
+- [ML Clase 4 - Regresión Logística y Métricas de Evaluación](ML%20Clase%204%20-%20Regresión%20Logística%20y%20Métricas%20de%20Evaluación.md) — clase siguiente: arranca el paso de Modelado con el primer clasificador, y cambia de métricas de regresión (RMSE, R²) a métricas de clasificación
+- [ML TP1 - Insurance](ML%20TP1%20-%20Insurance.md) — el TP1 aplica esta clase en código: el EDA, el escalado z-score y la regularización L1 salen de acá
+- [ML Clase 2 - Datos, variables, overfitting y métricas](ML%20Clase%202%20-%20Datos,%20variables,%20overfitting%20y%20métricas.md) — clase anterior: de ahí vienen los data splits, el k-fold, el generalization gap y la limpieza de datos que el EDA continúa
+- [ML Clase 1 - Machine Learning Intro](ML%20Clase%201%20-%20Machine%20Learning%20Intro.md) — el encuadre general de supervisado/no supervisado que define qué métricas aplican
+- [Terminologia ML](Terminologia%20ML.md) — parámetros vs. hiperparámetros y qué es el pipeline: λ y k de feature selection son hiperparámetros, se eligen en validación
+- [Materia - Machine Learning](Materia%20-%20Machine%20Learning.md) — índice de la materia; Feature Projection (PCA) queda para el Módulo 4
 
 **Otras materias**
 
-- **MNA** — [[Resumen MNA]] — cuadrados mínimos y ecuaciones normales ($A^\top A x = A^\top b$): Ridge (L2) es exactamente ese sistema con $\lambda I$ sumado para estabilizarlo. La SVD de ahí es la base del PCA del Módulo 4
+- **MNA** — [Resumen MNA](Resumen%20MNA.md) — cuadrados mínimos y ecuaciones normales ($A^\top A x = A^\top b$): Ridge (L2) es exactamente ese sistema con $\lambda I$ sumado para estabilizarlo. La SVD de ahí es la base del PCA del Módulo 4
 <!-- notas-relacionadas:fin -->

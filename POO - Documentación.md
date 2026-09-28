@@ -26,7 +26,7 @@ Links de referencia oficial y de apoyo para los dos lenguajes que cubre la mater
 ## Notas
 -
 
-[[POO.base|POO]]
+[POO](Categories/POO.base)
 
 ---
 
@@ -36,7 +36,7 @@ Links de referencia oficial y de apoyo para los dos lenguajes que cubre la mater
 
 **Misma materia (POO)**
 
-- [[POO - Introduccion a Java]] — lo que documenta el link de Java SE
-- [[POO - Intro Ruby]] — lo que documenta el link de Ruby
+- [POO - Introduccion a Java](POO%20-%20Introduccion%20a%20Java.md) — lo que documenta el link de Java SE
+- [POO - Intro Ruby](POO%20-%20Intro%20Ruby.md) — lo que documenta el link de Ruby
 
 <!-- notas-relacionadas:fin -->

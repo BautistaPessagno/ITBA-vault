@@ -547,14 +547,14 @@ Un **generador de analizadores sintácticos** es un programa que, dada la especi
 
 **Misma materia (TLA)**
 
-- [[TLA -Formas Normales y Lema de Bombeo CFL]] — tema anterior
-- [[TLA -Análisis Ascendente]] — tema siguiente
-- [[TLA -Autómatas de Pila]] — el modelo detrás del parser
-- [[frontend]] — implementación real con Flex/Bison
+- [TLA -Formas Normales y Lema de Bombeo CFL](TLA%20-Formas%20Normales%20y%20Lema%20de%20Bombeo%20CFL.md) — tema anterior
+- [TLA -Análisis Ascendente](TLA%20-Análisis%20Ascendente.md) — tema siguiente
+- [TLA -Autómatas de Pila](TLA%20-Autómatas%20de%20Pila.md) — el modelo detrás del parser
+- [frontend](frontend.md) — implementación real con Flex/Bison
 
 **Otras materias**
 
-- **EDA**  [[EDA - Árboles]] — el árbol de derivación
-- **PI**  [[PI - Recursividad en C]] — descenso recursivo
+- **EDA**  [EDA - Árboles](EDA%20-%20Árboles.md) — el árbol de derivación
+- **PI**  [PI - Recursividad en C](PI%20-%20Recursividad%20en%20C.md) — descenso recursivo
 
 <!-- notas-relacionadas:fin -->

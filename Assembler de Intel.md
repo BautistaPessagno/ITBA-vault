@@ -21,7 +21,7 @@ movl $1, %eax #(sintaxis AT&T)
 
 obs: Tener en cuenta que el gcc por default genera salidas en sintaxis AT&T
 
-![[Captura_de_pantalla_2025-03-18_a_la(s)_10.11.19.png]]
+![](Attachments/Captura_de_pantalla_2025-03-18_a_la%28s%29_10.11.19.png)
 
 ## Instrucciones
 
@@ -31,18 +31,18 @@ Flujo de bytes que interpretados por el procesador que realizan una acción
 
 ej:Instrucción: **add eax, 0x1**
 
-![[Captura_de_pantalla_2025-03-18_a_la(s)_10.13.06.png]]
+![](Attachments/Captura_de_pantalla_2025-03-18_a_la%28s%29_10.13.06.png)
 
 > [!note]+ ### Lectura de memoria
-> ![[Captura_de_pantalla_2025-03-18_a_la(s)_10.15.30.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-18_a_la%28s%29_10.15.30.png)
 
 > [!note]+ ### Simulador VonSim
 > [VonSim — A 8088-like Assembly Simulator](https://vonsim.github.io/)
 > 
-> ![[Captura_de_pantalla_2025-03-18_a_la(s)_10.16.24.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-18_a_la%28s%29_10.16.24.png)
 
 > [!note]+ ### Segmentación de memoria en 80386
-> ![[Captura_de_pantalla_2025-03-18_a_la(s)_10.25.47.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-18_a_la%28s%29_10.25.47.png)
 
 > [!note]+ ### Modos de direccionamiento
 > 
@@ -92,7 +92,7 @@ ej:Instrucción: **add eax, 0x1**
 > <u>NO</u> existe el movimiento de datos de memoria a memoria en
 > una sola instrucción:
 > 
-> ![[Captura_de_pantalla_2025-03-18_a_la(s)_10.26.51.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-18_a_la%28s%29_10.26.51.png)
 > 
 > > [!note]+ ### Explicación según Gemma 3
 > > Okay, let's break down addressing modes in assembly language.  The images you provided show examples for x86 architecture (likely 16-bit or early 32-bit). I'll explain each mode with explanations and analogies to make it easier to understand.
@@ -158,15 +158,15 @@ ej:Instrucción: **add eax, 0x1**
 
 ## Registro de Flags
 
-![[Captura_de_pantalla_2025-03-18_a_la(s)_12.18.13.png]]
+![](Attachments/Captura_de_pantalla_2025-03-18_a_la%28s%29_12.18.13.png)
 
 > [!note]+ ### Ejs
-> ![[Captura_de_pantalla_2025-03-18_a_la(s)_12.18.31.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-18_a_la%28s%29_12.18.31.png)
 > 
 > - en section .text se indica donde esta el codigo
 > - en `parametros db 11h,12h,13h` lo que muestra es que db va a ser un vector y se van a guardar uno al lado del otro
 > - en Ciclo se marca una etiqueta indicando que hay un ciclo
-> ![[Captura_de_pantalla_2025-03-18_a_la(s)_12.45.19.png]]
+> ![](Attachments/Captura_de_pantalla_2025-03-18_a_la%28s%29_12.45.19.png)
 
 # Escribir código assembler
 
@@ -232,9 +232,9 @@ placeholder resb 128
 
 ```
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_10.15.10.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_10.15.10.png)
 
-![[Captura_de_pantalla_2025-03-25_a_la(s)_10.15.50.png]]
+![](Attachments/Captura_de_pantalla_2025-03-25_a_la%28s%29_10.15.50.png)
 
 ```bash
 #compilar
@@ -252,14 +252,14 @@ gcc archivo.o -o arhcivo
 
 **Misma materia (Arqui)**
 
-- [[Codigos Assembler]] — ejemplos de código
-- [[Clase 2 ASM intel]] — clase de ASM Intel
-- [[ASM y C]] — interoperación ASM/C
-- [[Modo protegido]] — modos de ejecución del procesador
-- [[Seguimiento de Pila en C]] — stack frames en la práctica
+- [Codigos Assembler](Codigos%20Assembler.md) — ejemplos de código
+- [Clase 2 ASM intel](Clase%202%20ASM%20intel.md) — clase de ASM Intel
+- [ASM y C](ASM%20y%20C.md) — interoperación ASM/C
+- [Modo protegido](Modo%20protegido.md) — modos de ejecución del procesador
+- [Seguimiento de Pila en C](Seguimiento%20de%20Pila%20en%20C.md) — stack frames en la práctica
 
 **Otras materias**
 
-- **EDA**  [[EDA - Stack]] — push/pop: la pila a nivel máquina
+- **EDA**  [EDA - Stack](EDA%20-%20Stack.md) — push/pop: la pila a nivel máquina
 
 <!-- notas-relacionadas:fin -->

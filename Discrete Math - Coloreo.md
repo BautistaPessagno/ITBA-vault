@@ -59,7 +59,7 @@ Todo grafo bipartito con aristas tiene X = 2.
 - ¿Puede X(G) > ω(G)? ¿Cuándo?
 - ¿Por qué X(bipartito con aristas) = 2?
 
-[[Discrete Math.base|Discrete Math]]
+[Discrete Math](Categories/Discrete%20Math.base)
 
 ---
 
@@ -69,12 +69,12 @@ Todo grafo bipartito con aristas tiene X = 2.
 
 **Misma materia (Discrete Math)**
 
-- [[Discrete Math - Planaridad]] — teorema de los 4 colores
-- [[Discrete Math - Grafos Fundamentos]] — grafos bipartitos
+- [Discrete Math - Planaridad](Discrete%20Math%20-%20Planaridad.md) — teorema de los 4 colores
+- [Discrete Math - Grafos Fundamentos](Discrete%20Math%20-%20Grafos%20Fundamentos.md) — grafos bipartitos
 
 **Otras materias**
 
-- **EDA**  [[EDA - Grafos]] — algoritmos sobre grafos
-- **EDA**  [[EDA - Tipos de Algoritmos y Heurísticas]] — coloreo greedy y backtracking
+- **EDA**  [EDA - Grafos](EDA%20-%20Grafos.md) — algoritmos sobre grafos
+- **EDA**  [EDA - Tipos de Algoritmos y Heurísticas](EDA%20-%20Tipos%20de%20Algoritmos%20y%20Heurísticas.md) — coloreo greedy y backtracking
 
 <!-- notas-relacionadas:fin -->

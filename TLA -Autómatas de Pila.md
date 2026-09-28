@@ -344,7 +344,7 @@ La versión izquierda marca **precedencia** (`*` sobre `+`) pero no resuelve la 
 > Un lenguaje $L$ es **inherentemente ambiguo** (o intrínsecamente ambiguo) si **toda** gramática libre de contexto que lo genera es ambigua.
 
 > [!note] Continuación — clase 7
-> En la clase siguiente se prueba la equivalencia GLC $\leftrightarrow$ AP no-determinístico y se introducen las Formas Normales de Chomsky y Greibach, junto con el Lema de Bombeo para LLC. Ver: [[TLA -Formas Normales y Lema de Bombeo CFL]].
+> En la clase siguiente se prueba la equivalencia GLC $\leftrightarrow$ AP no-determinístico y se introducen las Formas Normales de Chomsky y Greibach, junto con el Lema de Bombeo para LLC. Ver: [TLA -Formas Normales y Lema de Bombeo CFL](TLA%20-Formas%20Normales%20y%20Lema%20de%20Bombeo%20CFL.md).
 
 ---
 
@@ -360,13 +360,13 @@ La versión izquierda marca **precedencia** (`*` sobre `+`) pero no resuelve la 
 
 **Misma materia (TLA)**
 
-- [[TLA -Autómatas Finitos No Determinísticos]] — tema anterior
-- [[TLA -Formas Normales y Lema de Bombeo CFL]] — tema siguiente
-- [[TLA -Análisis Sintáctico]] — el parser como autómata de pila
+- [TLA -Autómatas Finitos No Determinísticos](TLA%20-Autómatas%20Finitos%20No%20Determinísticos.md) — tema anterior
+- [TLA -Formas Normales y Lema de Bombeo CFL](TLA%20-Formas%20Normales%20y%20Lema%20de%20Bombeo%20CFL.md) — tema siguiente
+- [TLA -Análisis Sintáctico](TLA%20-Análisis%20Sintáctico.md) — el parser como autómata de pila
 
 **Otras materias**
 
-- **EDA**  [[EDA - Stack]] — la pila como estructura de datos
-- **PI**  [[PI - Recursividad en C]] — recursión y pila de llamadas
+- **EDA**  [EDA - Stack](EDA%20-%20Stack.md) — la pila como estructura de datos
+- **PI**  [PI - Recursividad en C](PI%20-%20Recursividad%20en%20C.md) — recursión y pila de llamadas
 
 <!-- notas-relacionadas:fin -->

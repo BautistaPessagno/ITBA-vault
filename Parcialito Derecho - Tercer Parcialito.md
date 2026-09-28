@@ -33,7 +33,7 @@ temas:
 >    y [2](https://www.youtube.com/watch?v=0tI6yTQMLSw)).
 >
 > Teoría completa de la unidad, con seguros / bolsa / cheques / concursos, en
-> [[Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos]]. **Eso no entra acá.**
+> [Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos](Derecho%20-%20U4%20Fondo%20de%20Comercio,%20Seguros,%20Bolsa%20y%20Concursos.md). **Eso no entra acá.**
 
 > [!tip] Cómo estudiarlo
 > El banco del compilado se repite casi textual año a año, igual que en el primer parcialito.
@@ -562,7 +562,7 @@ Agrupadas por tema, dedupeadas. Tapá la columna derecha.
 > - **5 – 10 – 20 – 10.**
 > - El art. 8 protege a los **acreedores del vendedor**.
 
-[[Derecho.base|Derecho]]
+[Derecho](Categories/Derecho.base)
 
 ---
 
@@ -572,16 +572,16 @@ Agrupadas por tema, dedupeadas. Tapá la columna derecha.
 
 **Misma materia (Derecho)**
 
-- [[Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos]] — la teoría completa de la unidad; acá está sólo lo que entra en el parcialito.
-- [[Parcialito Derecho - Unidad 2 Constitucional]] — el repaso del parcialito anterior, armado con el mismo método (banco agrupado + trampas verificadas).
-- [[Intro Derecho]] — fuentes del derecho y pirámide de Kelsen: la **lex mercatoria** es el caso testigo de la **costumbre** como fuente, y las monarquías son el momento en que la **ley** la desplaza.
-- [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]] — la **persona jurídica** que nace en las ciudades italianas para repartir el riesgo es la misma noción vista ahí.
-- [[Derecho - Resumen Primer Parcial]] — el repaso consolidado de las cinco unidades que
+- [Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos](Derecho%20-%20U4%20Fondo%20de%20Comercio,%20Seguros,%20Bolsa%20y%20Concursos.md) — la teoría completa de la unidad; acá está sólo lo que entra en el parcialito.
+- [Parcialito Derecho - Unidad 2 Constitucional](Parcialito%20Derecho%20-%20Unidad%202%20Constitucional.md) — el repaso del parcialito anterior, armado con el mismo método (banco agrupado + trampas verificadas).
+- [Intro Derecho](Intro%20Derecho.md) — fuentes del derecho y pirámide de Kelsen: la **lex mercatoria** es el caso testigo de la **costumbre** como fuente, y las monarquías son el momento en que la **ley** la desplaza.
+- [Derecho - U3 Persona, Obligaciones y Responsabilidad Civil](Derecho%20-%20U3%20Persona,%20Obligaciones%20y%20Responsabilidad%20Civil.md) — la **persona jurídica** que nace en las ciudades italianas para repartir el riesgo es la misma noción vista ahí.
+- [Derecho - Resumen Primer Parcial](Derecho%20-%20Resumen%20Primer%20Parcial.md) — el repaso consolidado de las cinco unidades que
   entran en el primer parcial, con la tabla de números, las trampas verificadas y el banco de
   preguntas.
 
 **Otras materias**
 
-- **Economía** — [[Economia Intro]] — el comercio como **intermediación entre oferta y demanda**: la definición económica que el texto contrasta con la jurídica.
+- **Economía** — [Economia Intro](Economia%20Intro.md) — el comercio como **intermediación entre oferta y demanda**: la definición económica que el texto contrasta con la jurídica.
 
 <!-- notas-relacionadas:fin -->

@@ -72,8 +72,8 @@ Sin horizonte despejado no hay mercado de crédito que funcione. Aun con continu
 
 **Misma materia (Economia)**
 
-- [[Economia Intro]] — el bloque de Macroeconomía de la cátedra ("Dinero y Política Monetaria") es el marco teórico para entender la emisión del BCRA y la transmisión (rota) hacia el crédito que describe este artículo
-- [[Economia - Oferta, Demanda y Mercado]] — el desajuste entre quién califica para el crédito y quién lo necesita es, en el fondo, un mercado (el de fondos prestables) que no vacía al precio (tasa) vigente
-- [[Materia - Economia]] — nota índice de la materia
+- [Economia Intro](Economia%20Intro.md) — el bloque de Macroeconomía de la cátedra ("Dinero y Política Monetaria") es el marco teórico para entender la emisión del BCRA y la transmisión (rota) hacia el crédito que describe este artículo
+- [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) — el desajuste entre quién califica para el crédito y quién lo necesita es, en el fondo, un mercado (el de fondos prestables) que no vacía al precio (tasa) vigente
+- [Materia - Economia](Materia%20-%20Economia.md) — nota índice de la materia
 
 <!-- notas-relacionadas:fin -->

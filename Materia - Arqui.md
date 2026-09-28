@@ -16,6 +16,6 @@ temas:
 
 Arquitectura de Computadoras: assembler x86/Intel e interoperación ASM-C, modo protegido, interrupciones, jerarquía de memoria y caché, paginación, procesadores de 64 bits, ARM y GPU, pipelines.
 
-→ [[Resumen Arqui]]
+→ [Resumen Arqui](Resumen%20Arqui.md)
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

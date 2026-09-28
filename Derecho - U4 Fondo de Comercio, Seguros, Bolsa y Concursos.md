@@ -43,7 +43,7 @@ que ver entre sí salvo que todos son *herramientas del tráfico mercantil*:
 > [!tip] Qué entra en el tercer parcialito
 > Solo el **texto de introducción al derecho comercial** (origen y evolución) y la
 > **transferencia de fondo de comercio**. El repaso enfocado está en
-> [[Parcialito Derecho - Tercer Parcialito]]. Esta nota es la teoría completa de la unidad.
+> [Parcialito Derecho - Tercer Parcialito](Parcialito%20Derecho%20-%20Tercer%20Parcialito.md). Esta nota es la teoría completa de la unidad.
 
 ---
 
@@ -463,7 +463,7 @@ negociables, títulos de deuda, certificados de participación accionaria.
 > Los títulos circulatorios nacen en la Edad Media: como las rutas eran peligrosísimas, en
 > vez de trasladar el metálico de una ciudad a otra, los comerciantes se cursaban **letras**
 > a sus pares para que allí aceptaran la obligación. Ver
-> [[Parcialito Derecho - Tercer Parcialito]].
+> [Parcialito Derecho - Tercer Parcialito](Parcialito%20Derecho%20-%20Tercer%20Parcialito.md).
 
 ### 5.2 Cheque
 
@@ -637,7 +637,7 @@ Clase sobre cheques de pago diferido: elementos obligatorios, validez desde la f
 - ¿Quién puede pedir el concurso preventivo? ¿Y la quiebra?
 - ¿Qué juicios **no** son atraídos por el fuero de atracción?
 
-[[Derecho.base|Derecho]]
+[Derecho](Categories/Derecho.base)
 
 ---
 
@@ -647,17 +647,17 @@ Clase sobre cheques de pago diferido: elementos obligatorios, validez desde la f
 
 **Misma materia (Derecho)**
 
-- [[Parcialito Derecho - Tercer Parcialito]] — el repaso enfocado de lo que sí entra en el parcialito: origen del derecho comercial y transferencia de fondo de comercio.
-- [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]] — unidad anterior; la responsabilidad solidaria del art. 11 LTFC y del art. 228 LCT se apoya en las obligaciones solidarias vistas ahí.
-- [[Intro Derecho]] — pirámide de Kelsen y fuentes; el derecho comercial nació como **costumbre** (lex mercatoria) antes de ser ley.
-- [[Materia - Derecho]] — índice de la materia.
-- [[Derecho - Resumen Primer Parcial]] — el repaso consolidado de las cinco unidades que
+- [Parcialito Derecho - Tercer Parcialito](Parcialito%20Derecho%20-%20Tercer%20Parcialito.md) — el repaso enfocado de lo que sí entra en el parcialito: origen del derecho comercial y transferencia de fondo de comercio.
+- [Derecho - U3 Persona, Obligaciones y Responsabilidad Civil](Derecho%20-%20U3%20Persona,%20Obligaciones%20y%20Responsabilidad%20Civil.md) — unidad anterior; la responsabilidad solidaria del art. 11 LTFC y del art. 228 LCT se apoya en las obligaciones solidarias vistas ahí.
+- [Intro Derecho](Intro%20Derecho.md) — pirámide de Kelsen y fuentes; el derecho comercial nació como **costumbre** (lex mercatoria) antes de ser ley.
+- [Materia - Derecho](Materia%20-%20Derecho.md) — índice de la materia.
+- [Derecho - Resumen Primer Parcial](Derecho%20-%20Resumen%20Primer%20Parcial.md) — el repaso consolidado de las cinco unidades que
   entran en el primer parcial, con la tabla de números, las trampas verificadas y el banco de
   preguntas.
 
 **Otras materias**
 
-- **Economía** — [[Economia - Oferta, Demanda y Mercado]] — la Bolsa es el caso de libro de formación de precios por oferta y demanda; el "valor llave" es el valor presente de un flujo de utilidades futuras.
-- **Economía** — [[Economia Intro]] — la definición de comercio como intermediación entre oferta y demanda es la misma noción, vista desde el lado económico.
+- **Economía** — [Economia - Oferta, Demanda y Mercado](Economia%20-%20Oferta,%20Demanda%20y%20Mercado.md) — la Bolsa es el caso de libro de formación de precios por oferta y demanda; el "valor llave" es el valor presente de un flujo de utilidades futuras.
+- **Economía** — [Economia Intro](Economia%20Intro.md) — la definición de comercio como intermediación entre oferta y demanda es la misma noción, vista desde el lado económico.
 
 <!-- notas-relacionadas:fin -->

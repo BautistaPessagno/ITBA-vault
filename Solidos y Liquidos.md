@@ -31,7 +31,7 @@ movimiento restringido ya que no tiene suficiente energia cinetica para vencer l
 fase condensada
 
 ### Estado de agregación
-![[Pasted image 20260320103305.png]]
+![](Attachments/Pasted%20image%2020260320103305.png)
 
 ## Fuerza de atracción
 
@@ -45,7 +45,7 @@ se deben a la atracción entre partículas
 
 ### Compuesto Iónico
 presentas uniones iónicas en toda su extension. todo compuesto ionicos son solidos a temperatura ambiente
-![[Pasted image 20260320103827.png]]
+![](Attachments/Pasted%20image%2020260320103827.png)
 son uniones muy fuertes
 
 ### Metales
@@ -61,18 +61,18 @@ se extienden por todo el metal. esta fuerza es generalmente intensa. la gran may
 - union covalente
 
 ### Fuerza dipolo-dipolo
-![[Pasted image 20260320104301.png]]
+![](Attachments/Pasted%20image%2020260320104301.png)
 hay atracción entre cargas opuestas
-![[Pasted image 20260320104359.png]]
+![](Attachments/Pasted%20image%2020260320104359.png)
 
 ### Puente de Hidrógeno
 es por un dipolo muy marcado. se establece cuando un hidrogeno esta unido a al flúor, oxigeno, nitrógeno
 la densidad positiva del hidrogeno es tan grande que atrae fuertemente al fluor, oxigeno, nitrogeno
-![[Pasted image 20260320104937.png]]
-![[Pasted image 20260320105133.png]]
+![](Attachments/Pasted%20image%2020260320104937.png)
+![](Attachments/Pasted%20image%2020260320105133.png)
 
 ## Fuerza de London
-![[Pasted image 20260320110013.png]]
+![](Attachments/Pasted%20image%2020260320110013.png)
 depende de la dispersion de los electrones
 para moléculas no polares, las fuerzas de dispersion son la unica interacción possible
 
@@ -80,7 +80,7 @@ para moléculas no polares, las fuerzas de dispersion son la unica interacción 
 (como fuerza de atracción)
 es **muy fuerte** y son solidas a temperatura ambiente
 ejemplos: diamante, dióxido de silicio
-![[Pasted image 20260320110914.png]]
+![](Attachments/Pasted%20image%2020260320110914.png)
 
 
 ## Fuerzas de soluciones
@@ -88,7 +88,7 @@ ejemplos: diamante, dióxido de silicio
 sustanicias polares se mezclan bien entre si, y no polares prefieren otras no polares
 
 ### Interacción Ión-dipolo
-![[Pasted image 20260320111423.png]]
+![](Attachments/Pasted%20image%2020260320111423.png)
 
 ---
 
@@ -98,8 +98,8 @@ sustanicias polares se mezclan bien entre si, y no polares prefieren otras no po
 
 **Misma materia (Química)**
 
-- [[Cambios de Estados]] — transiciones entre estados
-- [[Uniones Químicas]] — fuerzas intermoleculares
-- [[Resumen Final Química]] — resumen integrador
+- [Cambios de Estados](Cambios%20de%20Estados.md) — transiciones entre estados
+- [Uniones Químicas](Uniones%20Químicas.md) — fuerzas intermoleculares
+- [Resumen Final Química](Resumen%20Final%20Química.md) — resumen integrador
 
 <!-- notas-relacionadas:fin -->

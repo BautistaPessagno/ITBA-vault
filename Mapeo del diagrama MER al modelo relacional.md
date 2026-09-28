@@ -13,7 +13,7 @@ temas:
 ## Ej 1
 Realizar el mapeo del diagrama MER del ejercicio 2.B de la práctica anterior al modelo relacional. Indicar cuáles son las restricciones que se pudieron representar y cuáles no. Explicar.
 
-![[Pasted image 20260311104254.png]]
+![](Attachments/Pasted%20image%2020260311104254.png)
 ### Autor
 **DNI**  | nombre
 
@@ -33,7 +33,7 @@ Realizar el mapeo del diagrama MER del ejercicio 2.B de la práctica anterior al
 
 ## Ej 2
 Realizar el mapeo del diagrama MER del ejercicio 4 de la práctica anterior al modelo relacional. Indicar cuáles son las restricciones que se pudieron representar y cuáles no se pudieron. Explicar.
-![[Pasted image 20260311104919.png]]
+![](Attachments/Pasted%20image%2020260311104919.png)
 
 ### Departamento
 **Nombre** 
@@ -57,7 +57,7 @@ Realizar el mapeo del diagrama MER del ejercicio 4 de la práctica anterior al m
 
 ## Ej 3
 Realizar el mapeo del diagrama MER del ejercicio 6 de la práctica anterior al modelo relacional. Indicar cuáles son las restricciones que se pudieron representar y cuáles no se pudieron. Explicar.
-![[Pasted image 20260311111024.png]]
+![](Attachments/Pasted%20image%2020260311111024.png)
 
 ### Clientes
 **Código** | nombre | dirección | DNI | Telefono
@@ -77,7 +77,7 @@ Realizar el mapeo del diagrama MER del ejercicio 6 de la práctica anterior al m
 
 ## Ej 4
 Realizar el mapeo del diagrama MER del ejercicio 8 de la práctica anterior al modelo relacional. Indicar cuáles son las restricciones que se pudieron representar y cuáles no se pudieron. Explicar.
-![[Pasted image 20260311111324.png]]
+![](Attachments/Pasted%20image%2020260311111324.png)
 
 ### Alumnos 
 **Legajo** | nombre | sexo | carrera
@@ -90,9 +90,9 @@ Realizar el mapeo del diagrama MER del ejercicio 8 de la práctica anterior al m
 ## Ej 5
 Realizar el mapeo del diagrama MER del ejercicio 10 de la práctica anterior al modelo relacional. Indicar cuáles son las restricciones que se pudieron representar y cuáles no se pudieron. Explicar.
 
-![[Pasted image 20260311113946.png]]
+![](Attachments/Pasted%20image%2020260311113946.png)
 
-![[Pasted image 20260311114056.png]]![[Pasted image 20260311114059.png]]![[Pasted image 20260311114101.png]]![[Pasted image 20260311114103.png]]![[Pasted image 20260311114106.png]]![[Pasted image 20260311114109.png]]
+![](Attachments/Pasted%20image%2020260311114056.png)![](Attachments/Pasted%20image%2020260311114059.png)![](Attachments/Pasted%20image%2020260311114101.png)![](Attachments/Pasted%20image%2020260311114103.png)![](Attachments/Pasted%20image%2020260311114106.png)![](Attachments/Pasted%20image%2020260311114109.png)
 
 ---
 
@@ -102,8 +102,8 @@ Realizar el mapeo del diagrama MER del ejercicio 10 de la práctica anterior al 
 
 **Misma materia (BD)**
 
-- [[BD clase 4 mapeo EER a relacional]] — teoría de esta práctica
-- [[BD clase 2 modelo entidad relacion]] — el diagrama de origen
-- [[BD clase 3 modelo relacional]] — el modelo destino
+- [BD clase 4 mapeo EER a relacional](BD%20clase%204%20mapeo%20EER%20a%20relacional.md) — teoría de esta práctica
+- [BD clase 2 modelo entidad relacion](BD%20clase%202%20modelo%20entidad%20relacion.md) — el diagrama de origen
+- [BD clase 3 modelo relacional](BD%20clase%203%20modelo%20relacional.md) — el modelo destino
 
 <!-- notas-relacionadas:fin -->

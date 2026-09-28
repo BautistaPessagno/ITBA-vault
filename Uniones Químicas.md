@@ -21,14 +21,14 @@ la union química es la fuerza que mantiene los atomos en una sustancia
 incluye sales, hidróxidos, óxidos iónicos
 
 
-![[Pasted image 20260308134247.png]]
+![](Attachments/Pasted%20image%2020260308134247.png)
 en uniones iónicas no se arman moléculas. no podemos hablar de moleculas
 
 ## Unión Covalente
-[[Uniones Químicas#Union Covalente]]
+[Uniones Químicas > Union Covalente](Uniones%20Químicas.md#Union%20Covalente)
 Atracción de los núcleos de distintos atomos y uno, dos o tres pares de electrones
 los electrones se encuentran en una zona de solapamiento de los orbitales atómicos.
-![[Pasted image 20260308134644.png|353]]
+![imagen|353](Attachments/Pasted%20image%2020260308134644.png)
 
 en covalencia se solapan los orbitales atómicos
 se forman moléculas
@@ -39,7 +39,7 @@ se forman moléculas
 - Union Covalente dativa: la union involucra un par de electrones provenientes del mismo átomo. fisicamente es igual a una union simple
 
 ### Propiedades físicas de las uniones covalentes
-![[Captura de pantalla 2026-03-08 a la(s) 13.57.35.png]]
+![](Attachments/Captura%20de%20pantalla%202026-03-08%20a%20la%28s%29%2013.57.35.png)
 
 simple y dativa se ven iguales, 
 ## Union Metalica
@@ -50,13 +50,13 @@ es una atracción electroestática a una nube electronica (electrones dezlocaliz
 no se puede hablar de molécula 
 
 # Polaridad
-propiedad de la [[Uniones Químicas#Union Covalente|Unión Covalente]]
+propiedad de la [Unión Covalente](Uniones%20Químicas.md#Union%20Covalente)
 es una unoin covalente entre átomos diferentes, los electrones se sentiran mas atraidos por uno de los núcleos (el núcleo mas electronegativo). esto genera una distribucion no homogenea de carga negativa
 
-![[Pasted image 20260308141109.png]]
- ![[Pasted image 20260308141134.png]]
+![](Attachments/Pasted%20image%2020260308141109.png)
+ ![](Attachments/Pasted%20image%2020260308141134.png)
 
-![[Pasted image 20260308141311.png]]
+![](Attachments/Pasted%20image%2020260308141311.png)
 
 donde mas hay electrones mas tiempo, hay mas carga negativa, y la zona donde se encuentran menos tiempo, la densidad de carga va a ser mas positiva
 
@@ -89,7 +89,7 @@ teoría de repulsión de pares de electrones de la capa de valencia, los electro
 ## 2 grupos $AB_2$
 
 Molecula de ejemplo: $BeCl_2$
-![[Pasted image 20260308142918.png]]
+![](Attachments/Pasted%20image%2020260308142918.png)
 
 >[!important]
 >Como los unicos grupos electronicos son uniones, la geometria molecular es igual a la geometria molecular (No hay pares libres)
@@ -102,7 +102,7 @@ Los momentos dipolares de las uniones son de igual magnitud y direccion, pero se
 ## 3 grupos $AB_3$  o $AB_2U$
 ### $AB_3$
 ejemplo $BF_3$:
-![[Pasted image 20260308144117.png]]
+![](Attachments/Pasted%20image%2020260308144117.png)
 
 geometria electronica: **plana triangular**
 geometria molecular: **plana triangular**
@@ -110,77 +110,77 @@ geometria molecular: **plana triangular**
 ### $AB_2U$
 
 ejemplo $SO_2$
-![[Pasted image 20260308144343.png]]
-![[Pasted image 20260308144409.png]]
+![](Attachments/Pasted%20image%2020260308144343.png)
+![](Attachments/Pasted%20image%2020260308144409.png)
 geometria molecular: **angular**
 
-![[Pasted image 20260308144612.png]]
+![](Attachments/Pasted%20image%2020260308144612.png)
 $SO_2$ es una molecula **polar**
 ## 4 Grupos 
 
 ### $AB_4$
 ejemplo $CH_4$
-![[Pasted image 20260308144731.png]]
+![](Attachments/Pasted%20image%2020260308144731.png)
 Geometria electronica y molecular: **tetraédrica**
 si los cuatro **momentos dipolares** son de **igual magnitud** entonces es **no polar**
 en este caso $CH_4$ es **NO polar**
 ### $AB_3U$
 ejemplo $NH_3$
-![[Pasted image 20260308145048.png]]
- ![[Pasted image 20260308145120.png]]
+![](Attachments/Pasted%20image%2020260308145048.png)
+ ![](Attachments/Pasted%20image%2020260308145120.png)
  geometria electronica: **tetraédrica**
  geometria molecular: **piramidal**
 
-![[Pasted image 20260308145225.png]]
+![](Attachments/Pasted%20image%2020260308145225.png)
 En este caso es Polar
 ### $AB_2U_2$
 ejemplo $H_2O$
-![[Pasted image 20260308145306.png]]
-![[Pasted image 20260308145339.png]]
+![](Attachments/Pasted%20image%2020260308145306.png)
+![](Attachments/Pasted%20image%2020260308145339.png)
 geometria electronica: **Tetraédrica**
 geometria molecular: **Angular**
 
-![[Pasted image 20260308145440.png]]
+![](Attachments/Pasted%20image%2020260308145440.png)
 
 el $H_2O$ es una molécula polar donde se puede ver mucha densidad electronica en los pares libres
 
 ## 5 Grupos
 ### $AB_5$
 ejemplo $PF_5$
-![[Pasted image 20260313080649.png]]
-![[Pasted image 20260313080949.png]]
+![](Attachments/Pasted%20image%2020260313080649.png)
+![](Attachments/Pasted%20image%2020260313080949.png)
 
 **geometria electronica y molecular:** bipiramidal triangular/trigonal
 esta es no polar
 ### $AB_4U$
 ejemplo $SF_4$
-![[Pasted image 20260313081143.png]]
-![[Pasted image 20260313081217.png]]
-![[Pasted image 20260313081303.png]]
+![](Attachments/Pasted%20image%2020260313081143.png)
+![](Attachments/Pasted%20image%2020260313081217.png)
+![](Attachments/Pasted%20image%2020260313081303.png)
 es polar
 
 ### $AB_3U_2$
 ejemplo $IF_3$
-![[Pasted image 20260313081610.png]]
+![](Attachments/Pasted%20image%2020260313081610.png)
  Polar
 
 ### $AB_2U_3$
 ejemplo $XeF_2$
-![[Pasted image 20260313081801.png]]
+![](Attachments/Pasted%20image%2020260313081801.png)
 es **no polar** porque se cancelan todos
 
 ## 6 Grupos
 
 ### $AB_6$
 ejemplo $SF_6$
-![[Pasted image 20260313082009.png]]
+![](Attachments/Pasted%20image%2020260313082009.png)
 
 ### $AB_5U$
-![[Pasted image 20260313082652.png]]
+![](Attachments/Pasted%20image%2020260313082652.png)
 **es polar**
 
 ### $AB_4U_2$
-![[Pasted image 20260313082756.png]]
+![](Attachments/Pasted%20image%2020260313082756.png)
 es **no polar**
 # Resumen Grupos
 
@@ -193,22 +193,22 @@ es **no polar**
 |    6     |      Octaedrica       |          Octaedro **($AB_6$)**/<br>Piramida de base cuadrada **($AB_5U$)**/<br>Cuadrado plano **($AB_4U_2$)**           |  $SP_3D_2$  |     90º<br>180º     |
 
 # Resumen Moléculas Polaridad
-![[Moléculas Polares.canvas]]
+![Moléculas Polares](Moléculas%20Polares.canvas)
 
 
 # Teoria de enlace de valencia
 nos permite enender como son los atomos
 recordemos union covalente
-![[Uniones Químicas#Unión Covalente.base Unión Covalente]]
+![Uniones Químicas > Unión Covalente.base Unión Covalente](Uniones%20Químicas.md#Unión%20Covalente.base%20Unión%20Covalente)
 dado que los orbitales atomicos del atomo central no tienen los ángulos necesarios para formar geometrias vistas, se propone la generacino de **Orbitales Híbridos**
 
 ## Hibridacion para 2 grupos
-![[Pasted image 20260313083604.png]]
-![[Pasted image 20260313083736.png]]
-![[Pasted image 20260313083757.png]]
+![](Attachments/Pasted%20image%2020260313083604.png)
+![](Attachments/Pasted%20image%2020260313083736.png)
+![](Attachments/Pasted%20image%2020260313083757.png)
 
 ## Hibridacion para 3 grupos
-![[Pasted image 20260313084039.png]]
+![](Attachments/Pasted%20image%2020260313084039.png)
 
 
 ## Preguntas
@@ -223,8 +223,8 @@ dado que los orbitales atomicos del atomo central no tienen los ángulos necesar
 
 **Misma materia (Química)**
 
-- [[Uniones Multiples]] — enlaces múltiples
-- [[Solidos y Liquidos]] — cómo el enlace determina el estado
-- [[Resumen Final Química]] — resumen integrador
+- [Uniones Multiples](Uniones%20Multiples.md) — enlaces múltiples
+- [Solidos y Liquidos](Solidos%20y%20Liquidos.md) — cómo el enlace determina el estado
+- [Resumen Final Química](Resumen%20Final%20Química.md) — resumen integrador
 
 <!-- notas-relacionadas:fin -->

@@ -79,7 +79,7 @@ Técnica para ocultar completamente la estructura interna:
 - ¿Por qué el usuario no debería acceder directamente a los campos del struct?
 - ¿Cómo se relaciona el TAD con las clases en POO?
 
-[[PI.base|PI]]
+[PI](Categories/PI.base)
 
 ---
 
@@ -89,13 +89,13 @@ Técnica para ocultar completamente la estructura interna:
 
 **Misma materia (PI)**
 
-- [[PI - Struct y Union en C]] — la implementación del TAD
-- [[PI - Listas en C]] — lista como TAD
+- [PI - Struct y Union en C](PI%20-%20Struct%20y%20Union%20en%20C.md) — la implementación del TAD
+- [PI - Listas en C](PI%20-%20Listas%20en%20C.md) — lista como TAD
 
 **Otras materias**
 
-- **EDA**  [[EDA - Listas Lineales]] — TADs de estructuras lineales
-- **POO**  [[POO - Interfaces y Generics]] — interfaz vs implementación
-- **POO**  [[POO - Introducción a POO]] — el mismo concepto con clases
+- **EDA**  [EDA - Listas Lineales](EDA%20-%20Listas%20Lineales.md) — TADs de estructuras lineales
+- **POO**  [POO - Interfaces y Generics](POO%20-%20Interfaces%20y%20Generics.md) — interfaz vs implementación
+- **POO**  [POO - Introducción a POO](POO%20-%20Introducción%20a%20POO.md) — el mismo concepto con clases
 
 <!-- notas-relacionadas:fin -->

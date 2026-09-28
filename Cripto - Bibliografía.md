@@ -155,13 +155,13 @@ Catálogo de 24 errores de programación que generan vulnerabilidades. Para cada
 
 **Misma materia (Criptografía y Seguridad)**
 
-- [[Cripto - Resumen Teórico Primer Parcial]] — la teoría de la 1ª mitad, basada en los caps. de Katz del mapa de arriba
-- [[Protocolos]] — Clase 5, que cita Bishop cap. 11 y el RFC 8446 como bibliografía
-- [[Criptografia y seguridad Clase 2 - Cifrado]] — Clase 2, correspondiente a Katz caps. 2–3
-- [[Clase 3 - Criptografia - MACs y modo autenticado]] — Clase 3, correspondiente a Katz caps. 4–6
-- [[Clase 4 - Criptografía - Cifrado asimétrico y Firma digital]] — Clase 4, correspondiente a Katz caps. 9 y 11–13
-- [[Materia - Criptografía y Seguridad]] — índice de la materia
+- [Cripto - Resumen Teórico Primer Parcial](Cripto%20-%20Resumen%20Teórico%20Primer%20Parcial.md) — la teoría de la 1ª mitad, basada en los caps. de Katz del mapa de arriba
+- [Protocolos](Protocolos.md) — Clase 5, que cita Bishop cap. 11 y el RFC 8446 como bibliografía
+- [Criptografia y seguridad Clase 2 - Cifrado](Criptografia%20y%20seguridad%20Clase%202%20-%20Cifrado.md) — Clase 2, correspondiente a Katz caps. 2–3
+- [Clase 3 - Criptografia - MACs y modo autenticado](Clase%203%20-%20Criptografia%20-%20MACs%20y%20modo%20autenticado.md) — Clase 3, correspondiente a Katz caps. 4–6
+- [Clase 4 - Criptografía - Cifrado asimétrico y Firma digital](Clase%204%20-%20Criptografía%20-%20Cifrado%20asimétrico%20y%20Firma%20digital.md) — Clase 4, correspondiente a Katz caps. 9 y 11–13
+- [Materia - Criptografía y Seguridad](Materia%20-%20Criptografía%20y%20Seguridad.md) — índice de la materia
 
 <!-- notas-relacionadas:fin -->
 
-[[Criptografía y Seguridad.base]]
+[Criptografía y Seguridad.base](Categories/Criptografía%20y%20Seguridad.base)

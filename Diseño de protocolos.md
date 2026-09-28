@@ -8,9 +8,9 @@ Materia: "[[protos.base|protos]]"
 ---
 # Diseño de protocolos
 
-para el [[Protos TP]] se necesita ver monitoreo en el servidor y usuarios
+para el [Protos TP](Protos%20TP.md) se necesita ver monitoreo en el servidor y usuarios
 
-[[spec]]
+[spec](spec.md)
 
 ---
 
@@ -20,8 +20,8 @@ para el [[Protos TP]] se necesita ver monitoreo en el servidor y usuarios
 
 **Misma materia (Protos)**
 
-- [[Protos TP]] — el TP que motiva el diseño
-- [[spec]] — la especificación resultante
-- [[10. Protos - Aplicaciones de Red]] — patrones de protocolos de aplicación
+- [Protos TP](Protos%20TP.md) — el TP que motiva el diseño
+- [spec](spec.md) — la especificación resultante
+- [10. Protos - Aplicaciones de Red](10.%20Protos%20-%20Aplicaciones%20de%20Red.md) — patrones de protocolos de aplicación
 
 <!-- notas-relacionadas:fin -->

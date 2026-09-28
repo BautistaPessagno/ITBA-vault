@@ -14,4 +14,4 @@ temas:
 
 Programación Orientada a Objetos: clases, herencia, interfaces y generics en Java, colecciones (Java y Ruby), enums, streams/lambdas, e introducción a Ruby.
 
-[[Materias.base]]
+[Materias.base](Categories/Materias.base)

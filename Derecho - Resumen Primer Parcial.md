@@ -39,11 +39,11 @@ temas:
 >
 > | U | Tema | Nota completa |
 > |---|---|---|
-> | **1** | Concepto de derecho, fuentes, pirámide de Kelsen, ramas | [[Intro Derecho]] |
-> | **2** | Derecho constitucional y organización del Estado | [[El Derecho constitucional]] |
-> | **3** | Persona, capacidad, obligaciones, responsabilidad civil | [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]] |
-> | **4** | Comercial: fondo de comercio, seguros, bolsa, títulos, concursos | [[Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos]] |
-> | **5** | Propiedad intelectual: derechos de autor, marcas, patentes | [[Derecho - U5 Propiedad Intelectual, Marcas y Patentes]] · [[Derecho - Casos de Marcas y Patentes]] |
+> | **1** | Concepto de derecho, fuentes, pirámide de Kelsen, ramas | [Intro Derecho](Intro%20Derecho.md) |
+> | **2** | Derecho constitucional y organización del Estado | [El Derecho constitucional](El%20Derecho%20constitucional.md) |
+> | **3** | Persona, capacidad, obligaciones, responsabilidad civil | [Derecho - U3 Persona, Obligaciones y Responsabilidad Civil](Derecho%20-%20U3%20Persona,%20Obligaciones%20y%20Responsabilidad%20Civil.md) |
+> | **4** | Comercial: fondo de comercio, seguros, bolsa, títulos, concursos | [Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos](Derecho%20-%20U4%20Fondo%20de%20Comercio,%20Seguros,%20Bolsa%20y%20Concursos.md) |
+> | **5** | Propiedad intelectual: derechos de autor, marcas, patentes | [Derecho - U5 Propiedad Intelectual, Marcas y Patentes](Derecho%20-%20U5%20Propiedad%20Intelectual,%20Marcas%20y%20Patentes.md) · [Derecho - Casos de Marcas y Patentes](Derecho%20-%20Casos%20de%20Marcas%20y%20Patentes.md) |
 >
 > **No entran** (van al segundo parcial, U6 a U9): **contratos**, **sociedades**, **derecho
 > laboral**. Los megadocs viejos tienen preguntas de esos temas mezcladas porque son de años en
@@ -155,7 +155,7 @@ La mitad del parcial se juega acá. Todo verificado contra el texto de las norma
 
 ## 3. Unidad 1 — Derecho, fuentes y pirámide
 
-> Nota completa: [[Intro Derecho]]
+> Nota completa: [Intro Derecho](Intro%20Derecho.md)
 
 **Definición de cátedra (la que hay que reconocer en el multiple choice):**
 
@@ -190,7 +190,7 @@ La mitad del parcial se juega acá. Todo verificado contra el texto de las norma
 > voluntad del gobernante ocupa el lugar de la norma fundamental, la Constitución deja de ser
 > un límite real (aunque siga escrita) y las leyes, decretos y resoluciones pasan a ser meros
 > instrumentos de esa voluntad. Enganchá con el **derecho constitucional formal vs. material**
-> de [[El Derecho constitucional]]: sigue habiendo constitución **formal**, pero la
+> de [El Derecho constitucional](El%20Derecho%20constitucional.md): sigue habiendo constitución **formal**, pero la
 > constitución **material** —el sistema político real— ya no la respeta.
 
 ### Fuentes del derecho
@@ -219,8 +219,8 @@ La mitad del parcial se juega acá. Todo verificado contra el texto de las norma
 
 ## 4. Unidad 2 — Derecho constitucional
 
-> Nota completa: [[El Derecho constitucional]] · Banco de preguntas del parcialito:
-> [[Parcialito Derecho - Unidad 2 Constitucional]]
+> Nota completa: [El Derecho constitucional](El%20Derecho%20constitucional.md) · Banco de preguntas del parcialito:
+> [Parcialito Derecho - Unidad 2 Constitucional](Parcialito%20Derecho%20-%20Unidad%202%20Constitucional.md)
 
 **Los tres constitucionalismos, en una línea cada uno:**
 
@@ -283,7 +283,7 @@ Boletín Oficial**. Sin publicación **no hay obligatoriedad**: ésa es la respu
 
 ## 5. Unidad 3 — Persona y capacidad
 
-> Nota completa: [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]]
+> Nota completa: [Derecho - U3 Persona, Obligaciones y Responsabilidad Civil](Derecho%20-%20U3%20Persona,%20Obligaciones%20y%20Responsabilidad%20Civil.md)
 
 ```
 PERSONA
@@ -473,8 +473,8 @@ quien **obtiene provecho** de ella. Es la respuesta al caso "Juan choca con el a
 
 ## 8. Unidad 4 — Derecho comercial
 
-> Nota completa: [[Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos]] ·
-> Repaso del parcialito: [[Parcialito Derecho - Tercer Parcialito]]
+> Nota completa: [Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos](Derecho%20-%20U4%20Fondo%20de%20Comercio,%20Seguros,%20Bolsa%20y%20Concursos.md) ·
+> Repaso del parcialito: [Parcialito Derecho - Tercer Parcialito](Parcialito%20Derecho%20-%20Tercer%20Parcialito.md)
 
 ### 8.1 Fondo de comercio (ley 11.867)
 
@@ -626,8 +626,8 @@ juicios **de familia, hipotecarios, de expropiación y laborales**.
 
 ## 9. Unidad 5 — Propiedad intelectual
 
-> Nota completa: [[Derecho - U5 Propiedad Intelectual, Marcas y Patentes]] ·
-> Los tres fallos: [[Derecho - Casos de Marcas y Patentes]]
+> Nota completa: [Derecho - U5 Propiedad Intelectual, Marcas y Patentes](Derecho%20-%20U5%20Propiedad%20Intelectual,%20Marcas%20y%20Patentes.md) ·
+> Los tres fallos: [Derecho - Casos de Marcas y Patentes](Derecho%20-%20Casos%20de%20Marcas%20y%20Patentes.md)
 
 **Lo mínimo indispensable para el parcial:**
 
@@ -802,7 +802,7 @@ lícitas** (mentirle a un amigo) y conductas **ilegales que muchos no ven como i
    "BOTOX" y "AMODIL BOTOACTIV" **no se confunden**, y aun así se rechazó el registro, porque
    la pregunta correcta no era la confundibilidad sino **si se generaba un lazo de asociación
    que diluyera la marca notoria**. Detalle que luce: lo probó **la propia publicidad de
-   Albay**. Ver [[Derecho - Casos de Marcas y Patentes]].
+   Albay**. Ver [Derecho - Casos de Marcas y Patentes](Derecho%20-%20Casos%20de%20Marcas%20y%20Patentes.md).
 
 ### 11.6 Las de patentes y derechos de autor
 
@@ -842,7 +842,7 @@ lícitas** (mentirle a un amigo) y conductas **ilegales que muchos no ven como i
 > la competencia sin cumplir esa función, el derecho la limita.
 
 > [!question]- "¿Cuál es la razón para establecer un plazo de protección legal limitado en el tiempo respecto de la Propiedad Intelectual?"
-> Ver el callout final de [[Derecho - U5 Propiedad Intelectual, Marcas y Patentes#5. Los tres regímenes en una tabla|la nota de U5]]: lo dice el
+> Ver el callout final de [la nota de U5](Derecho%20-%20U5%20Propiedad%20Intelectual,%20Marcas%20y%20Patentes.md#5.%20Los%20tres%20regímenes%20en%20una%20tabla): lo dice el
 > propio **art. 17 CN** ("por el término que le acuerde la ley"); el derecho intelectual es un
 > **monopolio-incentivo** que se paga con **divulgación**; hay un **interés social en el
 > acceso**; y el contraste con la **marca**, que sí puede durar para siempre porque no
@@ -875,17 +875,17 @@ cronograma de este cuatrimestre, corresponden a **U6–U9** y van al **segundo p
 1. **Leé §2 y §10 dos veces.** Los números y las trampas son el 50 % del parcial y lo que más
    rápido se olvida.
 2. **Tapá la columna de respuestas** de los bancos de preguntas de
-   [[Parcialito Derecho - Unidad 2 Constitucional]] y
-   [[Parcialito Derecho - Tercer Parcialito]] — el banco se repite casi textual año a año, así
+   [Parcialito Derecho - Unidad 2 Constitucional](Parcialito%20Derecho%20-%20Unidad%202%20Constitucional.md) y
+   [Parcialito Derecho - Tercer Parcialito](Parcialito%20Derecho%20-%20Tercer%20Parcialito.md) — el banco se repite casi textual año a año, así
    que el retorno está en **reconocer** la pregunta, no en razonarla.
 3. **Escribí una vez, a mano, las cuatro respuestas a desarrollar de §11.1 a §11.4.** Son las
    que más se repiten y las que más puntos regalan si están armadas de antes.
-4. **Repasá la U5 entera** ([[Derecho - U5 Propiedad Intelectual, Marcas y Patentes]]): es lo
+4. **Repasá la U5 entera** ([Derecho - U5 Propiedad Intelectual, Marcas y Patentes](Derecho%20-%20U5%20Propiedad%20Intelectual,%20Marcas%20y%20Patentes.md)): es lo
    más reciente, lo que menos tiempo tuviste para asentar, y aporta varias de las preguntas a
    desarrollar.
 5. **Mirá el cheque de §8.3** y asegurate de poder decir los tres vicios de memoria.
 
-[[Derecho.base|Derecho]]
+[Derecho](Categories/Derecho.base)
 
 ---
 
@@ -895,31 +895,31 @@ cronograma de este cuatrimestre, corresponden a **U6–U9** y van al **segundo p
 
 **Misma materia (Derecho)**
 
-- [[Intro Derecho]] — Unidad 1: concepto de derecho, pirámide de Kelsen, fuentes y ramas. Es la
+- [Intro Derecho](Intro%20Derecho.md) — Unidad 1: concepto de derecho, pirámide de Kelsen, fuentes y ramas. Es la
   unidad de la que salen casi todas las preguntas a desarrollar.
-- [[El Derecho constitucional]] — Unidad 2 completa: constitucionalismo, supremacía, control de
+- [El Derecho constitucional](El%20Derecho%20constitucional.md) — Unidad 2 completa: constitucionalismo, supremacía, control de
   constitucionalidad y los tres poderes con sus requisitos y plazos.
-- [[Parcialito Derecho - Unidad 2 Constitucional]] — el banco de ~109 preguntas de
+- [Parcialito Derecho - Unidad 2 Constitucional](Parcialito%20Derecho%20-%20Unidad%202%20Constitucional.md) — el banco de ~109 preguntas de
   constitucional agrupadas por tema; acá está el recorte, allá está el volumen.
-- [[Derecho - U3 Persona, Obligaciones y Responsabilidad Civil]] — Unidad 3: persona,
+- [Derecho - U3 Persona, Obligaciones y Responsabilidad Civil](Derecho%20-%20U3%20Persona,%20Obligaciones%20y%20Responsabilidad%20Civil.md) — Unidad 3: persona,
   capacidad, obligaciones, responsabilidad civil, los dos fallos y el texto de Picasso.
-- [[Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos]] — Unidad 4 completa; acá solo
+- [Derecho - U4 Fondo de Comercio, Seguros, Bolsa y Concursos](Derecho%20-%20U4%20Fondo%20de%20Comercio,%20Seguros,%20Bolsa%20y%20Concursos.md) — Unidad 4 completa; acá solo
   está lo que efectivamente se pregunta.
-- [[Parcialito Derecho - Tercer Parcialito]] — banco de V/F de fondo de comercio y el origen
+- [Parcialito Derecho - Tercer Parcialito](Parcialito%20Derecho%20-%20Tercer%20Parcialito.md) — banco de V/F de fondo de comercio y el origen
   del derecho comercial.
-- [[Derecho - U5 Propiedad Intelectual, Marcas y Patentes]] — Unidad 5: las clases nuevas de
+- [Derecho - U5 Propiedad Intelectual, Marcas y Patentes](Derecho%20-%20U5%20Propiedad%20Intelectual,%20Marcas%20y%20Patentes.md) — Unidad 5: las clases nuevas de
   derechos de autor, marcas y patentes, con los plazos y los artículos.
-- [[Derecho - Casos de Marcas y Patentes]] — los tres fallos de U5 (Boca, Botox, Buquebus), con
+- [Derecho - Casos de Marcas y Patentes](Derecho%20-%20Casos%20de%20Marcas%20y%20Patentes.md) — los tres fallos de U5 (Boca, Botox, Buquebus), con
   guiones de exposición.
-- [[Materia - Derecho]] — índice de la materia.
+- [Materia - Derecho](Materia%20-%20Derecho.md) — índice de la materia.
 
 **Otras materias**
 
-- **Economía** — [[Economia Intro]] — el paso del Estado pasivo al Estado Benefactor
+- **Economía** — [Economia Intro](Economia%20Intro.md) — el paso del Estado pasivo al Estado Benefactor
   (constitucionalismo social) es el mismo giro que separa el laissez-faire de la intervención
   estatal; y la definición de comercio como intermediación entre oferta y demanda es la misma
   noción vista desde el otro lado.
-- **PAW** — [[Intro - PAW]] — el código que escribís es **obra protegida** por la ley 11.723
+- **PAW** — [Intro - PAW](Intro%20-%20PAW.md) — el código que escribís es **obra protegida** por la ley 11.723
   desde que lo escribís, y si lo produce un dependiente en el desempeño de sus funciones el
   titular es la **empresa**.
 

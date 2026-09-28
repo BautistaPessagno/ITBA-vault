@@ -98,7 +98,7 @@ Assertions.assertThrows(RuntimeException.class, () -> ...);
 - ¿Por qué `mvn package` siempre compila antes de empaquetar?
 - ¿Cuál es la diferencia entre `@BeforeAll` y `@BeforeEach`?
 
-[[Data Structures and Algorithms.base|Data Structures and Algorithms]]
+[Data Structures and Algorithms](Categories/Data%20Structures%20and%20Algorithms.base)
 
 ---
 
@@ -108,11 +108,11 @@ Assertions.assertThrows(RuntimeException.class, () -> ...);
 
 **Misma materia (EDA)**
 
-- [[EDA - Estructuras Lineales y Ordenación]] — análisis de algoritmos de ordenación
-- [[EDA - Tipos de Algoritmos y Heurísticas]] — estrategias de diseño
+- [EDA - Estructuras Lineales y Ordenación](EDA%20-%20Estructuras%20Lineales%20y%20Ordenación.md) — análisis de algoritmos de ordenación
+- [EDA - Tipos de Algoritmos y Heurísticas](EDA%20-%20Tipos%20de%20Algoritmos%20y%20Heurísticas.md) — estrategias de diseño
 
 **Otras materias**
 
-- **TLA**  [[TLA -Máquina de Turing (Parte 2)]] — problemas tratables, intratables e indecidibles
+- **TLA**  [TLA -Máquina de Turing (Parte 2)](TLA%20-Máquina%20de%20Turing%20%28Parte%202%29.md) — problemas tratables, intratables e indecidibles
 
 <!-- notas-relacionadas:fin -->

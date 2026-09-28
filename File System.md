@@ -10,7 +10,7 @@ temas:
 
 ## Motivaciones
 
-![[image.png]]
+![](Attachments/image.png)
 
 32 bits y queremos almacenar mas de 4G, no podemos no en EDV
 
@@ -20,17 +20,17 @@ un proceso es una abstracción del CPU. guardamos el snapshot
 
 lo mismo pasa con la memoria virtual. 
 
-![[image 1.png]]
+![](Attachments/image%201.png)
 
 # Implementación
 
-![[image 2.png]]
+![](Attachments/image%202.png)
 
 # File System
 
 ## Asignación Continua
 
-![[image 3.png]]
+![](Attachments/image%203.png)
 
 es una asignación vieja pero la mas simple. se usa en discos de pasta, bluerays, etc
 
@@ -38,7 +38,7 @@ la fragmentación externa puede pasar al borrar un archivo. en la imagen nos que
 
 ## Asignación con listas enlazadas (en disco)
 
-![[image 4.png]]
+![](Attachments/image%204.png)
 
 se resuelve la fragmentacion externa ya que se pueden enlazar los bloques 
 
@@ -46,29 +46,29 @@ no hay acceso random
 
 ## Asignación con listas enlazadas (en memoria)
 
-![[image 5.png]]
+![](Attachments/image%205.png)
 
 ## I-nodes (index-node)
 
-![[image 6.png]]
+![](Attachments/image%206.png)
 
-![[image 7.png]]
+![](Attachments/image%207.png)
 
 # Casos de usos
 
 ## Basic Disc Layout
 
-![[image 8.png]]
+![](Attachments/image%208.png)
 
 ## SuperBlock
 
-![[image 9.png]]
+![](Attachments/image%209.png)
 
 toda la metadata del file system esta en el superblock, si se corrompe se pierde el superblock
 
 ### Contenidos SuperBlock
 
-![[image 10.png]]
+![](Attachments/image%2010.png)
 
 el numero magico es el numero con el cual se identifica
 
@@ -76,7 +76,7 @@ gracias a esto se puede reconstruir luego de una particion mal hecha
 
 ## Inodos
 
-![[image 11.png]]
+![](Attachments/image%2011.png)
 
 mode, user id, groupd id
 
@@ -90,49 +90,49 @@ modification time
 
 ### Data Blocks
 
-![[image 12.png]]
+![](Attachments/image%2012.png)
 
 ## Inodo (3)
 
-![[image 13.png]]
+![](Attachments/image%2013.png)
 
-![[image 14.png]]
+![](Attachments/image%2014.png)
 
-![[image 15.png]]
+![](Attachments/image%2015.png)
 
 # Manejo de consistencia
 
-![[image 16.png]]
+![](Attachments/image%2016.png)
 
-![[image 17.png]]
+![](Attachments/image%2017.png)
 
 # Problemas 
 
-![[image 18.png]]
+![](Attachments/image%2018.png)
 
 ## primera mejora: BSD FFS
 
-![[image 19.png]]
+![](Attachments/image%2019.png)
 
 ## ext4
 
-![[image 20.png]]
+![](Attachments/image%2020.png)
 
 los extents son grupos logicos de bloques continuos( mas grandes y mas faciles de manejar )
 
 # Problemas de FS tradicionales
 
-![[image 21.png]]
+![](Attachments/image%2021.png)
 
 # ZFS
 
-![[image 22.png]]
+![](Attachments/image%2022.png)
 
-![[image 23.png]]
+![](Attachments/image%2023.png)
 
-![[image 24.png]]
+![](Attachments/image%2024.png)
 
-![[image 25.png]]
+![](Attachments/image%2025.png)
 
 se puede curar a si mismo
 
@@ -144,13 +144,13 @@ se puede curar a si mismo
 
 **Misma materia (SO)**
 
-- [[PIPELINES]] — todo es un archivo
-- [[SysCall]] — open, read, write
+- [PIPELINES](PIPELINES.md) — todo es un archivo
+- [SysCall](SysCall.md) — open, read, write
 
 **Otras materias**
 
-- **Arqui**  [[Clase 4 Intro transmisión Digital]] — el sistema de entrada y salida y el bus por donde viaja lo que el FS lee del disco
-- **EDA**  [[EDA - Árboles]] — el FS es un árbol de directorios
-- **Protos**  [[sendfile()]] — transferencia entre descriptores
+- **Arqui**  [Clase 4 Intro transmisión Digital](Clase%204%20Intro%20transmisión%20Digital.md) — el sistema de entrada y salida y el bus por donde viaja lo que el FS lee del disco
+- **EDA**  [EDA - Árboles](EDA%20-%20Árboles.md) — el FS es un árbol de directorios
+- **Protos**  [sendfile()](sendfile%28%29.md) — transferencia entre descriptores
 
 <!-- notas-relacionadas:fin -->

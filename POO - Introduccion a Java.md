@@ -118,7 +118,7 @@ public int hashCode() {
 - ¿Cuándo debo implementar `hashCode`?
 - ¿Cuál es la diferencia entre una Checked y una Unchecked exception?
 
-[[POO.base|POO]]
+[POO](Categories/POO.base)
 
 ---
 
@@ -128,14 +128,14 @@ public int hashCode() {
 
 **Misma materia (POO)**
 
-- [[POO - Introducción a POO]] — tema anterior
-- [[POO - Interfaces y Generics]] — tema siguiente
-- [[POO - Colecciones Java]] — tipos y colecciones
+- [POO - Introducción a POO](POO%20-%20Introducción%20a%20POO.md) — tema anterior
+- [POO - Interfaces y Generics](POO%20-%20Interfaces%20y%20Generics.md) — tema siguiente
+- [POO - Colecciones Java](POO%20-%20Colecciones%20Java.md) — tipos y colecciones
 
 **Otras materias**
 
-- **BD**  [[BD clase 16 programacion embebida]] — JDBC
-- **PI**  [[PI - Arreglos en C]] — arrays: C vs Java
-- **SO**  [[Test Unitario-GitHub Workflow]] — JUnit
+- **BD**  [BD clase 16 programacion embebida](BD%20clase%2016%20programacion%20embebida.md) — JDBC
+- **PI**  [PI - Arreglos en C](PI%20-%20Arreglos%20en%20C.md) — arrays: C vs Java
+- **SO**  [Test Unitario-GitHub Workflow](Test%20Unitario-GitHub%20Workflow.md) — JUnit
 
 <!-- notas-relacionadas:fin -->

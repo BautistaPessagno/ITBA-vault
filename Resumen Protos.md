@@ -13,7 +13,7 @@ Materia: "[[protos.base|protos]]"
 
 ## Conceptos
 
-### HTTP [[2. Protos HTTP -resumen claude]]
+### HTTP [2. Protos HTTP -resumen claude](_Claude/Output/2.%20Protos%20HTTP%20-resumen%20claude.md)
 
 **Versiones:**
 
@@ -98,7 +98,7 @@ Flujo: cliente pide → si fresh en cache → responde sin ir al servidor. Si st
 
 ---
 
-### DNS [[3. Protos DNS -resumen claude]]
+### DNS [3. Protos DNS -resumen claude](_Claude/Output/3.%20Protos%20DNS%20-resumen%20claude.md)
 
 **Jerarquía:** árbol invertido. Raíz (`.`) → TLDs (`.com`, `.ar`) → SLDs → subdomains.
 
@@ -143,7 +143,7 @@ Flujo: cliente pide → si fresh en cache → responde sin ir al servidor. Si st
 
 ---
 
-### SMTP / POP3 / IMAP [[4. Protos Mail -resumen claude]]
+### SMTP / POP3 / IMAP [4. Protos Mail -resumen claude](_Claude/Output/4.%20Protos%20Mail%20-resumen%20claude.md)
 
 **Puertos:**
 
@@ -198,7 +198,7 @@ Fin del body: línea con solo `.` → `\r\n.\r\n`.
 
 ---
 
-### DHCP [[6. Protos Red -resumen claude]]
+### DHCP [6. Protos Red -resumen claude](_Claude/Output/6.%20Protos%20Red%20-resumen%20claude.md)
 
 **DORA (4 mensajes):**
 ```
@@ -217,7 +217,7 @@ Cliente                             Servidor DHCP
 
 ---
 
-### TCP [[5. Protos Transporte -resumen claude]]
+### TCP [5. Protos Transporte -resumen claude](_Claude/Output/5.%20Protos%20Transporte%20-resumen%20claude.md)
 
 **3-way handshake:**
 ```
@@ -264,7 +264,7 @@ ESTABLISHED → CLOSE_WAIT → LAST_ACK → CLOSED (quien recibe FIN)
 
 ---
 
-### IPv4 [[6. Protos Red -resumen claude]]
+### IPv4 [6. Protos Red -resumen claude](_Claude/Output/6.%20Protos%20Red%20-resumen%20claude.md)
 
 **Header (20 bytes mínimo):** Vers, HLen, ToS, Total Length, Identification, **Flags (DF/MF)**, **Fragment Offset**, **TTL**, Protocol, Checksum, Src IP, Dst IP.
 
@@ -399,7 +399,7 @@ Con VPN (red 10.3.0.0/24 por vpn0): agregar `10.3.0.0 / 255.255.255.0 / vpn0 / �
 
 ---
 
-### Túneles SSH [[9. Protos SSH -resumen claude]] [[SSH Practica]]
+### Túneles SSH [9. Protos SSH -resumen claude](_Claude/Output/9.%20Protos%20SSH%20-resumen%20claude.md) [SSH Practica](SSH%20Practica.md)
 
 | Tipo | Flag | Socket pasivo en | Redirige a | Uso típico |
 |---|---|---|---|---|
@@ -470,7 +470,7 @@ curl -x socks5h://localhost:1080 ifconfig.me
 
 ### Wireshark — Filtros
 
-[[Analisis Wireshark | Analizar Wireshark]]
+[Analizar Wireshark](Analisis%20Wireshark.md)
 
 ```
 # Protocolos
@@ -640,7 +640,7 @@ ln -s origen destino #symlink de sites-available a enable
 ```
 
 **Virtual host:**
-ver [[Direccionamiento y HTTP - Practica#E36 — Virtual Hosts con nginx]]
+ver [Direccionamiento y HTTP - Practica > E36 — Virtual Hosts con nginx](Direccionamiento%20y%20HTTP%20-%20Practica.md#E36%20—%20Virtual%20Hosts%20con%20nginx)
 
 en `/etc/ngix/sites-available`:
 ```nginx
@@ -727,7 +727,7 @@ gzip_types text/html text/plain application/json text/css application/javascript
 ---
 
 ### DNS / BIND9
-[[BIND - Configuracion de Zonas DNS]]
+[BIND - Configuracion de Zonas DNS](BIND%20-%20Configuracion%20de%20Zonas%20DNS.md)
 
 ```bash
 # Herramientas
@@ -779,7 +779,7 @@ zone "foo.com" {
 > 5. Reducir Refresh para propagación rápida
 
 **Ejemplo Joaco:**
-![[Pasted image 20260527155221.png]]
+![](Attachments/Pasted%20image%2020260527155221.png)
 ```bind9
 $TTL 1h
 $ORIGIN demiloo.com.ar.
@@ -876,7 +876,7 @@ sudo postsuper -d ALL deferred
 ---
 
 ### DHCP — dhcpd.conf
-[[Red Practica]]
+[Red Practica](Red%20Practica.md)
 
 ```
 ddns-update-style none;
@@ -1713,16 +1713,16 @@ Obtener shell del usuario `pdc` en `parcial.leak.com.ar:2222`. La llave privada 
 
 **Misma materia (Protos)**
 
-- [[1. Protos - introducción]] — unidad 1
-- [[2. Protos - HTTP]] — unidad 2
-- [[3. Protos - DNS]] — unidad 3
-- [[4. Protos - MAIL]] — unidad 4
-- [[5. Protos - Transporte]] — unidad 5
-- [[6. Protos - Red]] — unidad 6
-- [[7. Protos - Routing]] — unidad 7
-- [[8. Protos - Enlace]] — unidad 8
-- [[9. Protos - SSH]] — unidad 9
-- [[10. Protos - Sockets]] — unidad 10
-- [[Ejercicios de las guías claves para el parcial]] — ejercitación de parcial
+- [1. Protos - introducción](1.%20Protos%20-%20introducción.md) — unidad 1
+- [2. Protos - HTTP](2.%20Protos%20-%20HTTP.md) — unidad 2
+- [3. Protos - DNS](3.%20Protos%20-%20DNS.md) — unidad 3
+- [4. Protos - MAIL](4.%20Protos%20-%20MAIL.md) — unidad 4
+- [5. Protos - Transporte](5.%20Protos%20-%20Transporte.md) — unidad 5
+- [6. Protos - Red](6.%20Protos%20-%20Red.md) — unidad 6
+- [7. Protos - Routing](7.%20Protos%20-%20Routing.md) — unidad 7
+- [8. Protos - Enlace](8.%20Protos%20-%20Enlace.md) — unidad 8
+- [9. Protos - SSH](9.%20Protos%20-%20SSH.md) — unidad 9
+- [10. Protos - Sockets](10.%20Protos%20-%20Sockets.md) — unidad 10
+- [Ejercicios de las guías claves para el parcial](Ejercicios%20de%20las%20guías%20claves%20para%20el%20parcial.md) — ejercitación de parcial
 
 <!-- notas-relacionadas:fin -->

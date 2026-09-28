@@ -20,8 +20,8 @@ en el itba inicia con 10.
 
 **Misma materia (Protos)**
 
-- [[6. Protos - Red]] — clase de la capa de red
-- [[IP practica]] — práctica de direccionamiento
-- [[Router]] — quién rutea entre redes IP
+- [6. Protos - Red](6.%20Protos%20-%20Red.md) — clase de la capa de red
+- [IP practica](IP%20practica.md) — práctica de direccionamiento
+- [Router](Router.md) — quién rutea entre redes IP
 
 <!-- notas-relacionadas:fin -->

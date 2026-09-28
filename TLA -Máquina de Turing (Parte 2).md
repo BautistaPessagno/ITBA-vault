@@ -19,7 +19,7 @@ temas:
 Resumen de la clase 11 — *Autómatas, Teoría de Lenguajes y Compiladores* (Lic. Ana María Arias Roig).
 
 > [!tip] Continuación
-> Esta nota cubre los temas de **computabilidad y decidibilidad** de la segunda parte de la clase 11. Los fundamentos de la MT (definición formal, función de transición, extensiones, AAL y funciones recursivas) están en [[TLA -Máquina de Turing]].
+> Esta nota cubre los temas de **computabilidad y decidibilidad** de la segunda parte de la clase 11. Los fundamentos de la MT (definición formal, función de transición, extensiones, AAL y funciones recursivas) están en [TLA -Máquina de Turing](TLA%20-Máquina%20de%20Turing.md).
 
 ---
 
@@ -30,7 +30,7 @@ La **teoría de autómatas** es el estudio de máquinas abstractas. Su objetivo 
 - **Diseñar y construir software** (compiladores, reconocedores, intérpretes).
 - **Determinar qué problemas son indecidibles**: hay preguntas que ningún algoritmo puede responder para todos los casos.
 
-La Máquina de Turing (MT), introducida en la [[TLA -Máquina de Turing|Parte 1]], es el modelo más general de computación. Esta clase responde: dado ese modelo, ¿qué lenguajes puede reconocer? ¿Cuáles puede *decidir*? ¿Y qué problemas escapan a cualquier algoritmo?
+La Máquina de Turing (MT), introducida en la [Parte 1](TLA%20-Máquina%20de%20Turing.md), es el modelo más general de computación. Esta clase responde: dado ese modelo, ¿qué lenguajes puede reconocer? ¿Cuáles puede *decidir*? ¿Y qué problemas escapan a cualquier algoritmo?
 
 ---
 
@@ -43,7 +43,7 @@ La Máquina de Turing (MT), introducida en la [[TLA -Máquina de Turing|Parte 1]
 > - M se detiene en estado **no final** $\Rightarrow$ $\omega \notin L(M)$.
 > - M **no se detiene** $\Rightarrow$ $\omega \notin L(M)$.
 >
-> Al conjunto de lenguajes aceptados por alguna MT se los denomina **lenguajes recursivamente enumerables**. Ver detalle completo en [[TLA -Máquina de Turing]].
+> Al conjunto de lenguajes aceptados por alguna MT se los denomina **lenguajes recursivamente enumerables**. Ver detalle completo en [TLA -Máquina de Turing](TLA%20-Máquina%20de%20Turing.md).
 
 ---
 
@@ -189,7 +189,7 @@ La jerarquía completa que relaciona cada tipo de lenguaje con su autómata y gr
 > [!info] Propiedades de la jerarquía
 > - Cada clase es un subconjunto estricto de la siguiente: $\text{Reg} \subsetneq \text{LLC} \subsetneq \text{LSC} \subsetneq \text{RE}$.
 > - Los lenguajes **no enumerables** (no RE) existen pero ninguna MT los puede reconocer.
-> - Ver los fundamentos de AAL en [[TLA -Máquina de Turing]].
+> - Ver los fundamentos de AAL en [TLA -Máquina de Turing](TLA%20-Máquina%20de%20Turing.md).
 
 ---
 
@@ -212,11 +212,11 @@ La jerarquía completa que relaciona cada tipo de lenguaje con su autómata y gr
 
 **Misma materia (TLA)**
 
-- [[TLA -Máquina de Turing]] — parte 1
-- [[TLA -Guía Repaso Final (poco tiempo)]] — repaso final
+- [TLA -Máquina de Turing](TLA%20-Máquina%20de%20Turing.md) — parte 1
+- [TLA -Guía Repaso Final (poco tiempo)](TLA%20-Guía%20Repaso%20Final%20%28poco%20tiempo%29.md) — repaso final
 
 **Otras materias**
 
-- **EDA**  [[EDA - Algoritmos y Complejidad]] — problemas tratables e intratables
+- **EDA**  [EDA - Algoritmos y Complejidad](EDA%20-%20Algoritmos%20y%20Complejidad.md) — problemas tratables e intratables
 
 <!-- notas-relacionadas:fin -->

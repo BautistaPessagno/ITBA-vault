@@ -86,7 +86,7 @@ Preferir composición cuando la relación no es "es-un" o cuando el cambio de ro
 - ¿Por qué es mejor evitar `instanceof` fuera del método `equals`?
 - ¿En qué caso conviene composición sobre herencia?
 
-[[POO.base|POO]]
+[POO](Categories/POO.base)
 
 ---
 
@@ -96,11 +96,11 @@ Preferir composición cuando la relación no es "es-un" o cuando el cambio de ro
 
 **Misma materia (POO)**
 
-- [[POO - Introduccion a Java]] — tema siguiente
-- [[POO - Interfaces y Generics]] — polimorfismo e interfaces
+- [POO - Introduccion a Java](POO%20-%20Introduccion%20a%20Java.md) — tema siguiente
+- [POO - Interfaces y Generics](POO%20-%20Interfaces%20y%20Generics.md) — polimorfismo e interfaces
 
 **Otras materias**
 
-- **PI**  [[PI - TAD en C]] — el TAD como antecedente de la clase
+- **PI**  [PI - TAD en C](PI%20-%20TAD%20en%20C.md) — el TAD como antecedente de la clase
 
 <!-- notas-relacionadas:fin -->

@@ -62,7 +62,7 @@ La evaluación participativa está en la **primera etapa**.
 - ¿Qué mide la evaluación empírica que la heurística no puede?
 - ¿Por qué el principio de visibilidad del estado es el primero de Nielsen?
 
-[[HCI.base|HCI]]
+[HCI](Categories/HCI.base)
 
 ---
 
@@ -72,8 +72,8 @@ La evaluación participativa está en la **primera etapa**.
 
 **Misma materia (HCI)**
 
-- [[HCI - Diseño Centrado en el Usuario]] — tema anterior
-- [[HCI - Lineamientos Web]] — tema siguiente
-- [[HCI - Fundamentos de HCI]] — definición de usabilidad
+- [HCI - Diseño Centrado en el Usuario](HCI%20-%20Diseño%20Centrado%20en%20el%20Usuario.md) — tema anterior
+- [HCI - Lineamientos Web](HCI%20-%20Lineamientos%20Web.md) — tema siguiente
+- [HCI - Fundamentos de HCI](HCI%20-%20Fundamentos%20de%20HCI.md) — definición de usabilidad
 
 <!-- notas-relacionadas:fin -->

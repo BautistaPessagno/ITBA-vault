@@ -531,9 +531,9 @@ SELECT reporte_subastas('2030-01-01'::DATE, null);          -- no muestra NADA (
 
 **Misma materia (BD)**
 
-- [[BD clase 13 SQL PSM]] — funciones PSM del TP
-- [[BD clase 14 triggers]] — triggers del TP
-- [[BD clase 7 SQL DDL y DML]] — DDL del esquema
-- [[BD clase 16 programacion embebida]] — transacciones y diseño físico
+- [BD clase 13 SQL PSM](BD%20clase%2013%20SQL%20PSM.md) — funciones PSM del TP
+- [BD clase 14 triggers](BD%20clase%2014%20triggers.md) — triggers del TP
+- [BD clase 7 SQL DDL y DML](BD%20clase%207%20SQL%20DDL%20y%20DML.md) — DDL del esquema
+- [BD clase 16 programacion embebida](BD%20clase%2016%20programacion%20embebida.md) — transacciones y diseño físico
 
 <!-- notas-relacionadas:fin -->

@@ -106,7 +106,7 @@ Function<Double, Double> cuadrado = new Function<Double, Double>() {
 - ¿Cuándo usar `Comparator` vs `Comparable`?
 - ¿Qué es la técnica de Erasure y qué limitación impone con arrays?
 
-[[POO.base|POO]]
+[POO](Categories/POO.base)
 
 ---
 
@@ -116,13 +116,13 @@ Function<Double, Double> cuadrado = new Function<Double, Double>() {
 
 **Misma materia (POO)**
 
-- [[POO - Introducción a POO]] — polimorfismo
-- [[POO - Colecciones Java]] — genéricos en el JCF
-- [[POO - Clases Anidadas e Iterable]] — Iterable como interfaz
+- [POO - Introducción a POO](POO%20-%20Introducción%20a%20POO.md) — polimorfismo
+- [POO - Colecciones Java](POO%20-%20Colecciones%20Java.md) — genéricos en el JCF
+- [POO - Clases Anidadas e Iterable](POO%20-%20Clases%20Anidadas%20e%20Iterable.md) — Iterable como interfaz
 
 **Otras materias**
 
-- **EDA**  [[EDA - Estructuras Lineales y Ordenación]] — Comparator para ordenar
-- **PI**  [[PI - TAD en C]] — separar interfaz de implementación
+- **EDA**  [EDA - Estructuras Lineales y Ordenación](EDA%20-%20Estructuras%20Lineales%20y%20Ordenación.md) — Comparator para ordenar
+- **PI**  [PI - TAD en C](PI%20-%20TAD%20en%20C.md) — separar interfaz de implementación
 
 <!-- notas-relacionadas:fin -->
